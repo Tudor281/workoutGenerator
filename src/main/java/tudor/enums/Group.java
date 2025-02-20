@@ -11,8 +11,17 @@ public enum Group {
     Glutes,
     Hamstrings,
     HipFlexors,
+    ItBand,
+    Lats,
     LowerBack,
+    MiddleBack,
+    Neck,
+    Obliques,
+    PalmarFascia,
+    PlantarFascia,
     Quads,
+    Traps,
+    Triceps,
     Shoulders,
     UpperBack
 }
