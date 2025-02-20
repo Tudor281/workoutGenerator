@@ -358,7 +358,7 @@ public class Exercise {
         add("Lying Cable Pullover", Chest, Strength, List.of(Bench, Cable), Compound, Intermediate, List.of(Lats, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/lying-cable-pullover.html");
         add("Lying Cable Pullover (Rope Extension)", Chest, Strength, List.of(Bench, Cable), Compound, Intermediate, List.of(Lats, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/lying-cable-pullover-rope-extension.html");
         add("Lying Medicine Ball Power Drop", Chest, Plyometrics, List.of(MedicineBall, Partner), Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/lying-medicine-ball-power-drop");
-        add("Muscle Up", Chest, Strength, Rack, Compound, Advanced, List.of(Abs, Biceps, Lats, Shoulders, Triceps, UpperBack), "https://www.muscleandstrength.com/exercises/muscle-up");
+        add("Muscle Up", Chest, Strength, FixedUpperBar, Compound, Advanced, List.of(Abs, Biceps, Lats, Shoulders, Triceps, UpperBack), "https://www.muscleandstrength.com/exercises/muscle-up");
         add("Neutral Grip Decline Dumbbell Bench Press", Chest, Strength, List.of(DeclineBench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/palms-in-decline-dumbbell-bench-press.html");
         add("Neutral Grip Dumbbell Bench Press", Chest, Strength, List.of(Bench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/palms-in-dumbbell-bench-press.html");
         add("Neutral Grip Incline Dumbbell Bench Press", Chest, Strength, List.of(InclineBench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/palms-in-incline-dumbbell-bench-press.html");
@@ -404,7 +404,7 @@ public class Exercise {
         add("Standing Low to High Cable Fly", Chest, Strength, DoubleCable, Isolation, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/cable-lower-chest-raise.html");
         add("Standing Medicine Ball Chest Throw", Chest, Plyometrics, List.of(MedicineBall, Wall), Compound, Beginner, List.of(Abs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/standing-medicine-ball-chest-throw");
         add("Standing PVC Pec Mobilization", Chest, Warmup, PvcPipe, Compound, Beginner, List.of(Shoulders), "https://www.muscleandstrength.com/exercises/standing-pvc-pec-mobilization");
-        add("Straight Bar Dip", Chest, Strength, Rack, Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/straight-bar-dip");
+        add("Straight Bar Dip", Chest, Strength, FixedUpperBar, Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/straight-bar-dip");
         add("Stretch Push Up (On Risers)", Chest, Strength, Risers, Compound, Intermediate, List.of(Abs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/deep-push-ups.html");
         add("T-Push Up", Chest, Strength, Bodyweight, Compound, Intermediate, List.of(Abs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/t-push-up");
         add("Tall Kneeling Medicine Ball Chest Pass", Chest, Plyometrics, List.of(MedicineBall, Wall), Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/tall-kneeling-medicine-ball-chest-pass");
@@ -953,12 +953,12 @@ public class Exercise {
         add("Band Pull Apart", Shoulders, Activation, Bands, Compound, Beginner, List.of(Traps, UpperBack), "https://www.muscleandstrength.com/exercises/band-pull-apart");
         add("Band Resistance Single Arm Standing Landmine Press", Shoulders, Strength, List.of(LandMine, Bands), Compound, Intermediate, List.of(Abs, Traps, Triceps), "https://www.muscleandstrength.com/exercises/band-resistance-single-arm-landmine-press");
         add("Banded Bent Over Reverse Fly", Shoulders, Strength, Bands, Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/bent-over-banded-reverse-fly");
-        add("Banded Internal Rotation", Shoulders, Strength, List.of(Rack, Bands), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/banded-internal-rotation");
+        add("Banded Internal Rotation", Shoulders, Strength, List.of(Pole, Bands), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/banded-internal-rotation");
         add("Banded Lateral Raise", Shoulders, Strength, Bands, Isolation, Beginner, List.of(Traps, UpperBack), "https://www.muscleandstrength.com/exercises/banded-lateral-raise");
         add("Banded Shoulder Dislocates", Shoulders, Warmup, Bands, Compound, Beginner, Traps, "https://www.muscleandstrength.com/exercises/banded-shoulder-dislocates");
         add("Banded Standing Shoulder Press", Shoulders, Strength, Bands, Compound, Beginner, List.of(Abs, Traps, Triceps), "https://www.muscleandstrength.com/exercises/banded-standing-shoulder-press");
         add("Banded Upright Row", Shoulders, Strength, Bands, Compound, Beginner, List.of(Biceps, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/banded-upright-row");
-        add("Banded Y's", Shoulders, Strength, List.of(Rack, Bands), Isolation, Beginner, List.of(Traps, UpperBack), "https://www.muscleandstrength.com/exercises/banded-y");
+        add("Banded Y's", Shoulders, Strength, List.of(Pole, Bands), Isolation, Beginner, List.of(Traps, UpperBack), "https://www.muscleandstrength.com/exercises/banded-y");
         add("Barbell Clean and Press", Shoulders, Strength, Barbell, Compound, Intermediate, List.of(Glutes, Hamstrings, LowerBack, Triceps), "https://www.muscleandstrength.com/exercises/clean-press.html");
         add("Barbell Front Raise", Shoulders, Strength, Barbell, Isolation, Beginner, List.of(Abs, Traps), "https://www.muscleandstrength.com/exercises/barbell-front-raise.html");
         add("Barbell Overhead Front Raise", Shoulders, Strength, Barbell, Isolation, Beginner, List.of(Abs, Traps), "https://www.muscleandstrength.com/exercises/high-barbell-front-raise.html");
@@ -985,8 +985,8 @@ public class Exercise {
         add("Exercise Ball Lateral Raise", Shoulders, Strength, List.of(ExerciseBall, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/exercise-ball-lateral-raise.html");
         add("Face Pulls on Rings", Shoulders, Strength, Rings, Compound, Intermediate, List.of(Traps, UpperBack), "https://www.muscleandstrength.com/exercises/face-pull-on-rings");
         add("Forearm Wall Slide", Shoulders, Warmup, Wall, Compound, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/forearm-wall-slide");
-        add("Half Kneeling Banded External Rotation", Shoulders, Strength, List.of(Rack, Bands), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/half-kneeling-banded-external-rotation");
-        add("Half Kneeling Banded Face Pull", Shoulders, Strength, List.of(Rack, Bands), Isolation, Beginner, List.of(Abs, UpperBack), "https://www.muscleandstrength.com/exercises/half-kneeling-banded-face-pull");
+        add("Half Kneeling Banded External Rotation", Shoulders, Strength, List.of(Pole, Bands), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/half-kneeling-banded-external-rotation");
+        add("Half Kneeling Banded Face Pull", Shoulders, Strength, List.of(Pole, Bands), Isolation, Beginner, List.of(Abs, UpperBack), "https://www.muscleandstrength.com/exercises/half-kneeling-banded-face-pull");
         add("Half Kneeling Battling Rope", Shoulders, Conditioning, BattlingRopes, Compound, Beginner, List.of(Abs, Forearms, Lats, Triceps), "https://www.muscleandstrength.com/exercises/half-kneeling-battle-ropes");
         add("Half Kneeling Bottoms Up Kettlebell Press", Shoulders, Strength, KettleBells, Compound, Beginner, List.of(Abs, Traps, Triceps), "https://www.muscleandstrength.com/exercises/half-kneeling-bottoms-up-kettlebell-press");
         add("Half Kneeling Cable External Rotation", Shoulders, Strength, Cable, Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/half-kneeling-cable-external-rotation");
@@ -1070,7 +1070,7 @@ public class Exercise {
         add("Shoulder To Shoulder Press", Shoulders, Strength, LandMine, Compound, Intermediate, List.of(Abs, Traps, Triceps), "https://www.muscleandstrength.com/exercises/shoulder-to-shoulder-press");
         add("Shuffle Into Rotational Medicine Ball Throw", Shoulders, Plyometrics, List.of(Wall, MedicineBall), Compound, Intermediate, List.of(Abs, Adductors, Calves, Glutes, Hamstrings, Quads, Triceps, UpperBack), "https://www.muscleandstrength.com/exercises/shuffle-into-rotational-medicine-ball-throw");
         add("Side Lying Rear Delt Fly", Shoulders, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, List.of(Traps, Triceps), "https://www.muscleandstrength.com/exercises/side-lying-rear-delt-fly");
-        add("Single Arm Banded External Rotation", Shoulders, Strength, List.of(Bands, Rack), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/single-arm-banded-external-rotation");
+        add("Single Arm Banded External Rotation", Shoulders, Strength, List.of(Pole, Rack), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/single-arm-banded-external-rotation");
         add("Single Arm Cable Lateral Raise (Crossbody)", Shoulders, Strength, Cable, Isolation, Intermediate, Traps, "https://www.muscleandstrength.com/exercises/one-arm-cable-lateral-raise.html");
         add("Single Arm Landmine Press", Shoulders, Strength, LandMine, Compound, Intermediate, List.of(Abs, Traps, Triceps), "https://www.muscleandstrength.com/exercises/single-arm-landmine-press");
         add("Single Arm Landmine Push Press", Shoulders, Strength, LandMine, Compound, Intermediate, List.of(Abs, Traps, Triceps), "https://www.muscleandstrength.com/exercises/single-arm-landmine-push-press");
@@ -1080,8 +1080,8 @@ public class Exercise {
         add("Spider Crawls", Shoulders, Strength, Bands, Isolation, Intermediate, List.of(Abs, UpperBack), "https://www.muscleandstrength.com/exercises/spider-crawls");
         add("Split Stance Anti-Rotational Medicine Ball Scoop Toss", Shoulders, Plyometrics, List.of(Wall, MedicineBall), Compound, Intermediate, List.of(Abs, Lats, UpperBack), "https://www.muscleandstrength.com/exercises/split-stance-anti-rotational-medicine-ball-scoop-toss");
         add("Standing Arnold Press", Shoulders, Strength, Dumbbell, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/standing-arnold-press.html");
-        add("Standing Banded Face Pull", Shoulders, Strength, List.of(Rack, Bands), Isolation, Intermediate, List.of(Abs, UpperBack), "https://www.muscleandstrength.com/exercises/banded-face-pull");
-        add("Standing Banded Face Pull to Chest", Shoulders, Strength, List.of(Rack, Bands), Isolation, Intermediate, List.of(Abs, UpperBack), "https://www.muscleandstrength.com/exercises/standing-banded-face-pull-to-chest");
+        add("Standing Banded Face Pull", Shoulders, Strength, List.of(Pole, Bands), Isolation, Intermediate, List.of(Abs, UpperBack), "https://www.muscleandstrength.com/exercises/banded-face-pull");
+        add("Standing Banded Face Pull to Chest", Shoulders, Strength, List.of(Pole, Bands), Isolation, Intermediate, List.of(Abs, UpperBack), "https://www.muscleandstrength.com/exercises/standing-banded-face-pull-to-chest");
         add("Standing Bradford Press (Rocky Press)", Shoulders, Strength, Rack, Compound, Intermediate, List.of(Abs, Traps, Triceps), "https://www.muscleandstrength.com/exercises/standing-alternating-front-back-barbell-press.html");
         add("Standing Cable Reverse Fly", Shoulders, Strength, DoubleCable, Isolation, Beginner, List.of(Traps, UpperBack), "https://www.muscleandstrength.com/exercises/standing-cable-flys.html");
         add("Standing Dublin Press", Shoulders, Strength, Dumbbell, Compound, Intermediate, Triceps, "https://www.muscleandstrength.com/exercises/standing-dublin-press.html");
@@ -1100,7 +1100,7 @@ public class Exercise {
         add("Tall Kneeling One Arm Kettlebell Press", Shoulders, Strength, KettleBells, Compound, Beginner, List.of(Abs, Traps, Triceps), "https://www.muscleandstrength.com/exercises/tall-kneeling-one-arm-kettlebell-press");
         add("Trap Bar Shoulder Press", Shoulders, Strength, TrapBar, Compound, Beginner, List.of(Traps, Triceps), "https://www.muscleandstrength.com/exercises/trap-bar-overhead-press");
         add("Weight Plate Front Raise", Shoulders, Strength, Disk, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/weight-plate-front-raise.html");
-        add("Z Press", Shoulders, Strength,  Rack, Compound, Intermediate, List.of(Traps, Triceps), "https://www.muscleandstrength.com/exercises/z-press");
+        add("Z Press", Shoulders, Strength, Rack, Compound, Intermediate, List.of(Traps, Triceps), "https://www.muscleandstrength.com/exercises/z-press");
 
         add("Barbell Shrug", Traps, Strength, Rack, Isolation, Beginner, List.of(Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/barbell-shrug.html");
         add("Barbell Upright Row", Traps, Strength, ShortBarbell, Compound, Beginner, List.of(Biceps, Shoulders), "https://www.muscleandstrength.com/exercises/upright-row.html");
@@ -1151,7 +1151,7 @@ public class Exercise {
         add("California Skullcrusher", Triceps, Strength, List.of(Bench, ZBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/california-skullcrusher");
         add("Close Grip Chest Press", Triceps, Strength, BenchPress, Compound, Beginner, Chest, "https://www.muscleandstrength.com/exercises/close-grip-chest-press.html");
         add("Close Grip EZ Bar Press", Triceps, Strength, List.of(Bench, ZBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/close-grip-ez-bar-press");
-        add("Close Grip Pin Press", Triceps, Strength, List.of(Bench, PinPress), Compound, Beginner, List.of(Chest, Shoulders), "https://www.muscleandstrength.com/exercises/close-grip-pin-press");
+        add("Close Grip Pin Press", Triceps, Strength, List.of(Bench, Rack), Compound, Beginner, List.of(Chest, Shoulders), "https://www.muscleandstrength.com/exercises/close-grip-pin-press");
         add("Close Grip Press Behind-The-Neck", Triceps, Strength, List.of(Bench, ZBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/close-grip-press-behind-neck.html");
         add("Close Grip Push Up", Triceps, Strength, Bodyweight, Compound, Beginner, Shoulders, "https://www.muscleandstrength.com/exercises/close-grip-push-up.html");
         add("Decline Close Grip Bench Press", Triceps, Strength, DeclineBenchPress, Compound, Intermediate, List.of(Chest, Shoulders), "https://www.muscleandstrength.com/exercises/decline-close-grip-bench-press.html");

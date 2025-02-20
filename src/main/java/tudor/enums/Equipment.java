@@ -51,10 +51,10 @@ public enum Equipment {
     MassageTable,
     MedicineBall,
     Partner,
-    PinPress,
+    Pole, // to hold bands
     PreacherStand,
     PvcPipe,
-    Rack, // where you put the barbell and do squats TODO: Sometimes works as pole with bands, split it into pole TODO: Somtimes works as a Pin Press
+    Rack, // where you put the barbell and do squats. Sometimes known as PinPress
     Rope,
     RowCable,
     Rings, // ca la olimpiada
