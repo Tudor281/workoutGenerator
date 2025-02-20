@@ -13,6 +13,7 @@ public enum Equipment {
     BosuBall,
     Box,
     Cable, // TODO Should have grips added specifically
+    CableAttachmentLongRope,
     CalfMachine,
     Chains,
     DeclineBench,
@@ -50,9 +51,10 @@ public enum Equipment {
     MassageTable,
     MedicineBall,
     Partner,
+    PinPress,
     PreacherStand,
     PvcPipe,
-    Rack, // where you put the barbell and do squats TODO: Sometimes works as pole with bands, split it into pole
+    Rack, // where you put the barbell and do squats TODO: Sometimes works as pole with bands, split it into pole TODO: Somtimes works as a Pin Press
     Rope,
     RowCable,
     Rings, // ca la olimpiada
