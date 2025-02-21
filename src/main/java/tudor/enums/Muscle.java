@@ -1,8 +1,9 @@
 package tudor.enums;
 
-public enum Group {
+public enum Muscle {
+    Abs, // groups both FrontalAbs and Obliques
     Abductors,
-    Abs,
+    FrontalAbs,
     Adductors,
     Biceps,
     Calves,
