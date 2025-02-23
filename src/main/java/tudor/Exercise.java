@@ -31,11 +31,30 @@ public class Exercise {
     static {
         List<Muscle> none = List.of();
 
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////// Abductors
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         Folder abductors = new Folder("Abductors");
         muscleFolders.put(Abductors, abductors);
         currentFolder = abductors;
         add("Cable Hip Abduction", Abductors, Strength, List.of(Cable, AnkleStraps), Isolation, Beginner, Glutes, "https://www.muscleandstrength.com/exercises/cable-hip-abduction.html");
 
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////// Adductors
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        Folder adductors = new Folder("Adductors");
+        muscleFolders.put(Adductors, adductors);
+        currentFolder = adductors;
+        add("Deep Squat Prying", Adductors, Warmup, KettleBells, Compound, Beginner, List.of(Glutes, Hamstrings, HipFlexors, Quads), "https://www.muscleandstrength.com/exercises/deep-squat-prying");
+        add("Rocking Frog Stretch", Adductors, Warmup, Bodyweight, Compound, Beginner, List.of(Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/rocking-frog-stretch");
+        add("Alternating Lateral Lunge with Overhead Reach", Adductors, Warmup, Bodyweight, Compound, Beginner, List.of(Calves, Hamstrings, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/alternating-lateral-lunge-with-overhead-reach");
+        add("Lateral Kneeling Adductor Mobilization", Adductors, Warmup, Bodyweight, Compound, Beginner, Calves, "https://www.muscleandstrength.com/exercises/lateral-kneeling-adductor-mobilization");
+        add("Cable Hip Adduction", Adductors, Strength, List.of(Cable, AnkleStraps), Isolation, Beginner, List.of(Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/cable-hip-adduction.html");
+        add("Adductor Foam Rolling", Adductors, SMR, FoamRoll, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/adductor-foam-rolling");
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////// Abs
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         Folder abs = new Folder("Abs");
         muscleFolders.put(Abs, abs);
         Folder frontalAbs = new Folder("Frontal Abs");
@@ -170,7 +189,9 @@ public class Exercise {
         add("Contralateral Bird Dog", FrontalAbs, Strength, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/contralateral-bird-dog");
         add("Ipsilateral Bird Dog", FrontalAbs, Strength, Bodyweight, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/ipsilateral-bird-dog");
 
-        currentFolder = frontalAbs;
+        Folder otherAbs = new Folder("Other Frontal Abs");
+        frontalAbs.folders.add(otherAbs);
+        currentFolder = otherAbs;
         add("3 Month Position Kettlebell Pullover", FrontalAbs, Strength, KettleBells, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/3-month-position-kettlebell-pullover");
         add("Abdominal Air Bike (AKA Bicycle)", FrontalAbs, Strength, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/abdominal-air-bike.html");
         add("Abdominal Pendulum", FrontalAbs, Strength, Bodyweight, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/abdominal-pendulum.html");
@@ -186,6 +207,7 @@ public class Exercise {
         add("Half Kneeling Push-Pull", FrontalAbs, Strength, DoubleCable, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/half-kneeling-push-pull");
         add("Hollow Body Hold", FrontalAbs, Strength, Bodyweight, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/hollow-body-hold");
         add("Jackknife (On Bench)", FrontalAbs, Strength, Bench, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/bench-jack-knife.html");
+        add("(T) Jackknife (On Floor)", FrontalAbs, Strength, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/bench-jack-knife.html");
         add("Kettlebell Windmill", FrontalAbs, Strength, KettleBells, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/kettlebell-windmill");
         add("Kneeling Dumbbell Hold to Stand", FrontalAbs, Strength, Dumbbell, Compound, Intermediate, List.of(Adductors, Glutes, Hamstrings, Quads, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/kneeling-dumbbell-hold-to-stand");
         add("Lower Abdominal Hip Roll", FrontalAbs, Strength, Bodyweight, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/lower-abdominal-hip-roll.html");
@@ -205,9 +227,9 @@ public class Exercise {
         add("Weighted Straight Leg Toe Touch", FrontalAbs, Strength, Disk, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/weighted-straight-leg-toe-touch");
         add("Wide Stance Cable Anti-Rotation", FrontalAbs, Strength, Cable, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/wide-stance-cable-anti-rotation");
 
-
-
-
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////// Obliques
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         Folder obliques = new Folder("Obliques");
         abs.folders.add(obliques);
 
@@ -246,27 +268,9 @@ public class Exercise {
         add("Oblique Cable Crunch", Obliques, Strength, Cable, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-oblique-cable-crunch.html"); // MS zice că e FrontAbs
         add("Side Crunch With Leg Lift", Obliques, Strength, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/side-crunch-with-leg-lift.html"); // MS zice că e FrontAbs
 
-
-
-
-
-
-
-        Folder adductors = new Folder("Adductors");
-        muscleFolders.put(Adductors, adductors);
-        currentFolder = adductors;
-        add("Deep Squat Prying", Adductors, Warmup, KettleBells, Compound, Beginner, List.of(Glutes, Hamstrings, HipFlexors, Quads), "https://www.muscleandstrength.com/exercises/deep-squat-prying");
-        add("Rocking Frog Stretch", Adductors, Warmup, Bodyweight, Compound, Beginner, List.of(Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/rocking-frog-stretch");
-        add("Alternating Lateral Lunge with Overhead Reach", Adductors, Warmup, Bodyweight, Compound, Beginner, List.of(Calves, Hamstrings, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/alternating-lateral-lunge-with-overhead-reach");
-        add("Lateral Kneeling Adductor Mobilization", Adductors, Warmup, Bodyweight, Compound, Beginner, Calves, "https://www.muscleandstrength.com/exercises/lateral-kneeling-adductor-mobilization");
-        add("Cable Hip Adduction", Adductors, Strength, List.of(Cable, AnkleStraps), Isolation, Beginner, List.of(Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/cable-hip-adduction.html");
-        add("Adductor Foam Rolling", Adductors, SMR, FoamRoll, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/adductor-foam-rolling");
-
-
-
-
-
-
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////// Biceps
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         Folder biceps = new Folder("Biceps");
         muscleFolders.put(Biceps, biceps);
 
@@ -366,13 +370,12 @@ public class Exercise {
         add("Lying High Pulley Close Grip Cable Curl", Biceps, Strength, List.of(Bench, Cable), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-high-pulley-close-grip-cable-curl.html");
         add("Lying Wide Dumbbell Curl", Biceps, Strength, List.of(Bench, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-wide-dumbbell-curl.html");
 
-
-
-
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////// Calves
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         Folder calves = new Folder("Calves");
         muscleFolders.put(Calves, calves);
-        
-
+        currentFolder = calves;
         add("(Posterior) Calves Tiger Tail", Calves, SMR, TigerTail, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/posterior-calf-tiger-tail");
         add("45 Degree Calf Raise (Toes In)", Calves, Strength, LegPress, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/toes-in-45-degree-calf-raise.html");
         add("45 Degree Calf Raise (Toes Out)", Calves, Strength, LegPress, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/toes-out-45-degree-calf-raise.html");
@@ -431,88 +434,107 @@ public class Exercise {
         add("Toes In Standing Machine Calf Raise", Calves, Strength, CalfMachine, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/toes-in-standing-machine-calf-raise");
         add("Toes Out Standing Calf Raise", Calves, Strength, CalfMachine, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/toes-out-standing-calf-raise");
 
-        add("Chest Dip", Chest, Strength, DipStation, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/chest-dip.html");
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////// Chest
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        Folder chest = new Folder("Chest");
+        muscleFolders.put(Chest, chest);
+
+        Folder benchPress = new Folder("Bench Presses");
+        chest.folders.add(benchPress);
+        currentFolder = benchPress;
         add("Dumbbell Bench Press", Chest, Strength, List.of(Bench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/dumbbell-bench-press.html");
         add("Incline Bench Press", Chest, Strength, InclineBenchPress, Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/incline-bench-press.html");
         add("1 Board Bench Press", Chest, PowerLifting, List.of(BenchPress, Board, Partner), Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/1-board-bench-press");
-        add("1 Leg Push Up", Chest, Strength, Bodyweight, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/1-leg-pushup.html");
         add("2 Board Bench Press", Chest, PowerLifting, List.of(BenchPress, Board, Partner), Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/2-board-bench-press");
         add("3 Board Bench Press", Chest, PowerLifting, List.of(BenchPress, Board, Partner), Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/3-board-bench-press");
         add("Alternate Dumbbell Bench Press (high start)", Chest, Strength, List.of(Bench, Dumbbell), Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/alternate-dumbbell-bench-press-high-start.html");
-        add("Alternating Decline Dumbbell Fly", Chest, Strength, List.of(DeclineBench, Dumbbell), Isolation, Beginner, Shoulders, "https://www.muscleandstrength.com/exercises/alternate-decline-dumbbell-flys.html");
         add("Alternating Dumbbell Bench Press (Low Start)", Chest, Strength, List.of(Bench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/alternate-dumbbell-bench-press-low-start.html");
         add("Alternating Dumbbell Bench Press on Exercise Ball", Chest, Strength, List.of(ExerciseBall, Dumbbell), Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/alternating-dumbbell-bench-press-exercise-ball");
-        add("Alternating Dumbbell Fly", Chest, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, Shoulders, "https://www.muscleandstrength.com/exercises/alternate-dumbbell-flys.html");
-        add("Alternating Incline Dumbbell Fly", Chest, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, Shoulders, "https://www.muscleandstrength.com/exercises/alternate-incline-dumbbell-flys.html");
-        add("Alternating Medicine Ball Push Up", Chest, Strength, MedicineBall, Compound, Advanced, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/alternating-medicine-ball-push-up");
-        add("Alternating Reach Push Up", Chest, Strength, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/alternating-reach-push-up");
         add("Band Suspended Kettlebell Bench Press", Chest, Strength, List.of(BenchPress, Bands, KettleBells), Compound, Advanced, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/band-suspended-kettlebell-bench-press");
         add("Barbell Bench Press", Chest, Strength, BenchPress, Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/barbell-bench-press.html");
-        add("Barbell Pullover", Chest, Strength, List.of(Bench, ShortBarbell), Compound, Intermediate, List.of(Lats, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/barbell-pullover.html");
-        add("Barbell Pullover And Press", Chest, Strength, List.of(Bench, ShortBarbell), Compound, Intermediate, List.of(Lats, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/barbell-pullover-and-press.html");
         add("Bench Press Against Chains", Chest, Strength, List.of(BenchPress, Chains), Compound, Advanced, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/bench-press-against-chains");
-        add("Bird Dog Push Up", Chest, Strength, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/bird-dog-push-up");
-        add("Bosu Ball Push Up", Chest, Strength, BosuBall, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/bosu-ball-push-up");
         add("Cable Chest Press", Chest, Strength, DoubleCable, Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/cable-chest-press.html");
-        add("Cable Crossovers (Upper Chest)", Chest, Strength, DoubleCable, Isolation, Beginner, Shoulders, "https://www.muscleandstrength.com/exercises/cable-crossovers-(upper-chest).html");
         add("Cable Inner Chest Press", Chest, Strength, DoubleCable, Compound, Beginner, Shoulders, "https://www.muscleandstrength.com/exercises/cable-inner-chest-press.html");
-        add("Cable Iron Cross", Chest, Strength, DoubleCable, Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/cable-crossovers.html");
-        add("Chain Fly", Chest, Strength, List.of(Bench, Chains), Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/chain-fly");
         add("Close Grip Dumbbell Press (AKA Crush Press)", Chest, Strength, List.of(Bench, Dumbbell), Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/close-grip-dumbbell-press.html");
-        add("Cross Body Arm Swings", Chest, Warmup, Bodyweight, Compound, Beginner, List.of(Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/cross-body-arm-swings");
         add("Decline Bench Press", Chest, Strength, DeclineBenchPress, Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/decline-bench-press.html");
         add("Decline Cable Chest Press", Chest, Strength, List.of(DeclineBench, DoubleCable), Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/decline-cable-chest-press");
-        add("Decline Cable Flys", Chest, Strength, List.of(DeclineBench, DoubleCable), Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/decline-cable-flys.html");
         add("Decline Dumbbell Bench Press", Chest, Strength, List.of(DeclineBench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/decline-dumbbell-bench-press.html");
-        add("Decline Dumbbell Flys", Chest, Strength, List.of(DeclineBench, Dumbbell), Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/decline-dumbbell-flys.html");
-        add("Decline Dumbbell Twist Fly", Chest, Strength, List.of(DeclineBench, Dumbbell), Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/decline-dumbbell-twist-fly");
-        add("Decline Push Up (Feet on Bench)", Chest, Strength, List.of(Bench), Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/decline-push-up");
         add("Decline Smith Machine Bench Press", Chest, Strength, List.of(DeclineBench, SmithMachine), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/decline-smith-machine-bench-press.html");
         add("Dumbbell Bench Press Rotational Grip", Chest, Strength, List.of(Bench, Dumbbell), Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/rotational-grip-dumbbell-bench-press");
-        add("Dumbbell Flys", Chest, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/dumbbell-flys.html");
-        add("Dumbbell Pullover", Chest, Strength, List.of(Bench, Dumbbell), Compound, Intermediate, List.of(Lats), "https://www.muscleandstrength.com/exercises/dumbbell-pullover.html");
-        add("Dumbbell Twist Fly", Chest, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/dumbbell-twist-fly");
         add("Dumbbell Twist Press", Chest, Strength, List.of(Bench, Dumbbell), Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/dumbbell-twist-press");
-        add("Eccentric Only Incline Push Up", Chest, Strength, Bench, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/eccentric-only-incline-push-up");
-        add("Eccentric Only Push Up", Chest, Strength, Bodyweight, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/eccentric-only-push-up");
-        add("Exercise Ball Cable Fly", Chest, Strength, List.of(ExerciseBall, DoubleCable), Isolation, Intermediate, Shoulders, "https://www.muscleandstrength.com/exercises/swiss-ball-cable-flys.html");
         add("Exercise Ball Dumbbell Bench Press", Chest, Strength, List.of(ExerciseBall, Dumbbell), Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/swiss-ball-dumbbell-bench-press.html");
-        add("Exercise Ball Dumbbell Fly", Chest, Strength, List.of(ExerciseBall, Dumbbell), Isolation, Intermediate, Shoulders, "https://www.muscleandstrength.com/exercises/swiss-ball-dumbbell-flys.html");
-        add("Exercise Ball Push Up", Chest, Strength, ExerciseBall, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/swiss-ball-push-up.html");
-        add("Feet on Wall Push Up", Chest, Strength, Wall, Compound, Advanced, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/feet-on-wall-push-up");
-        add("Fingertip Push Ups", Chest, Strength, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/fingertip-pushups");
-        add("Flat Bench Cable Flys", Chest, Strength, List.of(Bench, DoubleCable), Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/flat-bench-cable-flys.html");
         add("Floor Press", Chest, Strength, Barbell, Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/floor-bench-press.html");
         add("Guillotine Press", Chest, Strength, BenchPress, Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/guillotine-press.html");
         add("Half Kneeling Medicine Ball Chest Pass", Chest, Plyometrics, List.of(MedicineBall, Wall), Compound, Intermediate, List.of(FrontalAbs, Adductors, Glutes, Hamstrings, Triceps), "https://www.muscleandstrength.com/exercises/half-kneeling-medicine-ball-chest-pass");
-        add("Half Kneeling PVC Pec Mobilization", Chest, Warmup, PvcPipe, Compound, Beginner, Shoulders, "https://www.muscleandstrength.com/exercises/half-kneeling-pvc-pec-mobilization");
         add("Incline Cable Chest Press", Chest, Strength, List.of(InclineBench, DoubleCable), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/incline-cable-chest-press");
-        add("Incline Cable Flys", Chest, Strength, List.of(InclineBench, DoubleCable), Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/incline-cable-flys.html");
         add("Incline Dumbbell Bench Press", Chest, Strength, List.of(InclineBench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/incline-dumbbell-bench-press.html");
+        add("Neutral Grip Decline Dumbbell Bench Press", Chest, Strength, List.of(DeclineBench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/palms-in-decline-dumbbell-bench-press.html");
+        add("Neutral Grip Dumbbell Bench Press", Chest, Strength, List.of(Bench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/palms-in-dumbbell-bench-press.html");
+        add("Neutral Grip Incline Dumbbell Bench Press", Chest, Strength, List.of(InclineBench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/palms-in-incline-dumbbell-bench-press.html");
+        add("One Arm Bottoms Up Kettlebell Bench Press", Chest, Strength, List.of(Bench, KettleBells), Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/one-arm-bottoms-up-kettlebell-bench-press");
+        add("One Arm Kettlebell Bench Press", Chest, Strength, List.of(Bench, KettleBells), Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/one-arm-kettlebell-bench-press");
+        add("One-Arm Dumbbell Bench Press", Chest, Strength, List.of(Bench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-bench-press.html");
+        add("Paused Barbell Bench Press", Chest, Strength, BenchPress, Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/paused-barbell-bench-press");
+        add("Resistance Banded Dumbbell Bench Press", Chest, Strength, List.of(Bench, Dumbbell), Compound, Advanced, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/resistance-banded-dumbbell-bench-press");
+        add("Reverse Grip Bench Press", Chest, Strength, BenchPress, Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/reverse-grip-bench-press.html");
+        add("Reverse Grip Dumbbell Bench Press", Chest, Strength, List.of(Bench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/reverse-dumbbell-bench-press.html");
+        add("Reverse Grip Dumbbell Squeeze Press", Chest, Strength, List.of(Bench, Dumbbell), Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/reverse-grip-dumbbell-squeeze-press");
+        add("Reverse Grip Incline Bench Press", Chest, Strength, InclineBenchPress, Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/reverse-grip-incline-bench-press.html");
+        add("Smith Machine Bench Press", Chest, Strength, List.of(SmithMachine, Bench), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/smith-machine-bench-press.html");
+        add("Smith Machine Incline Bench Press", Chest, Strength, List.of(InclineBenchPress, SmithMachine), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/incline-smith-machine-bench-press.html");
+        add("Smith Machine Wide Grip Bench Press", Chest, Strength, List.of(Bench, SmithMachine), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/smith-machine-wide-grip-bench-press.html");
+        add("Wide Grip Barbell Bench Press", Chest, Strength, BenchPress, Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/wide-grip-bench-press.html");
+        add("Wide Grip Decline Bench Press", Chest, Strength, List.of(DeclineBenchPress), Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/wide-grip-decline-bench-press");
+        add("Wide Grip Incline Bench Press", Chest, Strength, InclineBenchPress, Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/wide-grip-incline-bench-press");
+        add("Wide Reverse Grip Bench Press", Chest, Strength, BenchPress, Compound, Intermediate, Shoulders, "https://www.muscleandstrength.com/exercises/wide-reverse-grip-bench-press.html");
+
+        Folder flys = new Folder("Flys");
+        chest.folders.add(flys);
+        currentFolder = flys;
+        add("Alternating Decline Dumbbell Fly", Chest, Strength, List.of(DeclineBench, Dumbbell), Isolation, Beginner, Shoulders, "https://www.muscleandstrength.com/exercises/alternate-decline-dumbbell-flys.html");
+        add("Alternating Dumbbell Fly", Chest, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, Shoulders, "https://www.muscleandstrength.com/exercises/alternate-dumbbell-flys.html");
+        add("Alternating Incline Dumbbell Fly", Chest, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, Shoulders, "https://www.muscleandstrength.com/exercises/alternate-incline-dumbbell-flys.html");
+        add("Chain Fly", Chest, Strength, List.of(Bench, Chains), Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/chain-fly");
+        add("Decline Cable Flys", Chest, Strength, List.of(DeclineBench, DoubleCable), Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/decline-cable-flys.html");
+        add("Decline Dumbbell Flys", Chest, Strength, List.of(DeclineBench, Dumbbell), Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/decline-dumbbell-flys.html");
+        add("Decline Dumbbell Twist Fly", Chest, Strength, List.of(DeclineBench, Dumbbell), Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/decline-dumbbell-twist-fly");
+        add("Dumbbell Flys", Chest, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/dumbbell-flys.html");
+        add("Dumbbell Twist Fly", Chest, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/dumbbell-twist-fly");
+        add("Exercise Ball Cable Fly", Chest, Strength, List.of(ExerciseBall, DoubleCable), Isolation, Intermediate, Shoulders, "https://www.muscleandstrength.com/exercises/swiss-ball-cable-flys.html");
+        add("Exercise Ball Dumbbell Fly", Chest, Strength, List.of(ExerciseBall, Dumbbell), Isolation, Intermediate, Shoulders, "https://www.muscleandstrength.com/exercises/swiss-ball-dumbbell-flys.html");
+        add("Flat Bench Cable Flys", Chest, Strength, List.of(Bench, DoubleCable), Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/flat-bench-cable-flys.html");
+        add("Incline Cable Flys", Chest, Strength, List.of(InclineBench, DoubleCable), Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/incline-cable-flys.html");
         add("Incline Dumbbell Flys", Chest, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/incline-dumbbell-flys.html");
         add("Incline Dumbbell Twist Fly", Chest, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/incline-dumbbell-twist-fly");
+        add("One Arm Dumbbell Fly", Chest, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-fly");
+        add("Ring Fly", Chest, Strength, Rings, Compound, Advanced, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/ring-fly");
+        add("Standing Cable Fly", Chest, Strength, DoubleCable, Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/cable-crossovers-(mid-chest).html");
+        add("Standing High to Low Cable Fly", Chest, Strength, DoubleCable, Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/cable-crossovers-bent-over.html");
+        add("Standing Low to High Cable Fly", Chest, Strength, DoubleCable, Isolation, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/cable-lower-chest-raise.html");
+
+        Folder pushUps = new Folder("Push Ups");
+        chest.folders.add(pushUps);
+        currentFolder = pushUps;
+        add("1 Leg Push Up", Chest, Strength, Bodyweight, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/1-leg-pushup.html");
+        add("Alternating Medicine Ball Push Up", Chest, Strength, MedicineBall, Compound, Advanced, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/alternating-medicine-ball-push-up");
+        add("Alternating Reach Push Up", Chest, Strength, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/alternating-reach-push-up");
+        add("Bird Dog Push Up", Chest, Strength, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/bird-dog-push-up");
+        add("Bosu Ball Push Up", Chest, Strength, BosuBall, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/bosu-ball-push-up");
+        add("Decline Push Up (Feet on Bench)", Chest, Strength, List.of(Bench), Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/decline-push-up");
+        add("Eccentric Only Incline Push Up", Chest, Strength, Bench, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/eccentric-only-incline-push-up");
+        add("Eccentric Only Push Up", Chest, Strength, Bodyweight, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/eccentric-only-push-up");
+        add("Exercise Ball Push Up", Chest, Strength, ExerciseBall, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/swiss-ball-push-up.html");
+        add("Feet on Wall Push Up", Chest, Strength, Wall, Compound, Advanced, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/feet-on-wall-push-up");
+        add("Fingertip Push Ups", Chest, Strength, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/fingertip-pushups");
         add("Incline Push Ups", Chest, Strength, Bench, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/incline-push-ups.html");
         add("Kettlebell Push Up", Chest, Strength, KettleBells, Compound, Advanced, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/kettlebell-push-up");
         add("Knee Push-Up", Chest, Strength, Bodyweight, Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/knee-pushups.html");
         add("Knuckle Push Up", Chest, Strength, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/knuckle-push-up");
         add("Lateral Hand Walk Push Up", Chest, Strength, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/lateral-hand-walk-push-up");
-        add("Lying Cable Pullover", Chest, Strength, List.of(Bench, Cable), Compound, Intermediate, List.of(Lats, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/lying-cable-pullover.html");
-        add("Lying Cable Pullover (Rope Extension)", Chest, Strength, List.of(Bench, Cable), Compound, Intermediate, List.of(Lats, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/lying-cable-pullover-rope-extension.html");
-        add("Lying Medicine Ball Power Drop", Chest, Plyometrics, List.of(MedicineBall, Partner), Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/lying-medicine-ball-power-drop");
-        add("Muscle Up", Chest, Strength, FixedUpperBar, Compound, Advanced, List.of(FrontalAbs, Biceps, Lats, Shoulders, Triceps, UpperBack), "https://www.muscleandstrength.com/exercises/muscle-up");
-        add("Neutral Grip Decline Dumbbell Bench Press", Chest, Strength, List.of(DeclineBench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/palms-in-decline-dumbbell-bench-press.html");
-        add("Neutral Grip Dumbbell Bench Press", Chest, Strength, List.of(Bench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/palms-in-dumbbell-bench-press.html");
-        add("Neutral Grip Incline Dumbbell Bench Press", Chest, Strength, List.of(InclineBench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/palms-in-incline-dumbbell-bench-press.html");
-        add("One Arm Bottoms Up Kettlebell Bench Press", Chest, Strength, List.of(Bench, KettleBells), Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/one-arm-bottoms-up-kettlebell-bench-press");
-        add("One Arm Dumbbell Fly", Chest, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-fly");
-        add("One Arm Kettlebell Bench Press", Chest, Strength, List.of(Bench, KettleBells), Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/one-arm-kettlebell-bench-press");
         add("One Arm Medicine Ball Push Up", Chest, Strength, MedicineBall, Compound, Advanced, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/one-arm-medicine-ball-push-up");
-        add("One-Arm Dumbbell Bench Press", Chest, Strength, List.of(Bench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-bench-press.html");
-        add("Paused Barbell Bench Press", Chest, Strength, BenchPress, Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/paused-barbell-bench-press");
         add("Paused Push Up", Chest, Strength, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/paused-push-up");
-        add("Pec Foam Rolling", Chest, SMR, FoamRoll, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/foam-rolling-pecs");
-        add("Pec Lacrosse Ball", Chest, SMR, LacrosseBall, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/pec-lacrosse-ball");
-        add("Pec Minor Dip", Chest, Strength, DipStation, Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/pec-minor-dip");
         add("Plyometric Clapping Push Up", Chest, Strength, Bodyweight, Compound, Advanced, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/plyometric-clapping-push-up");
         add("Plyometric Push Up", Chest, Strength, Bodyweight, Compound, Advanced, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/plyometric-push-up");
         add("Push Up", Chest, Strength, Bodyweight, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/push-up.html");
@@ -523,43 +545,53 @@ public class Exercise {
         add("Push Up with Knee Drive", Chest, Strength, Bodyweight, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/push-up-with-knee-drive");
         add("Push Up with Mountain Climber", Chest, Strength, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/push-up-with-mountain-climber");
         add("Push-Up (On Bench)", Chest, Strength, Bench, Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/bench-pushups.html");
-        add("Rack Pec Stretch", Chest, Warmup, Bodyweight, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/rack-pec-stretch");
-        add("Resistance Banded Dumbbell Bench Press", Chest, Strength, List.of(Bench, Dumbbell), Compound, Advanced, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/resistance-banded-dumbbell-bench-press");
-        add("Reverse Grip Bench Press", Chest, Strength, BenchPress, Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/reverse-grip-bench-press.html");
-        add("Reverse Grip Dumbbell Bench Press", Chest, Strength, List.of(Bench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/reverse-dumbbell-bench-press.html");
-        add("Reverse Grip Dumbbell Squeeze Press", Chest, Strength, List.of(Bench, Dumbbell), Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/reverse-grip-dumbbell-squeeze-press");
-        add("Reverse Grip Incline Bench Press", Chest, Strength, InclineBenchPress, Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/reverse-grip-incline-bench-press.html");
         add("Reverse Grip Incline Push Up", Chest, Strength, Bench, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/reverse-grip-incline-push-up");
-        add("Ring Fly", Chest, Strength, Rings, Compound, Advanced, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/ring-fly");
         add("Ring Push Up", Chest, Strength, Rings, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/ring-push-up");
-        add("Self-Assisted Straight Bar Dip", Chest, Strength, Rack, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/self-assisted-straight-bar-dip");
         add("Shoulder Tap Push Up", Chest, Strength, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/shoulder-tap-push-up");
+        add("Spiderman Push Up", Chest, Strength, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/spiderman-push-up");
+        add("Stretch Push Up (On Risers)", Chest, Strength, Risers, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/deep-push-ups.html");
+        add("T-Push Up", Chest, Strength, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/t-push-up");
+        add("Valslide Push Up", Chest, Strength, ValSlide, Compound, Advanced, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/valslide-push-up");
+        add("Wall Push Up", Chest, Strength, Wall, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/wall-push-up");
+        add("Wide Grip Incline Push Up", Chest, Strength, Bench, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/wide-grip-incline-push-up");
+        add("Wide Grip Push Ups", Chest, Strength, Bodyweight, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/wide-grip-push-ups.html");
+        add("Yoga Push Up", Chest, Strength, Bodyweight, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/yoga-push-up");
+
+        Folder pullovers = new Folder("Pullovers");
+        chest.folders.add(pullovers);
+        currentFolder = pullovers;
+        add("Barbell Pullover", Chest, Strength, List.of(Bench, ShortBarbell), Compound, Intermediate, List.of(Lats, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/barbell-pullover.html");
+        add("Barbell Pullover And Press", Chest, Strength, List.of(Bench, ShortBarbell), Compound, Intermediate, List.of(Lats, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/barbell-pullover-and-press.html");
+        add("Dumbbell Pullover", Chest, Strength, List.of(Bench, Dumbbell), Compound, Intermediate, List.of(Lats), "https://www.muscleandstrength.com/exercises/dumbbell-pullover.html");
+        add("Lying Cable Pullover", Chest, Strength, List.of(Bench, Cable), Compound, Intermediate, List.of(Lats, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/lying-cable-pullover.html");
+        add("Lying Cable Pullover (Rope Extension)", Chest, Strength, List.of(Bench, Cable), Compound, Intermediate, List.of(Lats, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/lying-cable-pullover-rope-extension.html");
+
+        Folder otherChest = new Folder("Other Chest");
+        chest.folders.add(otherChest);
+        currentFolder = otherChest;
+        add("Chest Dip", Chest, Strength, DipStation, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/chest-dip.html");
+        add("Cable Crossovers (Upper Chest)", Chest, Strength, DoubleCable, Isolation, Beginner, Shoulders, "https://www.muscleandstrength.com/exercises/cable-crossovers-(upper-chest).html");
+        add("Cable Iron Cross", Chest, Strength, DoubleCable, Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/cable-crossovers.html");
+        add("Cross Body Arm Swings", Chest, Warmup, Bodyweight, Compound, Beginner, List.of(Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/cross-body-arm-swings");
+        add("Half Kneeling PVC Pec Mobilization", Chest, Warmup, PvcPipe, Compound, Beginner, Shoulders, "https://www.muscleandstrength.com/exercises/half-kneeling-pvc-pec-mobilization");
+        add("Lying Medicine Ball Power Drop", Chest, Plyometrics, List.of(MedicineBall, Partner), Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/lying-medicine-ball-power-drop");
+        add("Muscle Up", Chest, Strength, FixedUpperBar, Compound, Advanced, List.of(FrontalAbs, Biceps, Lats, Shoulders, Triceps, UpperBack), "https://www.muscleandstrength.com/exercises/muscle-up");
+        add("Pec Foam Rolling", Chest, SMR, FoamRoll, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/foam-rolling-pecs");
+        add("Pec Lacrosse Ball", Chest, SMR, LacrosseBall, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/pec-lacrosse-ball");
+        add("Pec Minor Dip", Chest, Strength, DipStation, Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/pec-minor-dip");
+        add("Rack Pec Stretch", Chest, Warmup, Bodyweight, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/rack-pec-stretch");
+        add("Self-Assisted Straight Bar Dip", Chest, Strength, Rack, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/self-assisted-straight-bar-dip");
         add("Single Leg Medicine Ball Chest Pass Wall Tap", Chest, Plyometrics, List.of(MedicineBall, Wall), Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/single-leg-medicine-ball-chest-pass-wall-tap");
         add("Sled Press", Chest, Conditioning, Sled, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Quads, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/sled-press");
-        add("Smith Machine Bench Press", Chest, Strength, List.of(SmithMachine, Bench), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/smith-machine-bench-press.html");
-        add("Smith Machine Incline Bench Press", Chest, Strength, List.of(InclineBenchPress, SmithMachine), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/incline-smith-machine-bench-press.html");
-        add("Smith Machine Wide Grip Bench Press", Chest, Strength, List.of(Bench, SmithMachine), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/smith-machine-wide-grip-bench-press.html");
-        add("Spiderman Push Up", Chest, Strength, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/spiderman-push-up");
-        add("Standing Cable Fly", Chest, Strength, DoubleCable, Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/cable-crossovers-(mid-chest).html");
-        add("Standing High to Low Cable Fly", Chest, Strength, DoubleCable, Isolation, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/cable-crossovers-bent-over.html");
-        add("Standing Low to High Cable Fly", Chest, Strength, DoubleCable, Isolation, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/cable-lower-chest-raise.html");
         add("Standing Medicine Ball Chest Throw", Chest, Plyometrics, List.of(MedicineBall, Wall), Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/standing-medicine-ball-chest-throw");
         add("Standing PVC Pec Mobilization", Chest, Warmup, PvcPipe, Compound, Beginner, List.of(Shoulders), "https://www.muscleandstrength.com/exercises/standing-pvc-pec-mobilization");
         add("Straight Bar Dip", Chest, Strength, FixedUpperBar, Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/straight-bar-dip");
-        add("Stretch Push Up (On Risers)", Chest, Strength, Risers, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/deep-push-ups.html");
-        add("T-Push Up", Chest, Strength, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/t-push-up");
         add("Tall Kneeling Medicine Ball Chest Pass", Chest, Plyometrics, List.of(MedicineBall, Wall), Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/tall-kneeling-medicine-ball-chest-pass");
-        add("Valslide Push Up", Chest, Strength, ValSlide, Compound, Advanced, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/valslide-push-up");
-        add("Wall Push Up", Chest, Strength, Wall, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/wall-push-up");
         add("Weighted Chest Dip", Chest, Strength, List.of(DipStation, WeightStrap), Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/weighted-chest-dip.html");
-        add("Wide Grip Barbell Bench Press", Chest, Strength, BenchPress, Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/wide-grip-bench-press.html");
-        add("Wide Grip Decline Bench Press", Chest, Strength, List.of(DeclineBenchPress), Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/wide-grip-decline-bench-press");
-        add("Wide Grip Incline Bench Press", Chest, Strength, InclineBenchPress, Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/wide-grip-incline-bench-press");
-        add("Wide Grip Incline Push Up", Chest, Strength, Bench, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/wide-grip-incline-push-up");
-        add("Wide Grip Push Ups", Chest, Strength, Bodyweight, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/wide-grip-push-ups.html");
-        add("Wide Reverse Grip Bench Press", Chest, Strength, BenchPress, Compound, Intermediate, Shoulders, "https://www.muscleandstrength.com/exercises/wide-reverse-grip-bench-press.html");
-        add("Yoga Push Up", Chest, Strength, Bodyweight, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/yoga-push-up");
 
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////// Forearms
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         add("Plate Pinch Carry", Forearms, Strength, Disk, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/plate-pinch-carry");
         add("Reverse Grip Barbell Curl (EZ Bar)", Forearms, Strength, ZBar, Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/ez-bar-reverse-grip-barbell-curl.html");
         add("Seated Barbell Wrist Curl", Forearms, Strength, ShortBarbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/barbell-wrist-curl.html");
