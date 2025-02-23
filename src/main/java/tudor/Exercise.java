@@ -286,6 +286,7 @@ public class Exercise {
         add("One-Arm Dumbbell Hammer Preacher Curl", Biceps, Strength, List.of(PreacherStand, Dumbbell), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-hammer-preacher-curl.html");
         add("One-Arm Dumbbell Preacher Curl", Biceps, Strength, List.of(PreacherStand, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-preacher-curl.html");
         add("Zottman Preacher Curl", Biceps, Strength, List.of(PreacherStand, Dumbbell), Isolation, Intermediate, Forearms, "https://www.muscleandstrength.com/exercises/zottman-preacher-curl.html");
+        add("Spider Curl", Biceps, Strength, List.of(PreacherStand, ZBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/spider-curl.html");
 
         Folder seatedCurls = new Folder("Seated Curls");
         biceps.folders.add(seatedCurls);
@@ -303,37 +304,10 @@ public class Exercise {
         add("Lying Incline Bench Barbell Curl", Biceps, Strength, List.of(InclineBench, ZBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-barbell-curl-on-incline-bench.html");
         add("One-Arm Seated Dumbbell Curl", Biceps, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-seated-dumbbell-curl.html");
         add("One-Arm Seated Hammer Curl", Biceps, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/one-arm-seated-hammer-curl.html");
-
-        add("Standing Barbell Curl", Biceps, Strength, ShortBarbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-barbell-curl.html");
-        add("Alternating Standing Dumbbell Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/alternating-standing-dumbbell-curl.html");
-        add("Alternating Standing Dumbbell Twisting Curls", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/twisting-standing-dumbbell-curl.html");
-        add("Alternating Standing Hammer Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/alternate-standing-hammer-curl.html");
         add("Barbell Concentration Curl", Biceps, Strength, ZBar, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/barbell-concentration-curl.html");
-        add("Barbell Drag Curl", Biceps, Strength, ShortBarbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/barbell-drag-curl.html");
-        add("Bicep Curl Sled Drag", Biceps, Conditioning, Sled, Compound, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/bicep-curl-sled-drag");
         add("Cable Concentration Curl", Biceps, Strength, Cable, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/cable-concentration-curl.html");
-        add("Cable Curl", Biceps, Strength, Cable, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/cable-curl.html");
-        add("Cable Curl (Rope Extension)", Biceps, Strength, Cable, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/rope-cable-curl.html");
-        add("Cable Drag Curl", Biceps, Strength, Cable, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/cable-drag-curl.html");
-        add("Close Grip Cable Curl", Biceps, Strength, Cable, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/close-grip-cable-curl.html");
-        add("Close Grip EZ Bar Curl", Biceps, Strength, ZBar, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/close-grip-ez-bar-curl.html");
-        add("Close Grip Standing Barbell Curl", Biceps, Strength, ShortBarbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/close-grip-standing-barbell-curl.html");
-        add("Cross Body Hammer Curl (Pinwheel Curls)", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/hammer-curl-across-the-body.html");
-        add("Exercise Ball Dumbbell Curl", Biceps, Strength, List.of(ExerciseBall, Dumbbell), Isolation, Intermediate, FrontalAbs, "https://www.muscleandstrength.com/exercises/swiss-ball-dumbbell-curl.html");
-        add("EZ Bar Curl", Biceps, Strength, ZBar, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/ez-bar-curl.html");
-        add("Hammer Bar Curl", Biceps, Strength, HammerBar, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/barbell-hammer-curl.html");
-        add("Lateral Pulldown Bicep Curl", Biceps, Strength, LatCable, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/cable-underhand-pull-down.html");
-        add("Lying Cable Curl (On Floor)", Biceps, Strength, Cable, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-cable-curl-floor.html");
-        add("Lying Dumbbell Curl", Biceps, Strength, List.of(Bench, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-dumbbell-curl.html");
-        add("Lying High Pulley Cable Curl", Biceps, Strength, List.of(Bench, Cable), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-high-pulley-cable-curl.html");
-        add("Lying High Pulley Close Grip Cable Curl", Biceps, Strength, List.of(Bench, Cable), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-high-pulley-close-grip-cable-curl.html");
-        add("Lying Wide Dumbbell Curl", Biceps, Strength, List.of(Bench, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-wide-dumbbell-curl.html");
-        add("One-Arm Cable Curl", Biceps, Strength, Cable, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/one-arm-cable-curl.html");
         add("One-Arm Prone Hammer Curl", Biceps, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/one-arm-prone-hammer-dumbbell-curl.html");
         add("One-Arm Prone Incline Dumbbell Curl", Biceps, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-prone-dumbbell-curl.html");
-
-        add("One-Arm Standing Dumbbell Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-standing-dumbbell-curl.html");
-        add("One-Arm Standing Hammer Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/one-arm-standing-hammer-curl.html");
         add("Prone Incline Dumbbell Curl", Biceps, Strength, List.of(InclineBench, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/prone-incline-dumbbell-curl.html");
         add("Prone Incline Hammer Curl", Biceps, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/prone-incline-hammer-curl.html");
         add("Seated Barbell Curl", Biceps, Strength, List.of(Bench, ZBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-barbell-curl.html");
@@ -342,19 +316,62 @@ public class Exercise {
         add("Seated Dumbbell Reverse Curl", Biceps, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/seated-dumbbell-reverse-curl");
         add("Seated Hammer Curl", Biceps, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/seated-hammer-curl.html");
         add("Seated Zottman Curl", Biceps, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/seated-zottman-curl");
-        add("Smith Machine Bicep Curl", Biceps, Strength, SmithMachine, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/smith-machine-bicep-curl.html");
-        add("Spider Curl", Biceps, Strength, List.of(PreacherStand, ZBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/spider-curl.html");
-        add("Squatting Cable Curl", Biceps, Strength, Cable, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/squatting-cable-curl.html");
+
+        Folder standingCurls = new Folder("Standing Curls");
+        biceps.folders.add(standingCurls);
+        currentFolder = standingCurls;
+        add("Standing Barbell Curl", Biceps, Strength, ShortBarbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-barbell-curl.html");
+        add("Alternating Standing Dumbbell Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/alternating-standing-dumbbell-curl.html");
+        add("Alternating Standing Dumbbell Twisting Curls", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/twisting-standing-dumbbell-curl.html");
+        add("Alternating Standing Hammer Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/alternate-standing-hammer-curl.html");
+        add("Barbell Drag Curl", Biceps, Strength, ShortBarbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/barbell-drag-curl.html");
+        add("Cable Curl", Biceps, Strength, Cable, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/cable-curl.html");
+        add("Cable Curl (Rope Extension)", Biceps, Strength, Cable, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/rope-cable-curl.html");
+        add("Cable Drag Curl", Biceps, Strength, Cable, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/cable-drag-curl.html");
+        add("Close Grip Cable Curl", Biceps, Strength, Cable, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/close-grip-cable-curl.html");
+        add("Close Grip EZ Bar Curl", Biceps, Strength, ZBar, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/close-grip-ez-bar-curl.html");
+        add("Close Grip Standing Barbell Curl", Biceps, Strength, ShortBarbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/close-grip-standing-barbell-curl.html");
+        add("Cross Body Hammer Curl (Pinwheel Curls)", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/hammer-curl-across-the-body.html");
+        add("EZ Bar Curl", Biceps, Strength, ZBar, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/ez-bar-curl.html");
+        add("Hammer Bar Curl", Biceps, Strength, HammerBar, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/barbell-hammer-curl.html");
+        add("One-Arm Cable Curl", Biceps, Strength, Cable, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/one-arm-cable-curl.html");
+        add("One-Arm Standing Dumbbell Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-standing-dumbbell-curl.html");
+        add("One-Arm Standing Hammer Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/one-arm-standing-hammer-curl.html");
         add("Standing Dumbbell Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-dumbbell-curl.html");
         add("Standing Dumbbell Drag Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/standing-dumbbell-drag-curl");
         add("Standing Dumbbell Reverse Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/standing-dumbbell-reverse-curl.html");
         add("Standing Hammer Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/standing-hammer-curl.html");
-        add("Standing High Pulley Cable Curl", Biceps, Strength, DoubleCable, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/standing-high-pulley-cable-curl.html");
-        add("Two-Arm Low Pulley Cable Curl", Biceps, Strength, DoubleCable, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/two-arm-cable-curl.html");
         add("Wide Grip Cable Curl", Biceps, Strength, Cable, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/wide-grip-cable-curl.html");
         add("Wide Grip EZ Bar Curl", Biceps, Strength, ZBar, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/wide-grip-ez-bar-curl.html");
         add("Wide Grip Standing Barbell Curl", Biceps, Strength, ShortBarbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/wide-grip-standing-barbell-curl.html");
         add("Zottman Curl", Biceps, Strength, Dumbbell, Isolation, Intermediate, Forearms, "https://www.muscleandstrength.com/exercises/zottman-curl.html");
+
+        Folder otherCurls = new Folder("Other Curls");
+        biceps.folders.add(otherCurls);
+        currentFolder = otherCurls;
+        add("Bicep Curl Sled Drag", Biceps, Conditioning, Sled, Compound, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/bicep-curl-sled-drag");
+        add("Exercise Ball Dumbbell Curl", Biceps, Strength, List.of(ExerciseBall, Dumbbell), Isolation, Intermediate, FrontalAbs, "https://www.muscleandstrength.com/exercises/swiss-ball-dumbbell-curl.html");
+        add("Lateral Pulldown Bicep Curl", Biceps, Strength, LatCable, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/cable-underhand-pull-down.html");
+        add("Smith Machine Bicep Curl", Biceps, Strength, SmithMachine, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/smith-machine-bicep-curl.html");
+        add("Squatting Cable Curl", Biceps, Strength, Cable, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/squatting-cable-curl.html");
+        add("Standing High Pulley Cable Curl", Biceps, Strength, DoubleCable, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/standing-high-pulley-cable-curl.html");
+        add("Two-Arm Low Pulley Cable Curl", Biceps, Strength, DoubleCable, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/two-arm-cable-curl.html");
+
+        Folder lyingCurls = new Folder("Lying Curls");
+        biceps.folders.add(lyingCurls);
+        currentFolder = lyingCurls;
+        add("Lying Cable Curl (On Floor)", Biceps, Strength, Cable, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-cable-curl-floor.html");
+        add("Lying Dumbbell Curl", Biceps, Strength, List.of(Bench, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-dumbbell-curl.html");
+        add("Lying High Pulley Cable Curl", Biceps, Strength, List.of(Bench, Cable), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-high-pulley-cable-curl.html");
+        add("Lying High Pulley Close Grip Cable Curl", Biceps, Strength, List.of(Bench, Cable), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-high-pulley-close-grip-cable-curl.html");
+        add("Lying Wide Dumbbell Curl", Biceps, Strength, List.of(Bench, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-wide-dumbbell-curl.html");
+
+
+
+
+        Folder calves = new Folder("Calves");
+        muscleFolders.put(Calves, calves);
+        
 
         add("(Posterior) Calves Tiger Tail", Calves, SMR, TigerTail, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/posterior-calf-tiger-tail");
         add("45 Degree Calf Raise (Toes In)", Calves, Strength, LegPress, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/toes-in-45-degree-calf-raise.html");
