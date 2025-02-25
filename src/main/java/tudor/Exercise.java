@@ -592,74 +592,145 @@ public class Exercise {
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //////////// Forearms
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        add("Plate Pinch Carry", Forearms, Strength, Disk, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/plate-pinch-carry");
+        Folder forearms = new Folder("Forearms");
+        muscleFolders.put(Forearms, forearms);
+        Folder reverseCurls = new Folder("Reverse Curls");
+        forearms.folders.add(reverseCurls);
+        currentFolder = reverseCurls;
         add("Reverse Grip Barbell Curl (EZ Bar)", Forearms, Strength, ZBar, Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/ez-bar-reverse-grip-barbell-curl.html");
-        add("Seated Barbell Wrist Curl", Forearms, Strength, ShortBarbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/barbell-wrist-curl.html");
         add("Alternating Dumbbell Reverse Grip Curl", Forearms, Strength, Dumbbell, Isolation, Beginner, List.of(Biceps), "https://www.muscleandstrength.com/exercises/standing-alternate-dumbbell-reverse-curl.html");
-        add("Barbell Suitcase Carry", Forearms, Strength, Barbell, Compound, Beginner, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/barbell-suitcase-carry");
-        add("Barbell Wrist Curl (Over Bench)", Forearms, Strength, List.of(Bench, ShortBarbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/barbell-wrist-curl-over-bench.html");
-        add("Behind-The-Back Barbell Wrist Curl", Forearms, Strength, ShortBarbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-wrist-curl.html");
-        add("Behind-The-Back Cable Wrist Curl", Forearms, Strength, Cable, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-cable-wrist-curl-(behind-back).html");
-        add("Dumbbell Farmers Carry", Forearms, Strength, Dumbbell, Compound, Beginner, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/farmers-walk");
-        add("Dumbbell High Low Carry", Forearms, Strength, Dumbbell, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/dumbbell-high-low-carry");
-        add("Dumbbell Overhead Carry", Forearms, Strength, Dumbbell, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/dumbbell-overhead-carry");
-        add("Dumbbell Suitcase Carry", Forearms, Strength, Dumbbell, Compound, Beginner, List.of(FrontalAbs, Hamstrings, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/dumbbell-suitcase-carry");
-        add("Dumbbell Wrist Curl (Over Bench)", Forearms, Strength, Dumbbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/dumbbell-wrist-curl-over-bench.html");
-        add("Fat Gripz Dumbbell Farmers Carry", Forearms, Strength, List.of(FatGripz, Dumbbell), Compound, Beginner, List.of(FrontalAbs, Hamstrings, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/fat-gripz-dumbbell-farmers-carry");
-        add("Forearm Extensors Lacrosse Ball", Forearms, SMR, List.of(Bench, LacrosseBall), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/forearm-extensors-lacrosse-ball");
-        add("Forearm Flexors Lacrosse Ball", Forearms, SMR, List.of(Bench, LacrosseBall), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/forearm-flexors-lacrosse-balls");
-        add("Forearm Tiger Tail", Forearms, SMR, TigerTail, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/forearm-tiger-tail");
-        add("Kettlebell Goblet Carry", Forearms, Strength, KettleBells, Compound, Beginner, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/kettlebell-goblet-carry");
-        add("Kettlebell Racked Crossover Walk", Forearms, Strength, KettleBells, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/kettlebell-racked-crossover-walk");
-        add("Kettlebell Single Arm Bottoms Up Carry", Forearms, Strength, KettleBells, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/kettlebell-single-arm-bottoms-up-carry");
-        add("Kettlebell Single Arm Racked Carry", Forearms, Strength, KettleBells, Compound, Beginner, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/kettlebell-single-arm-racked-carry");
-        add("Neutral Grip Dumbbell Wrist Curl (Over Bench)", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/neutral-dumbbell-wrist-curl-over-bench.html");
-        add("One Arm Reverse Dumbbell Wrist Curl Over Bench", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-reverse-dumbbell-wrist-curl-over-bench.html");
         add("One-Arm Dumbbell Reverse Grip Curl", Forearms, Strength, Dumbbell, Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/standing-one-arm-dumbbell-reverse-curl.html");
-        add("One-Arm Dumbbell Wrist Curl (Over Bench)", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-wrist-curl-over-bench.html");
-        add("One-Arm Neutral Grip Dumbbell Wrist Curl (Over Bench)", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-neutral-dumbbell-wrist-curl-over-bench.html");
-        add("One-Arm Reverse Grip Dumbbell Preacher Curl", Forearms, Strength, List.of(PreacherStand, Dumbbell), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/one-arm-reverse-dumbbell-preacher-curl.html");
-        add("One-Arm Seated Dumbbell Wrist Curl", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-seated-dumbbell-wrist-curl.html");
-        add("One-Arm Seated Neutral Grip Dumbbell Wrist Curl", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-seated-neutral-dumbbell-wrist-curl.html");
-        add("One-Arm Seated Reverse Grip Dumbbell Wrist Curl", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-seated-reverse-dumbbell-wrist-curl.html");
-        add("Overhead Barbell Carry", Forearms, Strength, Barbell, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Triceps, UpperBack), "https://www.muscleandstrength.com/exercises/overhead-barbell-carry");
         add("Reverse Grip Barbell Curl", Forearms, Strength, ShortBarbell, Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/reverse-barbell-curl.html");
-        add("Reverse Grip Barbell Wrist Curl", Forearms, Strength, List.of(Bench, ShortBarbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-barbell-wrist-curl.html");
-        add("Reverse Grip Barbell Wrist Curl (Over Bench)", Forearms, Strength, List.of(Bench, ShortBarbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-barbell-wrist-curl-over-bench.html");
         add("Reverse Grip Cable Curl", Forearms, Strength, Cable, Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/reverse-cable-curl.html");
         add("Reverse Grip Cable Preacher Curl", Forearms, Strength, List.of(PreacherStand, Cable), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/reverse-cable-preacher-curl.html");
         add("Reverse Grip Concentration Curl", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/reverse-concentration-curl.html");
         add("Reverse Grip Dumbbell Preacher Curl", Forearms, Strength, List.of(PreacherStand, Dumbbell), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/dumbbell-reverse-preacher-curl.html");
-        add("Reverse Grip Dumbbell Wrist Curl (Over Bench)", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-dumbbell-wrist-curl-over-bench.html");
         add("Reverse Grip Preacher Curl", Forearms, Strength, List.of(PreacherStand, ShortBarbell), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/reverse-preacher-curl.html");
         add("Reverse Grip Preacher Curl (EZ Bar)", Forearms, Strength, List.of(PreacherStand, ZBar), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/ez-bar-reverse-grip-preacher-curl.html");
         add("Reverse One Arm Cable Curl", Forearms, Strength, Cable, Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/reverse-one-arm-cable-curl.html");
+        add("Standing Reverse Grip Cable Curl", Forearms, Strength, Cable, Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/standing-cable-reverse-curl.html");
+        add("One-Arm Reverse Grip Dumbbell Preacher Curl", Forearms, Strength, List.of(PreacherStand, Dumbbell), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/one-arm-reverse-dumbbell-preacher-curl.html");
+
+        Folder wristCurls = new Folder("Wrist Curls");
+        forearms.folders.add(wristCurls);
+        currentFolder = wristCurls;
+        add("Seated Barbell Wrist Curl", Forearms, Strength, ShortBarbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/barbell-wrist-curl.html");
+        add("Barbell Wrist Curl (Over Bench)", Forearms, Strength, List.of(Bench, ShortBarbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/barbell-wrist-curl-over-bench.html");
+        add("Behind-The-Back Barbell Wrist Curl", Forearms, Strength, ShortBarbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-wrist-curl.html");
+        add("Behind-The-Back Cable Wrist Curl", Forearms, Strength, Cable, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-cable-wrist-curl-(behind-back).html");
+        add("Dumbbell Wrist Curl (Over Bench)", Forearms, Strength, Dumbbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/dumbbell-wrist-curl-over-bench.html");
+        add("Neutral Grip Dumbbell Wrist Curl (Over Bench)", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/neutral-dumbbell-wrist-curl-over-bench.html");
+        add("One-Arm Dumbbell Wrist Curl (Over Bench)", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-wrist-curl-over-bench.html");
+        add("One-Arm Neutral Grip Dumbbell Wrist Curl (Over Bench)", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-neutral-dumbbell-wrist-curl-over-bench.html");
+        add("One-Arm Seated Dumbbell Wrist Curl", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-seated-dumbbell-wrist-curl.html");
+        add("One-Arm Seated Neutral Grip Dumbbell Wrist Curl", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-seated-neutral-dumbbell-wrist-curl.html");
+        add("One-Arm Seated Reverse Grip Dumbbell Wrist Curl", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-seated-reverse-dumbbell-wrist-curl.html");
+        add("One Arm Reverse Dumbbell Wrist Curl Over Bench", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-reverse-dumbbell-wrist-curl-over-bench.html");
+        add("Reverse Grip Barbell Wrist Curl", Forearms, Strength, List.of(Bench, ShortBarbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-barbell-wrist-curl.html");
+        add("Reverse Grip Barbell Wrist Curl (Over Bench)", Forearms, Strength, List.of(Bench, ShortBarbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-barbell-wrist-curl-over-bench.html");
+        add("Reverse Grip Dumbbell Wrist Curl (Over Bench)", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-dumbbell-wrist-curl-over-bench.html");
         add("Seated Cable Wrist Curl", Forearms, Strength, List.of(Bench, Cable), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-cable-wrist-curl.html");
         add("Seated Dumbbell Wrist Curl", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/dumbbell-wrist-curl.html");
         add("Seated Neutral Grip Dumbbell Wrist Curl", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-neutral-dumbbell-wrist-curl.html");
         add("Seated Reverse Grip Cable Wrist Curl", Forearms, Strength, List.of(Bench, Cable), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-grip-seated-cable-wrist-curl.html");
         add("Seated Reverse Grip Dumbbell Wrist Curl", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-dumbbell-wrist-curl.html");
         add("Smith Machine Seated Wrist Curl", Forearms, Strength, List.of(SmithMachine, Bench), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/smith-machine-seated-wrist-curl.html");
-        add("Standing Reverse Grip Cable Curl", Forearms, Strength, Cable, Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/standing-cable-reverse-curl.html");
         add("Standing Smith Machine Wrist Curl (behind back)", Forearms, Strength, SmithMachine, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-smith-machine-wrist-curl-(behind-back).html");
+
+        Folder carries = new Folder("Carries");
+        forearms.folders.add(carries);
+        currentFolder = carries;
+        add("Plate Pinch Carry", Forearms, Strength, Disk, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/plate-pinch-carry");
+        add("Barbell Suitcase Carry", Forearms, Strength, Barbell, Compound, Beginner, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/barbell-suitcase-carry");
+        add("Dumbbell Farmers Carry", Forearms, Strength, Dumbbell, Compound, Beginner, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/farmers-walk");
+        add("Dumbbell High Low Carry", Forearms, Strength, Dumbbell, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/dumbbell-high-low-carry");
+        add("Dumbbell Overhead Carry", Forearms, Strength, Dumbbell, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/dumbbell-overhead-carry");
+        add("Dumbbell Suitcase Carry", Forearms, Strength, Dumbbell, Compound, Beginner, List.of(FrontalAbs, Hamstrings, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/dumbbell-suitcase-carry");
+        add("Fat Gripz Dumbbell Farmers Carry", Forearms, Strength, List.of(FatGripz, Dumbbell), Compound, Beginner, List.of(FrontalAbs, Hamstrings, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/fat-gripz-dumbbell-farmers-carry");
+        add("Kettlebell Goblet Carry", Forearms, Strength, KettleBells, Compound, Beginner, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/kettlebell-goblet-carry");
+        add("Kettlebell Racked Crossover Walk", Forearms, Strength, KettleBells, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/kettlebell-racked-crossover-walk");
+        add("Kettlebell Single Arm Bottoms Up Carry", Forearms, Strength, KettleBells, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/kettlebell-single-arm-bottoms-up-carry");
+        add("Kettlebell Single Arm Racked Carry", Forearms, Strength, KettleBells, Compound, Beginner, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/kettlebell-single-arm-racked-carry");
+        add("Overhead Barbell Carry", Forearms, Strength, Barbell, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Triceps, UpperBack), "https://www.muscleandstrength.com/exercises/overhead-barbell-carry");
         add("Trap Bar Farmers Carry", Forearms, Strength, TrapBar, Compound, Beginner, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/trap-bar-farmers-carry");
         add("Trap Bar Overhead Carry", Forearms, Strength, TrapBar, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/trap-bar-overhead-carry");
+        add("Zercher Carry", Forearms, Strength, Barbell, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/zercher-carry");
+
+        Folder otherForearms = new Folder("Other Forearms");
+        forearms.folders.add(otherForearms);
+        currentFolder = otherForearms;
+        add("Forearm Extensors Lacrosse Ball", Forearms, SMR, List.of(Bench, LacrosseBall), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/forearm-extensors-lacrosse-ball");
+        add("Forearm Flexors Lacrosse Ball", Forearms, SMR, List.of(Bench, LacrosseBall), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/forearm-flexors-lacrosse-balls");
+        add("Forearm Tiger Tail", Forearms, SMR, TigerTail, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/forearm-tiger-tail");
         add("Weight Plate Pinches", Forearms, Strength, Disk, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/weight-plate-pinches.html");
         add("Wrist Rollers", Forearms, Strength, List.of(WristRoller, Disk), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/wrist-rollers.html");
-        add("Zercher Carry", Forearms, Strength, Barbell, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, Quads, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/zercher-carry");
-        
-        add("Barbell Hip Thrust", Glutes, Strength, List.of(Risers, Barbell, BarbellFoam), Isolation, Intermediate, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/barbell-hip-thrust");
-        add("Good Mornings", Glutes, Strength, Rack, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, UpperBack), "https://www.muscleandstrength.com/exercises/good-mornings.html");
-        add("Hyperextension", Glutes, Strength, LowerBackStand, Isolation, Beginner, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/hyperextension.html");
-        add("90/90 Piriformis Stretch", Glutes, Warmup, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/90-90-piriformis-stretch");
-        add("Banded Glute Bridge", Glutes, Strength, Bands, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/banded-glute-bridge");
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////// Glutes
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        Folder glutes = new Folder("Glutes");
+        muscleFolders.put(Glutes, glutes);
+        Folder goodMornings = new Folder("Good Mornings");
+        glutes.folders.add(goodMornings);
+        currentFolder = goodMornings;
         add("Banded Good Morning", Glutes, Strength, Bands, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, UpperBack), "https://www.muscleandstrength.com/exercises/banded-good-mornings");
+        add("Good Mornings", Glutes, Strength, Rack, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, UpperBack), "https://www.muscleandstrength.com/exercises/good-mornings.html");
+        add("Good Mornings Off Pins", Glutes, Strength, Rack, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, UpperBack), "https://www.muscleandstrength.com/exercises/good-morning-off-pins");
+        add("Seated Good Mornings", Glutes, Strength, List.of(Rack, Bench), Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, UpperBack), "https://www.muscleandstrength.com/exercises/seated-good-mornings.html");
+        add("Single Leg Good Morning", Glutes, Strength, Rack, Compound, Advanced, List.of(FrontalAbs, Hamstrings, LowerBack, UpperBack), "https://www.muscleandstrength.com/exercises/single-leg-good-morning");
+
+        Folder hyperExtensions = new Folder("Hyperextensions");
+        glutes.folders.add(hyperExtensions);
+        currentFolder = hyperExtensions;
+        add("Hyperextension", Glutes, Strength, LowerBackStand, Isolation, Beginner, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/hyperextension.html");
+        add("Weighted Hyperextension", Glutes, Strength, LowerBackStand, Isolation, Intermediate, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/weighted-hyperextension");
+        add("Reverse Hyperextension", Glutes, Strength, LowerBackStand2, Isolation, Intermediate, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/reverse-hyperextension");
+
+        Folder backExtensions = new Folder("Back Extensions");
+        glutes.folders.add(backExtensions);
+        currentFolder = backExtensions;
+        add("GHD Back Extension", Glutes, Strength, LowerBackStand2, Isolation, Intermediate, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/ghd-back-extension");
+        add("GHD Back Extension Iso Hold", Glutes, Strength, LowerBackStand2, Compound, Intermediate, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/ghd-back-extension-iso-hold");
+
+        Folder hipThrusts = new Folder("Hip Thrusts");
+        glutes.folders.add(hipThrusts);
+        currentFolder = hipThrusts;
+        add("Barbell Hip Thrust", Glutes, Strength, List.of(Risers, Barbell, BarbellFoam), Isolation, Intermediate, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/barbell-hip-thrust");
         add("Banded Hip Thruster", Glutes, Strength, List.of(HipThruster, Bands), Isolation, Intermediate, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/banded-hip-thruster");
-        add("Banded Multi Directional Toe Touch", Glutes, Strength, Bands, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/banded-multi-directional-toe-touch");
-        add("Barbell Glute Bridge", Glutes, Strength, List.of(Barbell, BarbellFoam), Isolation, Intermediate, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/barbell-glute-bridge");
-        add("Bodyweight Glute Bridge", Glutes, Strength, Bodyweight, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/bodyweight-glute-bridge");
         add("Bodyweight Hip Thrust", Glutes, Strength, Bench, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/bodyweight-hip-thrust");
         add("Bodyweight Hip Thruster", Glutes, Strength, HipThruster, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/bodyweight-hip-thruster");
+        add("Hip Thruster with Mini Band", Glutes, Strength, List.of(HipThruster, Bands), Isolation, Intermediate, List.of(FrontalAbs, Abductors, Hamstrings), "https://www.muscleandstrength.com/exercises/hip-thruster-with-mini-band");
+        add("Single Leg Hip Thrust", Glutes, Strength, Bench, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/single-leg-hip-thrust");
+        add("Single Leg Hip Thrust with Dumbbell", Glutes, Strength, List.of(Bench, Dumbbell), Isolation, Intermediate, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/single-leg-hip-thrust-with-dumbbell");
+
+        Folder gluteBridges = new Folder("Glute Bridges");
+        glutes.folders.add(gluteBridges);
+        currentFolder = gluteBridges;
+        add("Banded Glute Bridge", Glutes, Strength, Bands, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/banded-glute-bridge");
+        add("Barbell Glute Bridge", Glutes, Strength, List.of(Barbell, BarbellFoam), Isolation, Intermediate, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/barbell-glute-bridge");
+        add("Bodyweight Glute Bridge", Glutes, Strength, Bodyweight, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/bodyweight-glute-bridge");
+        add("Knee to Chest Single Leg Glute Bridge", Glutes, Warmup, Bodyweight, Compound, Beginner, HipFlexors, "https://www.muscleandstrength.com/exercises/knee-to-chest-single-leg-glute-bridge");
+        add("Marching Glute Bridge", Glutes, Strength, Bodyweight, Isolation, Intermediate, List.of(FrontalAbs, Hamstrings, HipFlexors), "https://www.muscleandstrength.com/exercises/marching-glute-bridge");
+        add("Single Leg Glute Bridge", Glutes, Strength, Bodyweight, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/single-leg-glute-bridge");
+
+        Folder gluteRotations = new Folder("Glute Rotations");
+        glutes.folders.add(gluteRotations);
+        currentFolder = gluteRotations;
+        add("Seated External Rotation", Glutes, Strength, List.of(Bench, Bands), Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/seated-external-rotation");
+        add("Standing External Rotation", Glutes, Strength, Bands, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/standing-external-rotation");
+        add("Supine Hip Internal Rotation", Glutes, Warmup, Bodyweight, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/supine-hip-internal-rotation");
+
+        Folder clams = new Folder("Clams");
+        glutes.folders.add(clams);
+        currentFolder = clams;
+        add("Side Lying Clam", Glutes, Warmup, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/side-lying-clam");
+        add("Side Lying Clam with Band", Glutes, Warmup, Bands, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/side-lying-clam-with-band");
+
+        Folder otherGlutes = new Folder("Other glutes");
+        glutes.folders.add(otherGlutes);
+        currentFolder = otherGlutes;
+        add("90/90 Piriformis Stretch", Glutes, Warmup, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/90-90-piriformis-stretch");
+        add("Banded Multi Directional Toe Touch", Glutes, Strength, Bands, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/banded-multi-directional-toe-touch");
         add("Curtsy Lunge (AKA Drop Lunge)", Glutes, Warmup, Bodyweight, Compound, Beginner, List.of(Abductors, Hamstrings, HipFlexors, Quads), "https://www.muscleandstrength.com/exercises/curtsy-lunge");
         add("Diagonal Band Walk", Glutes, Strength, Bands, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/diagonal-band-walk");
         add("Dynamic Pigeon", Glutes, Warmup, Bodyweight, Compound, Beginner, HipFlexors, "https://www.muscleandstrength.com/exercises/dynamic-pigeon");
@@ -667,29 +738,15 @@ public class Exercise {
         add("Glute Foam Rolling", Glutes, SMR, FoamRoll, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/foam-rolling-glutes");
         add("Glute Kick Back", Glutes, Strength, Bodyweight, Isolation, Beginner, Hamstrings, "https://www.muscleandstrength.com/exercises/glute-kick-back.html");
         add("Glute Lacrosse Ball", Glutes, SMR, LacrosseBall, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/glute-lacrosse-ball");
-        add("Good Mornings Off Pins", Glutes, Strength, Rack, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, UpperBack), "https://www.muscleandstrength.com/exercises/good-morning-off-pins");
-        add("Hip Thruster with Mini Band", Glutes, Strength, List.of(HipThruster, Bands), Isolation, Intermediate, List.of(FrontalAbs, Abductors, Hamstrings), "https://www.muscleandstrength.com/exercises/hip-thruster-with-mini-band");
-        add("Knee to Chest Single Leg Glute Bridge", Glutes, Warmup, Bodyweight, Compound, Beginner, HipFlexors, "https://www.muscleandstrength.com/exercises/knee-to-chest-single-leg-glute-bridge");
         add("Lateral Band Walk", Glutes, Strength, Bands, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/lateral-band-walk");
-        add("Marching Glute Bridge", Glutes, Strength, Bodyweight, Isolation, Intermediate, List.of(FrontalAbs, Hamstrings, HipFlexors), "https://www.muscleandstrength.com/exercises/marching-glute-bridge");
-        add("Seated External Rotation", Glutes, Strength, List.of(Bench, Bands), Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/seated-external-rotation");
-        add("Seated Good Mornings", Glutes, Strength, List.of(Rack, Bench), Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, UpperBack), "https://www.muscleandstrength.com/exercises/seated-good-mornings.html");
-        add("Side Lying Clam", Glutes, Warmup, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/side-lying-clam");
-        add("Side Lying Clam with Band", Glutes, Warmup, Bands, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/side-lying-clam-with-band");
-        add("Single Leg Glute Bridge", Glutes, Strength, Bodyweight, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/single-leg-glute-bridge");
-        add("Single Leg Good Morning", Glutes, Strength, Rack, Compound, Advanced, List.of(FrontalAbs, Hamstrings, LowerBack, UpperBack), "https://www.muscleandstrength.com/exercises/single-leg-good-morning");
-        add("Single Leg Hip Thrust", Glutes, Strength, Bench, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/single-leg-hip-thrust");
-        add("Single Leg Hip Thrust with Dumbbell", Glutes, Strength, List.of(Bench, Dumbbell), Isolation, Intermediate, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/single-leg-hip-thrust-with-dumbbell");
         add("Sled Pull Through", Glutes, Conditioning, Sled, Compound, Beginner, List.of(FrontalAbs, Adductors, Hamstrings, LowerBack, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/sled-pull-through");
-        add("Standing External Rotation", Glutes, Strength, Bands, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/standing-external-rotation");
-        add("Supine Hip Internal Rotation", Glutes, Warmup, Bodyweight, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/supine-hip-internal-rotation");
-        add("Weighted Hyperextension", Glutes, Strength, LowerBackStand, Isolation, Intermediate, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/weighted-hyperextension");
         add("Wide Stance Smith Machine Squat", Glutes, Strength, SmithMachine, Compound, Intermediate, List.of(Calves, Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/wide-smith-machine-squat.html");
         add("X-Band Walk", Glutes, Activation, Bands, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/x-band-walk");
-        add("Reverse Hyperextension", Glutes, Strength, LowerBackStand2, Isolation, Intermediate, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/reverse-hyperextension");
-        add("GHD Back Extension", Glutes, Strength, LowerBackStand2, Isolation, Intermediate, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/ghd-back-extension");
-        add("GHD Back Extension Iso Hold", Glutes, Strength, LowerBackStand2, Compound, Intermediate, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/ghd-back-extension-iso-hold");
 
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////// Hamstrings
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
         add("Stiff Leg Deadlift", Hamstrings, Strength, Barbell, Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/stiff-leg-deadlift-aka-romanian-deadlift.html");
         add("1 Kettlebell Single Leg Deadlift", Hamstrings, Strength, KettleBells, Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/1-kettlebell-single-leg-deadlift");
         add("1 Kettlebell Suitcase Deadlift", Hamstrings, Strength, KettleBells, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/1-kettlebell-suitcase-deadlift");
