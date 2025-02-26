@@ -746,17 +746,18 @@ public class Exercise {
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //////////// Hamstrings
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    
+        Folder hamstrings = new Folder("Hamstrings");
+        muscleFolders.put(Hamstrings, hamstrings);
+        Folder deadlifts = new Folder("Deadlifts");
+        hamstrings.folders.add(deadlifts);
+        currentFolder = deadlifts;
         add("Stiff Leg Deadlift", Hamstrings, Strength, Barbell, Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/stiff-leg-deadlift-aka-romanian-deadlift.html");
         add("1 Kettlebell Single Leg Deadlift", Hamstrings, Strength, KettleBells, Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/1-kettlebell-single-leg-deadlift");
         add("1 Kettlebell Suitcase Deadlift", Hamstrings, Strength, KettleBells, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/1-kettlebell-suitcase-deadlift");
-        add("2 to 1 Exercise Ball Hamstring Curl (SHELC)", Hamstrings, Strength, ExerciseBall, Isolation, Advanced, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/2-to-1-exercise-ball-hamstring-curl");
         add("American Deadlift", Hamstrings, Strength, Barbell, Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/american-deadlift");
-        add("Band Assisted Nordic Hamstring Curl", Hamstrings, Strength, List.of(FeetWeight, Bands), Isolation, Intermediate, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/band-assisted-nordic-hamstring-curl");
         add("Banded Conventional Deadlift", Hamstrings, Strength, List.of(Barbell, Bands), Compound, Advanced, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/banded-deadlift");
         add("Banded Sumo Deadlift", Hamstrings, Strength, List.of(Barbell, Bands), Compound, Advanced, List.of(Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/banded-sumo-deadlift");
         add("Banded Trap Bar Deadlift", Hamstrings, Strength, List.of(TrapBar, Bands), Compound, Advanced, List.of(FrontalAbs, Adductors, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/banded-trap-bar-deficit");
-        add("Barbell Split Squat With Jump", Hamstrings, Strength, Barbell, Compound, Intermediate, List.of(Calves, Glutes, Quads), "https://www.muscleandstrength.com/exercises/barbell-split-jump.html");
         add("Barbell Sumo Romanian Deadlift", Hamstrings, Strength, Barbell, Compound, Beginner, List.of(FrontalAbs, Forearms, Glutes, Lats, LowerBack, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/barbell-sumo-romanian-deadlift");
         add("Bodyweight Single Leg Deadlift", Hamstrings, Warmup, Bodyweight, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/bodyweight-single-leg-deadlift");
         add("Conventional Block Pull Deadlift", Hamstrings, Strength, Barbell, Compound, Intermediate, List.of(FrontalAbs, Adductors, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/conventional-block-pull-deadlift");
@@ -765,24 +766,13 @@ public class Exercise {
         add("Deficit Deadlift", Hamstrings, Strength, Barbell, Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/deficit-deadlifts");
         add("Double Kettlebell Single Leg Deadlift", Hamstrings, Strength, KettleBells, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/double-kettlebell-single-leg-deadlift");
         add("Double Kettlebell Suitcase Deadlift", Hamstrings, Strength, KettleBells, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/double-kettlebell-suitcase-deadlift");
-        add("Double Kettlebell Swing", Hamstrings, Strength, KettleBells, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/double-kettlebell-swing");
-        add("Dumbbell Hamstring Curl", Hamstrings, Strength, List.of(Bench, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/dumbbell-hamstring-curl.html");
         add("Dumbbell Stiff Leg Deadlift", Hamstrings, Strength, Dumbbell, Compound, Beginner, List.of(Glutes, LowerBack), "https://www.muscleandstrength.com/exercises/dumbbell-stiff-leg-deadlift.html");
         add("Dumbbell Stiff Leg Deadlift (On Bench)", Hamstrings, Strength, List.of(Bench, Dumbbell), Compound, Intermediate, List.of(Glutes, LowerBack), "https://www.muscleandstrength.com/exercises/dumbbell-stiff-leg-deadlift-on-bench.html");
-        add("Exercise Ball Leg Curl (SHELC)", Hamstrings, Strength, ExerciseBall, Isolation, Beginner, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/exercise-ball-hamstring-curl");
         add("Fat Bar Deadlift", Hamstrings, Strength, FatBar, Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Hamstrings, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/fat-bar-deadlift");
-        add("Hamstring Foam Rolling", Hamstrings, SMR, FoamRoll, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/foam-rolling-hamstrings");
-        add("Hamstring Tiger Tail", Hamstrings, SMR, TigerTail, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/hamstring-tiger-tail");
-        add("Inchworm", Hamstrings, Warmup, Bodyweight, Compound, Beginner, List.of(FrontalAbs, Calves, Shoulders), "https://www.muscleandstrength.com/exercises/inchworm");
         add("Jefferson Deadlift", Hamstrings, Strength, Barbell, Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/jefferson-deadlift");
         add("Kettlebell Romanian Deadlift", Hamstrings, Strength, KettleBells, Compound, Intermediate, List.of(FrontalAbs, Forearms, Glutes, Lats, LowerBack, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/kettlebell-romanian-deadlift");
         add("Kettlebell Sumo Deadlift (1 KB)", Hamstrings, Strength, KettleBells, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/one-kettlebell-sumo-deadlift");
-        add("Kettlebell Swing", Hamstrings, Strength, KettleBells, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/kettlebell-swing");
         add("Kickstand Kettle Bell 1 Leg Deadlift", Hamstrings, Strength, KettleBells, Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/kickstand-kettle-bell-one-leg-deadlift");
-        add("Lying Cable Leg Curl", Hamstrings, Strength, List.of(AnkleStraps, Cable), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-cable-hamstring-curl.html");
-        add("One Arm Kettlebell Swing", Hamstrings, Strength, KettleBells, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/one-arm-kettlebell-swing");
-        add("One-Leg Lying Cable Hamstring Curl", Hamstrings, Strength, List.of(AnkleStraps, Cable), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-leg-lying-cable-hamstring-curl.html");
-        add("Partner Assisted Nordic Hamstring Curls", Hamstrings, Strength, Partner, Isolation, Advanced, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/partner-assisted-nordic-hamstring-curl");
         add("Paused Sumo Deadlift", Hamstrings, Strength, Barbell, Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/paused-sumo-deadlift");
         add("Paused Trap Bar Deadlift", Hamstrings, Strength, TrapBar, Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/paused-trap-bar-deadlift");
         add("Reeves Deadlift", Hamstrings, Strength, Barbell, Compound, Advanced, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/reeves-deadlift");
@@ -790,16 +780,13 @@ public class Exercise {
         add("Reverse Band Sumo Deadlift", Hamstrings, Strength, List.of(Barbell, Bands), Compound, Advanced, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/reverse-band-sumo-deadlift");
         add("Romanian Deadlift (AKA RDL)", Hamstrings, Strength, Barbell, Compound, Beginner, List.of(FrontalAbs, Forearms, Glutes, Lats, LowerBack, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/romanian-deadlift");
         add("Single Leg Barbell Romanian Deadlift", Hamstrings, Strength, Barbell, Compound, Intermediate, List.of(FrontalAbs, Forearms, Glutes, Lats, LowerBack, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/single-leg-barbell-romanian-deadlift");
-        add("Single Leg Exercise Ball Leg Curl", Hamstrings, Strength, ExerciseBall, Isolation, Advanced, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/single-leg-exercise-ball-leg-curl");
         add("Single Leg One Dumbbell Deadlift", Hamstrings, Strength, Dumbbell, Compound, Advanced, List.of(FrontalAbs, Forearms, Glutes, Lats, LowerBack, UpperBack), "https://www.muscleandstrength.com/exercises/single-leg-one-dumbbell-deadlift");
         add("Single Leg Snatch Grip Romanian Deadlift", Hamstrings, Strength, Barbell, Compound, Intermediate, List.of(FrontalAbs, Forearms, Glutes, Lats, LowerBack, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/single-leg-snatch-grip-romanian-deadlift");
-        add("Single Leg Valslide Leg Curl", Hamstrings, Strength, ValSlide, Isolation, Advanced, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/single-leg-valslide-leg-curl");
         add("Smith Machine Stiff Leg Deadlift", Hamstrings, Strength, SmithMachine, Compound, Intermediate, List.of(Glutes, LowerBack), "https://www.muscleandstrength.com/exercises/smith-machine-stiff-leg-deadlift.html");
         add("Snatch Grip Block Pull Deadlift", Hamstrings, Strength, Barbell, Compound, Advanced, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/snatch-grip-block-pull-deadlift");
         add("Snatch Grip Deadlift", Hamstrings, Strength, Barbell, Compound, Advanced, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/snatch-grip-deadlift");
         add("Snatch Grip Deficit Deadlift", Hamstrings, Strength, Barbell, Compound, Advanced, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/snatch-grip-deficit-deadlift");
         add("Snatch Grip Romanian Deadlift", Hamstrings, Strength, Barbell, Compound, Intermediate, List.of(FrontalAbs, Forearms, Glutes, Lats, LowerBack, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/snatch-grip-romanian-deadlift");
-        add("Standing Cable Hamstring Curl", Hamstrings, Strength, List.of(Cable, AnkleStraps), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-cable-hamstring-curl.html");
         add("Stiff Leg Deadlift (On Bench)", Hamstrings, Strength, List.of(Bench, Barbell), Isolation, Advanced, List.of(Glutes, LowerBack), "https://www.muscleandstrength.com/exercises/stiff-leg-deadlift-on-bench.html");
         add("Straight Leg Deadlift", Hamstrings, Strength, Barbell, Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/straight-leg-deadlift");
         add("Sumo Block Pull Deadlift", Hamstrings, Strength, Barbell, Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/sumo-block-pull-deadlift");
@@ -808,16 +795,55 @@ public class Exercise {
         add("Trap Bar Deadlift", Hamstrings, Strength, TrapBar, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/trap-bar-deadlift");
         add("Trap Bar Deadlift Against Chains", Hamstrings, PowerLifting, List.of(TrapBar, Chains), Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/trap-bar-deadlift-against-chains");
         add("Trap Bar Deficit Deadlift", Hamstrings, Strength, TrapBar, Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/trap-bar-deficit-deadlifts");
-        add("Trap Bar Rack Pull", Hamstrings, Strength, List.of(TrapBar, Rack), Compound, Beginner, List.of(FrontalAbs, Adductors, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/trap-bar-rack-pull");
         add("Trap Bar Romanian Deadlift", Hamstrings, Strength, TrapBar, Compound, Beginner, List.of(FrontalAbs, Forearms, Glutes, Lats, LowerBack, Traps, UpperBack), "https://www.muscleandstrength.com/content/trap-bar-romanian-deadlift");
-        add("Valslide Leg Curl", Hamstrings, Strength, ValSlide, Isolation, Beginner, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/valslide-leg-curl");
         add("Landmine RDL", Hamstrings, Strength, List.of(LandMine, VBar), Compound, Intermediate, List.of(FrontalAbs, Forearms, Glutes, Lats, LowerBack, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/landmine-romanian-deadlift");
+        add("Single Leg Landmine Romanian Deadlift", Hamstrings, Strength, LandMine, Compound, Advanced, List.of(FrontalAbs, Forearms, Glutes, Lats, LowerBack, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/single-leg-landmine-romanian-deadlift");
+
+        Folder hamstringCurls = new Folder("Hamstring Curls");
+        hamstrings.folders.add(hamstringCurls);
+        currentFolder = hamstringCurls;
+        add("2 to 1 Exercise Ball Hamstring Curl (SHELC)", Hamstrings, Strength, ExerciseBall, Isolation, Advanced, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/2-to-1-exercise-ball-hamstring-curl");
+        add("Band Assisted Nordic Hamstring Curl", Hamstrings, Strength, List.of(FeetWeight, Bands), Isolation, Intermediate, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/band-assisted-nordic-hamstring-curl");
+        add("Dumbbell Hamstring Curl", Hamstrings, Strength, List.of(Bench, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/dumbbell-hamstring-curl.html");
+        add("Exercise Ball Leg Curl (SHELC)", Hamstrings, Strength, ExerciseBall, Isolation, Beginner, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/exercise-ball-hamstring-curl");
+        add("Lying Cable Leg Curl", Hamstrings, Strength, List.of(AnkleStraps, Cable), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-cable-hamstring-curl.html");
+        add("One-Leg Lying Cable Hamstring Curl", Hamstrings, Strength, List.of(AnkleStraps, Cable), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-leg-lying-cable-hamstring-curl.html");
+        add("Partner Assisted Nordic Hamstring Curls", Hamstrings, Strength, Partner, Isolation, Advanced, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/partner-assisted-nordic-hamstring-curl");
+        add("Single Leg Exercise Ball Leg Curl", Hamstrings, Strength, ExerciseBall, Isolation, Advanced, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/single-leg-exercise-ball-leg-curl");
+        add("Single Leg Valslide Leg Curl", Hamstrings, Strength, ValSlide, Isolation, Advanced, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/single-leg-valslide-leg-curl");
+        add("Standing Cable Hamstring Curl", Hamstrings, Strength, List.of(Cable, AnkleStraps), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-cable-hamstring-curl.html");
+        add("Valslide Leg Curl", Hamstrings, Strength, ValSlide, Isolation, Beginner, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/valslide-leg-curl");
+
+        Folder kettlebellSwings = new Folder("Kettlebell Swings");
+        hamstrings.folders.add(kettlebellSwings);
+        currentFolder = kettlebellSwings;
+        add("Double Kettlebell Swing", Hamstrings, Strength, KettleBells, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/double-kettlebell-swing");
+        add("Kettlebell Swing", Hamstrings, Strength, KettleBells, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/kettlebell-swing");
+        add("One Arm Kettlebell Swing", Hamstrings, Strength, KettleBells, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/one-arm-kettlebell-swing");
+
+        Folder hamRaises = new Folder("Ham Raises");
+        hamstrings.folders.add(hamRaises);
+        currentFolder = hamRaises;
         add("Glute Ham Raise (GHR)", Hamstrings, Strength, LowerBackStand2, Isolation, Intermediate, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/glute-ham-raise");
         add("Plate Resisted Glute Ham Raise", Hamstrings, Strength, List.of(LowerBackStand2, Disk), Isolation, Advanced, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/plate-resisted-glute-ham-raise");
-        add("Single Leg Landmine Romanian Deadlift", Hamstrings, Strength, LandMine, Compound, Advanced, List.of(FrontalAbs, Forearms, Glutes, Lats, LowerBack, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/single-leg-landmine-romanian-deadlift");
-        add("Razor Curl", Hamstrings, Strength, LowerBackStand2, Compound, Intermediate, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/razor-curl");
         add("Banded Glute Ham Raise", Hamstrings, Strength, List.of(LowerBackStand2, Bands), Isolation, Advanced, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/banded-glute-ham-raise");
 
+        Folder otherHamstrings = new Folder("Other hamstrings");
+        hamstrings.folders.add(otherHamstrings);
+        currentFolder = otherHamstrings;
+        add("Barbell Split Squat With Jump", Hamstrings, Strength, Barbell, Compound, Intermediate, List.of(Calves, Glutes, Quads), "https://www.muscleandstrength.com/exercises/barbell-split-jump.html");
+        add("Hamstring Foam Rolling", Hamstrings, SMR, FoamRoll, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/foam-rolling-hamstrings");
+        add("Hamstring Tiger Tail", Hamstrings, SMR, TigerTail, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/hamstring-tiger-tail");
+        add("Inchworm", Hamstrings, Warmup, Bodyweight, Compound, Beginner, List.of(FrontalAbs, Calves, Shoulders), "https://www.muscleandstrength.com/exercises/inchworm");
+        add("Trap Bar Rack Pull", Hamstrings, Strength, List.of(TrapBar, Rack), Compound, Beginner, List.of(FrontalAbs, Adductors, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/trap-bar-rack-pull");
+        add("Razor Curl", Hamstrings, Strength, LowerBackStand2, Compound, Intermediate, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/razor-curl");
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////// Hip Flexors
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        Folder hipFlexors = new Folder("Hip Flexors");
+        muscleFolders.put(HipFlexors, hipFlexors);
+        currentFolder = hipFlexors;
         add("Cradle Walk to Forward Lunge", HipFlexors, Warmup, Bodyweight, Compound, Beginner, List.of(Glutes, Hamstrings, Quads), "https://www.muscleandstrength.com/exercises/cradle-walk-to-forward-lunge");
         add("Lying Psoas March", HipFlexors, Activation, Bands, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-psoas-march");
         add("Standing Hip Flexion w/ Bands", HipFlexors, Activation, Bands, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-hip-flexion-with-bands");
@@ -827,78 +853,133 @@ public class Exercise {
         add("Hip Flexor Lacrosse Ball", HipFlexors, SMR, LacrosseBall, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/hip-flexor-lacrosse-ball");
         add("Kneeling Posterior Hip Capsule Mobilization", HipFlexors, Warmup, Bodyweight, Compound, Beginner, Glutes, "https://www.muscleandstrength.com/exercises/kneeling-posterior-hip-capsule-mobilization");
 
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////// IT Bands
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        Folder itBands = new Folder("IT Band");
+        muscleFolders.put(ItBand, itBands);
+        currentFolder = itBands;
         add("IT Band Foam Rolling", ItBand, SMR, FoamRoll, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/foam-rolling-it-band");
 
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////// Lats
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        Folder lats = new Folder("Lats");
+        muscleFolders.put(Lats, lats);
+        Folder latPullDown = new Folder("Lat Pull Down");
+        lats.folders.add(latPullDown);
+        currentFolder = latPullDown;
         add("Lat Pull Down", Lats, Strength, LatCable, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/lat-pull-down.html");
         add("Straight Arm Lat Pull Down", Lats, Strength, Cable, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/straight-arm-lat-pull-down.html");
+        add("Behind Neck Lat Pull Down", Lats, Strength, LatCable, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/behind-neck-lat-pull-down.html");
+        add("Close Grip Lat Pull Down", Lats, Strength, LatCable, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/close-grip-pull-down.html");
+        add("Lateral Pulldown (Rope Extension)", Lats, Strength, LatCable, Compound, Beginner, List.of(Biceps, MiddleBack, Shoulders), "https://www.muscleandstrength.com/exercises/rope-lat-pull-down.html");
+        add("Overhand Close Grip Lateral Pulldown", Lats, Strength, LatCable, Compound, Beginner, List.of(Biceps, MiddleBack, Shoulders), "https://www.muscleandstrength.com/exercises/overhand-close-grip-lat-pull-down.html");
+        add("Reverse Grip Lat Pull Down (Underhand)", Lats, Strength, LatCable, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/reverse-grip-lat-pull-down.html");
+        add("Rope Straight Arm Pull Down", Lats, Strength, Cable, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/rope-straight-arm-pull-down");
+        add("Underhand Close Grip Lateral Pulldown", Lats, Strength, LatCable, Compound, Intermediate, List.of(Biceps, MiddleBack), "https://www.muscleandstrength.com/exercises/underhand-close-grip-lat-pull-down.html");
+        add("V-Bar Pull Down", Lats, Strength, List.of(LatCable, VBar), Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/v-bar-pull-down");
+        add("Wide Grip Lat Pull Down", Lats, Strength, LatCable, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/wide-grip-pull-down");
+
+        Folder bodyLifts = new Folder("Body Lifts");
+        lats.folders.add(bodyLifts);
+
+        Folder pullUps = new Folder("Pull ups");
+        bodyLifts.folders.add(pullUps);
+        currentFolder = pullUps;
         add("Wide Grip Pull Up", Lats, Strength, FixedUpperBar, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/wide-grip-pull-up.html");
         add("Archer Pull Up", Lats, Strength, FixedUpperBar, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/archer-pull-up");
-        add("Arms Only Rope Climb", Lats, Strength, HangingRope, Compound, Advanced, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/arms-only-rope-climb");
+        add("Close Grip Pull Up", Lats, Strength, FixedUpperBar, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/close-grip-pull-up.html");
+        add("Double Pause Pull Up", Lats, Strength, FixedUpperBar, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/double-pause-pull-up");
+        add("Eccentric Only Pull Up", Lats, Strength, FixedUpperBar, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/eccentric-only-pull-up");
+        add("Grip Ball Pull Ups", Lats, Strength, GripBalls, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/grip-ball-pull-up");
+        add("L-Sit Pull Up", Lats, Strength, FixedUpperBar, Compound, Advanced, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/l-sit-pull-up");
+        add("Pull Up", Lats, Strength, FixedUpperBar, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/pull-up");
+        add("Pull Up with Leg Raise", Lats, Strength, FixedUpperBar, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/pull-up-with-leg-raise");
+        add("Resistance Band Assisted Pull Up (From Foot)", Lats, Strength, List.of(Bands, FixedUpperBar), Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/band-assisted-pull-up-from-foot");
+        add("Resistance Band Assisted Pull Up (From Knee)", Lats, Strength, List.of(FixedUpperBar, Bands), Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/band-assisted-pull-up-from-knee");
+        add("Rope Pull Up", Lats, Strength, List.of(FixedUpperBar, Rope), Compound, Intermediate, List.of(Biceps, MiddleBack), "https://www.muscleandstrength.com/exercises/rope-pull-up.html");
+        add("Single Pause Pull Up", Lats, Strength, FixedUpperBar, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/single-pause-pull-up");
+        add("V-Bar Pull Up", Lats, Strength, List.of(FixedUpperBar, VBar), Compound, Beginner, List.of(Biceps, MiddleBack, Shoulders), "https://www.muscleandstrength.com/exercises/v-bar-pull-up.html");
+        add("Weighted Pull Up", Lats, Strength, List.of(FixedUpperBar, WeightStrap), Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/weighted-pull-up");
+        add("Weighted Pull Up Hang", Lats, Strength, List.of(FixedUpperBar, WeightStrap), Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/weighted-pull-up-hang");
+
+        Folder chinUps = new Folder("Chin ups");
+        bodyLifts.folders.add(chinUps);
+        currentFolder = chinUps;
         add("Around the Bar Chin Ups", Lats, Strength, FixedUpperBar, Isolation, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/around-the-bar-chin-up");
         add("Band Assisted Chin Up (From Foot)", Lats, Strength, List.of(FixedUpperBar, Bands), Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/resistance-banded-chin-up-from-foot");
         add("Band Assisted Chin Up (From Knee)", Lats, Strength, List.of(FixedUpperBar, Bands), Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/band-assisted-chin-up-from-knee");
         add("Band Resisted Chin Up", Lats, Strength, List.of(FixedUpperBar, Bands), Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/band-resisted-chin-up");
-        add("Behind Neck Lat Pull Down", Lats, Strength, LatCable, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/behind-neck-lat-pull-down.html");
         add("Chin Up", Lats, Strength, FixedUpperBar, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/chin-up.html");
         add("Chin Up With Leg Raise", Lats, Strength, FixedUpperBar, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/chin-up-with-leg-raise");
         add("Close Grip Chin Up", Lats, Strength, FixedUpperBar, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/close-grip-chin-up");
-        add("Close Grip Lat Pull Down", Lats, Strength, LatCable, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/close-grip-pull-down.html");
-        add("Close Grip Pull Up", Lats, Strength, FixedUpperBar, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/close-grip-pull-up.html");
         add("Double Pause Chin Up", Lats, Strength, FixedUpperBar, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/double-pause-chin-up");
-        add("Double Pause Pull Up", Lats, Strength, FixedUpperBar, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/double-pause-pull-up");
         add("Eccentric Only Chin Up", Lats, Strength, FixedUpperBar, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/eccentric-only-chin-up");
-        add("Eccentric Only Pull Up", Lats, Strength, FixedUpperBar, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/eccentric-only-pull-up");
         add("Gironda Sternum Chin Up", Lats, Strength, FixedUpperBar, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/gironda-sternum-chin-up");
-        add("Grip Ball Pull Ups", Lats, Strength, GripBalls, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/grip-ball-pull-up");
         add("L-Sit Chin Up", Lats, Strength, FixedUpperBar, Compound, Advanced, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/l-sit-chin-up");
-        add("L-Sit Pull Up", Lats, Strength, FixedUpperBar, Compound, Advanced, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/l-sit-pull-up");
-        add("Lat Foam Rolling", Lats, SMR, FoamRoll, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/foam-rolling-lats");
-        add("Lateral Pulldown (Rope Extension)", Lats, Strength, LatCable, Compound, Beginner, List.of(Biceps, MiddleBack, Shoulders), "https://www.muscleandstrength.com/exercises/rope-lat-pull-down.html");
         add("Mixed Grip Chin Up", Lats, Strength, FixedUpperBar, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/mixed-grip-chin-up");
         add("One Arm Chin Up", Lats, Strength, FixedUpperBar, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/one-arm-chin-up");
-        add("Overhand Close Grip Lateral Pulldown", Lats, Strength, LatCable, Compound, Beginner, List.of(Biceps, MiddleBack, Shoulders), "https://www.muscleandstrength.com/exercises/overhand-close-grip-lat-pull-down.html");
-        add("Overhead Medicine Ball Figure 8 Slam", Lats, Plyometrics, MedicineBall, Compound, Intermediate, List.of(FrontalAbs, Triceps, UpperBack), "https://www.muscleandstrength.com/exercises/overhead-medicine-ball-figure-8-slam");
-        add("Pull Up", Lats, Strength, FixedUpperBar, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/pull-up");
-        add("Pull Up with Leg Raise", Lats, Strength, FixedUpperBar, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/pull-up-with-leg-raise");
-        add("Rack Lat Stretch", Lats, Warmup, Rack, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/rack-lat-stretch");
-        add("Resistance Band Assisted Pull Up (From Foot)", Lats, Strength, List.of(Bands, FixedUpperBar), Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/band-assisted-pull-up-from-foot");
-        add("Resistance Band Assisted Pull Up (From Knee)", Lats, Strength, List.of(FixedUpperBar, Bands), Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/band-assisted-pull-up-from-knee");
-        add("Reverse Grip Lat Pull Down (Underhand)", Lats, Strength, LatCable, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/reverse-grip-lat-pull-down.html");
-        add("Rope Climb", Lats, Strength, HangingRope, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/rope-climb");
-        add("Rope Pull Up", Lats, Strength, List.of(FixedUpperBar, Rope), Compound, Intermediate, List.of(Biceps, MiddleBack), "https://www.muscleandstrength.com/exercises/rope-pull-up.html");
-        add("Rope Straight Arm Pull Down", Lats, Strength, Cable, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/rope-straight-arm-pull-down");
-        add("Shotgun Row", Lats, Strength, Cable, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/standing-one-arm-cable-row.html");
-        add("Single Leg Overhead Medicine Ball Tap", Lats, Plyometrics, List.of(MedicineBall, Wall), Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Quads, Triceps, UpperBack), "https://www.muscleandstrength.com/exercises/single-leg-overhead-medicine-ball-wall-tap");
         add("Single Pause Chin Up", Lats, Strength, FixedUpperBar, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/single-pause-chin-up");
-        add("Single Pause Pull Up", Lats, Strength, FixedUpperBar, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/single-pause-pull-up");
+        add("Triple Pause Chin Up", Lats, Strength, FixedUpperBar, Compound, Advanced, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/triple-pause-chin-up");
+        add("Weighted Chin Up", Lats, Strength, List.of(FixedUpperBar, WeightStrap), Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/weighted-chin-up");
+        add("Weighted Chin Up Hang", Lats, Strength, List.of(FixedUpperBar, WeightStrap), Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/weighted-chin-up-hang");
+        add("Wide Grip Chin Up", Lats, Strength, FixedUpperBar, Compound, Beginner, List.of(Biceps, MiddleBack, Shoulders), "https://www.muscleandstrength.com/exercises/wide-grip-chin-up.html");
+
+        Folder latRows = new Folder("Lat Rows");
+        lats.folders.add(latRows);
+        currentFolder = latRows;
+        add("Shotgun Row", Lats, Strength, Cable, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/standing-one-arm-cable-row.html");
+        add("Thibaudeau Kayak Row", Lats, Strength, Cable, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/thibaudeau-kayak-row");
+
+        Folder ropeClimbs = new Folder("Rope climbs");
+        lats.folders.add(ropeClimbs);
+        currentFolder = ropeClimbs;
+        add("Arms Only Rope Climb", Lats, Strength, HangingRope, Compound, Advanced, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/arms-only-rope-climb");
+        add("Rope Climb", Lats, Strength, HangingRope, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/rope-climb");
+
+        Folder otherLats = new Folder("Other Lats");
+        lats.folders.add(otherLats);
+        currentFolder = otherLats;
+        add("Lat Foam Rolling", Lats, SMR, FoamRoll, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/foam-rolling-lats");
+        add("Overhead Medicine Ball Figure 8 Slam", Lats, Plyometrics, MedicineBall, Compound, Intermediate, List.of(FrontalAbs, Triceps, UpperBack), "https://www.muscleandstrength.com/exercises/overhead-medicine-ball-figure-8-slam");
+        add("Rack Lat Stretch", Lats, Warmup, Rack, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/rack-lat-stretch");
+        add("Single Leg Overhead Medicine Ball Tap", Lats, Plyometrics, List.of(MedicineBall, Wall), Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Quads, Triceps, UpperBack), "https://www.muscleandstrength.com/exercises/single-leg-overhead-medicine-ball-wall-tap");
         add("Skin the Cat", Lats, Strength, Rings, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/skin-the-cat");
         add("Standing Overhead Medicine Ball Slam", Lats, Plyometrics, MedicineBall, Compound, Beginner, List.of(FrontalAbs, Triceps, UpperBack), "https://www.muscleandstrength.com/exercises/standing-overhead-medicine-ball-slam");
         add("Standing Overhead Medicine Ball Throw", Lats, Plyometrics, List.of(MedicineBall, Wall), Compound, Beginner, List.of(FrontalAbs, Triceps, UpperBack), "https://www.muscleandstrength.com/exercises/standing-overhead-medicine-ball-throw");
-        add("Thibaudeau Kayak Row", Lats, Strength, Cable, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/thibaudeau-kayak-row");
-        add("Triple Pause Chin Up", Lats, Strength, FixedUpperBar, Compound, Advanced, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/triple-pause-chin-up");
-        add("Underhand Close Grip Lateral Pulldown", Lats, Strength, LatCable, Compound, Intermediate, List.of(Biceps, MiddleBack), "https://www.muscleandstrength.com/exercises/underhand-close-grip-lat-pull-down.html");
-        add("V-Bar Pull Down", Lats, Strength, List.of(LatCable, VBar), Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/v-bar-pull-down");
-        add("V-Bar Pull Up", Lats, Strength, List.of(FixedUpperBar, VBar), Compound, Beginner, List.of(Biceps, MiddleBack, Shoulders), "https://www.muscleandstrength.com/exercises/v-bar-pull-up.html");
-        add("Weighted Chin Up", Lats, Strength, List.of(FixedUpperBar, WeightStrap), Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/weighted-chin-up");
-        add("Weighted Chin Up Hang", Lats, Strength, List.of(FixedUpperBar, WeightStrap), Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/weighted-chin-up-hang");
-        add("Weighted Pull Up", Lats, Strength, List.of(FixedUpperBar, WeightStrap), Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/weighted-pull-up");
-        add("Weighted Pull Up Hang", Lats, Strength, List.of(FixedUpperBar, WeightStrap), Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/weighted-pull-up-hang");
-        add("Wide Grip Chin Up", Lats, Strength, FixedUpperBar, Compound, Beginner, List.of(Biceps, MiddleBack, Shoulders), "https://www.muscleandstrength.com/exercises/wide-grip-chin-up.html");
-        add("Wide Grip Lat Pull Down", Lats, Strength, LatCable, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/wide-grip-pull-down");
 
-        add("Superman", LowerBack, Strength, Bodyweight, Isolation, Beginner, Glutes, "https://www.muscleandstrength.com/exercises/superman");
-        add("90/90 Hip Crossover", LowerBack, Warmup, Bodyweight, Compound, Beginner, List.of(Glutes, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/90-90-hip-crossover");
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////// Lower Back
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        Folder lowerBack = new Folder("Lower Back");
+        muscleFolders.put(LowerBack, lowerBack);
+        Folder lowerBackDeadLifts = new Folder("Lower back deadlifts");
+        lowerBack.folders.add(lowerBackDeadLifts);
+        currentFolder = lowerBackDeadLifts;
         add("Dumbbell Deadlift", LowerBack, Strength, Dumbbell, Compound, Beginner, List.of(Calves, Forearms, Glutes, Hamstrings, MiddleBack, Quads, Traps), "https://www.muscleandstrength.com/exercises/dumbbell-deadlift.html");
-        add("Rollover Into V-Sits", LowerBack, Warmup, Bodyweight, Compound, Beginner, List.of(Adductors, Hamstrings, UpperBack), "https://www.muscleandstrength.com/exercises/rollover-into-v-sits");
         add("Smith Machine Deadlift", LowerBack, Strength, SmithMachine, Compound, Intermediate, List.of(Calves, Forearms, Glutes, Hamstrings, Lats, MiddleBack, Quads, Traps), "https://www.muscleandstrength.com/exercises/smith-machine-deadlift.html");
 
+        Folder otherLowerBack = new Folder("Other lower back");
+        lowerBack.folders.add(otherLowerBack);
+        currentFolder = otherLowerBack;
+        add("Superman", LowerBack, Strength, Bodyweight, Isolation, Beginner, Glutes, "https://www.muscleandstrength.com/exercises/superman");
+        add("90/90 Hip Crossover", LowerBack, Warmup, Bodyweight, Compound, Beginner, List.of(Glutes, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/90-90-hip-crossover");
+        add("Rollover Into V-Sits", LowerBack, Warmup, Bodyweight, Compound, Beginner, List.of(Adductors, Hamstrings, UpperBack), "https://www.muscleandstrength.com/exercises/rollover-into-v-sits");
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////// Upper Back
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        Folder upperBack = new Folder("Upper Back");
+        muscleFolders.put(UpperBack, upperBack);
+        Folder rows = new Folder("Rows");
+        upperBack.folders.add(rows);
+        currentFolder = rows;
         add("Bent Over Row", UpperBack, Strength, Barbell, Compound, Beginner, List.of(FrontalAbs, Biceps, Lats, LowerBack, Shoulders), "https://www.muscleandstrength.com/exercises/bent-over-barbell-row.html");
         add("Machine T-Bar Row", UpperBack, Strength, TBar, Compound, Beginner, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/machine-t-bar-row.html");
         add("Banded Machine T-Bar Row", UpperBack, Strength,  TBar, Compound, Intermediate, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/banded-machine-t-bar-row");
         add("Reverse Grip Machine T-Bar Row", UpperBack, Strength, TBar, Compound, Intermediate, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/reverse-grip-machine-t-bar-row.html");
         add("Seated Cable Row", UpperBack, Strength, RowCable, Compound, Beginner, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/seated-row.html");
-        add("Batwing Reverse Sled Drag", UpperBack, Conditioning, Sled, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Hamstrings, Lats, Quads, Shoulders, Traps), "https://www.muscleandstrength.com/exercises/batwing-reverse-sled-drag");
-        add("Bench T-Spine Mobilization", UpperBack, Warmup, Bench, Compound, Beginner, Lats, "https://www.muscleandstrength.com/exercises/bench-t-spine-mobilization");
         add("Bent Over Dumbbell Row", UpperBack, Strength, Dumbbell, Compound, Beginner, List.of(FrontalAbs, Biceps, Lats, LowerBack, Shoulders), "https://www.muscleandstrength.com/exercises/bent-over-dumbbell-row.html");
         add("Bent Over Kettlebell Row", UpperBack, Strength, KettleBells, Compound, Beginner, List.of(FrontalAbs, Biceps, Lats, LowerBack, Shoulders), "https://www.muscleandstrength.com/exercises/bent-over-kettlebell-row");
         add("Cable Palm Rotational Row", UpperBack, Strength, Cable, Compound, Intermediate, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/cable-palm-rotational-row.html");
@@ -906,8 +987,6 @@ public class Exercise {
         add("Deadstop Rack Row", UpperBack, Strength, Rack, Compound, Beginner, List.of(FrontalAbs, Biceps, Lats, LowerBack, Shoulders), "https://www.muscleandstrength.com/exercises/deadstop-rack-row");
         add("Double Arm Sled Row", UpperBack, Conditioning, Sled, Compound, Beginner, List.of(FrontalAbs, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/double-arm-sled-row");
         add("Feet Elevated Inverted Row", UpperBack, Strength, List.of(SmithMachine, Bench), Compound, Beginner, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/smith-machine-bodyweight-row.html");
-        add("Field Goal Angel Foam Rolling", UpperBack, Warmup, FoamRoll, Compound, Beginner, List.of(Chest, Shoulders), "https://www.muscleandstrength.com/exercises/field-goal-angel-foam-rolling");
-        add("High Pull Sled Drag", UpperBack, Conditioning, Sled, Compound, Beginner, List.of(Biceps, Shoulders, Traps), "https://www.muscleandstrength.com/exercises/high-pull-sled-drag");
         add("Incline Bench Barbell Row", UpperBack, Strength, List.of(InclineBench, Barbell), Compound, Intermediate, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/incline-bench-barbell-row.html");
         add("Incline Bench Cable Row", UpperBack, Strength, List.of(InclineBench, Cable), Compound, Intermediate, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/incline-bench-cable-row.html");
         add("Incline Bench Cable Row (Rope Extension)", UpperBack, Strength, List.of(InclineBench, Cable), Compound, Intermediate, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/incline-bench-cable-row-rope-extension.html");
@@ -922,7 +1001,6 @@ public class Exercise {
         add("Palm Rotational Row", UpperBack, Strength, Dumbbell, Compound, Intermediate, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/palm-rotational-row.html");
         add("Palms In Bent-Over Dumbbell Row", UpperBack, Strength, Dumbbell, Compound, Beginner, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/palms-in-bent-over-dumbbell-row.html");
         add("Pendlay Row", UpperBack, Strength, Barbell, Compound, Intermediate, List.of(FrontalAbs, Biceps, Lats, LowerBack, Shoulders), "https://www.muscleandstrength.com/exercises/pendlay-row");
-        add("Quadruped Extension Rotation", UpperBack, Warmup, Bodyweight, Compound, Beginner, List.of(Chest, Shoulders), "https://www.muscleandstrength.com/exercises/quadruped-extension-rotation");
         add("Renegade Row", UpperBack, Strength, Dumbbell, Compound, Intermediate, List.of(FrontalAbs, Biceps, Chest, Lats, LowerBack, Shoulders), "https://www.muscleandstrength.com/exercises/renegade-row");
         add("Reverse Grip Bent Over Row", UpperBack, Strength, Barbell, Compound, Intermediate, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/reverse-grip-bent-over-row.html");
         add("Reverse Grip Bent-Over Dumbbell Row", UpperBack, Strength, Dumbbell, Compound, Intermediate, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/reverse-grip-bent-over-dumbbell-row.html");
@@ -933,27 +1011,62 @@ public class Exercise {
         add("Reverse Grip Smith Machine Bent-Over Row", UpperBack, Strength, SmithMachine, Compound, Beginner, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/reverse-grip-smith-machine-bent-over-row.html");
         add("Reverse Lunge Sled Row", UpperBack, Conditioning, Sled, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Lats, Quads, Shoulders), "https://www.muscleandstrength.com/exercises/reverse-lunge-sled-row");
         add("Ring Inverted Row with Chains", UpperBack, Strength, List.of(Rings, Chains), Compound, Intermediate, List.of(FrontalAbs, Biceps, Lats, LowerBack, Shoulders), "https://www.muscleandstrength.com/exercises/ring-inverted-row-with-chains");
-        add("Rock Back Extension Rotation", UpperBack, Warmup, Bodyweight, Compound, Beginner, List.of(Chest, Shoulders), "https://www.muscleandstrength.com/exercises/rock-back-extension-rotation");
         add("Rope Crossover Seated Row", UpperBack, Strength, RowCable, Compound, Intermediate, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/rope-crossover-seated-row.html");
         add("Seated High Cable Row", UpperBack, Strength, RowCable, Compound, Beginner, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/seated-high-cable-row.html");
         add("Seated Row (Rope Extension)", UpperBack, Strength, RowCable, Compound, Beginner, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/seated-row-using-rope.html");
         add("Smith Machine Bent-Over Row", UpperBack, Strength, SmithMachine, Compound, Beginner, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/smith-machine-bent-over-row.html");
         add("Smith Machine One-Arm Row", UpperBack, Strength, SmithMachine, Compound, Beginner, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/smith-machine-one-arm-row.html");
         add("T-Bar Row", UpperBack, Strength, List.of(LandMine, VBar), Compound, Beginner, List.of(FrontalAbs, Biceps, Lats, LowerBack, Shoulders, Traps), "https://www.muscleandstrength.com/exercises/bent-over-row.html");
-        add("Thoracic Extension on Foam Roller", UpperBack, Warmup, FoamRoll, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/thoracic-extension-on-foam-roller");
         add("Trap Bar Row", UpperBack, Strength, TrapBar, Compound, Beginner, List.of(FrontalAbs, Biceps, Lats, LowerBack), "https://www.muscleandstrength.com/exercises/trap-bar-row");
         add("Tripod Dumbbell Row", UpperBack, Strength, List.of(Bench, Dumbbell), Compound, Beginner, List.of(FrontalAbs, Biceps, Lats, LowerBack, Shoulders), "https://www.muscleandstrength.com/exercises/tripod-dumbbell-row");
         add("Weight Vest Weighted Inverted Row", UpperBack, Strength, List.of(Rings, WeightVest), Compound, Intermediate, List.of(FrontalAbs, Biceps, Lats, LowerBack, Shoulders, Traps), "https://www.muscleandstrength.com/exercises/weight-vest-weighted-inverted-row");
         add("Weighted Inverted Row", UpperBack, Strength, List.of(Rings, Disk), Compound, Intermediate, List.of(FrontalAbs, Biceps, Lats, LowerBack, Shoulders, Traps), "https://www.muscleandstrength.com/exercises/weighted-inverted-row");
+
+        Folder otherUpperBack = new Folder("Other Upper Back");
+        upperBack.folders.add(otherUpperBack);
+        currentFolder = otherUpperBack;
+        add("Batwing Reverse Sled Drag", UpperBack, Conditioning, Sled, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Hamstrings, Lats, Quads, Shoulders, Traps), "https://www.muscleandstrength.com/exercises/batwing-reverse-sled-drag");
+        add("Bench T-Spine Mobilization", UpperBack, Warmup, Bench, Compound, Beginner, Lats, "https://www.muscleandstrength.com/exercises/bench-t-spine-mobilization");
+        add("Field Goal Angel Foam Rolling", UpperBack, Warmup, FoamRoll, Compound, Beginner, List.of(Chest, Shoulders), "https://www.muscleandstrength.com/exercises/field-goal-angel-foam-rolling");
+        add("High Pull Sled Drag", UpperBack, Conditioning, Sled, Compound, Beginner, List.of(Biceps, Shoulders, Traps), "https://www.muscleandstrength.com/exercises/high-pull-sled-drag");
+        add("Quadruped Extension Rotation", UpperBack, Warmup, Bodyweight, Compound, Beginner, List.of(Chest, Shoulders), "https://www.muscleandstrength.com/exercises/quadruped-extension-rotation");
+        add("Rock Back Extension Rotation", UpperBack, Warmup, Bodyweight, Compound, Beginner, List.of(Chest, Shoulders), "https://www.muscleandstrength.com/exercises/rock-back-extension-rotation");
+        add("Thoracic Extension on Foam Roller", UpperBack, Warmup, FoamRoll, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/thoracic-extension-on-foam-roller");
         add("World's Greatest Stretch", UpperBack, Warmup, Bodyweight, Compound, Beginner, List.of(Chest, Glutes, Hamstrings, Quads, Shoulders), "https://www.muscleandstrength.com/exercises/worlds-greatest-stretch");
         add("Yoga Plex", UpperBack, Warmup, Risers, Compound, Beginner, List.of(Chest, Glutes, Shoulders), "https://www.muscleandstrength.com/exercises/yoga-plex");
 
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////// Neck
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        Folder neck = new Folder("Neck");
+        muscleFolders.put(Neck, neck);
+        currentFolder = neck;
         add("Neck Tiger Tail", Neck, SMR, TigerTail, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/neck-tiger-tail");
 
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////// Palmar Fascia
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        Folder palmarFascia = new Folder("Palmar Fascia");
+        muscleFolders.put(PalmarFascia, palmarFascia);
+        currentFolder = palmarFascia;
         add("Palmar Fascia Lacrosse Ball", PalmarFascia, SMR, List.of(Bench, LacrosseBall), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/palmar-fascia-lacrosse-ball");
 
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////// Plantar Fascia
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        Folder plantarFascia = new Folder("Plantar Fascia");
+        muscleFolders.put(PlantarFascia, plantarFascia);
+        currentFolder = plantarFascia;
         add("Plantar Fascia Lacrosse Ball", PlantarFascia, SMR, LacrosseBall, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/plantar-fascia-lacrosse-ball");
 
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////// Quads
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        Folder quads = new Folder("Quads");
+        muscleFolders.put(Quads, quads);
+        Folder squats = new Folder("Squats");
+        quads.folders.add(squats);
+        currentFolder = squats;
         add("Barbell Back Squat", Quads, Strength, Rack, Compound, Intermediate, List.of(Calves, Glutes, Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/squat.html");
         add("Leg Press", Quads, Strength, LegPress, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/45-degree-leg-press.html");
         add("1 Dumbbell Step Up", Quads, Strength, List.of(Risers, Dumbbell), Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/1-dumbbell-step-up");
