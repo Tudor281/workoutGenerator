@@ -8,7 +8,7 @@ public enum ExerciseType {
     PowerLifting,
     SMR, // a warmup routine? There is warmup, probably post workout routine
     Strength,
-    S_tretching,
-    S_trongman,
+    Stretching,
+    Strongman,
     Warmup
 }
