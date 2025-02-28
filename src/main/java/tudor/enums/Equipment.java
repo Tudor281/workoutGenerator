@@ -71,7 +71,7 @@ public enum Equipment {
     TrapBar,
     ValSlide,
     VBar,
-    Wall, // a free wall. If there's mirrors everywhere or equipment, you can't do stuff against the wall
+    Wall, // a free wall. If there's mirrors everywhere or equipment, you can't do stuff against the wall. The wall must be dirtiable, throw balls at it.
     WeightStrap,
     WeightVest,
     WristRoller,
