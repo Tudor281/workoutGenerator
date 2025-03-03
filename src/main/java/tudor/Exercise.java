@@ -255,13 +255,16 @@ public class Exercise {
         add("Dumbbell Side Bends", FrontalAbs, Strength, Dumbbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/dumbbell-side-bends.html");
         add("Alternating Seated Dumbbell Side Bends", Obliques, Strength, List.of(Bench,  Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-dumbbell-side-bends.html");
 
-        Folder cableLifts = new Folder("Cable lifts");
+        Folder cableLifts = new Folder("Cable Lifts");
         obliques.folders.add(cableLifts);
         currentFolder = cableLifts;
         add("Half Kneeling Cable Lift", Obliques, Strength, Cable, Compound, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/half-kneeling-cable-lift");
         add("Split Stance Cable Lift", Obliques, Strength, Cable, Compound, Intermediate, FrontalAbs, "https://www.muscleandstrength.com/exercises/split-stance-cable-lift");
         add("Tall Kneeling Cable Lift", Obliques, Strength, Cable, Compound, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/tall-kneeling-cable-lift");
 
+        Folder otherObliques = new Folder("Other Obliques");
+        obliques.folders.add(otherObliques);
+        currentFolder = otherObliques;
         add("Landmine Rotation", Obliques, Strength, LandMine, Compound, Intermediate, FrontalAbs, "https://www.muscleandstrength.com/exercises/landmine-rotation");
         add("Off Bench Oblique Hold", Obliques, Strength, BenchPress, Compound, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/off-bench-oblique-hold");
         add("Side Crunch (AKA Oblique Crunch)", Obliques, Strength, Bodyweight, Isolation, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/side-crunch.html");
@@ -726,7 +729,7 @@ public class Exercise {
         add("Side Lying Clam", Glutes, Warmup, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/side-lying-clam");
         add("Side Lying Clam with Band", Glutes, Warmup, Bands, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/side-lying-clam-with-band");
 
-        Folder otherGlutes = new Folder("Other glutes");
+        Folder otherGlutes = new Folder("Other Glutes");
         glutes.folders.add(otherGlutes);
         currentFolder = otherGlutes;
         add("90/90 Piriformis Stretch", Glutes, Warmup, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/90-90-piriformis-stretch");
@@ -828,7 +831,7 @@ public class Exercise {
         add("Plate Resisted Glute Ham Raise", Hamstrings, Strength, List.of(LowerBackStand2, Disk), Isolation, Advanced, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/plate-resisted-glute-ham-raise");
         add("Banded Glute Ham Raise", Hamstrings, Strength, List.of(LowerBackStand2, Bands), Isolation, Advanced, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/banded-glute-ham-raise");
 
-        Folder otherHamstrings = new Folder("Other hamstrings");
+        Folder otherHamstrings = new Folder("Other Hamstrings");
         hamstrings.folders.add(otherHamstrings);
         currentFolder = otherHamstrings;
         add("Barbell Split Squat With Jump", Hamstrings, Strength, Barbell, Compound, Intermediate, List.of(Calves, Glutes, Quads), "https://www.muscleandstrength.com/exercises/barbell-split-jump.html");
@@ -932,7 +935,7 @@ public class Exercise {
         add("Shotgun Row", Lats, Strength, Cable, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/standing-one-arm-cable-row.html");
         add("Thibaudeau Kayak Row", Lats, Strength, Cable, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/thibaudeau-kayak-row");
 
-        Folder ropeClimbs = new Folder("Rope climbs");
+        Folder ropeClimbs = new Folder("Rope Climbs");
         lats.folders.add(ropeClimbs);
         currentFolder = ropeClimbs;
         add("Arms Only Rope Climb", Lats, Strength, HangingRope, Compound, Advanced, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/arms-only-rope-climb");
@@ -1527,7 +1530,7 @@ public class Exercise {
         add("Single Arm Banded External Rotation", Shoulders, Strength, List.of(Pole, Rack), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/single-arm-banded-external-rotation");
         add("Standing External Rotation (No Money Drill)", Shoulders, Strength, Bands, Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/standing-external-rotation-no-money");
 
-        Folder otherShoulders = new Folder("Other Folders");
+        Folder otherShoulders = new Folder("Other Shoulders");
         shoulders.folders.add(otherShoulders);
         add("Banded Shoulder Dislocates", Shoulders, Warmup, Bands, Compound, Beginner, Traps, "https://www.muscleandstrength.com/exercises/banded-shoulder-dislocates");
         add("Kettlebell Arm Bar", Shoulders, Warmup, KettleBells, Compound, Intermediate, List.of(Chest, Glutes, HipFlexors, Triceps, UpperBack), "https://www.muscleandstrength.com/exercises/kettlebell-arm-bar");
