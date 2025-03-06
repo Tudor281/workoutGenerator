@@ -19,7 +19,7 @@ public class Exercise {
     List<Muscle> secondaryMuscles;
     public List<Equipment> equipment;
     Mechanics mechanics;
-    ExerciseType type;
+    public ExerciseType type;
     Level level;
     String url;
 
@@ -867,8 +867,10 @@ public class Exercise {
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //////////// Lats
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        Folder back = new Folder("Back");
         Folder lats = new Folder("Lats");
         muscleFolders.put(Lats, lats);
+        back.folders.add(lats);
         Folder latPullDown = new Folder("Lat Pull Down");
         lats.folders.add(latPullDown);
         currentFolder = latPullDown;
@@ -957,6 +959,7 @@ public class Exercise {
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         Folder lowerBack = new Folder("Lower Back");
         muscleFolders.put(LowerBack, lowerBack);
+        back.folders.add(lowerBack);
         Folder lowerBackDeadLifts = new Folder("Lower back deadlifts");
         lowerBack.folders.add(lowerBackDeadLifts);
         currentFolder = lowerBackDeadLifts;
@@ -975,6 +978,7 @@ public class Exercise {
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         Folder upperBack = new Folder("Upper Back");
         muscleFolders.put(UpperBack, upperBack);
+        back.folders.add(upperBack);
         Folder rows = new Folder("Rows");
         upperBack.folders.add(rows);
         currentFolder = rows;
@@ -1782,5 +1786,9 @@ public class Exercise {
             if (exercise.name.equalsIgnoreCase(name)) return exercise;
         }
         throw new RuntimeException("Exercise not found ("+name+")");
+    }
+
+    public void toExcel() {
+        System.out.println(name + "\t" + url);
     }
 }

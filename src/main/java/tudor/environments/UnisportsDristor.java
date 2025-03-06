@@ -86,6 +86,7 @@ public class UnisportsDristor extends Environment {
 
     @Override
     public boolean hasEquipment(Exercise exercise) {
+        if (flaggedExercises.containsKey(exercise)) return false;
         for (Equipment equipment : exercise.equipment) {
             if (!(availableEquipment.contains(equipment) || hasSubstitutes(exercise, equipment))) {
                 return false;
