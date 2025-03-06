@@ -34,6 +34,8 @@ public class Primary4 extends Schedule {
         exercises = findExercises("Quads", List.of("Squats", "Lunges"), Strength);
         exercises.addAll(findExercises("Hamstrings", List.of(), Strength));
         exercises.addAll(findExercises("Glutes", List.of(), Strength));
+        exercises.addAll(findExercises("Abductors", List.of(), Strength));
+        exercises.addAll(findExercises("Adductors", List.of(), Strength));
         pick("Other legs", exercises, 3);
 
         System.out.println("Shoulders");
