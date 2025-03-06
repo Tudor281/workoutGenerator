@@ -1,7 +1,6 @@
 package tudor.enums;
 
 public enum Equipment {
-    AnkleStraps,
     Bands,
     Barbell,
     BarbellFoam,
@@ -13,7 +12,13 @@ public enum Equipment {
     BosuBall,
     Box,
     Cable, // TODO Should have grips added specifically
+    CableAttachmentAnkleStrapsX1,
+    CableAttachmentAnkleStrapsX2,
+    CableAttachmentBentBar,
     CableAttachmentLongRope,
+    CableAttachmentRope,
+    CableAttachmentSingleArm,
+    CableAttachmentStraightBar,
     CalfMachine,
     Chains,
     DeclineBench,
@@ -30,16 +35,17 @@ public enum Equipment {
     FoamRoll,
     FootStand,
     GripBalls,
+    GymMats,
     HackSquatMachine,
     HammerBar,
     HangingRope,
-    HipStrap,
     HipThruster,
     Hurdle,
     InclineBench,
     InclineBenchPress,
     JumpRope,
-    KettleBells,
+    KettleBellsX1,
+    KettleBellsX2,
     LacrosseBall,
     LandMine,
     LatCable, // the cable machine for lats

@@ -9,5 +9,5 @@ public class Probabilities {
 
     Map<Folder, Integer> folders = new HashMap<>();
     Map<Exercise, Integer> exercises = new HashMap<>();
-    Map<Exercise, List<Flags>> flags = new HashMap<>();
+    Map<Exercise, List<Flag>> flags = new HashMap<>();
 }
