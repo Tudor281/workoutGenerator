@@ -1,6 +1,7 @@
 package tudor.enums;
 
 public enum Equipment {
+    AbsWheel,
     Bands,
     Barbell,
     BarbellFoam,

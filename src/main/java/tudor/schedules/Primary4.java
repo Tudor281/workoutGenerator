@@ -25,7 +25,7 @@ public class Primary4 extends Schedule {
         pick("Flys", exercises, 2);
 
         exercises = findExercises("Chest", List.of("Bench Presses", "Flys", "Push Ups"), Strength);
-        pick("Other chests", exercises, 2);
+        pick("Other chests", exercises, 1);
 
         System.out.println("Legs");
         exercises = findExercises(List.of("Squats", "Lunges"), Strength);
@@ -50,9 +50,9 @@ public class Primary4 extends Schedule {
         exercises = findExercises("Lat Pull Down", List.of(), Strength);
         pick("Lat Pull Down", exercises, 1);
         exercises = findExercises("Lats", List.of("Lat Pull Down"), Strength);
-        pick("Other lats", exercises, 1);
+        pick("Other lats", exercises, 2);
         exercises = findExercises("Upper Back", List.of(), Strength);
-        pick("Upper Back", exercises, 1);
+        pick("Upper Back", exercises, 2);
         exercises = findExercises("Lower Back", List.of(), Strength);
         pick("Lower Back", exercises, 1);
 

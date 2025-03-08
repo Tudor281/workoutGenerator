@@ -37,11 +37,13 @@ public class UnisportsDristor extends Environment {
         availableEquipment.add(DoubleCable);
         availableEquipment.add(Dumbbell);
         availableEquipment.add(FixedUpperBar);
+        availableEquipment.add(GripBalls);
         availableEquipment.add(GymMats);
         availableEquipment.add(HammerBar);
         availableEquipment.add(InclineBench);
         availableEquipment.add(InclineBenchPress);
         availableEquipment.add(KettleBellsX1);
+        availableEquipment.add(LandMine);
         availableEquipment.add(LatCable);
         availableEquipment.add(LegExtensionMachine);
         availableEquipment.add(LegPress);
@@ -73,6 +75,7 @@ public class UnisportsDristor extends Environment {
         flaggedExercises.put(Exercise.get("Decline Bench Barbell Lunge"), FootOnBench);
         flaggedExercises.put(Exercise.get("Decline Bench Bodyweight Lunge"), FootOnBench);
         flaggedExercises.put(Exercise.get("Decline Bench Dumbbell Lunge"), FootOnBench);
+        flaggedExercises.put(Exercise.get("Single Leg Squat From Bench"), FootOnBench);
 
         // feet weight -> preacher stand (are loc de picioare)
         generalSubstitutes.add(new DirectSubstitute(FeetWeight));

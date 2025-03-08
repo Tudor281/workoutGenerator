@@ -192,6 +192,7 @@ public class Exercise {
         Folder otherAbs = new Folder("Other Frontal Abs");
         frontalAbs.folders.add(otherAbs);
         currentFolder = otherAbs;
+        add("Abs Wheel", FrontalAbs, Strength, AbsWheel, Compound, Beginner, List.of(Lats, Chest), "https://www.youtube.com/shorts/ndc391RFNUM");
         add("3 Month Position Kettlebell Pullover", FrontalAbs, Strength, KettleBellsX1, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/3-month-position-kettlebell-pullover");
         add("Abdominal Air Bike (AKA Bicycle)", FrontalAbs, Strength, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/abdominal-air-bike.html");
         add("Abdominal Pendulum", FrontalAbs, Strength, Bodyweight, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/abdominal-pendulum.html");
@@ -480,7 +481,7 @@ public class Exercise {
         add("One Arm Kettlebell Bench Press", Chest, Strength, List.of(Bench, KettleBellsX1), Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/one-arm-kettlebell-bench-press");
         add("One-Arm Dumbbell Bench Press", Chest, Strength, List.of(Bench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-bench-press.html");
         add("Paused Barbell Bench Press", Chest, Strength, BenchPress, Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/paused-barbell-bench-press");
-        add("Resistance Banded Dumbbell Bench Press", Chest, Strength, List.of(Bench, Dumbbell), Compound, Advanced, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/resistance-banded-dumbbell-bench-press");
+        add("Resistance Banded Dumbbell Bench Press", Chest, Strength, List.of(Bench, Dumbbell, Bands), Compound, Advanced, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/resistance-banded-dumbbell-bench-press");
         add("Reverse Grip Bench Press", Chest, Strength, BenchPress, Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/reverse-grip-bench-press.html");
         add("Reverse Grip Dumbbell Bench Press", Chest, Strength, List.of(Bench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/reverse-dumbbell-bench-press.html");
         add("Reverse Grip Dumbbell Squeeze Press", Chest, Strength, List.of(Bench, Dumbbell), Compound, Intermediate, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/reverse-grip-dumbbell-squeeze-press");
@@ -682,13 +683,6 @@ public class Exercise {
         add("Seated Good Mornings", Glutes, Strength, List.of(Rack, Bench), Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, UpperBack), "https://www.muscleandstrength.com/exercises/seated-good-mornings.html");
         add("Single Leg Good Morning", Glutes, Strength, Rack, Compound, Advanced, List.of(FrontalAbs, Hamstrings, LowerBack, UpperBack), "https://www.muscleandstrength.com/exercises/single-leg-good-morning");
 
-        Folder hyperExtensions = new Folder("Hyperextensions");
-        glutes.folders.add(hyperExtensions);
-        currentFolder = hyperExtensions;
-        add("Hyperextension", Glutes, Strength, LowerBackStand, Isolation, Beginner, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/hyperextension.html");
-        add("Weighted Hyperextension", Glutes, Strength, LowerBackStand, Isolation, Intermediate, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/weighted-hyperextension");
-        add("Reverse Hyperextension", Glutes, Strength, LowerBackStand2, Isolation, Intermediate, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/reverse-hyperextension");
-
         Folder backExtensions = new Folder("Back Extensions");
         glutes.folders.add(backExtensions);
         currentFolder = backExtensions;
@@ -788,7 +782,7 @@ public class Exercise {
         add("Smith Machine Stiff Leg Deadlift", Hamstrings, Strength, SmithMachine, Compound, Intermediate, List.of(Glutes, LowerBack), "https://www.muscleandstrength.com/exercises/smith-machine-stiff-leg-deadlift.html");
         add("Snatch Grip Block Pull Deadlift", Hamstrings, Strength, Barbell, Compound, Advanced, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/snatch-grip-block-pull-deadlift");
         add("Snatch Grip Deadlift", Hamstrings, Strength, Barbell, Compound, Advanced, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/snatch-grip-deadlift");
-        add("Snatch Grip Deficit Deadlift", Hamstrings, Strength, Barbell, Compound, Advanced, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/snatch-grip-deficit-deadlift");
+        add("Snatch Grip Deficit Deadlift", Hamstrings, Strength, List.of(Barbell, Disk), Compound, Advanced, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/snatch-grip-deficit-deadlift");
         add("Snatch Grip Romanian Deadlift", Hamstrings, Strength, Barbell, Compound, Intermediate, List.of(FrontalAbs, Forearms, Glutes, Lats, LowerBack, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/snatch-grip-romanian-deadlift");
         add("Stiff Leg Deadlift (On Bench)", Hamstrings, Strength, List.of(Bench, Barbell), Isolation, Advanced, List.of(Glutes, LowerBack), "https://www.muscleandstrength.com/exercises/stiff-leg-deadlift-on-bench.html");
         add("Straight Leg Deadlift", Hamstrings, Strength, Barbell, Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Forearms, Glutes, Lats, LowerBack, Quads, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/straight-leg-deadlift");
@@ -973,6 +967,13 @@ public class Exercise {
         add("90/90 Hip Crossover", LowerBack, Warmup, Bodyweight, Compound, Beginner, List.of(Glutes, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/90-90-hip-crossover");
         add("Rollover Into V-Sits", LowerBack, Warmup, Bodyweight, Compound, Beginner, List.of(Adductors, Hamstrings, UpperBack), "https://www.muscleandstrength.com/exercises/rollover-into-v-sits");
 
+        Folder hyperExtensions = new Folder("Hyperextensions");
+        lowerBack.folders.add(hyperExtensions);
+        currentFolder = hyperExtensions;
+        add("Reverse Hyperextension", LowerBack, Strength, LowerBackStand2, Isolation, Intermediate, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/reverse-hyperextension");
+        add("Hyperextension", LowerBack, Strength, LowerBackStand, Isolation, Beginner, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/hyperextension.html");
+        add("Weighted Hyperextension", LowerBack, Strength, LowerBackStand, Isolation, Intermediate, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/weighted-hyperextension");
+
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //////////// Upper Back
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1141,6 +1142,7 @@ public class Exercise {
         add("Reverse Band Box Squat", Quads, Strength, List.of(Rack, Bands, Box), Compound, Advanced, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, HipFlexors, LowerBack), "https://www.muscleandstrength.com/exercises/reverse-band-box-squat");
         add("Safety Bar Squat", Quads, Strength, List.of(Rack, SafetyBar), Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/safety-bar-squat");
         add("Single Leg Squat From Bench", Quads, Strength, List.of(Bench, Disk), Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/single-leg-squat-from-bench");
+        add("(T) Single Leg Squat From Double Risers", Quads, Strength, List.of(Risers, Disk), Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/single-leg-squat-from-bench");
         add("Single Leg Wall Squat", Quads, Strength, Wall, Compound, Intermediate, List.of(FrontalAbs, Calves, Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/one-leg-bodyweight-wall-squat.html");
         add("Sissy Squat", Quads, Strength, Rack, Compound, Intermediate, List.of(Calves,  Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/sissy-squat.html");
         add("Smith Machine Box Squat", Quads, Strength, List.of(Bench, SmithMachine), Compound, Intermediate, List.of(Calves, Glutes, Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/smith-machine-squat-to-bench.html");
