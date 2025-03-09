@@ -683,12 +683,6 @@ public class Exercise {
         add("Seated Good Mornings", Glutes, Strength, List.of(Rack, Bench), Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, UpperBack), "https://www.muscleandstrength.com/exercises/seated-good-mornings.html");
         add("Single Leg Good Morning", Glutes, Strength, Rack, Compound, Advanced, List.of(FrontalAbs, Hamstrings, LowerBack, UpperBack), "https://www.muscleandstrength.com/exercises/single-leg-good-morning");
 
-        Folder backExtensions = new Folder("Back Extensions");
-        glutes.folders.add(backExtensions);
-        currentFolder = backExtensions;
-        add("GHD Back Extension", Glutes, Strength, LowerBackStand2, Isolation, Intermediate, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/ghd-back-extension");
-        add("GHD Back Extension Iso Hold", Glutes, Strength, LowerBackStand2, Compound, Intermediate, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/ghd-back-extension-iso-hold");
-
         Folder hipThrusts = new Folder("Hip Thrusts");
         glutes.folders.add(hipThrusts);
         currentFolder = hipThrusts;
@@ -973,6 +967,12 @@ public class Exercise {
         add("Reverse Hyperextension", LowerBack, Strength, LowerBackStand2, Isolation, Intermediate, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/reverse-hyperextension");
         add("Hyperextension", LowerBack, Strength, LowerBackStand, Isolation, Beginner, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/hyperextension.html");
         add("Weighted Hyperextension", LowerBack, Strength, LowerBackStand, Isolation, Intermediate, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/weighted-hyperextension");
+
+        Folder backExtensions = new Folder("Back Extensions");
+        lowerBack.folders.add(backExtensions);
+        currentFolder = backExtensions;
+        add("GHD Back Extension", LowerBack, Strength, LowerBackStand2, Isolation, Intermediate, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/ghd-back-extension");
+        add("GHD Back Extension Iso Hold", LowerBack, Strength, LowerBackStand2, Compound, Intermediate, List.of(Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/ghd-back-extension-iso-hold");
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //////////// Upper Back
