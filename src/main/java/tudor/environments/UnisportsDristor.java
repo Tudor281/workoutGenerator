@@ -110,7 +110,6 @@ public class UnisportsDristor extends Environment {
         Folder.all.get("Rows").exercises.add(new Exercise("Rowing Machine", List.of(UpperBack), Strength, List.of(Machine), Compound, Beginner, List.of(Biceps), "https://drive.google.com/file/d/1JzGIyj3wIwYcqLJLvLdco1aU1Iv1SJ4o/view?usp=sharing"));
         Folder.all.get("Shoulder Presses").exercises.add(new Exercise("Shoulder Press Machine Outer Grip", List.of(Shoulders), Strength, List.of(Machine), Compound, Beginner, List.of(Triceps), "https://drive.google.com/file/d/1gZ_N1bWyAtBzIC_x-2KWcHKCvhYFtDLz/view?usp=sharing"));
         Folder.all.get("Other Front Delts").exercises.add(new Exercise("Shoulder Press Machine Inner Grip", List.of(Shoulders), Strength, List.of(Machine), Compound, Beginner, List.of(Triceps), "https://drive.google.com/file/d/1gZ_N1bWyAtBzIC_x-2KWcHKCvhYFtDLz/view?usp=sharing"));
-        
     }
 
     @Override

@@ -19,6 +19,7 @@ public enum Flag {
         flaggedExercises.put(Exercise.get("Seated Behind the Neck Shoulder Press"), Dangerous);
         flaggedExercises.put(Exercise.get("Seated Bradford Press (AKA Seated Rocky Press)"), Dangerous);
         flaggedExercises.put(Exercise.get("Behind The Neck Push Press"), Dangerous);
+        flaggedExercises.put(Exercise.get("Behind Neck Lat Pull Down"), Dangerous);
         flaggedExercises.put(Exercise.get("Kettlebell Swing"), Dangerous);
         flaggedExercises.put(Exercise.get("Ipsilateral Load Split Squat"), Dangerous); // unbalanced
         flaggedExercises.put(Exercise.get("Barbell Front Box Squat"), Dangerous); // daca atingi scaunul, faci inpact in coloana
@@ -34,7 +35,9 @@ public enum Flag {
         flaggedExercises.put(Exercise.get("Straight Leg Deadlift"), Dangerous);
         flaggedExercises.put(Exercise.get("Snatch Grip Romanian Deadlift"), Dangerous);
         flaggedExercises.put(Exercise.get("1 Kettlebell Single Leg Deadlift"), Dangerous);
-
+        flaggedExercises.put(Exercise.get("Conventional Deadlift"), Dangerous);
+        flaggedExercises.put(Exercise.get("Conventional Block Pull Deadlift"), Dangerous);
+        flaggedExercises.put(Exercise.get("Deficit Deadlift"), Dangerous);
 
         flaggedExercises.put(Exercise.get("Barbell Jumping Squats"), Jumping);
         flaggedExercises.put(Exercise.get("Dumbbell Split Squat With Jump"), Jumping);
@@ -42,6 +45,7 @@ public enum Flag {
 
         // Chest
         flaggedExercises.put(Exercise.get("Chest Dip"), TooDifficult);
+        flaggedExercises.put(Exercise.get("Pec Minor Dip"), TooDifficult);
         flaggedExercises.put(Exercise.get("Decline Push Up (Feet on Bench)"), TooDifficult);
 
         // Back
@@ -53,7 +57,10 @@ public enum Flag {
         flaggedExercises.put(Exercise.get("Pull Up with Leg Raise"), TooDifficult);
         flaggedExercises.put(Exercise.get("Chin Up With Leg Raise"), TooDifficult);
         flaggedExercises.put(Exercise.get("Double Pause Chin Up"), TooDifficult);
-        flaggedExercises.put(Exercise.get("Archer Pull Up"), Dangerous);
+        flaggedExercises.put(Exercise.get("Archer Pull Up"), TooDifficult);
+        flaggedExercises.put(Exercise.get("Close Grip Pull Up"), TooDifficult);
+        flaggedExercises.put(Exercise.get("V-Bar Pull Up"), TooDifficult);
+        flaggedExercises.put(Exercise.get("Around the Bar Chin Ups"), TooDifficult);
 
         // Legs
         flaggedExercises.put(Exercise.get("Bodyweight Pistol Squat"), TooDifficult);
