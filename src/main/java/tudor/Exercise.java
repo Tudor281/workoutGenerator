@@ -34,7 +34,9 @@ public class Exercise {
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //////////// Abductors
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        Folder legs = new Folder("Legs");
         Folder abductors = new Folder("Abductors");
+        legs.folders.add(abductors);
         muscleFolders.put(Abductors, abductors);
         currentFolder = abductors;
         add("Cable Hip Abduction", Abductors, Strength, List.of(Cable, CableAttachmentAnkleStrapsX1), Isolation, Beginner, Glutes, "https://www.muscleandstrength.com/exercises/cable-hip-abduction.html");
@@ -43,6 +45,7 @@ public class Exercise {
         //////////// Adductors
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         Folder adductors = new Folder("Adductors");
+        legs.folders.add(adductors);
         muscleFolders.put(Adductors, adductors);
         currentFolder = adductors;
         add("Deep Squat Prying", Adductors, Warmup, KettleBellsX1, Compound, Beginner, List.of(Glutes, Hamstrings, HipFlexors, Quads), "https://www.muscleandstrength.com/exercises/deep-squat-prying");
@@ -713,6 +716,7 @@ public class Exercise {
         //////////// Glutes
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         Folder glutes = new Folder("Glutes");
+        legs.folders.add(glutes);
         muscleFolders.put(Glutes, glutes);
         Folder goodMornings = new Folder("Good Mornings");
         glutes.folders.add(goodMornings);
@@ -782,6 +786,7 @@ public class Exercise {
         //////////// Hamstrings
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         Folder hamstrings = new Folder("Hamstrings");
+        legs.folders.add(hamstrings);
         muscleFolders.put(Hamstrings, hamstrings);
         Folder deadlifts = new Folder("Deadlifts");
         hamstrings.folders.add(deadlifts);
@@ -878,6 +883,7 @@ public class Exercise {
         //////////// Hip Flexors
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         Folder hipFlexors = new Folder("Hip Flexors");
+        legs.folders.add(hipFlexors);
         muscleFolders.put(HipFlexors, hipFlexors);
         currentFolder = hipFlexors;
         add("Cradle Walk to Forward Lunge", HipFlexors, Warmup, Bodyweight, Compound, Beginner, List.of(Glutes, Hamstrings, Quads), "https://www.muscleandstrength.com/exercises/cradle-walk-to-forward-lunge");
@@ -1117,6 +1123,7 @@ public class Exercise {
         //////////// Quads
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         Folder quads = new Folder("Quads");
+        legs.folders.add(quads);
         muscleFolders.put(Quads, quads);
         Folder squats = new Folder("Squats");
         quads.folders.add(squats);
