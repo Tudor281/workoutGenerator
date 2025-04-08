@@ -19,13 +19,6 @@ import static tudor.enums.Mechanics.Isolation;
 import static tudor.enums.Muscle.*;
 
 public class UnisportsDristor extends Environment {
-    Set<Equipment> availableEquipment = new HashSet<>();
-
-    Map<Exercise, List<Substitute>> substitutes = new HashMap<>();
-    List<Substitute> generalSubstitutes = new ArrayList<>();
-
-    Map<Exercise, Flag> flaggedExercises = new HashMap<>();
-
     public UnisportsDristor() {
         availableEquipment.add(Barbell);
         availableEquipment.add(Bench);
@@ -110,33 +103,5 @@ public class UnisportsDristor extends Environment {
         Folder.all.get("Rows").exercises.add(new Exercise("Rowing Machine", List.of(UpperBack), Strength, List.of(Machine), Compound, Beginner, List.of(Biceps), "https://drive.google.com/file/d/1JzGIyj3wIwYcqLJLvLdco1aU1Iv1SJ4o/view?usp=sharing"));
         Folder.all.get("Shoulder Presses").exercises.add(new Exercise("Shoulder Press Machine Outer Grip", List.of(Shoulders), Strength, List.of(Machine), Compound, Beginner, List.of(Triceps), "https://drive.google.com/file/d/1gZ_N1bWyAtBzIC_x-2KWcHKCvhYFtDLz/view?usp=sharing"));
         Folder.all.get("Other Front Delts").exercises.add(new Exercise("Shoulder Press Machine Inner Grip", List.of(Shoulders), Strength, List.of(Machine), Compound, Beginner, List.of(Triceps), "https://drive.google.com/file/d/1gZ_N1bWyAtBzIC_x-2KWcHKCvhYFtDLz/view?usp=sharing"));
-    }
-
-    @Override
-    public boolean hasEquipment(Exercise exercise) {
-        if (flaggedExercises.containsKey(exercise)) return false;
-        for (Equipment equipment : exercise.equipment) {
-            if (!(availableEquipment.contains(equipment) || hasSubstitutes(exercise, equipment))) {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    private boolean hasSubstitutes( Exercise exercise, Equipment equipment) {
-        // do we have general substitute
-        for (Substitute substitute : generalSubstitutes) {
-            if (substitute.canSubstitute(equipment)) return true;
-        }
-
-        // do we have substitute equipment
-        List<Substitute> mySubstitutes = substitutes.get(exercise);
-        if (mySubstitutes == null) return false;
-
-        for (Substitute substitute : mySubstitutes) {
-            if (substitute.canSubstitute(equipment)) return true;
-        }
-
-        return false;
     }
 }

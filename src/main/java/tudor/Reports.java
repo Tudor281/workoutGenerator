@@ -1,11 +1,13 @@
 package tudor;
 
 import tudor.environments.Environment;
+import tudor.environments.HomeCurrent;
+import tudor.environments.HomePotential;
 import tudor.environments.UnisportsDristor;
 
 public class Reports {
     public static void main(String[] args) {
-        Environment environment = new UnisportsDristor();
+        Environment environment = new HomeCurrent();
 
         int abs = reportFolder(Folder.all.get("Abs"), environment);
 

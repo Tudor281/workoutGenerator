@@ -561,7 +561,7 @@ public class Exercise {
         add("Feet on Wall Push Up", Chest, Strength, Wall, Compound, Advanced, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/feet-on-wall-push-up");
         add("Fingertip Push Ups", Chest, Strength, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/fingertip-pushups");
         add("Incline Push Ups", Chest, Strength, Bench, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/incline-push-ups.html");
-        add("(T) Incline Push Ups", Chest, Strength, Bed, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/incline-push-ups.html");
+        add("(T:Bed) Incline Push Ups", Chest, Strength, Bed, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/incline-push-ups.html");
         add("Kettlebell Push Up", Chest, Strength, KettleBellsX2, Compound, Advanced, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/kettlebell-push-up");
         add("Knee Push-Up", Chest, Strength, Bodyweight, Compound, Beginner, List.of(Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/knee-pushups.html");
         add("Knuckle Push Up", Chest, Strength, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/knuckle-push-up");
@@ -723,6 +723,7 @@ public class Exercise {
         currentFolder = goodMornings;
         add("Banded Good Morning", Glutes, Strength, Bands, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, UpperBack), "https://www.muscleandstrength.com/exercises/banded-good-mornings");
         add("Good Mornings", Glutes, Strength, Rack, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, UpperBack), "https://www.muscleandstrength.com/exercises/good-mornings.html");
+        add("(T) Bodyweight Good Mornings", Glutes, Strength, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, UpperBack), "https://www.muscleandstrength.com/exercises/good-mornings.html");
         add("Good Mornings Off Pins", Glutes, Strength, Rack, Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, UpperBack), "https://www.muscleandstrength.com/exercises/good-morning-off-pins");
         add("Seated Good Mornings", Glutes, Strength, List.of(Rack, Bench), Compound, Intermediate, List.of(FrontalAbs, Hamstrings, LowerBack, UpperBack), "https://www.muscleandstrength.com/exercises/seated-good-mornings.html");
         add("Single Leg Good Morning", Glutes, Strength, Rack, Compound, Advanced, List.of(FrontalAbs, Hamstrings, LowerBack, UpperBack), "https://www.muscleandstrength.com/exercises/single-leg-good-morning");

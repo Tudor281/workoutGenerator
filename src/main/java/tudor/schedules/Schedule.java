@@ -20,10 +20,31 @@ public abstract class Schedule {
 
     public abstract void printExercises();
 
-    protected List<Exercise> findExercises(List<String> folders, ExerciseType exerciseType) {
+    protected List<Exercise> findExercises(List<String> folderNames, List<String> bannedSubfolders) {
         List<Exercise> result = new LinkedList<>();
-        for (String folderName : folders) {
+        for (String folderName : folderNames) {
             Folder folder = Folder.all.get(folderName);
+            for (Folder subFolder : folder.folders) {
+                if (bannedSubfolders.contains(subFolder.name)) continue;
+                result.addAll(findExercises(List.of(subFolder.name), bannedSubfolders));
+            }
+
+            for (Exercise exercise : folder.exercises) {
+                if (isDoable(exercise)) result.add(exercise);
+            }
+        }
+        return result;
+    }
+
+    protected List<Exercise> findExercises(List<String> folderNames, List<String> bannedSubfolders, ExerciseType exerciseType) {
+        List<Exercise> result = new LinkedList<>();
+        for (String folderName : folderNames) {
+            Folder folder = Folder.all.get(folderName);
+            for (Folder subFolder : folder.folders) {
+                if (bannedSubfolders.contains(subFolder.name)) continue;
+                result.addAll(findExercises(List.of(subFolder.name), bannedSubfolders, exerciseType));
+            }
+
             for (Exercise exercise : folder.exercises) {
                 if (isDoable(exercise, exerciseType)) result.add(exercise);
             }
@@ -31,18 +52,9 @@ public abstract class Schedule {
         return result;
     }
 
-    protected List<Exercise> findExercises(String folderName, List<String> bannedSubfolders, ExerciseType exerciseType) {
-        Folder folder = Folder.all.get(folderName);
-        List<Exercise> result = new LinkedList<>();
-        for (Folder subFolder : folder.folders) {
-            if (bannedSubfolders.contains(subFolder.name)) continue;
-            result.addAll(findExercises(subFolder.name, bannedSubfolders, exerciseType));
-        }
-
-        for (Exercise exercise : folder.exercises) {
-            if (isDoable(exercise, exerciseType)) result.add(exercise);
-        }
-        return result;
+    private boolean isDoable(Exercise exercise) {
+        if (Flag.flaggedExercises.containsKey(exercise)) return false;
+        return environment.hasEquipment(exercise);
     }
 
     private boolean isDoable(Exercise exercise, ExerciseType exerciseType) {
