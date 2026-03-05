@@ -2,6 +2,8 @@ package tudor;
 
 import tudor.environments.Environment;
 import tudor.environments.HomePotential;
+import tudor.exercises.Exercise;
+import tudor.exercises.Folder;
 
 public class Query {
     public static void main(String[] args) {

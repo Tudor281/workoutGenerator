@@ -1,6 +1,6 @@
 package tudor.environments;
 
-import tudor.Exercise;
+import tudor.exercises.Exercise;
 
 import static tudor.Flag.NoRoom;
 import static tudor.enums.Equipment.*;

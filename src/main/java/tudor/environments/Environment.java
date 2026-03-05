@@ -1,6 +1,6 @@
 package tudor.environments;
 
-import tudor.Exercise;
+import tudor.exercises.Exercise;
 import tudor.Flag;
 import tudor.enums.Equipment;
 import tudor.environments.substitutes.Substitute;

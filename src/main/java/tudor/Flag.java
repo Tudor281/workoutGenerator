@@ -1,6 +1,7 @@
 package tudor;
 
-import java.util.Deque;
+import tudor.exercises.Exercise;
+
 import java.util.HashMap;
 import java.util.Map;
 

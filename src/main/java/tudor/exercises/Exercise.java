@@ -1,4 +1,4 @@
-package tudor;
+package tudor.exercises;
 
 import tudor.enums.*;
 
@@ -14,7 +14,7 @@ import static tudor.enums.Level.*;
 import static tudor.enums.Mechanics.*;
 
 public class Exercise {
-    String name;
+    public String name;
     List<Muscle> mainMuscles;
     List<Muscle> secondaryMuscles;
     public List<Equipment> equipment;

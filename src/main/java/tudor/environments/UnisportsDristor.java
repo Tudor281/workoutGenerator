@@ -1,13 +1,9 @@
 package tudor.environments;
 
-import tudor.Exercise;
-import tudor.Flag;
-import tudor.Folder;
-import tudor.enums.*;
+import tudor.exercises.Exercise;
+import tudor.exercises.Folder;
 import tudor.environments.substitutes.DirectSubstitute;
-import tudor.environments.substitutes.Substitute;
 
-import javax.crypto.Mac;
 import java.util.*;
 
 import static tudor.Flag.*;

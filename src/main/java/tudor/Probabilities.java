@@ -1,5 +1,8 @@
 package tudor;
 
+import tudor.exercises.Exercise;
+import tudor.exercises.Folder;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

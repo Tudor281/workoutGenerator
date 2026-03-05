@@ -1,8 +1,8 @@
 package tudor.schedules;
 
-import tudor.Exercise;
+import tudor.exercises.Exercise;
 import tudor.Flag;
-import tudor.Folder;
+import tudor.exercises.Folder;
 import tudor.enums.ExerciseType;
 import tudor.environments.Environment;
 
@@ -65,6 +65,7 @@ public abstract class Schedule {
 
     protected void pick(String title, List<Exercise> exercises, int times) {
         System.out.println(title+": "+exercises.size());
+        if (exercises.isEmpty()) return;
         for (int i=0; i<times; i++) {
             exercises.remove(random.nextInt(exercises.size())).toExcel();
         }

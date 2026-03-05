@@ -1,6 +1,6 @@
 package tudor.schedules;
 
-import tudor.Exercise;
+import tudor.exercises.Exercise;
 import tudor.environments.Environment;
 
 import java.util.List;

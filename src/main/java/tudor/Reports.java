@@ -2,8 +2,8 @@ package tudor;
 
 import tudor.environments.Environment;
 import tudor.environments.HomeCurrent;
-import tudor.environments.HomePotential;
-import tudor.environments.UnisportsDristor;
+import tudor.exercises.Exercise;
+import tudor.exercises.Folder;
 
 public class Reports {
     public static void main(String[] args) {

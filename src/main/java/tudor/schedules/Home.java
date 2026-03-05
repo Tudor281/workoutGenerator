@@ -1,11 +1,9 @@
 package tudor.schedules;
 
-import tudor.Exercise;
+import tudor.exercises.Exercise;
 import tudor.environments.Environment;
 
 import java.util.List;
-
-import static tudor.enums.ExerciseType.Strength;
 
 public class Home extends Schedule {
 

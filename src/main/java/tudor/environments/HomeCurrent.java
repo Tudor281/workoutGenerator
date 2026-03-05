@@ -1,8 +1,6 @@
 package tudor.environments;
 
-import tudor.Exercise;
-
-import java.util.*;
+import tudor.exercises.Exercise;
 
 import static tudor.Flag.*;
 import static tudor.enums.Equipment.*;
