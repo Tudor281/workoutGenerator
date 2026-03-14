@@ -45,4 +45,24 @@ public class Folder {
         if (exercise == null) throw new RuntimeException("Exercise not found: "+name);
         exercise.name = newName;
     }
+
+    public static void delete(String name) {
+        for (Folder folder : all.values()) {
+            folder.deleteExercise(name);
+        }
+    }
+
+    private void deleteExercise(String name) {
+        Exercise toBeDeleted = null;
+        for (Exercise exercise : exercises){
+            if (exercise.name.equals(name)) toBeDeleted = exercise;
+        }
+        if (toBeDeleted != null) {
+            exercises.remove(toBeDeleted);
+            return;
+        }
+        for (Folder folder : folders) {
+            folder.deleteExercise(name);
+        }
+    }
 }

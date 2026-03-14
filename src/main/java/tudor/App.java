@@ -13,6 +13,7 @@ public class App {
         Schedule schedule = new All(environment);
 
         FitBodDeduplicator.tagInsertedExercises();
+        FitBodDeduplicator.deduplicate();
 
         schedule.printExercises();
     }
