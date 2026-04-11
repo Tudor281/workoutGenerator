@@ -21,9 +21,9 @@ public class All extends Schedule{
         exercises = findExercises(List.of("Chest"), List.of());
         pick("Chest", exercises, 2);
 
-        System.out.println("Back");
-        exercises = findExercises(List.of("Back"), List.of());
-        pick("Back", exercises, 2);
+        System.out.println("Upper Back + Lats");
+        exercises = findExercises(List.of("Upper Back", "Lats"), List.of());
+        pick("Upper Back + Lats", exercises, 2);
 
         System.out.println("Triceps");
         exercises = findExercises(List.of("Triceps"), List.of());
@@ -36,6 +36,10 @@ public class All extends Schedule{
         System.out.println("Abs");
         exercises = findExercises(List.of("Abs"), List.of());
         pick("Abs", exercises, 2);
+
+        System.out.println("Lower Back");
+        exercises = findExercises(List.of("Lower Back"), List.of());
+        pick("Lower Back", exercises, 2);
 
         System.out.println("Glutes");
         exercises = findExercises(List.of("Glutes"), List.of());

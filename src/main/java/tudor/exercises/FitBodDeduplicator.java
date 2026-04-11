@@ -12,6 +12,9 @@ public class FitBodDeduplicator {
         // biceps
         Folder.rename("Seated Hammer Curl", "<!> Seated Hammer Curl");
 
+        // lower back
+        Folder.rename("Dumbbell Deadlift", "<!> M&S Dumbbell Deadlift");
+
         // glutes
         Folder.rename("Single Leg Hip Thrust with Dumbbell", "<!> Single Leg Hip Thrust with Dumbbell From Bench");
 
