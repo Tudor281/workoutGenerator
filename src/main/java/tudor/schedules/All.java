@@ -13,8 +13,12 @@ public class All extends Schedule{
 
     @Override
     public void printExercises() {
+        System.out.println("Traps");
+        List<Exercise> exercises = findExercises(List.of("Traps"), List.of());
+        pick("Traps", exercises, 2);
+
         System.out.println("Shoulders");
-        List<Exercise> exercises = findExercises(List.of("Shoulders"), List.of());
+        exercises = findExercises(List.of("Shoulders"), List.of());
         pick("Shoulders", exercises, 2);
 
         System.out.println("Chest");
