@@ -3,25 +3,35 @@ package tudor.exercises;
 public class FitBodDeduplicator {
     public static void tagInsertedExercises() {
         //chest
-        Folder.rename("(T) Modified Handstand Push Up (Off Box)", "<!> (T) Modified Handstand Push Up (Off Box)");
+        mark("(T) Modified Handstand Push Up (Off Box)");
 
         // upper back
-        Folder.rename("Palms In Bent-Over Dumbbell Row", "<!> Palms In Bent-Over Dumbbell Row");
-        Folder.rename("One Arm Dumbbell Row", "<!> One Arm Dumbbell Row");
+        mark("Palms In Bent-Over Dumbbell Row");
+        mark("One Arm Dumbbell Row");
+        mark("Tripod Dumbbell Row");
+        mark("(T) Tripod Dumbbell Row");
 
         // biceps
-        Folder.rename("Seated Hammer Curl", "<!> Seated Hammer Curl");
+        mark("Seated Hammer Curl");
+        mark("Alternating Seated Hammer Curl");
 
         // lower back
-        Folder.rename("Dumbbell Deadlift", "<!> M&S Dumbbell Deadlift");
+        mark("Dumbbell Deadlift");
 
         // glutes
-        Folder.rename("Single Leg Hip Thrust with Dumbbell", "<!> Single Leg Hip Thrust with Dumbbell From Bench");
+        mark("Single Leg Hip Thrust with Dumbbell");
+        mark("(T) Bodyweight Good Mornings");
+    }
 
+    private static void mark(String exerciseName) {
+        Folder.rename(exerciseName, "<!> "+exerciseName);
     }
 
     public static void deduplicate() {
         // glutes
         Folder.delete("Banded Good Morning");
+
+        // calves
+        Folder.delete("Bodyweight Floor Calf Raise");
     }
 }

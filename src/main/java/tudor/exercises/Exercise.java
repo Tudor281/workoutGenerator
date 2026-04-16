@@ -411,7 +411,8 @@ public class Exercise {
         add("Anterior Calf Foam Rolling", Calves, SMR, FoamRoll, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/foam-rolling-anterior-calf");
         add("Anterior Calf Lacrosse Ball", Calves, SMR, LacrosseBall, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/anterior-calf-lacrosse-ball");
         add("Anterior Calf Tiger Tail", Calves, SMR, TigerTail, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/anterior-calf-tiger-tail");
-        add("Banded Tibialis Raise", Calves, Strength, Bands, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/banded-tibialis-raise");
+        add("Banded Tibialis Raise", Calves, Strength, List.of(Bands, KettleBellsX1), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/banded-tibialis-raise");
+        add("(T) Banded Tibialis Raise", Calves, Strength, List.of(Bands, Pole), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/banded-tibialis-raise");
         add("Bodyweight Floor Calf Raise", Calves, Strength, Bodyweight, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/floor-calf-raise.html");
         add("Bodyweight Standing Calf Raise", Calves, Strength, FootStand, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/bodyweight-standing-calf-raise.html");
         add("Cable Calf Raise", Calves, Strength, List.of(FootStand, Cable, WeightStrap), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/cable-calf-raise.html");
