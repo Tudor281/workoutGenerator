@@ -14,9 +14,13 @@ public abstract class Environment {
     Map<Exercise, List<Substitute>> substitutes = new HashMap<>();
 
     public boolean hasEquipment(Exercise exercise) {
-        if (flaggedExercises.containsKey(exercise)) return false;
+        if (flaggedExercises.containsKey(exercise)) {
+            System.out.println(exercise.name+ " is flagged ("+flaggedExercises.get(exercise).name()+")");
+            return false;
+        }
         for (Equipment equipment : exercise.equipment) {
             if (!(availableEquipment.contains(equipment) || hasSubstitutes(exercise, equipment))) {
+                System.out.println(exercise.name + " does not have "+equipment.name());
                 return false;
             }
         }

@@ -53,7 +53,10 @@ public abstract class Schedule {
     }
 
     private boolean isDoable(Exercise exercise) {
-        if (Flag.flaggedExercises.containsKey(exercise)) return false;
+        if (Flag.flaggedExercises.containsKey(exercise)) {
+            System.out.println(exercise.name + " is flagged: ("+Flag.flaggedExercises.get(exercise).name()+")");
+            return false;
+        }
         return environment.hasEquipment(exercise);
     }
 
