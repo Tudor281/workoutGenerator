@@ -22,7 +22,6 @@ public enum Equipment {
     CableAttachmentRope,
     CableAttachmentSingleArm,
     CableAttachmentStraightBar,
-    CalfMachine,
     Chains,
     Couch,
     DeclineBench,
@@ -40,7 +39,6 @@ public enum Equipment {
     FootStand,
     GripBalls,
     GymMats,
-    HackSquatMachine,
     HammerBar,
     HangingRope,
     HipThruster,
@@ -53,8 +51,6 @@ public enum Equipment {
     LacrosseBall,
     LandMine,
     LatCable, // the cable machine for lats
-    LegExtensionMachine,
-    LegPress,
     LowerBackStand,
     LowerBackStand2,
     Machine, // machines will only be registered as gym environments

@@ -332,9 +332,6 @@ public class MuscleAndStrength {
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         Exercise.currentFolder = Folder.all.get("Calves");
         add("(Posterior) Calves Tiger Tail", Calves, SMR, TigerTail, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/posterior-calf-tiger-tail");
-        add("45 Degree Calf Raise (Toes In)", Calves, Strength, LegPress, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/toes-in-45-degree-calf-raise.html");
-        add("45 Degree Calf Raise (Toes Out)", Calves, Strength, LegPress, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/toes-out-45-degree-calf-raise.html");
-        add("45 Degree Toe Raise", Calves, Strength, LegPress, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/45-degree-toe-raise.html");
         add("Alternating Single Leg Jump Rope", Calves, Conditioning, JumpRope, Compound, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/alternating-single-leg-jump-rope");
         add("Anterior Calf Foam Rolling", Calves, SMR, FoamRoll, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/foam-rolling-anterior-calf");
         add("Anterior Calf Lacrosse Ball", Calves, SMR, LacrosseBall, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/anterior-calf-lacrosse-ball");
@@ -350,7 +347,6 @@ public class MuscleAndStrength {
         add("Front to Back Jump Rope", Calves, Conditioning, JumpRope, Compound, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/front-to-back-jump-rope");
         add("Jump Rope", Calves, Conditioning, JumpRope, Compound, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/jump-rope");
         add("Knee Break Ankle Mobilization", Calves, Warmup, Disk, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/knee-break-ankle-mobilization");
-        add("One-Leg 45 Degree Calf Raise", Calves, Strength, LegPress, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-leg-45-degree-calf-raise.html");
         add("One-Leg Cable Calf Raise", Calves, Strength, List.of(Cable, FootStand, WeightStrap), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-leg-cable-calf-raise.html");
         add("One-Leg Donkey Calf Raise", Calves, Strength, List.of(FootStand, InclineBench), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-leg-donkey-calf-raise.html");
         add("One-Leg Floor Calf Raise", Calves, Strength, Bodyweight, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-leg-floor-calf-raise.html");
@@ -387,11 +383,6 @@ public class MuscleAndStrength {
         add("Standing Barbell Calf Raise", Calves, Strength, List.of(FootStand, Barbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-calf-raise.html");
         add("Standing Barbell Calf Raise (On Floor)", Calves, Strength, Barbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/floor-barbell-calf-raise.html");
         add("Standing One-Leg Calf Raise With Dumbbell", Calves, Strength, List.of(FootStand, Wall, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-one-leg-calf-raise-with-dumbbell.html");
-        add("Standing Machine Calf Raise", Calves, Strength, CalfMachine, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-machine-calf-raise");
-        add("Hack Squat Calf Raise", Calves, Strength, HackSquatMachine, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/hack-calf-raise.html");
-        add("One-Leg Hack Squat Calf Raise", Calves, Strength, HackSquatMachine, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/hack-one-leg-calf-raise.html");
-        add("Toes In Standing Machine Calf Raise", Calves, Strength, CalfMachine, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/toes-in-standing-machine-calf-raise");
-        add("Toes Out Standing Calf Raise", Calves, Strength, CalfMachine, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/toes-out-standing-calf-raise");
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //////////// Chest
@@ -1041,19 +1032,6 @@ public class MuscleAndStrength {
         add("Wide Stance Front Squat", Quads, Strength, Rack, Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, HipFlexors, UpperBack), "https://www.muscleandstrength.com/exercises/wide-stance-front-squat");
         add("Zerchers Squat", Quads, Strength, Rack, Compound, Advanced, List.of(FrontalAbs, Adductors, Biceps, Calves, Forearms, Glutes, Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/zerchers-squat.html");
 
-        Exercise.currentFolder = Folder.all.get("Leg Press");
-        add("Leg Press", Quads, Strength, LegPress, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/45-degree-leg-press.html");
-        add("Narrow Stance 45 Degree Leg Press", Quads, Strength, LegPress, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/narrow-stance-45-degree-leg-press.html");
-        add("One Leg 45 Degree Leg Press", Quads, Strength, LegPress, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/one-leg-45-degree-leg-press.html");
-        add("Wide Stance 45 Degree Leg Press", Quads, Strength, LegPress, Compound, Beginner, List.of(Adductors, Calves, Glutes, Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/wide-stance-45-degree-leg-press.html");
-
-        Exercise.currentFolder = Folder.all.get("Hack Squats Machine");
-        add("Machine Hack Squat", Quads, Strength, HackSquatMachine, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/hack-squat.html");
-        add("Narrow Stance Machine Hack Squat", Quads, Strength, HackSquatMachine, Compound, Intermediate, List.of(Adductors, Calves, Glutes, Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/narrow-hack-squat.html");
-        add("One-Leg Hack Squat", Quads, Strength, HackSquatMachine, Compound, Intermediate, List.of(Calves, Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/one-leg-hack-squat.html");
-        add("Resistance Band Machine Hack Squat", Quads, Strength, List.of(HackSquatMachine, Bands), Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/resistance-band-machine-hack-squat");
-        add("Wide Hack Squat", Quads, Strength, HackSquatMachine, Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/wide-hack-squat.html");
-
         Exercise.currentFolder = Folder.all.get("Lunges");
         add("Barbell Lateral Lunge", Quads, Strength, ShortBarbell, Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, UpperBack), "https://www.muscleandstrength.com/exercises/barbell-side-lunge.html");
         add("Barbell Lunge", Quads, Strength, ShortBarbell, Compound, Intermediate, List.of(Calves, Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/barbell-lunge.html");
@@ -1095,12 +1073,6 @@ public class MuscleAndStrength {
         add("Front Barbell Step Up", Quads, Strength, List.of(Rack, Aerobic_Step), Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/front-barbell-step-up");
         add("Kettlebell Step Up", Quads, Strength, List.of(KettleBellsX2, Aerobic_Step), Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/kettlebell-step-up");
         add("Overhead Step Up", Quads, Strength, List.of(Aerobic_Step, Disk), Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/overhead-step-up");
-
-        Exercise.currentFolder = Folder.all.get("Leg Extensions");
-        add("Leg Extension", Quads, Strength, LegExtensionMachine, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/leg-extension.html");
-        add("Leg Extension (Toes In)", Quads, Strength, LegExtensionMachine, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/toes-in-leg-extension.html");
-        add("Leg Extension (Toes Out)", Quads, Strength, LegExtensionMachine, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/toes-out-leg-extension.html");
-        add("Single Leg Extension", Quads, Strength, LegExtensionMachine, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/single-leg-extension.html");
 
         Exercise.currentFolder = Folder.all.get("Olympic Squats");
         add("1 KB Kettlebell Clean", Quads, OlympicWeightlifting, KettleBellsX1, Compound, Beginner, List.of(FrontalAbs, Adductors, Biceps, Calves, Glutes, Hamstrings, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/1-kb-kettlebell-clean");
@@ -1407,7 +1379,6 @@ public class MuscleAndStrength {
         add("Smith Machine Shrug", Traps, Strength, SmithMachine, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/smith-machine-shrug.html");
         add("Snatch Grip Barbell Shrug", Traps, Strength, Rack, Isolation, Beginner, List.of(Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/snatch-grip-barbell-shrug");
         add("Snatch Shrug", Traps, OlympicWeightlifting, Barbell, Compound, Intermediate, List.of(FrontalAbs, Adductors, Biceps, Calves, Forearms, Glutes, Hamstrings, Quads, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/snatch-shrug");
-        add("Standing Calf Machine Shrug", Traps, Strength, CalfMachine, Isolation, Beginner, List.of(Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/standing-calf-machine-shrug");
         add("T-Bar Machine Shrug", Traps, Strength, TBar, Isolation, Intermediate, List.of(Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/t-bar-machine-shrug");
         add("Trap Bar Shrug", Traps, Strength, TrapBar, Isolation, Beginner, List.of(Shoulders, Traps), "https://www.muscleandstrength.com/exercises/trap-bar-shrug");
 
