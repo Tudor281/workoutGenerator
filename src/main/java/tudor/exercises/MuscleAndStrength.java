@@ -33,7 +33,7 @@ public class MuscleAndStrength {
         add("Rocking Frog Stretch", Adductors, Warmup, Bodyweight, Compound, Beginner, List.of(Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/rocking-frog-stretch");
         add("Alternating Lateral Lunge with Overhead Reach", Adductors, Warmup, Bodyweight, Compound, Beginner, List.of(Calves, Hamstrings, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/alternating-lateral-lunge-with-overhead-reach");
         add("Lateral Kneeling Adductor Mobilization", Adductors, Warmup, Bodyweight, Compound, Beginner, Calves, "https://www.muscleandstrength.com/exercises/lateral-kneeling-adductor-mobilization");
-        add("Cable Hip Adduction", Adductors, Strength, List.of(Cable, CableAttachmentAnkleStrapsX1, Risers), Isolation, Beginner, List.of(Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/cable-hip-adduction.html");
+        add("Cable Hip Adduction", Adductors, Strength, List.of(Cable, CableAttachmentAnkleStrapsX1, Aerobic_Step), Isolation, Beginner, List.of(Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/cable-hip-adduction.html");
         add("Adductor Foam Rolling", Adductors, SMR, FoamRoll, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/adductor-foam-rolling");
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -503,7 +503,7 @@ public class MuscleAndStrength {
         add("Ring Push Up", Chest, Strength, Rings, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/ring-push-up");
         add("Shoulder Tap Push Up", Chest, Strength, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/shoulder-tap-push-up");
         add("Spiderman Push Up", Chest, Strength, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/spiderman-push-up");
-        add("Stretch Push Up (On Risers)", Chest, Strength, Risers, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/deep-push-ups.html");
+        add("Stretch Push Up (On Risers)", Chest, Strength, Aerobic_Step, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/deep-push-ups.html");
         add("T-Push Up", Chest, Strength, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/t-push-up");
         add("Valslide Push Up", Chest, Strength, ValSlide, Compound, Advanced, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/valslide-push-up");
         add("Wall Push Up", Chest, Strength, Wall, Compound, Beginner, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/wall-push-up");
@@ -630,7 +630,7 @@ public class MuscleAndStrength {
         add("Single Leg Good Morning", Glutes, Strength, Rack, Compound, Advanced, List.of(FrontalAbs, Hamstrings, LowerBack, UpperBack), "https://www.muscleandstrength.com/exercises/single-leg-good-morning");
 
         Exercise.currentFolder = Folder.all.get("Hip Thrusts");
-        add("Barbell Hip Thrust", Glutes, Strength, List.of(Risers, Barbell, BarbellFoam), Isolation, Intermediate, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/barbell-hip-thrust");
+        add("Barbell Hip Thrust", Glutes, Strength, List.of(Aerobic_Step, Barbell, BarbellFoam), Isolation, Intermediate, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/barbell-hip-thrust");
         add("Banded Hip Thruster", Glutes, Strength, List.of(HipThruster, Bands), Isolation, Intermediate, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/banded-hip-thruster");
         add("Bodyweight Hip Thrust", Glutes, Strength, Bench, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/bodyweight-hip-thrust");
         add("(T) Bodyweight Hip Thrust", Glutes, Strength, Couch, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/bodyweight-hip-thrust");
@@ -930,7 +930,7 @@ public class MuscleAndStrength {
         add("Rock Back Extension Rotation", UpperBack, Warmup, Bodyweight, Compound, Beginner, List.of(Chest, Shoulders), "https://www.muscleandstrength.com/exercises/rock-back-extension-rotation");
         add("Thoracic Extension on Foam Roller", UpperBack, Warmup, FoamRoll, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/thoracic-extension-on-foam-roller");
         add("World's Greatest Stretch", UpperBack, Warmup, Bodyweight, Compound, Beginner, List.of(Chest, Glutes, Hamstrings, Quads, Shoulders), "https://www.muscleandstrength.com/exercises/worlds-greatest-stretch");
-        add("Yoga Plex", UpperBack, Warmup, Risers, Compound, Beginner, List.of(Chest, Glutes, Shoulders), "https://www.muscleandstrength.com/exercises/yoga-plex");
+        add("Yoga Plex", UpperBack, Warmup, Aerobic_Step, Compound, Beginner, List.of(Chest, Glutes, Shoulders), "https://www.muscleandstrength.com/exercises/yoga-plex");
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //////////// Neck
@@ -1000,8 +1000,8 @@ public class MuscleAndStrength {
         add("Exercise Ball Dumbbell Wall Squat", Quads, Strength, List.of(Wall, Dumbbell, ExerciseBall), Compound, Advanced, List.of(Calves, Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/weighted-swiss-ball-wall-squat.html");
         add("Exercise Ball Wall Squat", Quads, Strength, List.of(Wall, ExerciseBall), Compound, Beginner, List.of(FrontalAbs, Glutes, Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/swiss-ball-wall-squat.html");
         add("Frog Squat", Quads, Strength, Dumbbell, Compound, Beginner, List.of(FrontalAbs, Calves, Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/frog-squat.html");
-        add("Front Foot Elevated Dumbbell Split Squat", Quads, Strength, List.of(Risers, Dumbbell), Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/front-foot-elevated-dumbbell-split-squat");
-        add("Front Foot Elevated Smith Machine Split Squat", Quads, Strength, List.of(Risers, SmithMachine), Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/front-foot-elevated-smith-machine-split-squat");
+        add("Front Foot Elevated Dumbbell Split Squat", Quads, Strength, List.of(Aerobic_Step, Dumbbell), Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/front-foot-elevated-dumbbell-split-squat");
+        add("Front Foot Elevated Smith Machine Split Squat", Quads, Strength, List.of(Aerobic_Step, SmithMachine), Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/front-foot-elevated-smith-machine-split-squat");
         add("Front Squat", Quads, Strength, Rack, Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, HipFlexors, UpperBack), "https://www.muscleandstrength.com/exercises/front-squat.html");
         add("High Bar Back Squat", Quads, Strength, Rack, Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings,  HipFlexors, LowerBack), "https://www.muscleandstrength.com/exercises/high-bar-back-squat");
         add("Ipsilateral Load Split Squat", Quads, Strength, Dumbbell, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/ipsilateral-load-split-squat");
@@ -1022,7 +1022,7 @@ public class MuscleAndStrength {
         add("Safety Bar Squat", Quads, Strength, List.of(Rack, SafetyBar), Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/safety-bar-squat");
         add("Single Leg Squat From Bench", Quads, Strength, List.of(Bench, Disk), Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/single-leg-squat-from-bench");
         add("(T) Single Leg Squat From Bench", Quads, Strength, List.of(Couch, Disk), Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/single-leg-squat-from-bench");
-        add("(T) Single Leg Squat From Double Risers", Quads, Strength, List.of(Risers, Disk), Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/single-leg-squat-from-bench");
+        add("(T) Single Leg Squat From Double Risers", Quads, Strength, List.of(Aerobic_Step, Disk), Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/single-leg-squat-from-bench");
         add("Single Leg Wall Squat", Quads, Strength, Wall, Compound, Intermediate, List.of(FrontalAbs, Calves, Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/one-leg-bodyweight-wall-squat.html");
         add("Sissy Squat", Quads, Strength, Rack, Compound, Intermediate, List.of(Calves,  Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/sissy-squat.html");
         add("Smith Machine Box Squat", Quads, Strength, List.of(Bench, SmithMachine), Compound, Intermediate, List.of(Calves, Glutes, Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/smith-machine-squat-to-bench.html");
@@ -1087,14 +1087,14 @@ public class MuscleAndStrength {
         add("Valslide Reverse Lunges", Quads, Strength, ValSlide, Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/valslide-reverse-lunge");
 
         Exercise.currentFolder = Folder.all.get("Step ups");
-        add("1 Dumbbell Step Up", Quads, Strength, List.of(Risers, Dumbbell), Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/1-dumbbell-step-up");
-        add("1 Kettlebell Step Up", Quads, Strength, List.of(Risers, KettleBellsX1), Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/1-kettlebell-step-up");
-        add("Barbell Step Ups", Quads, Strength, List.of(Rack, Risers), Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/barbell-step-ups.html");
-        add("Bodyweight Step Up", Quads, Strength, Risers, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/bodyweight-step-up.html");
+        add("1 Dumbbell Step Up", Quads, Strength, List.of(Aerobic_Step, Dumbbell), Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/1-dumbbell-step-up");
+        add("1 Kettlebell Step Up", Quads, Strength, List.of(Aerobic_Step, KettleBellsX1), Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/1-kettlebell-step-up");
+        add("Barbell Step Ups", Quads, Strength, List.of(Rack, Aerobic_Step), Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/barbell-step-ups.html");
+        add("Bodyweight Step Up", Quads, Strength, Aerobic_Step, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/bodyweight-step-up.html");
         add("Dumbbell Step Up", Quads, Strength, Dumbbell, Compound, Intermediate, List.of(Calves, Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/dumbbell-step-up.html");
-        add("Front Barbell Step Up", Quads, Strength, List.of(Rack, Risers), Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/front-barbell-step-up");
-        add("Kettlebell Step Up", Quads, Strength, List.of(KettleBellsX2, Risers), Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/kettlebell-step-up");
-        add("Overhead Step Up", Quads, Strength, List.of(Risers, Disk), Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/overhead-step-up");
+        add("Front Barbell Step Up", Quads, Strength, List.of(Rack, Aerobic_Step), Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/front-barbell-step-up");
+        add("Kettlebell Step Up", Quads, Strength, List.of(KettleBellsX2, Aerobic_Step), Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/kettlebell-step-up");
+        add("Overhead Step Up", Quads, Strength, List.of(Aerobic_Step, Disk), Compound, Intermediate, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/overhead-step-up");
 
         Exercise.currentFolder = Folder.all.get("Leg Extensions");
         add("Leg Extension", Quads, Strength, LegExtensionMachine, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/leg-extension.html");
@@ -1242,7 +1242,7 @@ public class MuscleAndStrength {
         Exercise.currentFolder = Folder.all.get("Rear Delt Flys");
         add("Bent Over Low Pulley Rear Delt Fly", Shoulders, Strength, DoubleCable, Isolation, Beginner, Traps, "https://www.muscleandstrength.com/exercises/bent-over-cable-rear-delt-fly");
         add("Alternating Incline Rear Delt Fly", Shoulders, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/alternate-dumbbell-reverse-fly-on-incline-bench.html");
-        add("Alternating Lying Rear Delt Fly", Shoulders, Strength, List.of(Risers, Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/alternate-lying-dumbbell-reverse-fly.html");
+        add("Alternating Lying Rear Delt Fly", Shoulders, Strength, List.of(Aerobic_Step, Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/alternate-lying-dumbbell-reverse-fly.html");
         add("Alternating Rear Delt Fly", Shoulders, Strength, Dumbbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/alternate-bent-over-dumbbell-reverse-fly.html");
         add("Alternating Seated Bent Over Rear Delt Fly", Shoulders, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/alternate-seated-bent-over-dumbbell-reverse-fly.html");
         add("(T) Alternating Seated Bent Over Rear Delt Fly", Shoulders, Strength, List.of(Bed, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/alternate-seated-bent-over-dumbbell-reverse-fly.html");
@@ -1250,11 +1250,11 @@ public class MuscleAndStrength {
         add("Bent Over Dumbbell Reverse Fly", Shoulders, Strength, Dumbbell, Isolation, Beginner, List.of(Traps, Triceps), "https://www.muscleandstrength.com/exercises/bent-over-dumbbell-reverse-fly.html");
         add("Bent Over Rear Delt Fly (Head on Bench)", Shoulders, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, List.of(Traps, Triceps), "https://www.muscleandstrength.com/exercises/bent-over-rear-delt-fly-head-on-bench");
         add("Incline Rear Delt Fly", Shoulders, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, List.of(Traps, Triceps), "https://www.muscleandstrength.com/exercises/dumbbell-reverse-fly-on-incline-bench.html");
-        add("Lying Rear Delt Fly", Shoulders, Strength, List.of(Risers, Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-dumbbell-reverse-fly.html");
+        add("Lying Rear Delt Fly", Shoulders, Strength, List.of(Aerobic_Step, Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-dumbbell-reverse-fly.html");
         add("One Arm Dumbbell Rear Delt Fly On Incline Bench", Shoulders, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, List.of(Traps, Triceps), "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-reverse-fly-on-incline-bench.html");
         add("One-Arm Bent-Over Cable Reverse Fly", Shoulders, Strength, List.of(Cable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-cable-reverse-fly.html");
         add("One-Arm Dumbbell Rear Delt Fly", Shoulders, Strength, Dumbbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-bent-over-dumbbell-reverse-fly.html");
-        add("One-Arm Lying Rear Delt Fly", Shoulders, Strength, List.of(Risers, Bench, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/one-arm-lying-dumbbell-reverse-fly.html");
+        add("One-Arm Lying Rear Delt Fly", Shoulders, Strength, List.of(Aerobic_Step, Bench, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/one-arm-lying-dumbbell-reverse-fly.html");
         add("One-Arm Seated Rear Delt Fly", Shoulders, Strength, List.of(Bench, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/one-arm-seated-bent-over-dumbbell-reverse-fly.html");
         add("(T) One-Arm Seated Rear Delt Fly", Shoulders, Strength, List.of(Bed, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/one-arm-seated-bent-over-dumbbell-reverse-fly.html");
         add("Reverse Flys on Rings", Shoulders, Strength, Rings, Isolation, Intermediate, List.of(Traps, UpperBack), "https://www.muscleandstrength.com/exercises/reverse-fly-on-rings");

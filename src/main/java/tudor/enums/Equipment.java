@@ -2,6 +2,7 @@ package tudor.enums;
 
 public enum Equipment {
     AbsWheel,
+    Aerobic_Step, // Riser, Platforma de step
     Bands,
     Barbell,
     BarbellFoam,
@@ -67,7 +68,6 @@ public enum Equipment {
     Rope,
     RowCable,
     Rings, // ca la olimpiada
-    Risers,
     RomanChair,
     SafetyBar,
     ShortBarbell, // aia de făcut biceps și triceps, nu piept sau squats

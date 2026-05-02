@@ -49,7 +49,7 @@ public class UnisportsDristor extends Environment {
         availableEquipment.add(PvcPipe);
         availableEquipment.add(Rack);
         availableEquipment.add(RowCable);
-        availableEquipment.add(Risers);
+        availableEquipment.add(Aerobic_Step);
         availableEquipment.add(ShortBarbell);
         availableEquipment.add(SmithMachine);
         availableEquipment.add(VBar);
