@@ -14,7 +14,10 @@ public enum Equipment {
     Bodyweight,
     BosuBall,
     Box,
-    Cable, // TODO Should have grips added specifically
+    TopCable,
+    LowCable,
+    FlexiCable, // Hi-Low Cable
+    LatCable, // the cable machine for lats
     CableAttachmentAnkleStrapsX1,
     CableAttachmentAnkleStrapsX2,
     CableAttachmentBentBar,
@@ -50,7 +53,6 @@ public enum Equipment {
     KettleBellsX2,
     LacrosseBall,
     LandMine,
-    LatCable, // the cable machine for lats
     LowerBackStand,
     LowerBackStand2,
     Machine, // machines will only be registered as gym environments
@@ -78,6 +80,7 @@ public enum Equipment {
     ValSlide,
     VBar,
     Wall, // a free wall. If there's mirrors everywhere or equipment, you can't do stuff against the wall. The wall must be dirtiable, throw balls at it.
+    WaistStrap,
     WeightStrap,
     WeightVest,
     WristRoller,

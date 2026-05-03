@@ -22,7 +22,7 @@ public class MuscleAndStrength {
 
 
         Exercise.currentFolder = Folder.all.get("Abductors");
-        add("Cable Hip Abduction", Abductors, Strength, List.of(Cable, CableAttachmentAnkleStrapsX1), Isolation, Beginner, Glutes, "https://www.muscleandstrength.com/exercises/cable-hip-abduction.html");
+        add("Cable Hip Abduction", Abductors, Strength, List.of(LowCable, CableAttachmentAnkleStrapsX1), Isolation, Beginner, Glutes, "https://www.muscleandstrength.com/exercises/cable-hip-abduction.html");
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //////////// Adductors
@@ -33,7 +33,7 @@ public class MuscleAndStrength {
         add("Rocking Frog Stretch", Adductors, Warmup, Bodyweight, Compound, Beginner, List.of(Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/rocking-frog-stretch");
         add("Alternating Lateral Lunge with Overhead Reach", Adductors, Warmup, Bodyweight, Compound, Beginner, List.of(Calves, Hamstrings, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/alternating-lateral-lunge-with-overhead-reach");
         add("Lateral Kneeling Adductor Mobilization", Adductors, Warmup, Bodyweight, Compound, Beginner, Calves, "https://www.muscleandstrength.com/exercises/lateral-kneeling-adductor-mobilization");
-        add("Cable Hip Adduction", Adductors, Strength, List.of(Cable, CableAttachmentAnkleStrapsX1, Aerobic_Step), Isolation, Beginner, List.of(Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/cable-hip-adduction.html");
+        add("Cable Hip Adduction", Adductors, Strength, List.of(LowCable, CableAttachmentAnkleStrapsX1, Aerobic_Step), Isolation, Beginner, List.of(Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/cable-hip-adduction.html");
         add("Adductor Foam Rolling", Adductors, SMR, FoamRoll, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/adductor-foam-rolling");
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -57,13 +57,13 @@ public class MuscleAndStrength {
 
         Exercise.currentFolder = Folder.all.get("Knee Raise");
         add("Decline Bench Alternating Knee Raise", FrontalAbs, Strength, DeclineBench, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/decline-bench-alternate-knee-raise.html");
-        add("Decline Bench Cable Knee Raise", FrontalAbs, Strength, List.of(InclineBench, Cable, CableAttachmentAnkleStrapsX2), Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/decline-cable-knee-raise.html");
+        add("Decline Bench Cable Knee Raise", FrontalAbs, Strength, List.of(InclineBench, FlexiCable, CableAttachmentAnkleStrapsX2), Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/decline-cable-knee-raise.html");
         add("Decline Bench Knee Raise", FrontalAbs, Strength, DeclineBench, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/decline-bench-knee-raise.html");
         add("Hanging Knee Raise", FrontalAbs, Strength, List.of(FixedUpperBar), Compound, Intermediate, Forearms, "https://www.muscleandstrength.com/exercises/hanging-knee-raise.html");
         add("Hanging Knee Raise With Twist", FrontalAbs, Strength, List.of(FixedUpperBar), Compound, Intermediate, Forearms, "https://www.muscleandstrength.com/exercises/twisting-hanging-knee-raise.html");
         add("Lying Alternating Knee Raise", FrontalAbs, Strength, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-alternate-knee-raise.html");
-        add("Lying Cable Knee Raise", FrontalAbs, Strength, List.of(Bench, Cable, CableAttachmentAnkleStrapsX2), Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-cable-knee-raise.html");
-        add("One-Leg Lying Cable Knee Raise", FrontalAbs, Strength, List.of(Cable, Bench, CableAttachmentAnkleStrapsX1), Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/one-leg-lying-cable-knee-raise.html");
+        add("Lying Cable Knee Raise", FrontalAbs, Strength, List.of(Bench, FlexiCable, CableAttachmentAnkleStrapsX2), Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-cable-knee-raise.html");
+        add("One-Leg Lying Cable Knee Raise", FrontalAbs, Strength, List.of(FlexiCable, Bench, CableAttachmentAnkleStrapsX1), Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/one-leg-lying-cable-knee-raise.html");
         add("Roman Chair Knee Raise", FrontalAbs, Strength, RomanChair, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/chair-knee-raise.html");
         add("Roman Chair Twisting Knee Raise", FrontalAbs, Strength, RomanChair, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/chair-twisting-knee-raise.html");
         add("Roman Chair Weighted Knee Raise", FrontalAbs, Strength, List.of(RomanChair, Dumbbell), Compound, Advanced, none, "https://www.muscleandstrength.com/exercises/weighted-chair-knee-raise.html");
@@ -81,20 +81,20 @@ public class MuscleAndStrength {
         Exercise.currentFolder = Folder.all.get("Crunches");
         add("Weighted Crunch", FrontalAbs, Strength, Disk, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/weighted-crunch.html");
         add("Ab Crunch", FrontalAbs, Strength, Bodyweight, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/ab-crunch");
-        add("Cable Crunch", FrontalAbs, Strength, List.of(Cable, CableAttachmentRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/cable-crunch.html");
-        add("Decline Bench Cable Crunch", FrontalAbs, Strength, List.of(DeclineBench, Cable, CableAttachmentRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/decline-bench-cable-crunch.html");
+        add("Cable Crunch", FrontalAbs, Strength, List.of(TopCable, CableAttachmentRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/cable-crunch.html");
+        add("Decline Bench Cable Crunch", FrontalAbs, Strength, List.of(DeclineBench, LowCable, CableAttachmentRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/decline-bench-cable-crunch.html");
         add("Exercise Ball Crunch", FrontalAbs, Strength, ExerciseBall, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/swiss-ball-crunch.html");
         add("Floor Crunch (legs on bench)", FrontalAbs, Strength, Bench, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/floor-crunch-legs-on-bench.html");
         add("(T) Floor Crunch (legs on bench)", FrontalAbs, Strength, Bed, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/floor-crunch-legs-on-bench.html");
         add("Hands Overhead Ab Crunch", FrontalAbs, Strength, Bodyweight, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/hands-overhead-ab-crunch");
-        add("Lying Cable Crunch", FrontalAbs, Strength, List.of(Cable, CableAttachmentRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-cable-crunch.html");
+        add("Lying Cable Crunch", FrontalAbs, Strength, List.of(LowCable, CableAttachmentRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-cable-crunch.html");
         add("Rotating Crunch (Legs On Bench)", FrontalAbs, Strength, Bench, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/twisting-bench-crunch.html");
         add("(T) Rotating Crunch (Legs On Bench)", FrontalAbs, Strength, Bed, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/twisting-bench-crunch.html");
-        add("Seated Cable Crunch", FrontalAbs, Strength, List.of(Bench, Cable, CableAttachmentRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-cable-crunch.html");
-        add("Standing Cable Crunch", FrontalAbs, Strength, List.of(Cable, CableAttachmentRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-cable-crunch.html");
-        add("Twisting Cable Crunch", FrontalAbs, Strength, List.of(Cable, CableAttachmentRope), Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/twisting-cable-crunch.html");
+        add("Seated Cable Crunch", FrontalAbs, Strength, List.of(Bench, TopCable, CableAttachmentRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-cable-crunch.html");
+        add("Standing Cable Crunch", FrontalAbs, Strength, List.of(TopCable, CableAttachmentRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-cable-crunch.html");
+        add("Twisting Cable Crunch", FrontalAbs, Strength, List.of(TopCable, CableAttachmentRope), Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/twisting-cable-crunch.html");
         add("Twisting Floor Crunch", FrontalAbs, Strength, Bodyweight, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/twisting-floor-crunch.html");
-        add("Twisting Lying Cable Crunch", FrontalAbs, Strength, List.of(Cable, CableAttachmentRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/twisting-lying-cable-crunch.html");
+        add("Twisting Lying Cable Crunch", FrontalAbs, Strength, List.of(LowCable, CableAttachmentRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/twisting-lying-cable-crunch.html");
 
         Exercise.currentFolder = Folder.all.get("Dead Bugs");
         add("Dead Bug", FrontalAbs, Strength, Bodyweight, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/dead-bug");
@@ -108,13 +108,13 @@ public class MuscleAndStrength {
         add("Upper Body Band Resistance Dead Bug", FrontalAbs, Strength, Bands, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/upper-body-band-resisted-dead-bug");
 
         Exercise.currentFolder = Folder.all.get("Pallof Press");
-        add("Glute Bridge Pallof Press", FrontalAbs, Strength, List.of(Cable, CableAttachmentSingleArm), Compound, Beginner, List.of(Glutes), "https://www.muscleandstrength.com/exercises/glute-bridge-pallof-press");
-        add("Half Kneeling Adductor Pallof Press", FrontalAbs, Strength, List.of(Cable, CableAttachmentSingleArm), Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/half-kneeling-adductor-pallof-press");
-        add("Half Kneeling Pallof Press", FrontalAbs, Strength, List.of(Cable, CableAttachmentSingleArm), Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/half-kneeling-pallof-press");
-        add("Lying Pallof Press", FrontalAbs, Strength, List.of(Cable, CableAttachmentSingleArm), Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-pallof-press");
-        add("Pallof Press", FrontalAbs, Strength, List.of(Cable, CableAttachmentSingleArm), Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/pallof-press");
-        add("Pallof Press with Rotation", FrontalAbs, Strength, List.of(Cable, CableAttachmentSingleArm), Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/pallof-press-with-rotation");
-        add("Split Stance Pallof Press", FrontalAbs, Strength, List.of(Cable, CableAttachmentSingleArm), Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/split-stance-pallof-press");
+        add("Glute Bridge Pallof Press", FrontalAbs, Strength, List.of(LowCable, CableAttachmentSingleArm), Compound, Beginner, List.of(Glutes), "https://www.muscleandstrength.com/exercises/glute-bridge-pallof-press");
+        add("Half Kneeling Adductor Pallof Press", FrontalAbs, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/half-kneeling-adductor-pallof-press");
+        add("Half Kneeling Pallof Press", FrontalAbs, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/half-kneeling-pallof-press");
+        add("Lying Pallof Press", FrontalAbs, Strength, List.of(LowCable, CableAttachmentSingleArm), Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-pallof-press");
+        add("Pallof Press", FrontalAbs, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/pallof-press");
+        add("Pallof Press with Rotation", FrontalAbs, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/pallof-press-with-rotation");
+        add("Split Stance Pallof Press", FrontalAbs, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/split-stance-pallof-press");
 
         Exercise.currentFolder = Folder.all.get("Turkish");
         add("Bottoms Up Kettlebell Turkish Get Up", FrontalAbs, Strength, KettleBellsX1, Compound, Beginner, List.of(Adductors, Glutes, Hamstrings, Quads, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/bottoms-up-kettlebell-turkish-get-up");
@@ -191,7 +191,7 @@ public class MuscleAndStrength {
         add("Tall Kneeling Push-Pull", FrontalAbs, Strength, DoubleCable, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/tall-kneeling-push-pull");
         add("Valslide Body Saw", FrontalAbs, SMR, ValSlide, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/valslide-body-saw");
         add("Weighted Straight Leg Toe Touch", FrontalAbs, Strength, Disk, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/weighted-straight-leg-toe-touch");
-        add("Wide Stance Cable Anti-Rotation", FrontalAbs, Strength, List.of(Cable, CableAttachmentRope), Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/wide-stance-cable-anti-rotation");
+        add("Wide Stance Cable Anti-Rotation", FrontalAbs, Strength, List.of(FlexiCable, CableAttachmentRope), Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/wide-stance-cable-anti-rotation");
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //////////// Obliques
@@ -202,11 +202,11 @@ public class MuscleAndStrength {
         add("Side Plank with Hip Dip", Obliques, Strength, Bodyweight, Compound, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/side-plank-with-hip-dip");
 
         Exercise.currentFolder = Folder.all.get("Chops");
-        add("Wood Chop", Obliques, Strength, List.of(Cable, CableAttachmentRope), Compound, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/wood-chop.html");
-        add("Half Kneeling Cable Chop", Obliques, Strength, List.of(Cable, CableAttachmentRope), Compound, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/half-kneeling-cable-chop");
-        add("Low Cable Wood Chop", Obliques, Strength,  List.of(Cable, CableAttachmentRope), Compound, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/low-wood-chop.html");
-        add("Split Stance Cable Chop", Obliques, Strength, List.of(Cable, CableAttachmentRope), Compound, Intermediate, FrontalAbs, "https://www.muscleandstrength.com/exercises/split-stance-cable-chop");
-        add("Tall Kneeling Cable Chop", Obliques, Strength, List.of(Cable, CableAttachmentRope), Compound, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/tall-kneeling-cable-chop");
+        add("Wood Chop", Obliques, Strength, List.of(TopCable, CableAttachmentRope), Compound, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/wood-chop.html");
+        add("Half Kneeling Cable Chop", Obliques, Strength, List.of(TopCable, CableAttachmentRope), Compound, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/half-kneeling-cable-chop");
+        add("Low Cable Wood Chop", Obliques, Strength,  List.of(LowCable, CableAttachmentRope), Compound, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/low-wood-chop.html");
+        add("Split Stance Cable Chop", Obliques, Strength, List.of(TopCable, CableAttachmentRope), Compound, Intermediate, FrontalAbs, "https://www.muscleandstrength.com/exercises/split-stance-cable-chop");
+        add("Tall Kneeling Cable Chop", Obliques, Strength, List.of(TopCable, CableAttachmentRope), Compound, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/tall-kneeling-cable-chop");
 
         Exercise.currentFolder = Folder.all.get("Side Bends");
         add("Barbell Side Bends", FrontalAbs, Strength, List.of(Barbell, Bench), Isolation, Beginner, LowerBack, "https://www.muscleandstrength.com/exercises/barbell-side-bends.html");
@@ -215,15 +215,15 @@ public class MuscleAndStrength {
         add("Alternating Seated Dumbbell Side Bends", Obliques, Strength, List.of(Bench,  Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-dumbbell-side-bends.html");
 
         Exercise.currentFolder = Folder.all.get("Cable Lifts");
-        add("Half Kneeling Cable Lift", Obliques, Strength, List.of(Cable, CableAttachmentRope), Compound, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/half-kneeling-cable-lift");
-        add("Split Stance Cable Lift", Obliques, Strength, List.of(Cable, CableAttachmentRope), Compound, Intermediate, FrontalAbs, "https://www.muscleandstrength.com/exercises/split-stance-cable-lift");
-        add("Tall Kneeling Cable Lift", Obliques, Strength, List.of(Cable, CableAttachmentRope), Compound, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/tall-kneeling-cable-lift");
+        add("Half Kneeling Cable Lift", Obliques, Strength, List.of(LowCable, CableAttachmentRope), Compound, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/half-kneeling-cable-lift");
+        add("Split Stance Cable Lift", Obliques, Strength, List.of(LowCable, CableAttachmentRope), Compound, Intermediate, FrontalAbs, "https://www.muscleandstrength.com/exercises/split-stance-cable-lift");
+        add("Tall Kneeling Cable Lift", Obliques, Strength, List.of(LowCable, CableAttachmentRope), Compound, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/tall-kneeling-cable-lift");
 
         Exercise.currentFolder = Folder.all.get("Other Obliques");
         add("Landmine Rotation", Obliques, Strength, LandMine, Compound, Intermediate, FrontalAbs, "https://www.muscleandstrength.com/exercises/landmine-rotation");
         add("Off Bench Oblique Hold", Obliques, Strength, BenchPress, Compound, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/off-bench-oblique-hold");
         add("Side Crunch (AKA Oblique Crunch)", Obliques, Strength, Bodyweight, Isolation, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/side-crunch.html");
-        add("Oblique Cable Crunch", Obliques, Strength, List.of(Cable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-oblique-cable-crunch.html"); // MS zice că e FrontAbs
+        add("Oblique Cable Crunch", Obliques, Strength, List.of(TopCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-oblique-cable-crunch.html"); // MS zice că e FrontAbs
         add("Side Crunch With Leg Lift", Obliques, Strength, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/side-crunch-with-leg-lift.html"); // MS zice că e FrontAbs
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -235,8 +235,8 @@ public class MuscleAndStrength {
         add("Alternating Dumbbell Hammer Preacher Curl", Biceps, Strength, List.of(PreacherStand, Dumbbell), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/alternate-dumbbell-hammer-preacher-curl.html");
         add("Alternating Dumbbell Preacher Curl", Biceps, Strength, List.of(PreacherStand, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/alternate-dumbbell-preacher-curl.html");
         add("Barbell Preacher Curl", Biceps, Strength, ShortBarbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/preacher-curl.html");
-        add("Cable Preacher Curl", Biceps, Strength, List.of(PreacherStand, Cable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/preacher-cable-curl.html");
-        add("Cable Preacher Curl (Rope Extension)", Biceps, Strength, List.of(PreacherStand, Cable, CableAttachmentRope), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/rope-cable-preacher-curl.html");
+        add("Cable Preacher Curl", Biceps, Strength, List.of(PreacherStand, LowCable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/preacher-cable-curl.html");
+        add("Cable Preacher Curl (Rope Extension)", Biceps, Strength, List.of(PreacherStand, LowCable, CableAttachmentRope), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/rope-cable-preacher-curl.html");
         add("Dumbbell Preacher Curl", Biceps, Strength, List.of(PreacherStand, Dumbbell), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/dumbbell-preacher-curl.html");
         add("Exercise Ball Preacher Curl", Biceps, Strength, List.of(ExerciseBall, ShortBarbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/swiss-ball-preacher-curl.html");
         add("EZ Bar Preacher Curl", Biceps, Strength, List.of(PreacherStand, ZBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/ez-bar-preacher-curl.html");
@@ -266,14 +266,14 @@ public class MuscleAndStrength {
         add("One-Arm Seated Hammer Curl", Biceps, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/one-arm-seated-hammer-curl.html");
         add("(T) One-Arm Seated Hammer Curl", Biceps, Strength, List.of(Bed, Dumbbell), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/one-arm-seated-hammer-curl.html");
         add("Barbell Concentration Curl", Biceps, Strength, ZBar, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/barbell-concentration-curl.html");
-        add("Cable Concentration Curl", Biceps, Strength, List.of(Cable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/cable-concentration-curl.html");
+        add("Cable Concentration Curl", Biceps, Strength, List.of(LowCable, CableAttachmentStraightBar, Bench), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/cable-concentration-curl.html");
         add("One-Arm Prone Hammer Curl", Biceps, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/one-arm-prone-hammer-dumbbell-curl.html");
         add("One-Arm Prone Incline Dumbbell Curl", Biceps, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-prone-dumbbell-curl.html");
         add("Prone Incline Dumbbell Curl", Biceps, Strength, List.of(InclineBench, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/prone-incline-dumbbell-curl.html");
         add("Prone Incline Hammer Curl", Biceps, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/prone-incline-hammer-curl.html");
         add("Seated Barbell Curl", Biceps, Strength, List.of(Bench, ZBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-barbell-curl.html");
         add("(T) Seated Barbell Curl", Biceps, Strength, List.of(Bed, ZBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-barbell-curl.html");
-        add("Seated Cable Curl", Biceps, Strength, List.of(Bench, Cable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-cable-curl.html");
+        add("Seated Cable Curl", Biceps, Strength, List.of(Bench, LowCable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-cable-curl.html");
         add("Seated Dumbbell Curl", Biceps, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-dumbbell-curl.html");
         add("(T) Seated Dumbbell Curl", Biceps, Strength, List.of(Bed, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-dumbbell-curl.html");
         add("Seated Dumbbell Reverse Curl", Biceps, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/seated-dumbbell-reverse-curl");
@@ -288,23 +288,23 @@ public class MuscleAndStrength {
         add("Alternating Standing Dumbbell Twisting Curls", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/twisting-standing-dumbbell-curl.html");
         add("Alternating Standing Hammer Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/alternate-standing-hammer-curl.html");
         add("Barbell Drag Curl", Biceps, Strength, ShortBarbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/barbell-drag-curl.html");
-        add("Cable Curl", Biceps, Strength, List.of(Cable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/cable-curl.html");
-        add("Cable Curl (Rope Extension)", Biceps, Strength, List.of(Cable, CableAttachmentRope), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/rope-cable-curl.html");
-        add("Cable Drag Curl", Biceps, Strength, List.of(Cable, CableAttachmentStraightBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/cable-drag-curl.html");
-        add("Close Grip Cable Curl", Biceps, Strength, List.of(Cable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/close-grip-cable-curl.html");
+        add("Cable Curl", Biceps, Strength, List.of(LowCable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/cable-curl.html");
+        add("Cable Curl (Rope Extension)", Biceps, Strength, List.of(LowCable, CableAttachmentRope), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/rope-cable-curl.html");
+        add("Cable Drag Curl", Biceps, Strength, List.of(LowCable, CableAttachmentStraightBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/cable-drag-curl.html");
+        add("Close Grip Cable Curl", Biceps, Strength, List.of(LowCable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/close-grip-cable-curl.html");
         add("Close Grip EZ Bar Curl", Biceps, Strength, ZBar, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/close-grip-ez-bar-curl.html");
         add("Close Grip Standing Barbell Curl", Biceps, Strength, ShortBarbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/close-grip-standing-barbell-curl.html");
         add("Cross Body Hammer Curl (Pinwheel Curls)", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/hammer-curl-across-the-body.html");
         add("EZ Bar Curl", Biceps, Strength, ZBar, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/ez-bar-curl.html");
         add("Hammer Bar Curl", Biceps, Strength, HammerBar, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/barbell-hammer-curl.html");
-        add("One-Arm Cable Curl", Biceps, Strength, List.of(Cable, CableAttachmentSingleArm), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/one-arm-cable-curl.html");
+        add("One-Arm Cable Curl", Biceps, Strength, List.of(LowCable, CableAttachmentSingleArm), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/one-arm-cable-curl.html");
         add("One-Arm Standing Dumbbell Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-standing-dumbbell-curl.html");
         add("One-Arm Standing Hammer Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/one-arm-standing-hammer-curl.html");
         add("Standing Dumbbell Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-dumbbell-curl.html");
         add("Standing Dumbbell Drag Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/standing-dumbbell-drag-curl");
         add("Standing Dumbbell Reverse Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/standing-dumbbell-reverse-curl.html");
         add("Standing Hammer Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/standing-hammer-curl.html");
-        add("Wide Grip Cable Curl", Biceps, Strength, List.of(Cable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/wide-grip-cable-curl.html");
+        add("Wide Grip Cable Curl", Biceps, Strength, List.of(LowCable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/wide-grip-cable-curl.html");
         add("Wide Grip EZ Bar Curl", Biceps, Strength, ZBar, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/wide-grip-ez-bar-curl.html");
         add("Wide Grip Standing Barbell Curl", Biceps, Strength, ShortBarbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/wide-grip-standing-barbell-curl.html");
         add("Zottman Curl", Biceps, Strength, Dumbbell, Isolation, Intermediate, Forearms, "https://www.muscleandstrength.com/exercises/zottman-curl.html");
@@ -314,16 +314,16 @@ public class MuscleAndStrength {
         add("Exercise Ball Dumbbell Curl", Biceps, Strength, List.of(ExerciseBall, Dumbbell), Isolation, Intermediate, FrontalAbs, "https://www.muscleandstrength.com/exercises/swiss-ball-dumbbell-curl.html");
         add("Lateral Pulldown Bicep Curl", Biceps, Strength, LatCable, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/cable-underhand-pull-down.html");
         add("Smith Machine Bicep Curl", Biceps, Strength, SmithMachine, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/smith-machine-bicep-curl.html");
-        add("Squatting Cable Curl", Biceps, Strength, List.of(Cable, CableAttachmentStraightBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/squatting-cable-curl.html");
+        add("Squatting Cable Curl", Biceps, Strength, List.of(LowCable, CableAttachmentStraightBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/squatting-cable-curl.html");
         add("Standing High Pulley Cable Curl", Biceps, Strength, DoubleCable, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/standing-high-pulley-cable-curl.html");
         add("Two-Arm Low Pulley Cable Curl", Biceps, Strength, DoubleCable, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/two-arm-cable-curl.html");
 
         Exercise.currentFolder = Folder.all.get("Lying Curls");
-        add("Lying Cable Curl (On Floor)", Biceps, Strength, List.of(Cable, CableAttachmentStraightBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-cable-curl-floor.html");
+        add("Lying Cable Curl (On Floor)", Biceps, Strength, List.of(LowCable, CableAttachmentStraightBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-cable-curl-floor.html");
         add("Lying Dumbbell Curl", Biceps, Strength, List.of(Bench, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-dumbbell-curl.html");
         add("(T) Lying Dumbbell Curl", Biceps, Strength, List.of(Bed, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-dumbbell-curl.html");
-        add("Lying High Pulley Cable Curl", Biceps, Strength, List.of(Bench, Cable, CableAttachmentStraightBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-high-pulley-cable-curl.html");
-        add("Lying High Pulley Close Grip Cable Curl", Biceps, Strength, List.of(Bench, Cable, CableAttachmentStraightBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-high-pulley-close-grip-cable-curl.html");
+        add("Lying High Pulley Cable Curl", Biceps, Strength, List.of(Bench, TopCable, CableAttachmentStraightBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-high-pulley-cable-curl.html");
+        add("Lying High Pulley Close Grip Cable Curl", Biceps, Strength, List.of(Bench, TopCable, CableAttachmentStraightBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-high-pulley-close-grip-cable-curl.html");
         add("Lying Wide Dumbbell Curl", Biceps, Strength, List.of(Bench, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-wide-dumbbell-curl.html");
         add("(T) Lying Wide Dumbbell Curl", Biceps, Strength, List.of(Bed, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-wide-dumbbell-curl.html");
 
@@ -340,14 +340,14 @@ public class MuscleAndStrength {
         add("(T) Banded Tibialis Raise", Calves, Strength, List.of(Bands, Pole), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/banded-tibialis-raise");
         add("Bodyweight Floor Calf Raise", Calves, Strength, Bodyweight, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/floor-calf-raise.html");
         add("Bodyweight Standing Calf Raise", Calves, Strength, FootStand, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/bodyweight-standing-calf-raise.html");
-        add("Cable Calf Raise", Calves, Strength, List.of(FootStand, Cable, WeightStrap), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/cable-calf-raise.html");
+        add("Cable Calf Raise", Calves, Strength, List.of(FootStand, LowCable, WaistStrap), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/cable-calf-raise.html");
         add("Donkey Calf Raise", Calves, Strength, List.of(FootStand, InclineBench), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/donkey-calf-raise.html");
         add("Double Jump Jump Rope", Calves, Conditioning, JumpRope, Compound, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/double-jump-jump-ropes");
         add("Exercise Ball On-The-Wall Calf Raise", Calves, Strength, List.of(Wall, ExerciseBall, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/exercise-ball-on-the-wall-calf-raise.html");
         add("Front to Back Jump Rope", Calves, Conditioning, JumpRope, Compound, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/front-to-back-jump-rope");
         add("Jump Rope", Calves, Conditioning, JumpRope, Compound, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/jump-rope");
         add("Knee Break Ankle Mobilization", Calves, Warmup, Disk, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/knee-break-ankle-mobilization");
-        add("One-Leg Cable Calf Raise", Calves, Strength, List.of(Cable, FootStand, WeightStrap), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-leg-cable-calf-raise.html");
+        add("One-Leg Cable Calf Raise", Calves, Strength, List.of(LowCable, FootStand, WaistStrap), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-leg-cable-calf-raise.html");
         add("One-Leg Donkey Calf Raise", Calves, Strength, List.of(FootStand, InclineBench), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-leg-donkey-calf-raise.html");
         add("One-Leg Floor Calf Raise", Calves, Strength, Bodyweight, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-leg-floor-calf-raise.html");
         add("One-Leg Seated Dumbbell Calf Raise", Calves, Strength, List.of(FootStand, Dumbbell, Bench), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-leg-seated-dumbbell-calf-raise.html");
@@ -510,8 +510,8 @@ public class MuscleAndStrength {
         add("(T) Barbell Pullover And Press", Chest, Strength, List.of(Bed, ShortBarbell), Compound, Intermediate, List.of(Lats, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/barbell-pullover-and-press.html");
         add("Dumbbell Pullover", Chest, Strength, List.of(Bench, Dumbbell), Compound, Intermediate, List.of(Lats), "https://www.muscleandstrength.com/exercises/dumbbell-pullover.html");
         add("(T) Dumbbell Pullover", Chest, Strength, List.of(Bed, Dumbbell), Compound, Intermediate, List.of(Lats), "https://www.muscleandstrength.com/exercises/dumbbell-pullover.html");
-        add("Lying Cable Pullover", Chest, Strength, List.of(Bench, Cable, CableAttachmentStraightBar), Compound, Intermediate, List.of(Lats, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/lying-cable-pullover.html");
-        add("Lying Cable Pullover (Rope Extension)", Chest, Strength, List.of(Bench, Cable, CableAttachmentRope), Compound, Intermediate, List.of(Lats, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/lying-cable-pullover-rope-extension.html");
+        add("Lying Cable Pullover", Chest, Strength, List.of(Bench, LowCable, CableAttachmentStraightBar), Compound, Intermediate, List.of(Lats, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/lying-cable-pullover.html");
+        add("Lying Cable Pullover (Rope Extension)", Chest, Strength, List.of(Bench, LowCable, CableAttachmentRope), Compound, Intermediate, List.of(Lats, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/lying-cable-pullover-rope-extension.html");
 
         Exercise.currentFolder = Folder.all.get("Other Chest");
         add("Chest Dip", Chest, Strength, DipStation, Compound, Intermediate, List.of(FrontalAbs, Shoulders, Triceps), "https://www.muscleandstrength.com/exercises/chest-dip.html");
@@ -542,22 +542,22 @@ public class MuscleAndStrength {
         add("Alternating Dumbbell Reverse Grip Curl", Forearms, Strength, Dumbbell, Isolation, Beginner, List.of(Biceps), "https://www.muscleandstrength.com/exercises/standing-alternate-dumbbell-reverse-curl.html");
         add("One-Arm Dumbbell Reverse Grip Curl", Forearms, Strength, Dumbbell, Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/standing-one-arm-dumbbell-reverse-curl.html");
         add("Reverse Grip Barbell Curl", Forearms, Strength, ShortBarbell, Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/reverse-barbell-curl.html");
-        add("Reverse Grip Cable Curl", Forearms, Strength, List.of(Cable, CableAttachmentStraightBar), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/reverse-cable-curl.html");
-        add("Reverse Grip Cable Preacher Curl", Forearms, Strength, List.of(PreacherStand, Cable, CableAttachmentStraightBar), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/reverse-cable-preacher-curl.html");
+        add("Reverse Grip Cable Curl", Forearms, Strength, List.of(LowCable, CableAttachmentStraightBar), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/reverse-cable-curl.html");
+        add("Reverse Grip Cable Preacher Curl", Forearms, Strength, List.of(PreacherStand, LowCable, CableAttachmentStraightBar), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/reverse-cable-preacher-curl.html");
         add("Reverse Grip Concentration Curl", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/reverse-concentration-curl.html");
         add("(T) Reverse Grip Concentration Curl", Forearms, Strength, List.of(Bed, Dumbbell), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/reverse-concentration-curl.html");
         add("Reverse Grip Dumbbell Preacher Curl", Forearms, Strength, List.of(PreacherStand, Dumbbell), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/dumbbell-reverse-preacher-curl.html");
         add("Reverse Grip Preacher Curl", Forearms, Strength, List.of(PreacherStand, ShortBarbell), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/reverse-preacher-curl.html");
         add("Reverse Grip Preacher Curl (EZ Bar)", Forearms, Strength, List.of(PreacherStand, ZBar), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/ez-bar-reverse-grip-preacher-curl.html");
-        add("Reverse One Arm Cable Curl", Forearms, Strength, List.of(Cable, CableAttachmentSingleArm), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/reverse-one-arm-cable-curl.html");
-        add("Standing Reverse Grip Cable Curl", Forearms, Strength, List.of(Cable, CableAttachmentStraightBar), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/standing-cable-reverse-curl.html");
+        add("Reverse One Arm Cable Curl", Forearms, Strength, List.of(LowCable, CableAttachmentSingleArm), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/reverse-one-arm-cable-curl.html");
+        add("Standing Reverse Grip Cable Curl", Forearms, Strength, List.of(LowCable, CableAttachmentStraightBar), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/standing-cable-reverse-curl.html");
         add("One-Arm Reverse Grip Dumbbell Preacher Curl", Forearms, Strength, List.of(PreacherStand, Dumbbell), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/one-arm-reverse-dumbbell-preacher-curl.html");
 
         Exercise.currentFolder = Folder.all.get("Wrist Curls");
         add("Seated Barbell Wrist Curl", Forearms, Strength, ShortBarbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/barbell-wrist-curl.html");
         add("Barbell Wrist Curl (Over Bench)", Forearms, Strength, List.of(Bench, ShortBarbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/barbell-wrist-curl-over-bench.html");
         add("Behind-The-Back Barbell Wrist Curl", Forearms, Strength, ShortBarbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-wrist-curl.html");
-        add("Behind-The-Back Cable Wrist Curl", Forearms, Strength, List.of(Cable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-cable-wrist-curl-(behind-back).html");
+        add("Behind-The-Back Cable Wrist Curl", Forearms, Strength, List.of(LowCable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-cable-wrist-curl-(behind-back).html");
         add("Dumbbell Wrist Curl (Over Bench)", Forearms, Strength, Dumbbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/dumbbell-wrist-curl-over-bench.html");
         add("Neutral Grip Dumbbell Wrist Curl (Over Bench)", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/neutral-dumbbell-wrist-curl-over-bench.html");
         add("One-Arm Dumbbell Wrist Curl (Over Bench)", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-wrist-curl-over-bench.html");
@@ -574,12 +574,12 @@ public class MuscleAndStrength {
         add("(T) Reverse Grip Barbell Wrist Curl", Forearms, Strength, List.of(Bed, ShortBarbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-barbell-wrist-curl.html");
         add("Reverse Grip Barbell Wrist Curl (Over Bench)", Forearms, Strength, List.of(Bench, ShortBarbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-barbell-wrist-curl-over-bench.html");
         add("Reverse Grip Dumbbell Wrist Curl (Over Bench)", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-dumbbell-wrist-curl-over-bench.html");
-        add("Seated Cable Wrist Curl", Forearms, Strength, List.of(Bench, Cable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-cable-wrist-curl.html");
+        add("Seated Cable Wrist Curl", Forearms, Strength, List.of(Bench, LowCable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-cable-wrist-curl.html");
         add("Seated Dumbbell Wrist Curl", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/dumbbell-wrist-curl.html");
         add("(T) Seated Dumbbell Wrist Curl", Forearms, Strength, List.of(Bed, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/dumbbell-wrist-curl.html");
         add("Seated Neutral Grip Dumbbell Wrist Curl", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-neutral-dumbbell-wrist-curl.html");
         add("(T) Seated Neutral Grip Dumbbell Wrist Curl", Forearms, Strength, List.of(Bed, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-neutral-dumbbell-wrist-curl.html");
-        add("Seated Reverse Grip Cable Wrist Curl", Forearms, Strength, List.of(Bench, Cable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-grip-seated-cable-wrist-curl.html");
+        add("Seated Reverse Grip Cable Wrist Curl", Forearms, Strength, List.of(Bench, LowCable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-grip-seated-cable-wrist-curl.html");
         add("Seated Reverse Grip Dumbbell Wrist Curl", Forearms, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-dumbbell-wrist-curl.html");
         add("(T) Seated Reverse Grip Dumbbell Wrist Curl", Forearms, Strength, List.of(Bed, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-dumbbell-wrist-curl.html");
         add("Smith Machine Seated Wrist Curl", Forearms, Strength, List.of(SmithMachine, Bench), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/smith-machine-seated-wrist-curl.html");
@@ -723,12 +723,12 @@ public class MuscleAndStrength {
         add("Dumbbell Hamstring Curl", Hamstrings, Strength, List.of(Bench, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/dumbbell-hamstring-curl.html");
         add("(T) Dumbbell Hamstring Curl", Hamstrings, Strength, List.of(Bed, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/dumbbell-hamstring-curl.html");
         add("Exercise Ball Leg Curl (SHELC)", Hamstrings, Strength, ExerciseBall, Isolation, Beginner, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/exercise-ball-hamstring-curl");
-        add("Lying Cable Leg Curl", Hamstrings, Strength, List.of(CableAttachmentAnkleStrapsX2, Cable), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-cable-hamstring-curl.html");
-        add("One-Leg Lying Cable Hamstring Curl", Hamstrings, Strength, List.of(CableAttachmentAnkleStrapsX1, Cable), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-leg-lying-cable-hamstring-curl.html");
+        add("Lying Cable Leg Curl", Hamstrings, Strength, List.of(Bench, CableAttachmentAnkleStrapsX2, LowCable), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-cable-hamstring-curl.html");
+        add("One-Leg Lying Cable Hamstring Curl", Hamstrings, Strength, List.of(Bench, CableAttachmentAnkleStrapsX1, LowCable), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-leg-lying-cable-hamstring-curl.html");
         add("Partner Assisted Nordic Hamstring Curls", Hamstrings, Strength, Partner, Isolation, Advanced, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/partner-assisted-nordic-hamstring-curl");
         add("Single Leg Exercise Ball Leg Curl", Hamstrings, Strength, ExerciseBall, Isolation, Advanced, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/single-leg-exercise-ball-leg-curl");
         add("Single Leg Valslide Leg Curl", Hamstrings, Strength, ValSlide, Isolation, Advanced, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/single-leg-valslide-leg-curl");
-        add("Standing Cable Hamstring Curl", Hamstrings, Strength, List.of(Cable, CableAttachmentAnkleStrapsX1), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-cable-hamstring-curl.html");
+        add("Standing Cable Hamstring Curl", Hamstrings, Strength, List.of(LowCable, CableAttachmentAnkleStrapsX1), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-cable-hamstring-curl.html");
         add("Valslide Leg Curl", Hamstrings, Strength, ValSlide, Isolation, Beginner, List.of(FrontalAbs, Calves, Glutes), "https://www.muscleandstrength.com/exercises/valslide-leg-curl");
 
         Exercise.currentFolder = Folder.all.get("Kettlebell Swings");
@@ -773,13 +773,13 @@ public class MuscleAndStrength {
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         Exercise.currentFolder = Folder.all.get("Lat Pull Down");
         add("Lat Pull Down", Lats, Strength, LatCable, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/lat-pull-down.html");
-        add("Straight Arm Lat Pull Down", Lats, Strength, List.of(Cable, CableAttachmentStraightBar), Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/straight-arm-lat-pull-down.html");
+        add("Straight Arm Lat Pull Down", Lats, Strength, List.of(TopCable, CableAttachmentStraightBar), Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/straight-arm-lat-pull-down.html");
         add("Behind Neck Lat Pull Down", Lats, Strength, LatCable, Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/behind-neck-lat-pull-down.html");
         add("Close Grip Lat Pull Down", Lats, Strength, LatCable, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/close-grip-pull-down.html");
         add("Lateral Pulldown (Rope Extension)", Lats, Strength, LatCable, Compound, Beginner, List.of(Biceps, MiddleBack, Shoulders), "https://www.muscleandstrength.com/exercises/rope-lat-pull-down.html");
         add("Overhand Close Grip Lateral Pulldown", Lats, Strength, LatCable, Compound, Beginner, List.of(Biceps, MiddleBack, Shoulders), "https://www.muscleandstrength.com/exercises/overhand-close-grip-lat-pull-down.html");
         add("Reverse Grip Lat Pull Down (Underhand)", Lats, Strength, LatCable, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/reverse-grip-lat-pull-down.html");
-        add("Rope Straight Arm Pull Down", Lats, Strength, List.of(Cable, CableAttachmentRope), Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/rope-straight-arm-pull-down");
+        add("Rope Straight Arm Pull Down", Lats, Strength, List.of(TopCable, CableAttachmentRope), Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/rope-straight-arm-pull-down");
         add("Underhand Close Grip Lateral Pulldown", Lats, Strength, LatCable, Compound, Intermediate, List.of(Biceps, MiddleBack), "https://www.muscleandstrength.com/exercises/underhand-close-grip-lat-pull-down.html");
         add("V-Bar Pull Down", Lats, Strength, List.of(LatCable, VBar), Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/v-bar-pull-down");
         add("Wide Grip Lat Pull Down", Lats, Strength, LatCable, Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/wide-grip-pull-down");
@@ -823,8 +823,8 @@ public class MuscleAndStrength {
         add("Wide Grip Chin Up", Lats, Strength, FixedUpperBar, Compound, Beginner, List.of(Biceps, MiddleBack, Shoulders), "https://www.muscleandstrength.com/exercises/wide-grip-chin-up.html");
 
         Exercise.currentFolder = Folder.all.get("Lat Rows");
-        add("Shotgun Row", Lats, Strength, List.of(Cable, CableAttachmentSingleArm), Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/standing-one-arm-cable-row.html");
-        add("Thibaudeau Kayak Row", Lats, Strength, List.of(Cable, CableAttachmentStraightBar), Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/thibaudeau-kayak-row");
+        add("Shotgun Row", Lats, Strength, List.of(LowCable, CableAttachmentSingleArm), Compound, Beginner, List.of(FrontalAbs, Biceps, Shoulders, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/standing-one-arm-cable-row.html");
+        add("Thibaudeau Kayak Row", Lats, Strength, List.of(TopCable, CableAttachmentStraightBar), Compound, Intermediate, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/thibaudeau-kayak-row");
 
         Exercise.currentFolder = Folder.all.get("Rope Climbs");
         add("Arms Only Rope Climb", Lats, Strength, HangingRope, Compound, Advanced, List.of(FrontalAbs, Biceps, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/arms-only-rope-climb");
@@ -871,14 +871,14 @@ public class MuscleAndStrength {
         add("Seated Cable Row", UpperBack, Strength, RowCable, Compound, Beginner, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/seated-row.html");
         add("Bent Over Dumbbell Row", UpperBack, Strength, Dumbbell, Compound, Beginner, List.of(FrontalAbs, Biceps, Lats, LowerBack, Shoulders), "https://www.muscleandstrength.com/exercises/bent-over-dumbbell-row.html");
         add("Bent Over Kettlebell Row", UpperBack, Strength, KettleBellsX2, Compound, Beginner, List.of(FrontalAbs, Biceps, Lats, LowerBack, Shoulders), "https://www.muscleandstrength.com/exercises/bent-over-kettlebell-row");
-        add("Cable Palm Rotational Row", UpperBack, Strength, List.of(Cable, CableAttachmentSingleArm), Compound, Intermediate, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/cable-palm-rotational-row.html");
+        add("Cable Palm Rotational Row", UpperBack, Strength, List.of(LowCable, CableAttachmentSingleArm), Compound, Intermediate, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/cable-palm-rotational-row.html");
         add("Chest Supported Dumbbell Row with Isohold", UpperBack, Strength, List.of(InclineBench, Dumbbell), Compound, Beginner, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/chest-supported-dumbbell-row-with-isohold");
         add("Deadstop Rack Row", UpperBack, Strength, Rack, Compound, Beginner, List.of(FrontalAbs, Biceps, Lats, LowerBack, Shoulders), "https://www.muscleandstrength.com/exercises/deadstop-rack-row");
         add("Double Arm Sled Row", UpperBack, Conditioning, Sled, Compound, Beginner, List.of(FrontalAbs, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/double-arm-sled-row");
         add("Feet Elevated Inverted Row", UpperBack, Strength, List.of(SmithMachine, Bench), Compound, Beginner, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/smith-machine-bodyweight-row.html");
         add("Incline Bench Barbell Row", UpperBack, Strength, List.of(InclineBench, Barbell), Compound, Intermediate, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/incline-bench-barbell-row.html");
-        add("Incline Bench Cable Row", UpperBack, Strength, List.of(InclineBench, Cable, CableAttachmentStraightBar), Compound, Intermediate, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/incline-bench-cable-row.html");
-        add("Incline Bench Cable Row (Rope Extension)", UpperBack, Strength, List.of(InclineBench, Cable, CableAttachmentRope), Compound, Intermediate, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/incline-bench-cable-row-rope-extension.html");
+        add("Incline Bench Cable Row", UpperBack, Strength, List.of(InclineBench, LowCable, CableAttachmentStraightBar), Compound, Intermediate, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/incline-bench-cable-row.html");
+        add("Incline Bench Cable Row (Rope Extension)", UpperBack, Strength, List.of(InclineBench, LowCable, CableAttachmentRope), Compound, Intermediate, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/incline-bench-cable-row-rope-extension.html");
         add("Incline Bench Two Arm Dumbbell Row", UpperBack, Strength, List.of(InclineBench, Dumbbell), Compound, Beginner, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/incline-bench-two-arm-dumbbell-row.html");
         add("Inverted Rope Row", UpperBack, Strength, HangingRope, Compound, Beginner, List.of(FrontalAbs, Biceps, Forearms, Lats, LowerBack, Shoulders), "https://www.muscleandstrength.com/exercises/inverted-rope-row");
         add("Inverted Row", UpperBack, Strength, SmithMachine, Compound, Beginner, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/high-inverted-row.html");
@@ -895,7 +895,7 @@ public class MuscleAndStrength {
         add("Reverse Grip Bent-Over Dumbbell Row", UpperBack, Strength, Dumbbell, Compound, Intermediate, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/reverse-grip-bent-over-dumbbell-row.html");
         add("Reverse Grip Bent-Over Row (EZ Bar)", UpperBack, Strength, ZBar, Compound, Beginner, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/ez-bar-reverse-grip-bent-over-row.html");
         add("Reverse Grip Incline Bench Barbell Row", UpperBack, Strength, List.of(InclineBench, Barbell), Compound, Beginner, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/reverse-grip-incline-bench-barbell-row.html");
-        add("Reverse Grip Incline Bench Cable Row", UpperBack, Strength, List.of(InclineBench, Cable, CableAttachmentStraightBar), Compound, Intermediate, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/reverse-grip-incline-bench-cable-row.html");
+        add("Reverse Grip Incline Bench Cable Row", UpperBack, Strength, List.of(InclineBench, LowCable, CableAttachmentStraightBar), Compound, Intermediate, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/reverse-grip-incline-bench-cable-row.html");
         add("Reverse Grip Incline Bench Two-Arm Dumbbell Row", UpperBack, Strength, List.of(InclineBench, Dumbbell), Compound, Intermediate, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/reverse-grip-incline-bench-two-arm-dumbbell-row.html");
         add("Reverse Grip Smith Machine Bent-Over Row", UpperBack, Strength, SmithMachine, Compound, Beginner, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/reverse-grip-smith-machine-bent-over-row.html");
         add("Reverse Lunge Sled Row", UpperBack, Conditioning, Sled, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Lats, Quads, Shoulders), "https://www.muscleandstrength.com/exercises/reverse-lunge-sled-row");
@@ -1139,10 +1139,10 @@ public class MuscleAndStrength {
         add("Alternating Dumbbell Front Raise", Shoulders, Strength, Dumbbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/alternate-standing-dumbbell-front-raise.html");
         add("Barbell Front Raise", Shoulders, Strength, Barbell, Isolation, Beginner, List.of(FrontalAbs, Traps), "https://www.muscleandstrength.com/exercises/barbell-front-raise.html");
         add("Barbell Overhead Front Raise", Shoulders, Strength, Barbell, Isolation, Beginner, List.of(FrontalAbs, Traps), "https://www.muscleandstrength.com/exercises/high-barbell-front-raise.html");
-        add("Cable Front Raise (Bilateral)", Shoulders, Strength, List.of(Cable, CableAttachmentStraightBar), Compound, Beginner, List.of(Traps, UpperBack), "https://www.muscleandstrength.com/exercises/cable-front-raise.html");
-        add("Lying Cable Front Raise", Shoulders, Strength, List.of(Cable, CableAttachmentStraightBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-cable-front-raise.html");
+        add("Cable Front Raise (Bilateral)", Shoulders, Strength, List.of(LowCable, CableAttachmentStraightBar), Compound, Beginner, List.of(Traps, UpperBack), "https://www.muscleandstrength.com/exercises/cable-front-raise.html");
+        add("Lying Cable Front Raise", Shoulders, Strength, List.of(LowCable, CableAttachmentStraightBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-cable-front-raise.html");
         add("Lying Dumbbell Front Raise On Incline Bench", Shoulders, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/dumbbell-front-raise-on-incline-bench.html");
-        add("One-Arm Cable Front Raise", Shoulders, Strength, List.of(Cable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-cable-front-raise.html");
+        add("One-Arm Cable Front Raise", Shoulders, Strength, List.of(LowCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-cable-front-raise.html");
         add("One-Arm Dumbbell Front Raise", Shoulders, Strength, Dumbbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-standing-dumbbell-front-raise.html");
         add("One-Arm Incline Dumbbell Front Raise", Shoulders, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-front-raise-on-incline-bench.html");
         add("One-Arm Seated Dumbbell Front Raise", Shoulders, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-seated-dumbbell-front-raise.html");
@@ -1203,11 +1203,11 @@ public class MuscleAndStrength {
         add("(T) Seated Alternating Dumbbell Lateral Raise", Shoulders, Strength, List.of(Bed, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-alternate-dumbbell-lateral-raise.html");
         add("Seated Dumbbell Lateral Raise", Shoulders, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-dumbbell-lateral-raise.html");
         add("(T) Seated Dumbbell Lateral Raise", Shoulders, Strength, List.of(Bed, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-dumbbell-lateral-raise.html");
-        add("Single Arm Cable Lateral Raise (Crossbody)", Shoulders, Strength, List.of(Cable, CableAttachmentSingleArm), Isolation, Intermediate, Traps, "https://www.muscleandstrength.com/exercises/one-arm-cable-lateral-raise.html");
+        add("Single Arm Cable Lateral Raise (Crossbody)", Shoulders, Strength, List.of(LowCable, CableAttachmentSingleArm), Isolation, Intermediate, Traps, "https://www.muscleandstrength.com/exercises/one-arm-cable-lateral-raise.html");
 
         Exercise.currentFolder = Folder.all.get("Upright Rows");
         add("Banded Upright Row", Shoulders, Strength, Bands, Compound, Beginner, List.of(Biceps, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/banded-upright-row");
-        add("Cable Upright Row", Shoulders, Strength, List.of(Cable, CableAttachmentStraightBar), Compound, Beginner, List.of(Biceps, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/cable-upright-row.html");
+        add("Cable Upright Row", Shoulders, Strength, List.of(LowCable, CableAttachmentStraightBar), Compound, Beginner, List.of(Biceps, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/cable-upright-row.html");
         add("Dumbbell Upright Row", Shoulders, Strength, Dumbbell, Compound, Beginner, List.of(Biceps, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/dumbbell-upright-row.html");
         add("Smith Machine Upright Row", Shoulders, Strength, SmithMachine, Compound, Beginner, Traps, "https://www.muscleandstrength.com/exercises/smith-machine-upright-row.html");
 
@@ -1224,7 +1224,7 @@ public class MuscleAndStrength {
         add("Incline Rear Delt Fly", Shoulders, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, List.of(Traps, Triceps), "https://www.muscleandstrength.com/exercises/dumbbell-reverse-fly-on-incline-bench.html");
         add("Lying Rear Delt Fly", Shoulders, Strength, List.of(Aerobic_Step, Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-dumbbell-reverse-fly.html");
         add("One Arm Dumbbell Rear Delt Fly On Incline Bench", Shoulders, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, List.of(Traps, Triceps), "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-reverse-fly-on-incline-bench.html");
-        add("One-Arm Bent-Over Cable Reverse Fly", Shoulders, Strength, List.of(Cable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-cable-reverse-fly.html");
+        add("One-Arm Bent-Over Cable Reverse Fly", Shoulders, Strength, List.of(LowCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-cable-reverse-fly.html");
         add("One-Arm Dumbbell Rear Delt Fly", Shoulders, Strength, Dumbbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-bent-over-dumbbell-reverse-fly.html");
         add("One-Arm Lying Rear Delt Fly", Shoulders, Strength, List.of(Aerobic_Step, Bench, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/one-arm-lying-dumbbell-reverse-fly.html");
         add("One-Arm Seated Rear Delt Fly", Shoulders, Strength, List.of(Bench, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/one-arm-seated-bent-over-dumbbell-reverse-fly.html");
@@ -1237,8 +1237,8 @@ public class MuscleAndStrength {
         add("Standing Cable Reverse Fly", Shoulders, Strength, DoubleCable, Isolation, Beginner, List.of(Traps, UpperBack), "https://www.muscleandstrength.com/exercises/standing-cable-flys.html");
 
         Exercise.currentFolder = Folder.all.get("Face Pulls");
-        add("Cable Face Pull", Shoulders, Strength, List.of(Cable, CableAttachmentRope), Compound, Beginner, List.of(Traps, UpperBack), "https://www.muscleandstrength.com/exercises/cable-face-pull");
-        add("Cable Face Pull with External Rotation", Shoulders, Strength, List.of(Cable, CableAttachmentRope), Compound, Beginner, List.of(Traps, UpperBack), "https://www.muscleandstrength.com/exercises/cable-face-pull-with-external-rotation");
+        add("Cable Face Pull", Shoulders, Strength, List.of(FlexiCable, CableAttachmentRope), Compound, Beginner, List.of(Traps, UpperBack), "https://www.muscleandstrength.com/exercises/cable-face-pull");
+        add("Cable Face Pull with External Rotation", Shoulders, Strength, List.of(FlexiCable, CableAttachmentRope), Compound, Beginner, List.of(Traps, UpperBack), "https://www.muscleandstrength.com/exercises/cable-face-pull-with-external-rotation");
         add("Face Pulls on Rings", Shoulders, Strength, Rings, Compound, Intermediate, List.of(Traps, UpperBack), "https://www.muscleandstrength.com/exercises/face-pull-on-rings");
         add("Half Kneeling Banded Face Pull", Shoulders, Strength, List.of(Pole, Bands), Isolation, Beginner, List.of(FrontalAbs, UpperBack), "https://www.muscleandstrength.com/exercises/half-kneeling-banded-face-pull");
         add("Standing Banded Face Pull", Shoulders, Strength, List.of(Pole, Bands), Isolation, Intermediate, List.of(FrontalAbs, UpperBack), "https://www.muscleandstrength.com/exercises/banded-face-pull");
@@ -1333,13 +1333,13 @@ public class MuscleAndStrength {
 
         Exercise.currentFolder = Folder.all.get("Internal Rotations");
         add("Banded Internal Rotation", Shoulders, Strength, List.of(Pole, Bands), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/banded-internal-rotation");
-        add("Cable Internal Rotation", Shoulders, Strength, List.of(Cable, CableAttachmentSingleArm), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/cable-internal-rotation");
+        add("Cable Internal Rotation", Shoulders, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/cable-internal-rotation");
 
         Exercise.currentFolder = Folder.all.get("External Rotations");
         add("Bench Supported Dumbbell External Rotation", Shoulders, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/bench-supported-dumbbell-external-rotation");
-        add("Cable External Rotation", Shoulders, Strength, List.of(Cable, CableAttachmentSingleArm), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/cable-external-rotation");
+        add("Cable External Rotation", Shoulders, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/cable-external-rotation");
         add("Half Kneeling Banded External Rotation", Shoulders, Strength, List.of(Pole, Bands), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/half-kneeling-banded-external-rotation");
-        add("Half Kneeling Cable External Rotation", Shoulders, Strength, List.of(Cable, CableAttachmentSingleArm), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/half-kneeling-cable-external-rotation");
+        add("Half Kneeling Cable External Rotation", Shoulders, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/half-kneeling-cable-external-rotation");
         add("Knee to Elbow Dumbbell External Rotation", Shoulders, Strength, Dumbbell, Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/knee-to-elbow-dumbbell-external-rotation");
         add("Single Arm Banded External Rotation", Shoulders, Strength, List.of(Pole, Rack, Bands), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/single-arm-banded-external-rotation");
         add("Standing External Rotation (No Money Drill)", Shoulders, Strength, Bands, Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/standing-external-rotation-no-money");
@@ -1372,9 +1372,9 @@ public class MuscleAndStrength {
         add("Clean Shrug", Traps, OlympicWeightlifting, Barbell, Compound, Intermediate, List.of(FrontalAbs, Adductors, Biceps, Calves, Forearms, Glutes, Hamstrings, Quads, Shoulders), "https://www.muscleandstrength.com/exercises/clean-shrug");
         add("Gittleson Shrug", Traps, Strength, List.of(Bench, Dumbbell), Isolation, Advanced, List.of(Shoulders,  UpperBack), "https://www.muscleandstrength.com/exercises/gittleson-shrug");
         add("Inverted Shrug", Traps, Strength, Rack, Isolation, Intermediate, List.of(Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/inverted-shrug");
-        add("Lying Cable Shrug", Traps, Strength, List.of(Cable, CableAttachmentStraightBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-cable-shrug.html");
+        add("Lying Cable Shrug", Traps, Strength, List.of(LowCable, CableAttachmentStraightBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-cable-shrug.html");
         add("Overhead Barbell Shrug", Traps, Strength, Rack, Isolation, Intermediate, List.of(Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/overhead-barbell-shrug");
-        add("Seated Cable Shrug", Traps, Strength, List.of(Cable, VBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-cable-shrug.html");
+        add("Seated Cable Shrug", Traps, Strength, List.of(LowCable, VBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-cable-shrug.html");
         add("Seated Dumbbell Shrug", Traps, Strength, List.of(Bench,  Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-dumbbell-shrug.html");
         add("Smith Machine Shrug", Traps, Strength, SmithMachine, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/smith-machine-shrug.html");
         add("Snatch Grip Barbell Shrug", Traps, Strength, Rack, Isolation, Beginner, List.of(Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/snatch-grip-barbell-shrug");
@@ -1391,8 +1391,8 @@ public class MuscleAndStrength {
 
         Exercise.currentFolder = Folder.all.get("Trap Upright Rows");
         add("Barbell Upright Row", Traps, Strength, ShortBarbell, Compound, Beginner, List.of(Biceps, Shoulders), "https://www.muscleandstrength.com/exercises/upright-row.html");
-        add("Cable Row to Neck", Traps, Strength, List.of(Cable, CableAttachmentRope), Compound, Beginner, List.of(Lats, Shoulders), "https://www.muscleandstrength.com/exercises/cable-row-to-neck.html");
-        add("Lying Cable Upright Row", Traps, Strength, List.of(Cable, CableAttachmentStraightBar), Compound, Intermediate, Biceps, "https://www.muscleandstrength.com/exercises/lying-cable-upright-row.html");
+        add("Cable Row to Neck", Traps, Strength, List.of(LowCable, CableAttachmentRope), Compound, Beginner, List.of(Lats, Shoulders), "https://www.muscleandstrength.com/exercises/cable-row-to-neck.html");
+        add("Lying Cable Upright Row", Traps, Strength, List.of(LowCable, CableAttachmentStraightBar), Compound, Intermediate, Biceps, "https://www.muscleandstrength.com/exercises/lying-cable-upright-row.html");
         add("One-Arm Dumbbell Upright Row", Traps, Strength, Dumbbell, Compound, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-upright-row.html");
         add("Wide Grip Upright Row", Traps, Strength, Rack, Compound, Intermediate, List.of(Lats, Shoulders), "https://www.muscleandstrength.com/exercises/wide-grip-upright-rows.html");
 
@@ -1426,60 +1426,60 @@ public class MuscleAndStrength {
         add("Banded Skullcrusher", Triceps, Strength, List.of(Bench, Bands), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/banded-skullcrusher");
         add("(T) Banded Skullcrusher", Triceps, Strength, List.of(Bed, Bands), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/banded-skullcrusher");
         add("Banded Tricep Extension", Triceps, Strength, List.of(FixedUpperBar, Bands), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/banded-tricep-extension");
-        add("Cable Concentration Tricep Extension", Triceps, Strength, List.of(Cable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/cable-concentration-tricep-extension.html");
-        add("Cable Tricep Extension With V-Bar", Triceps, Strength, List.of(Cable, CableAttachmentBentBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/cable-tricep-extension-with-v-bar.html");
+        add("Cable Concentration Tricep Extension", Triceps, Strength, List.of(TopCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/cable-concentration-tricep-extension.html");
+        add("Cable Tricep Extension With V-Bar", Triceps, Strength, List.of(TopCable, CableAttachmentBentBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/cable-tricep-extension-with-v-bar.html");
         add("Decline Lying Dumbbell Extension", Triceps, Strength, List.of(DeclineBench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/decline-lying-dumbbell-extension.html");
         add("Decline Lying Tricep Extension (Skullcrusher)", Triceps, Strength, List.of(DeclineBench, ZBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/decline-lying-tricep-extension-skullcrusher.html");
         add("Exercise Ball One-Arm Dumbbell Extension", Triceps, Strength, List.of(ExerciseBall, Dumbbell), Isolation, Intermediate, FrontalAbs, "https://www.muscleandstrength.com/exercises/exercise-ball-one-arm-dumbbell-extension.html");
         add("Exercise Ball Two-Arm Dumbbell Extension", Triceps, Strength, List.of(ExerciseBall, Dumbbell), Isolation, Intermediate, FrontalAbs, "https://www.muscleandstrength.com/exercises/exercise-ball-two-arm-dumbbell-extension.html");
         add("EZ Bar Incline Skullcrusher", Triceps, Strength, List.of(InclineBench, ZBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/ez-bar-incline-skullcrusher.html");
-        add("High Pulley Overhead Tricep Extension", Triceps, Strength, List.of(Cable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/high-pulley-overhead-tricep-extension.html");
-        add("High Pulley Overhead Tricep Extension (Rope Extension)", Triceps, Strength, List.of(Cable, CableAttachmentRope), Isolation, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/overhead-tricep-extension.html");
-        add("Incline Cable Tricep Extension", Triceps, Strength, List.of(InclineBench, Cable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/incline-cable-tricep-extension.html");
-        add("Incline Cable Tricep Extension (Rope Extension)", Triceps, Strength, List.of(InclineBench, Cable, CableAttachmentRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/incline-bench-rope-extension.html");
+        add("High Pulley Overhead Tricep Extension", Triceps, Strength, List.of(TopCable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/high-pulley-overhead-tricep-extension.html");
+        add("High Pulley Overhead Tricep Extension (Rope Extension)", Triceps, Strength, List.of(TopCable, CableAttachmentRope), Isolation, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/overhead-tricep-extension.html");
+        add("Incline Cable Tricep Extension", Triceps, Strength, List.of(InclineBench, LowCable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/incline-cable-tricep-extension.html");
+        add("Incline Cable Tricep Extension (Rope Extension)", Triceps, Strength, List.of(InclineBench, LowCable, CableAttachmentRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/incline-bench-rope-extension.html");
         add("Incline Dumbbell Tricep Extension", Triceps, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/incline-two-arm-dumbbell-extension.html");
         add("Incline Skull Crusher", Triceps, Strength, List.of(InclineBench, ShortBarbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/incline-skullcrusher.html");
         add("Lying Barbell Reverse Extension", Triceps, Strength, List.of(Bench, ZBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-barbell-reverse-extension.html");
         add("(T) Lying Barbell Reverse Extension", Triceps, Strength, List.of(Bed, ZBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-barbell-reverse-extension.html");
         add("Lying Barbell Tricep Extension (Skull Crusher)", Triceps, Strength, List.of(Bench, ShortBarbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-tricep-extension.html");
         add("(T) Lying Barbell Tricep Extension (Skull Crusher)", Triceps, Strength, List.of(Bed, ShortBarbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-tricep-extension.html");
-        add("Lying Cable Tricep Extension", Triceps, Strength, List.of(Bench, Cable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-cable-tricep-extension.html");
-        add("Lying Cable Tricep Extension (Rope Extension)", Triceps, Strength, List.of(Cable, CableAttachmentRope), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-on-floor-tricep-extension-(rope-extension).html");
+        add("Lying Cable Tricep Extension", Triceps, Strength, List.of(Bench, LowCable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-cable-tricep-extension.html");
+        add("Lying Cable Tricep Extension (Rope Extension)", Triceps, Strength, List.of(LowCable, CableAttachmentRope), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/lying-on-floor-tricep-extension-(rope-extension).html");
         add("Lying Dumbbell Extension", Triceps, Strength, List.of(Bench, Dumbbell), Isolation, Intermediate, List.of(Chest, Shoulders), "https://www.muscleandstrength.com/exercises/lying-dumbbell-extension.html");
         add("(T) Lying Dumbbell Extension", Triceps, Strength, List.of(Bed, Dumbbell), Isolation, Intermediate, List.of(Chest, Shoulders), "https://www.muscleandstrength.com/exercises/lying-dumbbell-extension.html");
         add("Lying Dumbbell Extension (Single Dumbbell)", Triceps, Strength, List.of(Bench, Dumbbell), Isolation, Intermediate, List.of(Chest, Shoulders), "https://www.muscleandstrength.com/exercises/lying-single-dumbbell-extension.html");
         add("(T) Lying Dumbbell Extension (Single Dumbbell)", Triceps, Strength, List.of(Bed, Dumbbell), Isolation, Intermediate, List.of(Chest, Shoulders), "https://www.muscleandstrength.com/exercises/lying-single-dumbbell-extension.html");
         add("Lying Pronated Dumbbell Tricep Extension", Triceps, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-pronated-dumbbell-tricep-extension");
         add("(T) Lying Pronated Dumbbell Tricep Extension", Triceps, Strength, List.of(Bed, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-pronated-dumbbell-tricep-extension");
-        add("One-Arm Cable Overhead Tricep Extension", Triceps, Strength, List.of(Cable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-standing-overhead-cable-tricep-extension.html");
-        add("One-Arm Cable Tricep Extension", Triceps, Strength, List.of(Cable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-cable-extension.html");
+        add("One-Arm Cable Overhead Tricep Extension", Triceps, Strength, List.of(LowCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-standing-overhead-cable-tricep-extension.html");
+        add("One-Arm Cable Tricep Extension", Triceps, Strength, List.of(TopCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-cable-extension.html");
         add("One-Arm Lying Dumbbell Extension", Triceps, Strength, List.of(Bench, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/one-arm-lying-dumbbell-extension.html");
         add("(T) One-Arm Lying Dumbbell Extension", Triceps, Strength, List.of(Bed, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/one-arm-lying-dumbbell-extension.html");
         add("One-Arm Lying Pronated Dumbbell Extension", Triceps, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-pronated-dumbbell-extension.html");
         add("(T) One-Arm Lying Pronated Dumbbell Extension", Triceps, Strength, List.of(Bed, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-pronated-dumbbell-extension.html");
         add("One-Arm Seated Dumbbell Extension", Triceps, Strength, List.of(Bench, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/one-arm-seated-dumbbell-extension.html");
         add("(T) One-Arm Seated Dumbbell Extension", Triceps, Strength, List.of(Bed, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/one-arm-seated-dumbbell-extension.html");
-        add("One-Arm Seated Overhead Tricep Extension", Triceps, Strength, List.of(Bench, Cable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-seated-overhead-tricep-extension.html");
+        add("One-Arm Seated Overhead Tricep Extension", Triceps, Strength, List.of(Bench, LowCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-seated-overhead-tricep-extension.html");
         add("One-Arm Standing Dumbbell Extension", Triceps, Strength, Dumbbell, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-extension.html");
         add("Overhead Banded Tricep Extension", Triceps, Strength, List.of(FixedUpperBar, Bands), Isolation, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/overhead-banded-tricep-extension");
-        add("Reverse Grip Cable Tricep Extension", Triceps, Strength, List.of(Cable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-grip-tricep-extension.html");
-        add("Reverse Grip One-Arm Overhead Cable Tricep Extension", Triceps, Strength, List.of(Cable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-grip-one-arm-standing-overhead-cable-tricep-extension.html");
+        add("Reverse Grip Cable Tricep Extension", Triceps, Strength, List.of(TopCable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-grip-tricep-extension.html");
+        add("Reverse Grip One-Arm Overhead Cable Tricep Extension", Triceps, Strength, List.of(LowCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-grip-one-arm-standing-overhead-cable-tricep-extension.html");
         add("Reverse Grip Skull Crusher", Triceps, Strength, List.of(Bench, ZBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/reverse-grip-skullcrusher.html");
         add("(T) Reverse Grip Skull Crusher", Triceps, Strength, List.of(Bed, ZBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/reverse-grip-skullcrusher.html");
-        add("Reverse One-Arm Cable Tricep Extension", Triceps, Strength, List.of(Cable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-grip-one-arm-tricep-pushdown.html");
+        add("Reverse One-Arm Cable Tricep Extension", Triceps, Strength, List.of(TopCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-grip-one-arm-tricep-pushdown.html");
         add("Rolling Dumbbell Extension", Triceps, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/rolling-dumbbell-extension");
         add("(T) Rolling Dumbbell Extension", Triceps, Strength, List.of(Bed, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/rolling-dumbbell-extension");
-        add("Rope Tricep Extension", Triceps, Strength, List.of(Cable, CableAttachmentRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/rope-tricep-extension.html");
+        add("Rope Tricep Extension", Triceps, Strength, List.of(TopCable, CableAttachmentRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/rope-tricep-extension.html");
         add("Seated Dumbbell Tricep Extension", Triceps, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/two-arm-dumbbell-extension.html");
         add("(T) Seated Dumbbell Tricep Extension", Triceps, Strength, List.of(Bed, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/two-arm-dumbbell-extension.html");
-        add("Seated Low Pulley Overhead Tricep Extension", Triceps, Strength, List.of(Bench, Cable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-low-pulley-overhead-tricep-extension.html");
-        add("Seated Low Pulley Overhead Tricep Extension (Rope Extension)", Triceps, Strength, List.of(Bench, Cable, CableAttachmentRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-low-pulley-overhead-tricep-extension-(rope-extension).html");
-        add("Seated Reverse Grip One-Arm Overhead Tricep Extension", Triceps, Strength, List.of(Bench, Cable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-grip-one-arm-seated-overhead-tricep-extension.html");
+        add("Seated Low Pulley Overhead Tricep Extension", Triceps, Strength, List.of(Bench, LowCable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-low-pulley-overhead-tricep-extension.html");
+        add("Seated Low Pulley Overhead Tricep Extension (Rope Extension)", Triceps, Strength, List.of(Bench, LowCable, CableAttachmentRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-low-pulley-overhead-tricep-extension-(rope-extension).html");
+        add("Seated Reverse Grip One-Arm Overhead Tricep Extension", Triceps, Strength, List.of(Bench, LowCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-grip-one-arm-seated-overhead-tricep-extension.html");
         add("Smith Machine Incline Tricep Extension", Triceps, Strength, List.of(InclineBench, SmithMachine), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/smith-machine-incline-tricep-extension.html");
-        add("Standing Low Pulley Overhead Tricep Extension", Triceps, Strength, List.of(Cable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-low-pulley-overhead-tricep-extension.html");
-        add("Standing Low Pulley Overhead Tricep Extension (Rope Extension)", Triceps, Strength, List.of(Cable, CableAttachmentRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-low-pulley-overhead-tricep-extension-(rope-extension).html");
+        add("Standing Low Pulley Overhead Tricep Extension", Triceps, Strength, List.of(LowCable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-low-pulley-overhead-tricep-extension.html");
+        add("Standing Low Pulley Overhead Tricep Extension (Rope Extension)", Triceps, Strength, List.of(LowCable, CableAttachmentRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-low-pulley-overhead-tricep-extension-(rope-extension).html");
         add("Standing Overhead EZ Bar Tricep Extension", Triceps, Strength, ZBar, Isolation, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/standing-overhead-ez-bar-tricep-extension");
-        add("Straight Bar Tricep Extension", Triceps, Strength, List.of(Cable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/tricep-extension.html");
+        add("Straight Bar Tricep Extension", Triceps, Strength, List.of(TopCable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/tricep-extension.html");
         add("Two Arm Standing Dumbbell Extension", Triceps, Strength, Dumbbell, Isolation, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/two-arm-standing-dumbbell-extension.html");
         add("Two-Arm Tricep Cable Extension", Triceps, Strength, DoubleCable, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-two-arm-tricep-cable-extension.html");
 
@@ -1500,17 +1500,17 @@ public class MuscleAndStrength {
         Exercise.currentFolder = Folder.all.get("Kickbacks");
         add("Alternating Bent-Over Dumbbell Kickback", Triceps, Strength, Dumbbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/alternate-bent-over-dumbbell-kickback.html");
         add("Bent Over Dumbbell Tricep Kickback", Triceps, Strength, Dumbbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/bent-over-dumbbell-kickback.html");
-        add("Cable Tricep Kickback", Triceps, Strength, List.of(Cable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/cable-tricep-kickback.html");
+        add("Cable Tricep Kickback", Triceps, Strength, List.of(LowCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/cable-tricep-kickback.html");
         add("Dumbbell Tricep Kickback", Triceps, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/tricep-kickback.html");
         add("(T) Dumbbell Tricep Kickback", Triceps, Strength, List.of(Bed, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/tricep-kickback.html");
         add("Exercise Ball Dumbbell Kickbacks", Triceps, Strength, List.of(ExerciseBall, Dumbbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/exercise-ball-dumbbell-kickbacks.html");
         add("One Arm Bent Over Dumbbell Tricep Kickback", Triceps, Strength, Dumbbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-bent-over-dumbbell-kickback.html");
         add("One-Arm Seated Bent Over Dumbbell Kickback", Triceps, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-seated-bent-over-dumbbell-kickback.html");
         add("One-Arm Seated Dumbbell Kickback", Triceps, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-seated-dumbbell-kickback.html");
-        add("Reverse Grip Cable Tricep Kickback", Triceps, Strength, List.of(Cable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-grip-cable-tricep-kickback.html");
+        add("Reverse Grip Cable Tricep Kickback", Triceps, Strength, List.of(LowCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/reverse-grip-cable-tricep-kickback.html");
         add("Seated Alternating Bent Over Dumbbell Kickback", Triceps, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/alternate-seated-bent-over-dumbbell-kickback.html");
         add("Seated Bent Over Tricep Dumbbell Kickback", Triceps, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-bent-over-dumbbell-kickback.html");
-        add("Two-Arm Cable Tricep Kickback", Triceps, Strength, List.of(Cable, CableAttachmentLongRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/two-arm-cable-tricep-kickback.html");
+        add("Two-Arm Cable Tricep Kickback", Triceps, Strength, List.of(LowCable, CableAttachmentLongRope), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/two-arm-cable-tricep-kickback.html");
 
         Exercise.currentFolder = Folder.all.get("French Press");
         add("Exercise Ball French Press", Triceps, Strength, List.of(ExerciseBall, ShortBarbell), Isolation, Intermediate, FrontalAbs, "https://www.muscleandstrength.com/exercises/swiss-ball-french-press.html");
@@ -1541,7 +1541,7 @@ public class MuscleAndStrength {
         add("(T) Close Grip Press Behind-The-Neck", Triceps, Strength, List.of(Bed, ZBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/close-grip-press-behind-neck.html");
         add("Dumbbell Tate Press", Triceps, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/dumbbell-tate-press");
         add("(T) Dumbbell Tate Press", Triceps, Strength, List.of(Bed, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/dumbbell-tate-press");
-        add("Kneeling Overhead Tricep Extension (Over Flat Bench)", Triceps, Strength, List.of(Bench, Cable, CableAttachmentStraightBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/kneeling-overhead-tricep-extension-over-flat-bench.html");
+        add("Kneeling Overhead Tricep Extension (Over Flat Bench)", Triceps, Strength, List.of(Bench, TopCable, CableAttachmentStraightBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/kneeling-overhead-tricep-extension-over-flat-bench.html");
         add("Overhead Tricep Extension Sled Drag", Triceps, Conditioning, Sled, Compound, Beginner, FrontalAbs, "https://www.muscleandstrength.com/exercises/overhead-tricep-extension-sled-drag");
 //        add("Tate Press", Triceps, Strength, List.of(Bench, Dumbbell), Compound, Intermediate, List.of(Chest, Shoulders), "https://www.muscleandstrength.com/exercises/tate-press.html"); Duplicate of Dumbbell Tate Press
         add("Tricep Tiger Tail", Triceps, SMR, TigerTail, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/tricep-tiger-tail");
