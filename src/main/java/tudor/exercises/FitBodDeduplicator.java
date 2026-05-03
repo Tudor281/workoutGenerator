@@ -1,7 +1,9 @@
 package tudor.exercises;
 
 public class FitBodDeduplicator {
-    public static void tagInsertedExercises() {
+    public static void merge() {
+        Folder.delete("Box Jump"); // 1-Step Box Jump
+
         //chest
         mark("(T) Modified Handstand Push Up (Off Box)");
 
@@ -21,17 +23,15 @@ public class FitBodDeduplicator {
         // glutes
         mark("Single Leg Hip Thrust with Dumbbell");
         mark("(T) Bodyweight Good Mornings");
-    }
 
-    private static void mark(String exerciseName) {
-        Folder.rename(exerciseName, "<!> "+exerciseName);
-    }
-
-    public static void deduplicate() {
         // glutes
         Folder.delete("Banded Good Morning");
 
         // calves
         Folder.delete("Bodyweight Floor Calf Raise");
+    }
+
+    private static void mark(String exerciseName) {
+        Folder.rename(exerciseName, "<!> "+exerciseName);
     }
 }
