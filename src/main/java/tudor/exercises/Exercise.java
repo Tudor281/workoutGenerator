@@ -18,11 +18,15 @@ public class Exercise {
     public ExerciseType type;
     Level level;
     String url;
+    Exercise dominator; // if dominator is available or dominator's dominator and so on, than this exercise is not available
+
+    public void toExcel() {
+        System.out.println(name + "\t" + url);
+    }
 
     static List<Exercise> all = new ArrayList<>();
 
     static Map<Muscle, Folder> muscleFolders = new HashMap<>();
-
 
     public static void buildStructure() {
         Folder legs = new Folder("Legs");
@@ -322,28 +326,32 @@ public class Exercise {
 
     static Folder currentFolder;
 
-    public static void add(String name, Muscle mainMuscle, ExerciseType type, List<Equipment> equipment, Mechanics mechanics, Level level, List<Muscle> secondaryMuscles, String url) {
+    public static Exercise add(String name, Muscle mainMuscle, ExerciseType type, List<Equipment> equipment, Mechanics mechanics, Level level, List<Muscle> secondaryMuscles, String url) {
         Exercise exercise = new Exercise(name, List.of(mainMuscle), type, equipment, mechanics, level, secondaryMuscles, url);
         all.add(exercise);
         currentFolder.addExercise(exercise);
+        return exercise;
     }
 
-    public static void add(String name, Muscle mainMuscle, ExerciseType type, List<Equipment> equipment, Mechanics mechanics, Level level, Muscle secondaryMuscle, String url) {
+    public static Exercise add(String name, Muscle mainMuscle, ExerciseType type, List<Equipment> equipment, Mechanics mechanics, Level level, Muscle secondaryMuscle, String url) {
         Exercise exercise = new Exercise(name, List.of(mainMuscle), type, equipment, mechanics, level, List.of(secondaryMuscle), url);
         all.add(exercise);
         currentFolder.addExercise(exercise);
+        return exercise;
     }
 
-    public static void add(String name, Muscle mainMuscle, ExerciseType exerciseType, Equipment equipment, Mechanics mechanics, Level level, List<Muscle> secondaryMuscles, String url) {
+    public static Exercise add(String name, Muscle mainMuscle, ExerciseType exerciseType, Equipment equipment, Mechanics mechanics, Level level, List<Muscle> secondaryMuscles, String url) {
         Exercise exercise = new Exercise(name, List.of(mainMuscle), exerciseType, List.of(equipment), mechanics, level, secondaryMuscles, url);
         all.add(exercise);
         currentFolder.addExercise(exercise);
+        return exercise;
     }
 
-    public static void add(String name, Muscle mainMuscle, ExerciseType exerciseType, Equipment equipment, Mechanics mechanics, Level level, Muscle secondaryMuscle, String url) {
+    public static Exercise add(String name, Muscle mainMuscle, ExerciseType exerciseType, Equipment equipment, Mechanics mechanics, Level level, Muscle secondaryMuscle, String url) {
         Exercise exercise = new Exercise(name, List.of(mainMuscle), exerciseType, List.of(equipment), mechanics, level, List.of(secondaryMuscle), url);
         all.add(exercise);
         currentFolder.addExercise(exercise);
+        return exercise;
     }
 
     public static Exercise get(String name) {
@@ -353,7 +361,9 @@ public class Exercise {
         throw new RuntimeException("Exercise not found ("+name+")");
     }
 
-    public void toExcel() {
-        System.out.println(name + "\t" + url);
+    public static void domination(String dominator, String dominated) {
+        Exercise dominatorEx = get(dominator);
+        Exercise dominatedEx = get(dominated);
+        dominatedEx.dominator = dominatorEx;
     }
 }

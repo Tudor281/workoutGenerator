@@ -14,7 +14,9 @@ public class UnisportsDristor extends Environment {
         availableEquipment.add(Bench);
         availableEquipment.add(BenchPress);
         availableEquipment.add(Bodyweight);
-        availableEquipment.add(Cable);
+        availableEquipment.add(TopCable);
+        availableEquipment.add(LowCable);
+        availableEquipment.add(FlexiCable);
         availableEquipment.add(CableAttachmentAnkleStrapsX1);
         availableEquipment.add(CableAttachmentAnkleStrapsX2); // because it seems large enough for 2 feet, to be tested
         availableEquipment.add(CableAttachmentBentBar);
