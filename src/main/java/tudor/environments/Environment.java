@@ -15,12 +15,12 @@ public abstract class Environment {
 
     public boolean hasEquipment(Exercise exercise) {
         if (flaggedExercises.containsKey(exercise)) {
-            System.out.println(exercise.name+ " is flagged ("+flaggedExercises.get(exercise).name()+")");
+//            System.out.println(exercise.name+ " is flagged ("+flaggedExercises.get(exercise).name()+")");
             return false;
         }
         for (Equipment equipment : exercise.equipment) {
             if (!(availableEquipment.contains(equipment) || hasSubstitutes(exercise, equipment))) {
-                System.out.println(exercise.name + " does not have "+equipment.name());
+//                System.out.println(exercise.name + " does not have "+equipment.name());
                 return false;
             }
         }

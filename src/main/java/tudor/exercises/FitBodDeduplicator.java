@@ -2,36 +2,41 @@ package tudor.exercises;
 
 public class FitBodDeduplicator {
     public static void merge() {
-        Folder.delete("Box Jump"); // 1-Step Box Jump
 
         //chest
-        mark("(T) Modified Handstand Push Up (Off Box)");
+        inserted("(T) Modified Handstand Push Up (Off Box)");
 
         // upper back
-        mark("Palms In Bent-Over Dumbbell Row");
-        mark("One Arm Dumbbell Row");
-        mark("Tripod Dumbbell Row");
-        mark("(T) Tripod Dumbbell Row");
+        inserted("One Arm Dumbbell Row");
+        inserted("Palms In Bent-Over Dumbbell Row");
+        inserted("Tripod Dumbbell Row");
+        inserted("(T) Tripod Dumbbell Row");
 
         // biceps
-        mark("Seated Hammer Curl");
-        mark("Alternating Seated Hammer Curl");
+        inserted("Alternating Seated Hammer Curl");
+        inserted("Seated Hammer Curl");
 
         // lower back
-        mark("Dumbbell Deadlift");
+        inserted("Dumbbell Deadlift");
+
+        // quads
+        fitBodHadItAlready("Box Jump"); // 1-Step Box Jump
 
         // glutes
-        mark("Single Leg Hip Thrust with Dumbbell");
-        mark("(T) Bodyweight Good Mornings");
-
-        // glutes
-        Folder.delete("Banded Good Morning");
+        fitBodHadItAlready("Banded Good Morning");
+        inserted("(T) Bodyweight Good Mornings");
+        inserted("Single Leg Hip Thrust with Dumbbell");
 
         // calves
-        Folder.delete("Bodyweight Floor Calf Raise");
+        fitBodHadItAlready("Bodyweight Floor Calf Raise");
+        fitBodHadItAlready("One-Leg Floor Calf Raise"); // Single Leg Standing Calf Raise
     }
 
-    private static void mark(String exerciseName) {
+    private static void inserted(String exerciseName) {
         Folder.rename(exerciseName, "<!> "+exerciseName);
+    }
+
+    private static void fitBodHadItAlready(String exerciseName) {
+        Folder.delete(exerciseName);
     }
 }

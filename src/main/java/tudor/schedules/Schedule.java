@@ -54,7 +54,7 @@ public abstract class Schedule {
 
     private boolean isDoable(Exercise exercise) {
         if (Flag.flaggedExercises.containsKey(exercise)) {
-            System.out.println(exercise.name + " is flagged: ("+Flag.flaggedExercises.get(exercise).name()+")");
+//            System.out.println(exercise.name + " is flagged: ("+Flag.flaggedExercises.get(exercise).name()+")");
             return false;
         }
         return environment.hasEquipment(exercise);
@@ -70,6 +70,10 @@ public abstract class Schedule {
         System.out.println(title+": "+exercises.size());
         if (exercises.isEmpty()) return;
         for (int i=0; i<times; i++) {
+            if (exercises.isEmpty()) {
+                System.err.println("No more exercises for "+title);
+                return;
+            }
             exercises.remove(random.nextInt(exercises.size())).toExcel();
         }
     }
