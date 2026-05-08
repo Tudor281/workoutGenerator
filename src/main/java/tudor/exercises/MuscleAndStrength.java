@@ -363,6 +363,8 @@ public class MuscleAndStrength {
         domination("(T) Banded Tibialis Raise", "Banded Tibialis Raise");
         add("Bodyweight Floor Calf Raise", Calves, Strength, Bodyweight, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/floor-calf-raise.html");
         add("Bodyweight Standing Calf Raise", Calves, Strength, FootStand, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/bodyweight-standing-calf-raise.html");
+        add("(T) Bodyweight Standing Calf Raise", Calves, Strength, Stairs, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/bodyweight-standing-calf-raise.html");
+        domination("Bodyweight Standing Calf Raise", "(T) Bodyweight Standing Calf Raise");
         add("Cable Calf Raise", Calves, Strength, List.of(FootStand, LowCable, WaistStrap), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/cable-calf-raise.html");
         add("Donkey Calf Raise", Calves, Strength, List.of(FootStand, InclineBench), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/donkey-calf-raise.html");
         add("Double Jump Jump Rope", Calves, Conditioning, JumpRope, Compound, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/double-jump-jump-ropes");
@@ -380,6 +382,8 @@ public class MuscleAndStrength {
         add("One-Leg Smith Machine Seated Calf Raise", Calves, Strength, List.of(SmithMachine, FootStand, Bench), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-leg-smith-machine-seated-calf-raise.html");
         add("One-Leg Smith Machine Toe Raise", Calves, Strength, List.of(SmithMachine, Disk), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/smith-machine-one-leg-toe-raise.html");
         add("One-Leg Standing Bodyweight Calf Raise", Calves, Strength, FootStand, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-leg-standing-calf-raise.html");
+        add("(T) One-Leg Standing Bodyweight Calf Raise", Calves, Strength, Stairs, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-leg-standing-calf-raise.html");
+        domination("One-Leg Standing Bodyweight Calf Raise", "(T) One-Leg Standing Bodyweight Calf Raise");
         add("Peroneal Foam Rolling", Calves, SMR, FoamRoll, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/foam-rolling-peroneals");
         add("Peroneal Tiger Tail", Calves, SMR, TigerTail, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/peroneal-tiger-tail");
         add("Posterior Calf Foam Rolling", Calves, SMR, FoamRoll, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/foam-rolling-posterior-calf");

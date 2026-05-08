@@ -72,6 +72,7 @@ public enum Equipment {
     ShoulderBenchPress, // TODO if you have a rack and incline bench, you got yourself a Shoulder Bench Press
     Sled,
     SmithMachine,
+    Stairs,
     Table,
     TBar,
     TigerTail,
