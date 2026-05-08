@@ -7,7 +7,7 @@ public enum Equipment {
     Barbell,
     BarbellFoam,
     BattlingRopes,
-    Bed,
+    Bed, // Bed dominates Couch because Cauch is more prone to damage, so do it on bed, where you can change the mattress if you screw it
     Bench,
     BenchPress,
     Board,
