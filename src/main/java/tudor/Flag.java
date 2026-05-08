@@ -15,7 +15,8 @@ public enum Flag {
     TooDifficult;
 
     public static final Map<Exercise, Flag> flaggedExercises = new HashMap<>();
-    static {
+
+    public static void flagExercises() {
         flaggedExercises.put(Exercise.get("Smith Machine Leg Press"), Dangerous);
         flaggedExercises.put(Exercise.get("Seated Behind the Neck Shoulder Press"), Dangerous);
         flaggedExercises.put(Exercise.get("Seated Bradford Press (AKA Seated Rocky Press)"), Dangerous);
@@ -42,7 +43,6 @@ public enum Flag {
 
         flaggedExercises.put(Exercise.get("Barbell Jumping Squats"), Jumping);
         flaggedExercises.put(Exercise.get("Dumbbell Split Squat With Jump"), Jumping);
-
 
         // Chest
         flaggedExercises.put(Exercise.get("Chest Dip"), TooDifficult);

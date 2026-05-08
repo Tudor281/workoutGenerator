@@ -18,7 +18,7 @@ public class Exercise {
     public ExerciseType type;
     Level level;
     String url;
-    Exercise dominator; // if dominator is available or dominator's dominator and so on, than this exercise is not available
+    public Exercise dominator; // if dominator is available or dominator's dominator and so on, than this exercise is not available
 
     public void toExcel() {
         System.out.println(name + "\t" + url);

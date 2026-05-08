@@ -15,6 +15,7 @@ public class App {
         MuscleAndStrength.init();
         Tudors.init();
 
+        Flag.flagExercises();
         FitBodDeduplicator.merge();
 
         Environment environment = new HomeCurrent();

@@ -52,12 +52,20 @@ public abstract class Schedule {
         return result;
     }
 
-    private boolean isDoable(Exercise exercise) {
+    boolean isDoable(Exercise exercise) {
+        if (isDominated(exercise)) return false;
+
         if (Flag.flaggedExercises.containsKey(exercise)) {
 //            System.out.println(exercise.name + " is flagged: ("+Flag.flaggedExercises.get(exercise).name()+")");
             return false;
         }
         return environment.hasEquipment(exercise);
+    }
+
+    boolean isDominated(Exercise exercise) {
+        if (exercise.dominator == null) return false;
+        if (isDominated(exercise.dominator)) return true;
+        return isDoable(exercise.dominator);
     }
 
     private boolean isDoable(Exercise exercise, ExerciseType exerciseType) {
