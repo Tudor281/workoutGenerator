@@ -19,6 +19,9 @@ public class FitBodDeduplicator {
         // triceps
         fitBodHadItAlready("Lying Dumbbell Extension");
 
+        // abs
+        fitBodHadItAlready("Abs Wheel");
+
         // lower back
         inserted("Dumbbell Deadlift");
 

@@ -333,6 +333,14 @@ public class Exercise {
         return exercise;
     }
 
+    public static Exercise add(String name, String dir, Muscle mainMuscle, ExerciseType type, List<Equipment> equipment, Mechanics mechanics, Level level, List<Muscle> secondaryMuscles, String url) {
+        Exercise.currentFolder = Folder.all.get(dir);
+        Exercise exercise = new Exercise(name, List.of(mainMuscle), type, equipment, mechanics, level, secondaryMuscles, url);
+        all.add(exercise);
+        currentFolder.addExercise(exercise);
+        return exercise;
+    }
+
     public static Exercise add(String name, Muscle mainMuscle, ExerciseType type, List<Equipment> equipment, Mechanics mechanics, Level level, Muscle secondaryMuscle, String url) {
         Exercise exercise = new Exercise(name, List.of(mainMuscle), type, equipment, mechanics, level, List.of(secondaryMuscle), url);
         all.add(exercise);
@@ -341,6 +349,14 @@ public class Exercise {
     }
 
     public static Exercise add(String name, Muscle mainMuscle, ExerciseType exerciseType, Equipment equipment, Mechanics mechanics, Level level, List<Muscle> secondaryMuscles, String url) {
+        Exercise exercise = new Exercise(name, List.of(mainMuscle), exerciseType, List.of(equipment), mechanics, level, secondaryMuscles, url);
+        all.add(exercise);
+        currentFolder.addExercise(exercise);
+        return exercise;
+    }
+
+    public static Exercise add(String name, String dir, Muscle mainMuscle, ExerciseType exerciseType, Equipment equipment, Mechanics mechanics, Level level, List<Muscle> secondaryMuscles, String url) {
+        Exercise.currentFolder = Folder.all.get(dir);
         Exercise exercise = new Exercise(name, List.of(mainMuscle), exerciseType, List.of(equipment), mechanics, level, secondaryMuscles, url);
         all.add(exercise);
         currentFolder.addExercise(exercise);

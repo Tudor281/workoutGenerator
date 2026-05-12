@@ -150,6 +150,7 @@ public class MuscleAndStrength {
         Exercise.currentFolder = Folder.all.get("Rollouts");
         add("Barbell Abdominal Rollouts", FrontalAbs, Strength, Barbell, Compound, Intermediate, Shoulders, "https://www.muscleandstrength.com/exercises/abdominal-barbell-rollouts.html");
         add("Medicine Ball Rollouts", FrontalAbs, Strength, MedicineBall, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/medicine-ball-rollouts");
+        add("Abs Wheel", FrontalAbs, Strength, AbsWheel, Compound, Beginner, List.of(Lats, Chest), "https://www.youtube.com/shorts/ndc391RFNUM");
 
         Exercise.currentFolder = Folder.all.get("Wall Press");
         add("Wall Press 90/90 Extension", FrontalAbs, Strength, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/wall-press-90-90-extension");
@@ -162,7 +163,6 @@ public class MuscleAndStrength {
         add("Ipsilateral Bird Dog", FrontalAbs, Strength, Bodyweight, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/ipsilateral-bird-dog");
 
         Exercise.currentFolder = Folder.all.get("Other Frontal Abs");
-        add("Abs Wheel", FrontalAbs, Strength, AbsWheel, Compound, Beginner, List.of(Lats, Chest), "https://www.youtube.com/shorts/ndc391RFNUM");
         add("3 Month Position Kettlebell Pullover", FrontalAbs, Strength, KettleBellsX1, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/3-month-position-kettlebell-pullover");
         add("Abdominal Air Bike (AKA Bicycle)", FrontalAbs, Strength, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/abdominal-air-bike.html");
         add("Abdominal Pendulum", FrontalAbs, Strength, Bodyweight, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/abdominal-pendulum.html");
