@@ -1,6 +1,6 @@
 package tudor.exercises;
 
-public class FitBodDeduplicator {
+public class FitBod {
     public static void merge() {
 
         //chest
@@ -15,6 +15,9 @@ public class FitBodDeduplicator {
         // biceps
         inserted("Alternating Seated Hammer Curl");
         inserted("Seated Hammer Curl");
+
+        // triceps
+        fitBodHadItAlready("Lying Dumbbell Extension");
 
         // lower back
         inserted("Dumbbell Deadlift");
