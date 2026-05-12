@@ -3,7 +3,7 @@ package tudor;
 import tudor.environments.Environment;
 import tudor.environments.HomeCurrent;
 import tudor.exercises.Exercise;
-import tudor.exercises.FitBod;
+import tudor.exercises.FitBodDeduplicator;
 import tudor.exercises.MuscleAndStrength;
 import tudor.exercises.Tudors;
 import tudor.schedules.All;
@@ -16,7 +16,7 @@ public class App {
         Tudors.init();
 
         Flag.flagExercises();
-        FitBod.merge();
+        FitBodDeduplicator.merge();
 
         Environment environment = new HomeCurrent();
 

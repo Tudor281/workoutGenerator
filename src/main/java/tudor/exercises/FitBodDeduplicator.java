@@ -1,6 +1,6 @@
 package tudor.exercises;
 
-public class FitBod {
+public class FitBodDeduplicator {
     public static void merge() {
 
         //chest
