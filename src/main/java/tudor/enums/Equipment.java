@@ -14,6 +14,7 @@ public enum Equipment {
     Bodyweight,
     BosuBall,
     Box,
+    Boxx2, // two boxes
     TopCable,
     LowCable,
     FlexiCable, // Hi-Low Cable
