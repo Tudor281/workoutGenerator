@@ -4,6 +4,7 @@ public enum Equipment {
     AbsWheel,
     Aerobic_Step, // Riser, Platforma de step
     Bands,
+    BandsMini, // Mini Loop Bands
     Barbell,
     BarbellFoam,
     BattlingRopes,
@@ -79,6 +80,7 @@ public enum Equipment {
     TigerTail,
     Tire,
     TrapBar,
+    TRX,
     ValSlide,
     VBar,
     Wall, // a free wall. If there's mirrors everywhere or equipment, you can't do stuff against the wall. The wall must be dirtiable, throw balls at it.

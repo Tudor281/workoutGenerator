@@ -3,7 +3,11 @@ package tudor.exercises;
 public class FitBodDeduplicator {
     public static void merge() {
 
+        // shoulders
+        fitBodHadItAlready("Seated Arnold Press");
+
         //chest
+        fitBodHadItAlready("Alternate Dumbbell Bench Press (high start)");
         inserted("(T) Modified Handstand Push Up (Off Box)");
 
         // upper back
@@ -11,6 +15,9 @@ public class FitBodDeduplicator {
         inserted("Palms In Bent-Over Dumbbell Row");
         inserted("Tripod Dumbbell Row");
         inserted("(T) Tripod Dumbbell Row");
+
+        // lats
+        fitBodHadItAlready("Archer Pull Up");
 
         // biceps
         inserted("Alternating Seated Hammer Curl");
@@ -24,9 +31,11 @@ public class FitBodDeduplicator {
 
         // lower back
         inserted("Dumbbell Deadlift");
+        fitBodHadItAlready("GHD Back Extension");
 
         // quads
         fitBodHadItAlready("Box Jump"); // 1-Step Box Jump
+        fitBodHadItAlready("Barbell Back Squat"); // Back Squat
 
         // glutes
         fitBodHadItAlready("Banded Good Morning");
