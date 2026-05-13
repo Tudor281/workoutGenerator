@@ -11,6 +11,7 @@ import static tudor.enums.Mechanics.Compound;
 import static tudor.enums.Mechanics.Isolation;
 import static tudor.enums.Muscle.*;
 import static tudor.exercises.Exercise.add;
+import static tudor.exercises.Exercise.domination;
 
 /*
 Go to location > manage exercises: you'll find all exercises listed alphabetically
@@ -112,6 +113,27 @@ public class FitBod {
         add("(FB) Balance Trainer Wide Pushups", "Push Ups", Chest, Strength, BosuBall, Compound, Intermediate, Triceps, "https://fitbod.me/exercises/balance-trainer-wide-pushups");
         add("(FB) Balance Trainer Wood Choppers", "Chops", Abs, Strength, BosuBall, Compound, Beginner, List.of(LowerBack, Shoulders), "https://fitbod.me/exercises/balance-trainer-wood-choppers");
         add("(FB) Banded Curtsy Lunge", "Lunges", Quads, Strength, BandsMini, Compound, Intermediate, List.of(Abs, Adductors, Abductors, Hamstrings, Glutes), "https://fitbod.me/exercises/banded-curtsy-lunge");
+        add("(FB) Banded Glute Bridge with Alternating Leg Raise", "Glute Bridges", Glutes, Strength, List.of(BandsMini, GymMats), Compound, Intermediate, List.of(Quads, Abs, Abductors), "https://fitbod.me/exercises/banded-glute-bridge-with-alternating-leg-raise");
+        add("(FB) Banded Leg Drive", "Other Quads", Quads, Strength, List.of(Bands, Pole), Compound, Beginner, List.of(Calves, Abs, Adductors, Abductors), "https://fitbod.me/exercises/banded-leg-drive");
+        add("(FB) Banded Y Fly", "Other Upper Back", UpperBack, Strength, List.of(Bands, Pole), Compound, Beginner, Shoulders, "https://fitbod.me/exercises/banded-y-fly");
+        add("(FB) Bar Muscle Up", "Other Upper Back", Lats, Strength, FixedUpperBar, Compound, Advanced, List.of(Triceps, Traps, Shoulders, Forearms, Biceps, Abs), "https://fitbod.me/exercises/bar-muscle-up");
+        add("(FB) Barbell Ab Rollout", "Rollouts", Abs, Strength, Barbell, Compound, Intermediate, List.of(Shoulders, LowerBack), "https://fitbod.me/exercises/barbell-ab-rollout");
+        add("(FB) Barbell Back Squat with Deep Partial Squat", "Squats", Quads, Strength, Rack, Compound, Intermediate, List.of(Abs, LowerBack, Calves, Hamstrings, Glutes), "https://fitbod.me/exercises/barbell-back-squat-with-deep-partial-squat");
+        add("(FB) Barbell Behind The Back Shrug", "Shrugs", Traps, Strength, Barbell, Isolation, Beginner, none, "https://fitbod.me/exercises/barbell-behind-the-back-shrug");
+        add("(FB) Barbell Bench Press", "Bench Presses", Chest, Strength, BenchPress, Compound, Intermediate, List.of(Triceps, Shoulders), "https://fitbod.me/exercises/barbell-bench-press");
+        add("(FB) Barbell Bicep Drag Curl", "Standing Curls", Biceps, Strength, ShortBarbell, Compound, Beginner, none, "https://fitbod.me/exercises/barbell-bicep-drag-curl");
+        add("(FB) Barbell Bulgarian Split Jump", "Squats", Quads, Strength, List.of(Barbell, Bench), Compound, Advanced, List.of(Abs, Calves, Hamstrings, Glutes), "https://fitbod.me/exercises/barbell-bulgarian-split-jump");
+        add("(FB) Barbell Curl", "Standing Curls", Biceps, Strength, ShortBarbell, Compound, Beginner, Forearms, "https://fitbod.me/exercises/barbell-curl");
+        add("(FB) Barbell Curtsy Lunge", "Lunges", Quads, Strength, ShortBarbell, Compound, Intermediate, List.of(Hamstrings, Glutes), "https://fitbod.me/exercises/barbell-curtsy-lunge");
+        add("(T)(FB) Barbell Curtsy Lunge", "Lunges", Quads, Strength, Barbell, Compound, Intermediate, List.of(Hamstrings, Glutes), "https://fitbod.me/exercises/barbell-curtsy-lunge");
+        domination("(FB) Barbell Curtsy Lunge", "(T)(FB) Barbell Curtsy Lunge");
+        add("(FB) Barbell Decline Bench Press", "Bench Presses", Chest, Strength, DeclineBenchPress, Compound, Intermediate, List.of(Triceps, Shoulders), "https://fitbod.me/exercises/barbell-decline-bench-press");
+        add("(FB) Barbell Front Raise", "Front Raises", Shoulders, Strength, ShortBarbell, Compound, Intermediate, none, "https://fitbod.me/exercises/barbell-front-raise");
+        add("(T)(FB) Barbell Front Raise", "Front Raises", Shoulders, Strength, Barbell, Compound, Intermediate, none, "https://fitbod.me/exercises/barbell-front-raise");
+        domination("(FB) Barbell Front Raise", "(T)(FB) Barbell Front Raise");
+        add("(FB) Barbell Glute Bridge", "Glute Bridges", Glutes, Strength, List.of(Barbell, BarbellFoam, GymMats), Compound, Intermediate, Hamstrings, "https://fitbod.me/exercises/barbell-glute-bridge-10af9c2c-1374-4259-b103-932cb7cab6b9");
+        add("(T)(FB) Barbell Glute Bridge", "Glute Bridges", Glutes, Strength, List.of(ShortBarbell, GymMats), Compound, Intermediate, Hamstrings, "https://fitbod.me/exercises/barbell-glute-bridge-10af9c2c-1374-4259-b103-932cb7cab6b9");
+        domination("(FB) Barbell Glute Bridge", "(T)(FB) Barbell Glute Bridge");
 
         /////////// BOOOKMARK
     }

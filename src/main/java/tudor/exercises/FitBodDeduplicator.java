@@ -8,6 +8,8 @@ public class FitBodDeduplicator {
 
         //chest
         fitBodHadItAlready("Alternate Dumbbell Bench Press (high start)");
+        fitBodHadItAlready("Barbell Bench Press");
+        fitBodHadItAlready("Decline Bench Press");
         inserted("(T) Modified Handstand Push Up (Off Box)");
 
         // upper back
@@ -21,6 +23,8 @@ public class FitBodDeduplicator {
 
         // biceps
         inserted("Alternating Seated Hammer Curl");
+        fitBodHadItAlready("Barbell Drag Curl");
+        fitBodHadItAlready("Standing Barbell Curl");
         inserted("Seated Hammer Curl");
 
         // triceps
@@ -28,6 +32,7 @@ public class FitBodDeduplicator {
 
         // abs
         fitBodHadItAlready("Abs Wheel");
+        fitBodHadItAlready("Barbell Abdominal Rollouts");
 
         // lower back
         inserted("Dumbbell Deadlift");
@@ -39,6 +44,7 @@ public class FitBodDeduplicator {
 
         // glutes
         fitBodHadItAlready("Banded Good Morning");
+        fitBodHadItAlready("Barbell Glute Bridge");
         inserted("(T) Bodyweight Good Mornings");
         inserted("Single Leg Hip Thrust with Dumbbell");
 
