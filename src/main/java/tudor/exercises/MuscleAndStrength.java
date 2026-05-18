@@ -250,7 +250,8 @@ public class MuscleAndStrength {
         add("Cable Preacher Curl (Rope Extension)", Biceps, Strength, List.of(PreacherStand, LowCable, CableAttachmentRope), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/rope-cable-preacher-curl.html");
         add("Dumbbell Preacher Curl", Biceps, Strength, List.of(PreacherStand, Dumbbell), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/dumbbell-preacher-curl.html");
         add("Exercise Ball Preacher Curl", Biceps, Strength, List.of(ExerciseBall, ShortBarbell), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/swiss-ball-preacher-curl.html");
-        add("EZ Bar Preacher Curl", Biceps, Strength, List.of(PreacherStand, ZBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/ez-bar-preacher-curl.html");
+        add("EZ Bar Preacher Curl - Wide Grip", Biceps, Strength, List.of(PreacherStand, ZBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/ez-bar-preacher-curl.html");
+        add("(T) EZ Bar Preacher Curl - (T) Narrow Grip", Biceps, Strength, List.of(PreacherStand, ZBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/ez-bar-preacher-curl.html");
         add("Hammer Bar Preacher Curl", Biceps, Strength, List.of(PreacherStand, HammerBar), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/hammer-bar-preacher-curl.html");
         add("One-Arm Dumbbell Hammer Preacher Curl", Biceps, Strength, List.of(PreacherStand, Dumbbell), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-hammer-preacher-curl.html");
         add("One-Arm Dumbbell Preacher Curl", Biceps, Strength, List.of(PreacherStand, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/one-arm-preacher-curl.html");
