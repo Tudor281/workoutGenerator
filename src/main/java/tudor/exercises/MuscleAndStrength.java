@@ -1495,7 +1495,7 @@ public class MuscleAndStrength {
         Exercise.currentFolder = Folder.all.get("Tricep Extensions");
         add("EZ Bar Skullcrusher - Narrow Grip", Triceps, Strength, List.of(Bench, ZBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/ez-bar-skullcrusher.html");
         add("(T:Bed) EZ Bar Skullcrusher - Narrow Grip", Triceps, Strength, List.of(Bed, ZBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/ez-bar-skullcrusher.html");
-        domination("EZ Bar Skullcrusher - Narrow Grip", "(T) EZ Bar Skullcrusher - Narrow Grip");
+        domination("EZ Bar Skullcrusher - Narrow Grip", "(T:Bed) EZ Bar Skullcrusher - Narrow Grip");
         add("(T:WG) EZ Bar Skullcrusher - Wide Grip", Triceps, Strength, List.of(Bench, ZBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/ez-bar-skullcrusher.html");
         add("(T:Bed:WG) EZ Bar Skullcrusher - Wide Grip", Triceps, Strength, List.of(Bed, ZBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/ez-bar-skullcrusher.html");
         domination("(T:WG) EZ Bar Skullcrusher - Wide Grip", "(T:Bed:WG) EZ Bar Skullcrusher - Wide Grip");
