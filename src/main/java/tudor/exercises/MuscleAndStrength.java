@@ -395,6 +395,9 @@ public class MuscleAndStrength {
         add("Seated Barbell Calf Raise", Calves, Strength, List.of(FootStand, Barbell, Bench), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-barbell-calf-raise.html");
         add("(T:Bed) Seated Barbell Calf Raise", Calves, Strength, List.of(FootStand, Barbell, Bed), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-barbell-calf-raise.html");
         domination("Seated Barbell Calf Raise", "(T:Bed) Seated Barbell Calf Raise");
+        add("(T:ZBar) Seated Barbell Calf Raise", Calves, Strength, List.of(FootStand, ZBar, Bench), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-barbell-calf-raise.html");
+        add("(T:Bed:ZBar) Seated Barbell Calf Raise", Calves, Strength, List.of(FootStand, ZBar, Bed), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-barbell-calf-raise.html");
+        domination("(T:ZBar) Seated Barbell Calf Raise", "(T:Bed:ZBar) Seated Barbell Calf Raise");
         add("Seated Dumbbell Calf Raise", Calves, Strength, List.of(FootStand, Dumbbell, Bench), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-dumbbell-calf-raise.html");
         add("(T:Bed) Seated Dumbbell Calf Raise", Calves, Strength, List.of(FootStand, Dumbbell, Bed), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-dumbbell-calf-raise.html");
         domination("Seated Dumbbell Calf Raise", "(T:Bed) Seated Dumbbell Calf Raise");
