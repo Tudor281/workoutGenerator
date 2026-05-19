@@ -11,6 +11,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Barbell Bench Press");
         fitBodHadItAlready("Decline Bench Press");
         inserted("(T:Bed) Modified Handstand Push Up (Off Box)");
+        fitBodHadItAlready("(FB) Barbell Incline Bench Press");
 
         // upper back
         inserted("One Arm Dumbbell Row");
