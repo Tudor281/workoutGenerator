@@ -10,13 +10,13 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Alternate Dumbbell Bench Press (high start)");
         fitBodHadItAlready("Barbell Bench Press");
         fitBodHadItAlready("Decline Bench Press");
-        inserted("(T) Modified Handstand Push Up (Off Box)");
+        inserted("(T:Bed) Modified Handstand Push Up (Off Box)");
 
         // upper back
         inserted("One Arm Dumbbell Row");
         inserted("Palms In Bent-Over Dumbbell Row");
         inserted("Tripod Dumbbell Row");
-        inserted("(T) Tripod Dumbbell Row");
+        inserted("(T:Bed) Tripod Dumbbell Row");
 
         // lats
         fitBodHadItAlready("Archer Pull Up");
@@ -45,7 +45,7 @@ public class FitBodDeduplicator {
         // glutes
         fitBodHadItAlready("Banded Good Morning");
         fitBodHadItAlready("Barbell Glute Bridge");
-        inserted("(T) Bodyweight Good Mornings");
+        inserted("(T:Bodyweight) Bodyweight Good Mornings");
         inserted("Single Leg Hip Thrust with Dumbbell");
 
         // calves
