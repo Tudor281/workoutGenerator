@@ -21,7 +21,6 @@ public class MuscleAndStrength {
         //////////// Abductors
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
         Exercise.currentFolder = Folder.all.get("Abductors");
         add("Cable Hip Abduction", Abductors, Strength, List.of(LowCable, CableAttachmentAnkleStrapsX1), Isolation, Beginner, Glutes, "https://www.muscleandstrength.com/exercises/cable-hip-abduction.html");
 
@@ -29,7 +28,7 @@ public class MuscleAndStrength {
         //////////// Adductors
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        Exercise.currentFolder = Exercise.muscleFolders.get(Adductors);
+        Exercise.currentFolder = Folder.all.get("Adductors");
         add("Deep Squat Prying", Adductors, Warmup, KettleBellsX1, Compound, Beginner, List.of(Glutes, Hamstrings, HipFlexors, Quads), "https://www.muscleandstrength.com/exercises/deep-squat-prying");
         add("Rocking Frog Stretch", Adductors, Warmup, Bodyweight, Compound, Beginner, List.of(Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/rocking-frog-stretch");
         add("Alternating Lateral Lunge with Overhead Reach", Adductors, Warmup, Bodyweight, Compound, Beginner, List.of(Calves, Hamstrings, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/alternating-lateral-lunge-with-overhead-reach");
@@ -40,7 +39,6 @@ public class MuscleAndStrength {
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //////////// Abs
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 
         Exercise.currentFolder = Folder.all.get("Leg Raise");
         add("Lying Floor Leg Raise", FrontalAbs, Strength, Bodyweight, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-floor-leg-raise.html");
@@ -324,6 +322,7 @@ public class MuscleAndStrength {
         add("Standing Dumbbell Drag Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/standing-dumbbell-drag-curl");
         add("Standing Dumbbell Reverse Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/standing-dumbbell-reverse-curl.html");
         add("Standing Hammer Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/standing-hammer-curl.html");
+        add("Standing High Pulley Cable Curl", Biceps, Strength, DoubleCable, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/standing-high-pulley-cable-curl.html");
         add("Wide Grip Cable Curl", Biceps, Strength, List.of(LowCable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/wide-grip-cable-curl.html");
         add("Wide Grip EZ Bar Curl", Biceps, Strength, ZBar, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/wide-grip-ez-bar-curl.html");
         add("Wide Grip Standing Barbell Curl", Biceps, Strength, ShortBarbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/wide-grip-standing-barbell-curl.html");
@@ -335,7 +334,6 @@ public class MuscleAndStrength {
         add("Lateral Pulldown Bicep Curl", Biceps, Strength, LatCable, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/cable-underhand-pull-down.html");
         add("Smith Machine Bicep Curl", Biceps, Strength, SmithMachine, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/smith-machine-bicep-curl.html");
         add("Squatting Cable Curl", Biceps, Strength, List.of(LowCable, CableAttachmentStraightBar), Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/squatting-cable-curl.html");
-        add("Standing High Pulley Cable Curl", Biceps, Strength, DoubleCable, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/standing-high-pulley-cable-curl.html");
         add("Two-Arm Low Pulley Cable Curl", Biceps, Strength, DoubleCable, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/two-arm-cable-curl.html");
 
         Exercise.currentFolder = Folder.all.get("Lying Curls");

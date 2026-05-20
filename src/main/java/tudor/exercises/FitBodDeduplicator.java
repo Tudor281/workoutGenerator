@@ -9,6 +9,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Alternating Big Waves Battling Ropes"); // (FB) Battle Ropes
         fitBodHadItAlready("Power Slam Battling Rope"); // (FB) Battle Ropes Outside Slam
         fitBodHadItAlready("Double Arm Circles Battling Ropes"); // (FB) Battle Ropes Outside Spiral
+        fitBodHadItAlready("Behind The Neck Push Press"); // (FB) (FB) Behind the Neck Push Press
 
         // traps
         fitBodHadItAlready("Barbell Shrug"); // (FB) Barbell Shrug
@@ -18,13 +19,17 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Barbell Bench Press");
         fitBodHadItAlready("Decline Bench Press");
         inserted("(T:Bed) Modified Handstand Push Up (Off Box)");
-        fitBodHadItAlready("(FB) Barbell Incline Bench Press");
+        fitBodHadItAlready("Incline Bench Press"); // (FB) Barbell Incline Bench Press
+        fitBodHadItAlready("Flat Bench Cable Flys"); // (FB) Cable Crossover Flat Bench Fly
+        fitBodHadItAlready("Standing High to Low Cable Fly"); // (FB) Cable Crossover Fly
+        fitBodHadItAlready("Incline Cable Flys"); // (FB) Cable Crossover Incline Bench Fly
 
         // upper back
         inserted("One Arm Dumbbell Row");
         inserted("Palms In Bent-Over Dumbbell Row");
         inserted("Tripod Dumbbell Row");
         inserted("(T:Bed) Tripod Dumbbell Row");
+        fitBodHadItAlready("Bent Over Row"); // (FB) Bent Over Barbell Row
 
         // lats
         fitBodHadItAlready("Archer Pull Up");
@@ -34,22 +39,31 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Barbell Drag Curl");
         fitBodHadItAlready("Standing Barbell Curl");
         inserted("Seated Hammer Curl");
+        fitBodHadItAlready("Cable Curl"); // (FB) Cable Bicep Curl
+        fitBodHadItAlready("Standing High Pulley Cable Curl"); // (FB) Cable Double Bicep Curl
 
         // triceps
         fitBodHadItAlready("Lying Dumbbell Extension");
+        fitBodHadItAlready("Single Bench Dip"); // (FB) Bench Dip
 
         // abs
         fitBodHadItAlready("Abs Wheel");
         fitBodHadItAlready("Barbell Abdominal Rollouts");
+        fitBodHadItAlready("Abdominal Air Bike (AKA Bicycle)"); // (FB) Bicycle Crunch
+        fitBodHadItAlready("Contralateral Bird Dog"); // (FB) Bird Dog
+        inserted("Bird Dog with Band RNT");
+        fitBodHadItAlready("Bodyweight Bulgarian Split Squat"); // (FB) Bodyweight Bulgarian Split Squat
 
         // lower back
         inserted("Dumbbell Deadlift");
         fitBodHadItAlready("GHD Back Extension");
 
         // quads
-        fitBodHadItAlready("Box Jump"); // 1-Step Box Jump
+        fitBodHadItAlready("Box Jump"); // 1-Step Box Jump, Box Jump
         fitBodHadItAlready("Barbell Back Squat"); // Back Squat
         fitBodHadItAlready("Barbell Lunge"); // (FB) Barbell Lunge
+        fitBodHadItAlready("Barbell Front Box Squat"); // (FB) Box Front Squat
+        fitBodHadItAlready("Barbell Box Squat"); // (FB) Box Squat
 
         // glutes
         fitBodHadItAlready("Banded Good Morning");

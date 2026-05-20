@@ -69,6 +69,7 @@ public enum Equipment {
     RowCable,
     Rings, // ca la olimpiada
     RomanChair,
+    RunningSpace,
     SafetyBar,
     ShortBarbell, // aia de făcut biceps și triceps, nu piept sau squats
     ShoulderBenchPress, // TODO if you have a rack and incline bench, you got yourself a Shoulder Bench Press
