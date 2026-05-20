@@ -5,6 +5,10 @@ public class FitBodDeduplicator {
 
         // shoulders
         fitBodHadItAlready("Seated Arnold Press");
+        fitBodHadItAlready("(T:Barbell) Military Press (AKA Overhead Press)"); // (FB) Barbell Shoulder Press
+
+        // traps
+        fitBodHadItAlready("Barbell Shrug"); // (FB) Barbell Shrug
 
         //chest
         fitBodHadItAlready("Alternate Dumbbell Bench Press (high start)");
@@ -42,6 +46,7 @@ public class FitBodDeduplicator {
         // quads
         fitBodHadItAlready("Box Jump"); // 1-Step Box Jump
         fitBodHadItAlready("Barbell Back Squat"); // Back Squat
+        fitBodHadItAlready("Barbell Lunge"); // (FB) Barbell Lunge
 
         // glutes
         fitBodHadItAlready("Banded Good Morning");
@@ -52,6 +57,7 @@ public class FitBodDeduplicator {
         // calves
         fitBodHadItAlready("Bodyweight Floor Calf Raise");
         fitBodHadItAlready("One-Leg Floor Calf Raise"); // Single Leg Standing Calf Raise
+        fitBodHadItAlready("Seated Barbell Calf Raise"); // (FB) Barbell Seated Calf Raise
     }
 
     private static void inserted(String exerciseName) {

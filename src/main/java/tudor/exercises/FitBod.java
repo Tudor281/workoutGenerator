@@ -139,6 +139,12 @@ public class FitBod {
         add("(T:ZBar)(FB) ZBar Hip Thrust", "Hip Thrusts", Glutes, Strength, List.of(ZBar, Bench), Compound, Intermediate, List.of(Hamstrings, Calves), "https://fitbod.me/exercises/barbell-hip-thrust");
         domination("(FB) Barbell Hip Thrust", "(T:ZBar)(FB) ZBar Hip Thrust");
         add("(FB) Barbell Incline Bench Press", "Bench Presses", Chest, Strength, InclineBenchPress, Compound, Intermediate,  List.of(Shoulders, Triceps), "https://fitbod.me/exercises/barbell-incline-bench-press");
+        add("(FB) Barbell Lunge", "Lunges", Quads, Strength, Barbell, Compound, Intermediate,  List.of(Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/barbell-lunge");
+        add("(FB) Barbell Pause Curl", "Standing Curls", Biceps, Strength, Barbell, Compound, Beginner,  none, "https://fitbod.me/exercises/barbell-pause-curl");
+        add("(FB) Barbell Seated Calf Raise", "Calves", Calves, Strength, List.of(Barbell, Bench), Compound, Beginner,  none, "https://fitbod.me/exercises/barbell-seated-calf-raise");
+        add("(FB) Barbell Shoulder Press", "Shoulder Presses", Shoulders, Strength, Barbell, Compound, Intermediate,  List.of(Triceps, Chest), "https://fitbod.me/exercises/barbell-shoulder-press");
+        domination("Military Press (AKA Overhead Press)", "(FB) Barbell Shoulder Press");
+        add("(FB) Barbell Shrug", "Shrugs", Traps, Strength, Barbell, Isolation, Beginner,  none, "https://fitbod.me/exercises/barbell-shrug");
 
 
         /////////// BOOOKMARK

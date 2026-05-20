@@ -1324,6 +1324,8 @@ public class MuscleAndStrength {
 
         Exercise.currentFolder = Folder.all.get("Shoulder Presses");
         add("Military Press (AKA Overhead Press)", Shoulders, Strength, Rack, Compound, Intermediate, List.of(FrontalAbs, Traps, Triceps), "https://www.muscleandstrength.com/exercises/military-press.html");
+        add("(T:Barbell) Military Press (AKA Overhead Press)", Shoulders, Strength, Rack, Compound, Intermediate, List.of(FrontalAbs, Traps, Triceps), "https://www.muscleandstrength.com/exercises/military-press.html");
+        domination("Military Press (AKA Overhead Press)", "(T:Barbell) Military Press (AKA Overhead Press)");
         add("Alternate Seated Dumbbell Press", Shoulders, Strength, List.of(InclineBench, Dumbbell), Compound, Beginner, List.of(Traps, Triceps), "https://www.muscleandstrength.com/exercises/alternate-seated-dumbbell-press.html");
         add("Alternating Standing Dumbbell Shoulder Press", Shoulders, Strength, Dumbbell, Compound, Beginner, Triceps, "https://www.muscleandstrength.com/exercises/alternate-standing-dumbbell-press.html");
         add("Alternating Standing Kettlebell Press", Shoulders, Strength, KettleBellsX2, Compound, Intermediate, List.of(FrontalAbs, Traps, Triceps), "https://www.muscleandstrength.com/exercises/alternating-standing-kettlebell-press");
@@ -1357,6 +1359,8 @@ public class MuscleAndStrength {
         add("Smith Machine Behind the Neck Shoulder Press", Shoulders, Strength, List.of(Bench, SmithMachine), Compound, Intermediate, Triceps, "https://www.muscleandstrength.com/exercises/smith-machine-shoulder-press-behind-neck.html");
         add("Smith Machine Shoulder Press", Shoulders, Strength, List.of(Bench, SmithMachine), Compound, Beginner, Triceps, "https://www.muscleandstrength.com/exercises/smith-machine-shoulder-press.html");
         add("Standing Bradford Press (Rocky Press)", Shoulders, Strength, Rack, Compound, Intermediate, List.of(FrontalAbs, Traps, Triceps), "https://www.muscleandstrength.com/exercises/standing-alternating-front-back-barbell-press.html");
+        add("(T:Barbell) Standing Bradford Press (Rocky Press)", Shoulders, Strength, Rack, Compound, Intermediate, List.of(FrontalAbs, Traps, Triceps), "https://www.muscleandstrength.com/exercises/standing-alternating-front-back-barbell-press.html");
+        domination("Standing Bradford Press (Rocky Press)", "(T:Barbell) Standing Bradford Press (Rocky Press)");
         add("Standing Dumbbell Shoulder Press", Shoulders, Strength, Dumbbell, Compound,  Beginner, Triceps, "https://www.muscleandstrength.com/exercises/standing-dumbbell-press.html");
         add("Standing Kettlebell Press", Shoulders, Strength, KettleBellsX2, Compound, Intermediate, List.of(Traps, Triceps), "https://www.muscleandstrength.com/exercises/standing-kettlebell-press");
         add("Standing Neutral Grip Alternating Dumbbell Shoulder Press", Shoulders, Strength, Dumbbell, Compound, Beginner, List.of(FrontalAbs, Traps, Triceps), "https://www.muscleandstrength.com/exercises/alternate-one-arm-standing-palms-in-dumbbell-press.html");
