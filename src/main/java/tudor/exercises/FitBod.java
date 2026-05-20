@@ -145,7 +145,14 @@ public class FitBod {
         add("(FB) Barbell Shoulder Press", "Shoulder Presses", Shoulders, Strength, Barbell, Compound, Intermediate,  List.of(Triceps, Chest), "https://fitbod.me/exercises/barbell-shoulder-press");
         domination("Military Press (AKA Overhead Press)", "(FB) Barbell Shoulder Press");
         add("(FB) Barbell Shrug", "Shrugs", Traps, Strength, Barbell, Isolation, Beginner,  none, "https://fitbod.me/exercises/barbell-shrug");
-
+        add("(FB) Barbell Step Up", "Step ups", Quads, Strength, List.of(Barbell, Box), Compound, Intermediate,  List.of(Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/barbell-step-up");
+        add("(FB) Battle Ropes", "Battling Ropes", Shoulders, Strength, BattlingRopes, Compound, Intermediate,  List.of(Quads, Forearms, Biceps, Abs), "https://fitbod.me/exercises/battle-ropes");
+        add("(FB) Battle Ropes Lateral Whip", "Battling Ropes", Shoulders, Strength, BattlingRopes, Compound, Intermediate,  UpperBack, "https://fitbod.me/exercises/battle-ropes-lateral-whip");
+        add("(FB) Battle Ropes Outside Slam", "Battling Ropes", Shoulders, Strength, BattlingRopes, Compound, Intermediate,  Lats, "https://fitbod.me/exercises/battle-ropes-outside-slam");
+        add("(FB) Battle Ropes Outside Spiral", "Battling Ropes", Shoulders, Strength, BattlingRopes, Compound, Intermediate,  List.of(Lats, UpperBack), "https://fitbod.me/exercises/battle-ropes-outside-spiral");
+        add("(FB) Bear Crawl", "Other Hamstrings", Hamstrings, Strength, Bodyweight, Compound, Beginner,  List.of(Calves, Abs, Glutes), "https://fitbod.me/exercises/bear-crawl");
+        add("(FB) Behind the Back Cable Bicep Curl", "Standing Curls", Biceps, Strength, List.of(LowCable, CableAttachmentSingleArm), Isolation, Beginner,  none, "https://fitbod.me/exercises/behind-the-back-cable-bicep-curl");
+        add("(FB) Behind the Back Cable Lateral Raise", "Lateral Raises", Shoulders, Strength, List.of(LowCable, CableAttachmentSingleArm), Isolation, Beginner,  none, "https://fitbod.me/exercises/behind-the-back-cable-lateral-raise");
 
         /////////// BOOOKMARK
     }

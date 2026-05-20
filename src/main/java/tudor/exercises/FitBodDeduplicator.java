@@ -6,6 +6,9 @@ public class FitBodDeduplicator {
         // shoulders
         fitBodHadItAlready("Seated Arnold Press");
         fitBodHadItAlready("(T:Barbell) Military Press (AKA Overhead Press)"); // (FB) Barbell Shoulder Press
+        fitBodHadItAlready("Alternating Big Waves Battling Ropes"); // (FB) Battle Ropes
+        fitBodHadItAlready("Power Slam Battling Rope"); // (FB) Battle Ropes Outside Slam
+        fitBodHadItAlready("Double Arm Circles Battling Ropes"); // (FB) Battle Ropes Outside Spiral
 
         // traps
         fitBodHadItAlready("Barbell Shrug"); // (FB) Barbell Shrug
