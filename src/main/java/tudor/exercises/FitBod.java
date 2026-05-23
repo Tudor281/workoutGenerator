@@ -198,6 +198,19 @@ public class FitBod {
         add("(FB) Cable Crossover Lat Pulldown", "Lat Pull Down", Lats, Strength, List.of(DoubleCable), Compound, Intermediate, List.of(Shoulders, Biceps), "https://fitbod.me/exercises/cable-crossover-lat-pulldown");
         add("(FB) Cable Crunch", "Crunches", FrontalAbs, Strength, List.of(TopCable, Rope), Compound, Beginner, none, "https://fitbod.me/exercises/cable-crunch");
         add("(FB) Cable Double Bicep Curl", "Standing Curls", Biceps, Strength, DoubleCable, Isolation, Beginner, none, "https://fitbod.me/exercises/cable-double-bicep-curl");
+        add("(FB) Cable Face Pull", "Face Pulls", Shoulders, Strength, List.of(TopCable, CableAttachmentRope), Compound, Intermediate, List.of(Traps, UpperBack, Biceps), "https://fitbod.me/exercises/cable-face-pull");
+        add("(FB) Cable Front Raise", "Front Raises", Shoulders, Strength, List.of(LowCable, CableAttachmentStraightBar), Isolation, Beginner, Traps, "https://fitbod.me/exercises/cable-front-raise");
+        add("(FB) Cable Hip Abduction", "Abductors", Abductors, Strength, List.of(LowCable, CableAttachmentAnkleStrapsX1), Isolation, Beginner, none, "https://fitbod.me/exercises/cable-hip-abduction");
+        add("(FB) Cable Hip Adduction", "Adductors", Adductors, Strength, List.of(LowCable, CableAttachmentAnkleStrapsX1), Isolation, Beginner, none, "https://fitbod.me/exercises/cable-hip-adduction");
+        add("(FB) Cable Hip Extension", "Other Glutes", Glutes, Strength, List.of(LowCable, CableAttachmentAnkleStrapsX1), Isolation, Beginner, Hamstrings, "https://fitbod.me/exercises/cable-hip-extension");
+        add("(FB) Cable Knee Drive", "Knee Raise", FrontalAbs, Strength, List.of(LowCable, CableAttachmentAnkleStrapsX1), Compound, Intermediate, List.of(Quads, Calves, Abs, Adductors, Abductors), "https://fitbod.me/exercises/cable-knee-drive");
+        add("(FB) Cable Lateral Raise", "Lateral Raises", Shoulders, Strength, List.of(LowCable, CableAttachmentSingleArm), Isolation, Beginner, Forearms, "https://fitbod.me/exercises/cable-lateral-raise");
+        add("(FB) Cable One Arm Tricep Side Extension", "Tricep Extensions", Triceps, Strength, List.of(TopCable, CableAttachmentSingleArm), Isolation, Intermediate, none, "https://fitbod.me/exercises/cable-one-arm-tricep-side-extension");
+        add("(FB) Cable One Arm Underhand Tricep Extension", "Tricep Extensions", Triceps, Strength, List.of(TopCable, CableAttachmentSingleArm), Isolation, Intermediate, none, "https://fitbod.me/exercises/cable-one-arm-underhand-tricep-extension");
+        add("(FB) Cable Preacher Curl", "Preacher Curls", Biceps, Strength, List.of(LowCable, CableAttachmentStraightBar, PreacherStand), Isolation, Beginner, Forearms, "https://fitbod.me/exercises/cable-preacher-curl");
+        add("(FB) Cable Pull Through", "Other Glutes", Glutes, Strength, List.of(LowCable, CableAttachmentRope), Compound, Beginner, List.of(LowerBack, Hamstrings), "https://fitbod.me/exercises/cable-pull-through");
+        add("(FB) Cable Rear Delt Fly", "Rear Delt Flys", Shoulders, Strength, List.of(DoubleCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://fitbod.me/exercises/cable-rear-delt-fly");
+        add("(FB) Cable Rope Hammer Curls", "Standing Curls", Biceps, Strength, List.of(LowCable, CableAttachmentRope), Isolation, Beginner, none, "https://fitbod.me/exercises/cable-rope-hammer-curls");
 
         /////////// BOOOKMARK
     }

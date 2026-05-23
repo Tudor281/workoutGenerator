@@ -10,6 +10,10 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Power Slam Battling Rope"); // (FB) Battle Ropes Outside Slam
         fitBodHadItAlready("Double Arm Circles Battling Ropes"); // (FB) Battle Ropes Outside Spiral
         fitBodHadItAlready("Behind The Neck Push Press"); // (FB) (FB) Behind the Neck Push Press
+        fitBodHadItAlready("Cable Face Pull"); // (FB) Cable Face Pull
+        fitBodHadItAlready("Cable Front Raise (Bilateral)"); // (FB) Cable Front Raise
+        fitBodHadItAlready("Cable Lateral Raise"); // (FB) Cable Lateral Raise
+        fitBodHadItAlready("Standing Cable Reverse Fly"); // (FB) Cable Rear Delt Fly
 
         // traps
         fitBodHadItAlready("Barbell Shrug"); // (FB) Barbell Shrug
@@ -41,6 +45,8 @@ public class FitBodDeduplicator {
         inserted("Seated Hammer Curl");
         fitBodHadItAlready("Cable Curl"); // (FB) Cable Bicep Curl
         fitBodHadItAlready("Standing High Pulley Cable Curl"); // (FB) Cable Double Bicep Curl
+        fitBodHadItAlready("Cable Preacher Curl"); // (FB) Cable Preacher Curl
+        fitBodHadItAlready("Cable Curl (Rope Extension)"); // (FB) Cable Rope Hammer Curls
 
         // triceps
         fitBodHadItAlready("Lying Dumbbell Extension");
@@ -58,18 +64,22 @@ public class FitBodDeduplicator {
         inserted("Dumbbell Deadlift");
         fitBodHadItAlready("GHD Back Extension");
 
+        // glutes
+        fitBodHadItAlready("Banded Good Morning");
+        fitBodHadItAlready("Barbell Glute Bridge");
+        inserted("(T:Bodyweight) Bodyweight Good Mornings");
+        inserted("Single Leg Hip Thrust with Dumbbell");
+
+        // abductors adductors
+        fitBodHadItAlready("Cable Hip Abduction"); // (FB) Cable Hip Abduction
+        fitBodHadItAlready("Cable Hip Adduction"); // (FB) Cable Hip Adduction
+
         // quads
         fitBodHadItAlready("Box Jump"); // 1-Step Box Jump, Box Jump
         fitBodHadItAlready("Barbell Back Squat"); // Back Squat
         fitBodHadItAlready("Barbell Lunge"); // (FB) Barbell Lunge
         fitBodHadItAlready("Barbell Front Box Squat"); // (FB) Box Front Squat
         fitBodHadItAlready("Barbell Box Squat"); // (FB) Box Squat
-
-        // glutes
-        fitBodHadItAlready("Banded Good Morning");
-        fitBodHadItAlready("Barbell Glute Bridge");
-        inserted("(T:Bodyweight) Bodyweight Good Mornings");
-        inserted("Single Leg Hip Thrust with Dumbbell");
 
         // calves
         fitBodHadItAlready("Bodyweight Floor Calf Raise");
