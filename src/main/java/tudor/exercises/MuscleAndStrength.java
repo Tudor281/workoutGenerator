@@ -921,7 +921,7 @@ public class MuscleAndStrength {
         add("Machine T-Bar Row", UpperBack, Strength, TBar, Compound, Beginner, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/machine-t-bar-row.html");
         add("Banded Machine T-Bar Row", UpperBack, Strength,  TBar, Compound, Intermediate, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/banded-machine-t-bar-row");
         add("Reverse Grip Machine T-Bar Row", UpperBack, Strength, TBar, Compound, Intermediate, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/reverse-grip-machine-t-bar-row.html");
-        add("Seated Cable Row", UpperBack, Strength, RowCable, Compound, Beginner, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/seated-row.html");
+        add("Seated Cable Row", UpperBack, Strength, List.of(RowCable, CableAttachmentParallel), Compound, Beginner, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/seated-row.html");
         add("Bent Over Dumbbell Row", UpperBack, Strength, Dumbbell, Compound, Beginner, List.of(FrontalAbs, Biceps, Lats, LowerBack, Shoulders), "https://www.muscleandstrength.com/exercises/bent-over-dumbbell-row.html");
         add("Bent Over Kettlebell Row", UpperBack, Strength, KettleBellsX2, Compound, Beginner, List.of(FrontalAbs, Biceps, Lats, LowerBack, Shoulders), "https://www.muscleandstrength.com/exercises/bent-over-kettlebell-row");
         add("Cable Palm Rotational Row", UpperBack, Strength, List.of(LowCable, CableAttachmentSingleArm), Compound, Intermediate, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/cable-palm-rotational-row.html");
@@ -939,7 +939,7 @@ public class MuscleAndStrength {
         add("Neutral Grip Chest Supported Dumbbell Row", UpperBack, Strength, List.of(InclineBench, Dumbbell), Compound, Beginner, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/chest-supported-dumbbell-row");
         add("One Arm Dumbbell Row", UpperBack, Strength, Dumbbell, Compound, Beginner, List.of(FrontalAbs, Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-row.html");
         add("One-Arm Bent-Over Row", UpperBack, Strength, LandMine, Compound, Intermediate, List.of(Biceps, Lats, LowerBack, Traps), "https://www.muscleandstrength.com/exercises/one-arm-bent-over-row.html");
-        add("One-Arm Seated Cable Row", UpperBack, Strength, RowCable, Compound, Beginner, List.of(Biceps, Lats, Triceps), "https://www.muscleandstrength.com/exercises/one-arm-cable-row.html");
+        add("One-Arm Seated Cable Row", UpperBack, Strength, List.of(RowCable, CableAttachmentSingleArm), Compound, Beginner, List.of(Biceps, Lats, Triceps), "https://www.muscleandstrength.com/exercises/one-arm-cable-row.html");
         add("Palm Rotational Row", UpperBack, Strength, Dumbbell, Compound, Intermediate, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/palm-rotational-row.html");
         add("Palms In Bent-Over Dumbbell Row", UpperBack, Strength, Dumbbell, Compound, Beginner, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/palms-in-bent-over-dumbbell-row.html");
         add("Pendlay Row", UpperBack, Strength, Barbell, Compound, Intermediate, List.of(FrontalAbs, Biceps, Lats, LowerBack, Shoulders), "https://www.muscleandstrength.com/exercises/pendlay-row");
@@ -953,9 +953,9 @@ public class MuscleAndStrength {
         add("Reverse Grip Smith Machine Bent-Over Row", UpperBack, Strength, SmithMachine, Compound, Beginner, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/reverse-grip-smith-machine-bent-over-row.html");
         add("Reverse Lunge Sled Row", UpperBack, Conditioning, Sled, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Lats, Quads, Shoulders), "https://www.muscleandstrength.com/exercises/reverse-lunge-sled-row");
         add("Ring Inverted Row with Chains", UpperBack, Strength, List.of(Rings, Chains), Compound, Intermediate, List.of(FrontalAbs, Biceps, Lats, LowerBack, Shoulders), "https://www.muscleandstrength.com/exercises/ring-inverted-row-with-chains");
-        add("Rope Crossover Seated Row", UpperBack, Strength, RowCable, Compound, Intermediate, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/rope-crossover-seated-row.html");
-        add("Seated High Cable Row", UpperBack, Strength, RowCable, Compound, Beginner, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/seated-high-cable-row.html");
-        add("Seated Row (Rope Extension)", UpperBack, Strength, RowCable, Compound, Beginner, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/seated-row-using-rope.html");
+        add("Rope Crossover Seated Row (Capete în sus)", UpperBack, Strength, List.of(RowCable, CableAttachmentRope), Compound, Intermediate, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/rope-crossover-seated-row.html");
+        add("Seated High Cable Row", UpperBack, Strength, List.of(RowCable, CableAttachmentRope), Compound, Beginner, List.of(Biceps, Lats), "https://www.muscleandstrength.com/exercises/seated-high-cable-row.html");
+        add("Seated Row (Rope Extension) (Capete în jos)", UpperBack, Strength, List.of(RowCable, CableAttachmentRope), Compound, Beginner, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/seated-row-using-rope.html");
         add("Smith Machine Bent-Over Row", UpperBack, Strength, SmithMachine, Compound, Beginner, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/smith-machine-bent-over-row.html");
         add("Smith Machine One-Arm Row", UpperBack, Strength, SmithMachine, Compound, Beginner, List.of(Biceps, Lats, Shoulders), "https://www.muscleandstrength.com/exercises/smith-machine-one-arm-row.html");
         add("T-Bar Row", UpperBack, Strength, List.of(LandMine, VBar), Compound, Beginner, List.of(FrontalAbs, Biceps, Lats, LowerBack, Shoulders, Traps), "https://www.muscleandstrength.com/exercises/bent-over-row.html");
@@ -1412,7 +1412,7 @@ public class MuscleAndStrength {
         add("Banded Internal Rotation", Shoulders, Strength, List.of(Pole, Bands), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/banded-internal-rotation");
         add("Cable Internal Rotation", Shoulders, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/cable-internal-rotation");
 
-        Exercise.currentFolder = Folder.all.get("External Rotations");
+        Exercise.currentFolder = Folder.all.get("Shoulder External Rotations");
         add("Bench Supported Dumbbell External Rotation", Shoulders, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/bench-supported-dumbbell-external-rotation");
         add("Cable External Rotation", Shoulders, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/cable-external-rotation");
         add("Half Kneeling Banded External Rotation", Shoulders, Strength, List.of(Pole, Bands), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/half-kneeling-banded-external-rotation");

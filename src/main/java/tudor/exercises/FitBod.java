@@ -211,6 +211,12 @@ public class FitBod {
         add("(FB) Cable Pull Through", "Other Glutes", Glutes, Strength, List.of(LowCable, CableAttachmentRope), Compound, Beginner, List.of(LowerBack, Hamstrings), "https://fitbod.me/exercises/cable-pull-through");
         add("(FB) Cable Rear Delt Fly", "Rear Delt Flys", Shoulders, Strength, List.of(DoubleCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://fitbod.me/exercises/cable-rear-delt-fly");
         add("(FB) Cable Rope Hammer Curls", "Standing Curls", Biceps, Strength, List.of(LowCable, CableAttachmentRope), Isolation, Beginner, none, "https://fitbod.me/exercises/cable-rope-hammer-curls");
+        add("(FB) Cable Rope Overhead Triceps Extension", "Tricep Extensions", Triceps, Strength, List.of(TopCable, CableAttachmentRope), Isolation, Intermediate, none, "https://fitbod.me/exercises/tricep-overhead-extension-with-rope");
+        add("(FB) Cable Rope Tricep Extension", "Tricep Extensions", Triceps, Strength, List.of(TopCable, CableAttachmentRope), Isolation, Intermediate, none, "https://fitbod.me/exercises/cable-rope-tricep-extension");
+        add("(FB) Cable Row", "Rows", UpperBack, Strength, List.of(RowCable, CableAttachmentParallel), Compound, Beginner, List.of(Lats, Shoulders, Biceps), "https://fitbod.me/exercises/cable-row");
+        add("(FB) Cable Row with Squat", "Squats", Hamstrings, Strength, List.of(LowCable, CableAttachmentParallel), Compound, Intermediate, UpperBack, "https://fitbod.me/exercises/cable-row-with-squat");
+        add("(FB) Cable Russian Twists", "Twists", Obliques, Strength, List.of(ExerciseBall, FlexiCable, CableAttachmentSingleArm), Compound, Intermediate, FrontalAbs, "https://fitbod.me/exercises/cable-russian-twists");
+        add("(FB) Cable Shoulder External Rotation", "Shoulder External Rotations", Shoulders, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://fitbod.me/exercises/cable-shoulder-external-rotation");
 
         /////////// BOOOKMARK
     }

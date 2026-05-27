@@ -27,6 +27,7 @@ public enum Equipment {
     CableAttachmentRope,
     CableAttachmentSingleArm,
     CableAttachmentStraightBar,
+    CableAttachmentParallel,
     Chains,
     Couch,
     DeclineBench,

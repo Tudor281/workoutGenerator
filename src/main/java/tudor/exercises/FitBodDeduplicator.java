@@ -14,6 +14,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Cable Front Raise (Bilateral)"); // (FB) Cable Front Raise
         fitBodHadItAlready("Cable Lateral Raise"); // (FB) Cable Lateral Raise
         fitBodHadItAlready("Standing Cable Reverse Fly"); // (FB) Cable Rear Delt Fly
+        fitBodHadItAlready("Cable External Rotation"); // (FB) Cable Shoulder External Rotation
 
         // traps
         fitBodHadItAlready("Barbell Shrug"); // (FB) Barbell Shrug
@@ -34,6 +35,7 @@ public class FitBodDeduplicator {
         inserted("Tripod Dumbbell Row");
         inserted("(T:Bed) Tripod Dumbbell Row");
         fitBodHadItAlready("Bent Over Row"); // (FB) Bent Over Barbell Row
+        fitBodHadItAlready("Seated Cable Row"); // (FB) Cable Row
 
         // lats
         fitBodHadItAlready("Archer Pull Up");
@@ -51,6 +53,8 @@ public class FitBodDeduplicator {
         // triceps
         fitBodHadItAlready("Lying Dumbbell Extension");
         fitBodHadItAlready("Single Bench Dip"); // (FB) Bench Dip
+        fitBodHadItAlready("High Pulley Overhead Tricep Extension (Rope Extension)"); // (FB) Cable Rope Overhead Triceps Extension
+        fitBodHadItAlready("Rope Tricep Extension"); // (FB) Cable Rope Tricep Extension
 
         // abs
         fitBodHadItAlready("Abs Wheel");

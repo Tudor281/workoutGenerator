@@ -23,6 +23,7 @@ public class UnisportsDristor extends Environment {
         availableEquipment.add(CableAttachmentRope);
         availableEquipment.add(CableAttachmentSingleArm);
         availableEquipment.add(CableAttachmentStraightBar);
+        availableEquipment.add(CableAttachmentParallel);
         availableEquipment.add(DeclineBenchPress);
         availableEquipment.add(DipStation);
         availableEquipment.add(Disk);
