@@ -15,9 +15,11 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Cable Lateral Raise"); // (FB) Cable Lateral Raise
         fitBodHadItAlready("Standing Cable Reverse Fly"); // (FB) Cable Rear Delt Fly
         fitBodHadItAlready("Cable External Rotation"); // (FB) Cable Shoulder External Rotation
+        fitBodHadItAlready("Cable Internal Rotation"); // (FB) Cable Shoulder Internal Rotation
 
         // traps
         fitBodHadItAlready("Barbell Shrug"); // (FB) Barbell Shrug
+        fitBodHadItAlready("Cable Shrug"); // (FB) Cable Shrugs
 
         //chest
         fitBodHadItAlready("Alternate Dumbbell Bench Press (high start)");
@@ -55,6 +57,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Single Bench Dip"); // (FB) Bench Dip
         fitBodHadItAlready("High Pulley Overhead Tricep Extension (Rope Extension)"); // (FB) Cable Rope Overhead Triceps Extension
         fitBodHadItAlready("Rope Tricep Extension"); // (FB) Cable Rope Tricep Extension
+        fitBodHadItAlready("Straight Bar Tricep Extension"); // (FB) Cable Tricep Pushdown
 
         // abs
         fitBodHadItAlready("Abs Wheel");

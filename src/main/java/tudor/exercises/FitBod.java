@@ -217,6 +217,12 @@ public class FitBod {
         add("(FB) Cable Row with Squat", "Squats", Hamstrings, Strength, List.of(LowCable, CableAttachmentParallel), Compound, Intermediate, UpperBack, "https://fitbod.me/exercises/cable-row-with-squat");
         add("(FB) Cable Russian Twists", "Twists", Obliques, Strength, List.of(ExerciseBall, FlexiCable, CableAttachmentSingleArm), Compound, Intermediate, FrontalAbs, "https://fitbod.me/exercises/cable-russian-twists");
         add("(FB) Cable Shoulder External Rotation", "Shoulder External Rotations", Shoulders, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://fitbod.me/exercises/cable-shoulder-external-rotation");
+        add("(FB) Cable Shoulder External Rotation at 90°", "Shoulder External Rotations", Shoulders, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://fitbod.me/exercises/cable-shoulder-external-rotation-at-90");
+        add("(FB) Cable Shoulder Internal Rotation", "Internal Rotations", Shoulders, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://fitbod.me/exercises/cable-shoulder-internal-rotation");
+        add("(FB) Cable Shoulder Internal Rotation at 90°", "Internal Rotations", Shoulders, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://fitbod.me/exercises/cable-shoulder-internal-rotation-at-90");
+        add("(FB) Cable Shoulder Press", "Shoulder Presses", Shoulders, Strength, List.of(DoubleCable, Bench), Compound, Beginner, Triceps, "https://fitbod.me/exercises/cable-shoulder-press");
+        add("(FB) Cable Shrugs", "Shrugs", Traps, Strength, DoubleCable, Isolation, Intermediate, none, "https://fitbod.me/exercises/cable-shrugs");
+        add("(FB) Cable Tricep Pushdown", "Tricep Extensions", Triceps, Strength, List.of(TopCable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://fitbod.me/exercises/cable-tricep-pushdown");
 
         /////////// BOOOKMARK
     }
