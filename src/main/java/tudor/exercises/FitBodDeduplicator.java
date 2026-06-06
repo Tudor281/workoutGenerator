@@ -30,6 +30,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Flat Bench Cable Flys"); // (FB) Cable Crossover Flat Bench Fly
         fitBodHadItAlready("Standing High to Low Cable Fly"); // (FB) Cable Crossover Fly
         fitBodHadItAlready("Incline Cable Flys"); // (FB) Cable Crossover Incline Bench Fly
+        fitBodHadItAlready("Chest Dip"); // (FB) Chest Dip
 
         // upper back
         inserted("One Arm Dumbbell Row");
@@ -58,6 +59,10 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("High Pulley Overhead Tricep Extension (Rope Extension)"); // (FB) Cable Rope Overhead Triceps Extension
         fitBodHadItAlready("Rope Tricep Extension"); // (FB) Cable Rope Tricep Extension
         fitBodHadItAlready("Straight Bar Tricep Extension"); // (FB) Cable Tricep Pushdown
+        fitBodHadItAlready("Reverse Grip Cable Tricep Extension"); // (FB) Cable Underhand Tricep Pushdown
+
+        // forearms
+        fitBodHadItAlready("Seated Cable Wrist Curl"); // (FB) Cable Wrist Curl
 
         // abs
         fitBodHadItAlready("Abs Wheel");

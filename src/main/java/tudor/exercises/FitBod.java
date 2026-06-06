@@ -223,6 +223,19 @@ public class FitBod {
         add("(FB) Cable Shoulder Press", "Shoulder Presses", Shoulders, Strength, List.of(DoubleCable, Bench), Compound, Beginner, Triceps, "https://fitbod.me/exercises/cable-shoulder-press");
         add("(FB) Cable Shrugs", "Shrugs", Traps, Strength, DoubleCable, Isolation, Intermediate, none, "https://fitbod.me/exercises/cable-shrugs");
         add("(FB) Cable Tricep Pushdown", "Tricep Extensions", Triceps, Strength, List.of(TopCable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://fitbod.me/exercises/cable-tricep-pushdown");
+        add("(FB) Cable Underhand Tricep Pushdown", "Tricep Extensions", Triceps, Strength, List.of(TopCable, CableAttachmentStraightBar), Isolation, Intermediate, none, "https://fitbod.me/exercises/cable-underhand-tricep-pushdown");
+        add("(FB) Cable Upright Row", "Trap Upright Rows", Traps, Strength, List.of(LowCable, CableAttachmentStraightBar), Compound, Beginner, List.of(Shoulders, Biceps), "https://fitbod.me/exercises/cable-upright-row");
+        add("(FB) Cable Wood Chop", "Chops", Obliques, Strength, List.of(TopCable, CableAttachmentSingleArm), Compound, Intermediate, Shoulders, "https://fitbod.me/exercises/cable-wood-chop"); // it's in M&S too, but that style is different
+        add("(FB) Cable Wood Chop (Low to High)", "Chops", Obliques, Strength, List.of(LowCable, CableAttachmentSingleArm), Compound, Beginner, List.of(LowerBack, UpperBack, Chest, Shoulders), "https://fitbod.me/exercises/cable-wood-chop-low-to-high"); // it's in M&S too, but that style is different
+        add("(FB) Cable Wrist Curl", "Wrist Curls", Forearms, Strength, List.of(LowCable, CableAttachmentSingleArm, Bench), Isolation, Beginner, none, "https://fitbod.me/exercises/cable-wrist-curl");
+        add("(FB) Calf Raise", "Calves", Calves, Strength, Bodyweight, Isolation, Beginner, none, "https://fitbod.me/exercises/calf-raise");
+        add("(FB) Calf Raise to Shrug", "Calves", Calves, Strength, Barbell, Compound, Beginner, Traps, "https://fitbod.me/exercises/calf-raise-to-shrug");
+        add("(FB) Cat Cow", "Other lower back", LowerBack, Warmup, Bodyweight, Compound, Beginner, Abs, "https://fitbod.me/exercises/cat-cow");
+        add("(FB) Chest Dip", "Other Chest", Chest, Strength, DipStation, Compound, Intermediate, List.of(Shoulders, Triceps), "https://fitbod.me/exercises/chest-dip");
+        add("(FB) Chest Doorway Stretch", "Other Chest", Chest, Stretching, Rack, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/chest-doorway-stretch");
+        add("(T:Doorway) (FB) Chest Doorway Stretch", "Other Chest", Chest, Stretching, Bodyweight, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/chest-doorway-stretch");
+        domination("(FB) Chest Doorway Stretch", "(T:Doorway) (FB) Chest Doorway Stretch");
+        add("(FB) Chest Expansion", "Other Chest", Chest, Stretching, Bodyweight, Compound, Beginner, List.of(Shoulders, Biceps), "https://fitbod.me/exercises/chest-expansion");
 
         /////////// BOOOKMARK
     }

@@ -24,5 +24,6 @@ public class FitBodMachines {
         add("(FB) Assisted Neutral Grip Pull Up", "Pull ups", Lats, Strength, Machine, Compound, Beginner, Biceps, "https://fitbod.me/exercises/assisted-neutral-grip-pull-up");
         add("(FB) Pull Up", "Pull ups", Lats, Strength, Machine, Compound, Beginner, Biceps, "https://fitbod.me/exercises/assisted-pull-up");
         add("(FB) Assisted Wide Grip Pull Up", "Pull ups", Lats, Strength, Machine, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/assisted-wide-grip-pull-up");
+        add("(FB) Calf Press", "Calves", Calves, Strength, Machine, Isolation, Beginner, none, "https://fitbod.me/exercises/calf-press");
     }
 }
