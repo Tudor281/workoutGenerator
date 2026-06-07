@@ -42,6 +42,7 @@ public class FitBodDeduplicator {
 
         // lats
         fitBodHadItAlready("Archer Pull Up");
+        fitBodHadItAlready("Chin Up"); // (FB) Chin Up
 
         // biceps
         inserted("Alternating Seated Hammer Curl");
@@ -52,6 +53,8 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Standing High Pulley Cable Curl"); // (FB) Cable Double Bicep Curl
         fitBodHadItAlready("Cable Preacher Curl"); // (FB) Cable Preacher Curl
         fitBodHadItAlready("Cable Curl (Rope Extension)"); // (FB) Cable Rope Hammer Curls
+        fitBodHadItAlready("Close Grip EZ Bar Curl"); // (FB) Close-Grip EZ-Bar Curl
+        fitBodHadItAlready("Concentration Curl"); // (FB) Concentration Curl
 
         // triceps
         fitBodHadItAlready("Lying Dumbbell Extension");
@@ -60,6 +63,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Rope Tricep Extension"); // (FB) Cable Rope Tricep Extension
         fitBodHadItAlready("Straight Bar Tricep Extension"); // (FB) Cable Tricep Pushdown
         fitBodHadItAlready("Reverse Grip Cable Tricep Extension"); // (FB) Cable Underhand Tricep Pushdown
+        fitBodHadItAlready("Close Grip Bench Press"); // (FB) Close-Grip Bench Press
 
         // forearms
         fitBodHadItAlready("Seated Cable Wrist Curl"); // (FB) Cable Wrist Curl
@@ -71,6 +75,8 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Contralateral Bird Dog"); // (FB) Bird Dog
         inserted("Bird Dog with Band RNT");
         fitBodHadItAlready("Bodyweight Bulgarian Split Squat"); // (FB) Bodyweight Bulgarian Split Squat
+        fitBodHadItAlready("Rotating Mountain Climber"); // (FB) Cross Body Mountain Climber
+        fitBodHadItAlready("Ab Crunch"); // "(FB) Crunches"
 
         // lower back
         inserted("Dumbbell Deadlift");
@@ -92,6 +98,13 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Barbell Lunge"); // (FB) Barbell Lunge
         fitBodHadItAlready("Barbell Front Box Squat"); // (FB) Box Front Squat
         fitBodHadItAlready("Barbell Box Squat"); // (FB) Box Squat
+        fitBodHadItAlready("Clean & Jerk"); // (FB) Clean and Jerk
+        fitBodHadItAlready("Power Clean from Blocks"); // (FB) Clean from Blocks
+        fitBodHadItAlready("Curtsy Lunge (AKA Drop Lunge)"); // (FB) Curtsy Lunge
+
+        // hamstrings
+        fitBodHadItAlready("Clean"); // (FB) Clean
+        fitBodHadItAlready("Conventional Deadlift"); // (FB) Clean Deadlift
 
         // calves
         fitBodHadItAlready("Bodyweight Floor Calf Raise");

@@ -236,6 +236,37 @@ public class FitBod {
         add("(T:Doorway) (FB) Chest Doorway Stretch", "Other Chest", Chest, Stretching, Bodyweight, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/chest-doorway-stretch");
         domination("(FB) Chest Doorway Stretch", "(T:Doorway) (FB) Chest Doorway Stretch");
         add("(FB) Chest Expansion", "Other Chest", Chest, Stretching, Bodyweight, Compound, Beginner, List.of(Shoulders, Biceps), "https://fitbod.me/exercises/chest-expansion");
+        add("(FB) Child's Pose", "Other lower back", LowerBack, Stretching, Bodyweight, Compound, Beginner, List.of(Lats, Shoulders), "https://fitbod.me/exercises/child-s-pose");
+        add("(FB) Chin Drop", "Neck", Neck, SMR, Bodyweight, Compound, Beginner, Traps, "https://fitbod.me/exercises/chin-drop");
+        add("(FB) Chin Up", "Chin ups", Lats, Strength, FixedUpperBar, Compound, Intermediate, List.of(Forearms, Biceps), "https://fitbod.me/exercises/chin-up");
+        add("(FB) Clam", "Abductors", Abductors, Strength, GymMats, Isolation, Beginner, none, "https://fitbod.me/exercises/clam");
+        add("(FB) Clean", "Olympic Squats", Hamstrings, OlympicWeightlifting, Barbell, Compound, Intermediate, List.of(Traps, Shoulders, Quads, LowerBack, Glutes, Forearms, Calves), "https://fitbod.me/exercises/clean");
+        add("(FB) Clean Deadlift", "Deadlifts", Hamstrings, OlympicWeightlifting, Barbell, Compound, Advanced, List.of(Traps, Quads, UpperBack, LowerBack, Glutes, Forearms), "https://fitbod.me/exercises/clean-deadlift");
+        add("(FB) Clean Pull", "Olympic Squats", Quads, OlympicWeightlifting, Barbell, Compound, Advanced, List.of(Traps, LowerBack, Hamstrings, Glutes, Forearms), "https://fitbod.me/exercises/clean-pull");
+        add("(FB) Clean Pull to Hang Clean", "Olympic Squats", Quads, OlympicWeightlifting, Barbell, Compound, Advanced, List.of(Triceps, Biceps, Calves, LowerBack, UpperBack, Shoulders, Traps, Hamstrings, Glutes), "https://fitbod.me/exercises/clean-pull-to-hang-clean");
+        add("(FB) Clean and Jerk", "Olympic Squats", Quads, OlympicWeightlifting, Barbell, Compound, Advanced, List.of(Shoulders, Triceps, Traps, LowerBack, Hamstrings, Glutes, Abs), "https://fitbod.me/exercises/clean-and-jerk");
+        add("(FB) Clean and Press", "Olympic Squats", Quads, OlympicWeightlifting, Barbell, Compound, Advanced, List.of(LowerBack, Hamstrings, Glutes, Traps, Shoulders), "https://fitbod.me/exercises/clean-and-press");
+        add("(FB) Clean from Blocks", "Olympic Squats", Quads, OlympicWeightlifting, List.of(Barbell, Boxx2), Compound, Advanced, List.of(Traps, Shoulders, Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/clean-from-blocks");
+        add("(FB) Close-Grip Bench Press", "Tricep Bench Presses", Triceps, Strength, BenchPress, Compound, Intermediate, List.of(Shoulders, Chest), "https://fitbod.me/exercises/close-grip-bench-press");
+        add("(FB) Close-Grip EZ-Bar Curl", "Standing Curls", Biceps, Strength, ZBar, Isolation, Intermediate, none, "https://fitbod.me/exercises/close-grip-ez-bar-curl");
+        add("(FB) Cluster", "Olympic Squats", Quads, Strength, Barbell, Compound, Advanced, List.of(Glutes, Shoulders, Traps, Hamstrings, LowerBack), "https://fitbod.me/exercises/cluster");
+        add("(FB) Cobra Triceps Extension", "Triceps Push ups", Triceps, Strength, GymMats, Compound, Beginner, List.of(Shoulders, Chest), "https://fitbod.me/exercises/cobra-triceps-extension");
+        add("(FB) Cocoon Crunch", "Crunches", Abs, Strength, GymMats, Compound, Beginner, none, "https://fitbod.me/exercises/cocoon-crunch");
+        add("(FB) Concentration Curl", "Seated Curls", Biceps, Strength, List.of(Dumbbell, Bench), Isolation, Intermediate, Forearms, "https://fitbod.me/exercises/concentration-curl");
+        add("(FB) Couch Stretch", "Other Quads", Quads, Stretching, Wall, Compound, Beginner, List.of(Adductors, Abs, Hamstrings, Shoulders, Glutes), "https://fitbod.me/exercises/couch-stretch");
+        add("(FB) Crab Pose", "Other Chest", Chest, Stretching, GymMats, Compound, Beginner, List.of(Shoulders, Abs, Quads), "https://fitbod.me/exercises/crab-pose");
+        add("(FB) Crab Reach", "Other Frontal Abs", Abs, Strength, GymMats, Compound, Beginner, List.of(Shoulders, Quads), "https://fitbod.me/exercises/crab-reach");
+        add("(FB) Cross Body Hammer Curls", "Standing Curls", Biceps, Strength, Dumbbell, Isolation, Beginner, none, "https://fitbod.me/exercises/cross-body-hammer-curls");
+        add("(FB) Cross Body Mountain Climber", "Other Frontal Abs", Abs, Strength, GymMats, Compound, Intermediate, Shoulders, "https://fitbod.me/exercises/cross-body-mountain-climber");
+        add("(FB) Cross-body Arm Stretch", "Other Rear Delts", Shoulders, Strength, Bodyweight, Compound, Beginner, List.of(UpperBack, Triceps), "https://fitbod.me/exercises/cross-body-arm-stretch");
+        add("(FB) Crossover Standing Forward Bend", "Other Hamstrings", Hamstrings, SMR, Bodyweight, Isolation, Beginner, none, "https://fitbod.me/exercises/crossover-standing-forward-bend");
+        add("(FB) Crunches", "Crunches", Abs, Strength, GymMats, Isolation, Beginner, none, "https://fitbod.me/exercises/crunches");
+        add("(FB) Curtsy Lunge", "Lunges", Quads, Strength, Bodyweight, Compound, Intermediate, Glutes, "https://fitbod.me/exercises/curtsy-lunge");
+        add("(FB) Cycling", "Other Quads", Quads, Conditioning, Bodyweight, Compound, Beginner, List.of(Abs, Calves, Glutes, Hamstrings, LowerBack), "N/A");
+        add("(FB) Cycling Stationary", "Other Quads", Quads, Conditioning, Bodyweight, Compound, Beginner, List.of(Abs, Calves, Glutes, Hamstrings, LowerBack), "N/A");
+
+        add("(FB) ", "Other Quads", Quads, Conditioning, Bodyweight, Compound, Beginner, List.of(Abs, Calves, Glutes, Hamstrings, LowerBack), "N/A");
+
 
         /////////// BOOOKMARK
     }
