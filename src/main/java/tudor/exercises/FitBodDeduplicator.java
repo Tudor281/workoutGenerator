@@ -16,6 +16,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Standing Cable Reverse Fly"); // (FB) Cable Rear Delt Fly
         fitBodHadItAlready("Cable External Rotation"); // (FB) Cable Shoulder External Rotation
         fitBodHadItAlready("Cable Internal Rotation"); // (FB) Cable Shoulder Internal Rotation
+        fitBodHadItAlready("Incline Rear Delt Fly"); // (FB) Dumbbell Back Fly
 
         // traps
         fitBodHadItAlready("Barbell Shrug"); // (FB) Barbell Shrug
@@ -31,6 +32,10 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Standing High to Low Cable Fly"); // (FB) Cable Crossover Fly
         fitBodHadItAlready("Incline Cable Flys"); // (FB) Cable Crossover Incline Bench Fly
         fitBodHadItAlready("Chest Dip"); // (FB) Chest Dip
+        fitBodHadItAlready("Decline Push Up (Feet on Bench)"); // (FB) Decline Push Up
+        fitBodHadItAlready("Dumbbell Bench Press"); // (FB) Dumbbell Bench Press
+        fitBodHadItAlready("Decline Dumbbell Bench Press"); // (FB) Dumbbell Decline Bench Press
+        fitBodHadItAlready("Decline Dumbbell Flys"); // (FB) Dumbbell Decline Fly
 
         // upper back
         inserted("One Arm Dumbbell Row");
@@ -39,6 +44,8 @@ public class FitBodDeduplicator {
         inserted("(T:Bed) Tripod Dumbbell Row");
         fitBodHadItAlready("Bent Over Row"); // (FB) Bent Over Barbell Row
         fitBodHadItAlready("Seated Cable Row"); // (FB) Cable Row
+        fitBodHadItAlready("Bent Over Dumbbell Reverse Fly"); // (FB) Dumbbell Bent Over Reverse Fly
+        fitBodHadItAlready("Bent Over Dumbbell Row"); // (FB) Dumbbell Bent Over Row
 
         // lats
         fitBodHadItAlready("Archer Pull Up");
@@ -55,6 +62,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Cable Curl (Rope Extension)"); // (FB) Cable Rope Hammer Curls
         fitBodHadItAlready("Close Grip EZ Bar Curl"); // (FB) Close-Grip EZ-Bar Curl
         fitBodHadItAlready("Concentration Curl"); // (FB) Concentration Curl
+        fitBodHadItAlready("Alternating Standing Dumbbell Curl"); // (FB) Dumbbell Bicep Curl
 
         // triceps
         fitBodHadItAlready("Lying Dumbbell Extension");
@@ -64,6 +72,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Straight Bar Tricep Extension"); // (FB) Cable Tricep Pushdown
         fitBodHadItAlready("Reverse Grip Cable Tricep Extension"); // (FB) Cable Underhand Tricep Pushdown
         fitBodHadItAlready("Close Grip Bench Press"); // (FB) Close-Grip Bench Press
+        fitBodHadItAlready("Tricep Dip"); // (FB) Dip
 
         // forearms
         fitBodHadItAlready("Seated Cable Wrist Curl"); // (FB) Cable Wrist Curl
@@ -77,6 +86,10 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Bodyweight Bulgarian Split Squat"); // (FB) Bodyweight Bulgarian Split Squat
         fitBodHadItAlready("Rotating Mountain Climber"); // (FB) Cross Body Mountain Climber
         fitBodHadItAlready("Ab Crunch"); // "(FB) Crunches"
+        fitBodHadItAlready("Dead Bug"); // (FB) Dead Bug
+        fitBodHadItAlready("Decline Leg Raise With Hip Thrust"); // (FB) Decline Reverse Crunch
+        fitBodHadItAlready("Decline Weighted Twist"); // "(FB) Decline Russian Twists"
+        fitBodHadItAlready("Decline Bench Sit Up"); // (FB) Decline Sit Up
 
         // lower back
         inserted("Dumbbell Deadlift");
@@ -101,10 +114,12 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Clean & Jerk"); // (FB) Clean and Jerk
         fitBodHadItAlready("Power Clean from Blocks"); // (FB) Clean from Blocks
         fitBodHadItAlready("Curtsy Lunge (AKA Drop Lunge)"); // (FB) Curtsy Lunge
+        fitBodHadItAlready("Double Kettlebell Front Squat"); // (FB) Dual Kettlebell Front Squat
+        fitBodHadItAlready("One Leg Dumbbell Squat (AKA Dumbbell Bulgarian Split Squat)"); // (FB) Dumbbell Bulgarian Split Squat
 
         // hamstrings
         fitBodHadItAlready("Clean"); // (FB) Clean
-        fitBodHadItAlready("Conventional Deadlift"); // (FB) Clean Deadlift
+        fitBodHadItAlready("Conventional Deadlift"); // (FB) Clean Deadlift ; (FB) Deadlift
 
         // calves
         fitBodHadItAlready("Bodyweight Floor Calf Raise");

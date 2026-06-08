@@ -265,7 +265,54 @@ public class FitBod {
         add("(FB) Cycling", "Other Quads", Quads, Conditioning, Bodyweight, Compound, Beginner, List.of(Abs, Calves, Glutes, Hamstrings, LowerBack), "N/A");
         add("(FB) Cycling Stationary", "Other Quads", Quads, Conditioning, Bodyweight, Compound, Beginner, List.of(Abs, Calves, Glutes, Hamstrings, LowerBack), "N/A");
 
-        add("(FB) ", "Other Quads", Quads, Conditioning, Bodyweight, Compound, Beginner, List.of(Abs, Calves, Glutes, Hamstrings, LowerBack), "N/A");
+        add("(FB) Dead Bug", "Dead Bugs", FrontalAbs, Strength, GymMats, Compound, Beginner, none, "https://fitbod.me/exercises/dead-bug");
+        add("(FB) Dead Bug Pregnancy", "Dead Bugs", FrontalAbs, Pregnancy, GymMats, Compound, Beginner, Quads, "N/A");
+        add("(FB) Dead Hang", "Other Lats", Lats, Stretching, FixedUpperBar, Compound, Beginner, List.of(UpperBack, LowerBack), "https://fitbod.me/exercises/dead-hang");
+        add("(FB) Deadlift", "Deadlifts", Hamstrings, Strength, Barbell, Compound, Intermediate, List.of(Abs, Traps, Quads, UpperBack, Lats, LowerBack, Glutes, Forearms, Calves), "https://fitbod.me/exercises/deadlift");
+        domination("(FB) Deadlift", "(FB) Clean Deadlift"); // wtf, they look the same
+        add("(FB) Deadlift to Calf Raise", "Deadlifts", Hamstrings, Strength, Barbell, Compound, Intermediate, List.of(LowerBack, Calves, Traps, UpperBack, Lats, Quads, Glutes), "https://fitbod.me/exercises/deadlift-to-calf-raise");
+        add("(FB) Decline Crunch", "Crunches", Abs, Strength, DeclineBench, Isolation, Intermediate, none, "https://fitbod.me/exercises/decline-crunch");
+        add("(FB) Decline Oblique Crunch", "Other Obliques", Obliques, Strength, DeclineBench, Isolation, Intermediate, none, "https://fitbod.me/exercises/decline-oblique-crunch");
+        add("(FB) Decline Overhead Weighted Sit Up", "Sit Up", Abs, Strength, List.of(DeclineBench, Disk), Compound, Advanced, Shoulders, "https://fitbod.me/exercises/decline-overhead-weighted-sit-up");
+        add("(FB) Decline Push Up", "Push Ups", Chest, Strength, Bench, Compound, Intermediate, List.of(Triceps, Shoulders), "https://fitbod.me/exercises/decline-push-up");
+        add("(FB) Decline Reverse Crunch", "Leg Raise", Abs, Strength, DeclineBench, Isolation, Beginner, none, "https://fitbod.me/exercises/decline-reverse-crunch");
+        add("(FB) Decline Russian Twists", "Twists", Abs, Strength, List.of(DeclineBench, Disk), Isolation, Intermediate, none, "https://fitbod.me/exercises/decline-russian-twists");
+        add("(FB) Decline Sit Up", "Sit Up", Abs, Strength, DeclineBench, Isolation, Intermediate, none, "https://fitbod.me/exercises/decline-sit-up");
+        add("(FB) Decline Sit Up with Medicine Ball Toss", "Sit Up", Abs, Strength, List.of(DeclineBench, MedicineBall), Compound, Intermediate, List.of(Triceps, Chest, Shoulders), "https://fitbod.me/exercises/decline-sit-up-with-medicine-ball-toss");
+        add("(FB) Deficit Calf Stretch", "Calves", Calves, Stretching, Aerobic_Step, Isolation, Beginner, none, "https://fitbod.me/exercises/deficit-calf-stretch");
+        add("(T:Stairs) (FB) Deficit Calf Stretch", "Calves", Calves, Stretching, Stairs, Isolation, Beginner, none, "https://fitbod.me/exercises/deficit-calf-stretch");
+        domination("(FB) Deficit Calf Stretch", "(T:Stairs) (FB) Deficit Calf Stretch");
+        add("(FB) Deficit Reverse Lunge", "Lunges", Quads, Strength, Aerobic_Step, Compound, Intermediate, List.of(Calves, Hamstrings, Glutes), "https://fitbod.me/exercises/deficit-reverse-lunge");
+        add("(FB) Diamond Push Up", "Push Ups", Triceps, Strength, Bodyweight, Compound, Advanced, List.of(Shoulders, Chest), "https://fitbod.me/exercises/diamond-push-up");
+        add("(FB) Diaphragmatic Breath w/ Pelvic Control - All Fours (Pregnancy)", "Other Frontal Abs", Abs, Pregnancy, GymMats, Isolation, Beginner, none, "N/A");
+        add("(FB) Diaphragmatic Breath w/ Pelvic Control - Side Lying (Pregnancy)", "Other Frontal Abs", Abs, Pregnancy, GymMats, Isolation, Beginner, none, "N/A");
+        add("(FB) Diaphragmatic Breath w/ Pelvic Control - Sitting (Pregnancy)", "Other Frontal Abs", Abs, Pregnancy, ExerciseBall, Isolation, Beginner, none, "N/A");
+        add("(FB) Diaphragmatic Breath w/ Pelvic Control - Standing (Pregnancy)", "Other Frontal Abs", Abs, Pregnancy, Bodyweight, Isolation, Beginner, none, "N/A");
+        add("(FB) Diaphragmatic Breath w/ Pelvic Control - Supine (Pregnancy)", "Other Frontal Abs", Abs, Pregnancy, GymMats, Isolation, Beginner, none, "N/A");
+        add("(FB) Dip", "Tricep Dips", Triceps, Strength, DipStation, Compound, Beginner, List.of(Shoulders, Chest), "https://fitbod.me/exercises/dip");
+        add("(FB) Double Dumbbell Hang Snatch", "Other Hamstrings", Hamstrings, OlympicWeightlifting, Dumbbell, Compound, Intermediate, List.of(Shoulders, Traps, Triceps, Biceps, LowerBack, UpperBack, Calves, Quads, Glutes), "https://fitbod.me/exercises/double-dumbbell-hang-snatch");
+        add("(FB) Double Dumbbell Power Snatch", "Olympic Squats", Quads, OlympicWeightlifting, Dumbbell, Compound, Intermediate, List.of(Shoulders, Traps, Triceps, Biceps, LowerBack, UpperBack, Calves, Hamstrings, Glutes), "https://fitbod.me/exercises/double-dumbbell-power-snatch");
+        add("(FB) Downward Dog", "Other Hamstrings", Hamstrings, Strength, Bodyweight, Compound, Beginner, List.of(Shoulders, Calves, Lats, UpperBack), "https://fitbod.me/exercises/downward-dog");
+        add("(FB) Downward Dog Push Up", "Triceps Push ups", Triceps, Strength, Bodyweight, Compound, Intermediate, List.of(Shoulders, Abs), "https://fitbod.me/exercises/downward-dog-push-up");
+        add("(FB) Dual Kettlebell Front Squat", "Squats", Quads, Strength, KettleBellsX2, Compound, Intermediate, List.of(Hamstrings, Glutes), "https://fitbod.me/exercises/dual-kettlebell-front-squat");
+        add("(FB) Duck Walk", "Other Quads", Quads, Plyometrics, RunningSpace, Compound, Beginner, Calves, "https://fitbod.me/exercises/duck-walk");
+        add("(FB) Dumbbell Back Fly", "Rear Delt Flys", Shoulders, Strength, List.of(InclineBench, Dumbbell), Compound, Beginner, UpperBack, "https://fitbod.me/exercises/dumbbell-back-fly");
+        add("(FB) Dumbbell Bench Press", "Bench Presses", Chest, Strength, List.of(Bench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://fitbod.me/exercises/dumbbell-bench-press");
+        add("(FB) Dumbbell Bent Over Reverse Fly", "Rear Delt Flys", UpperBack, Strength, Dumbbell, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/dumbbell-bent-over-reverse-fly");
+        add("(FB) Dumbbell Bent Over Row", "Rows", UpperBack, Strength, Dumbbell, Compound, Beginner, Biceps, "https://fitbod.me/exercises/dumbbell-bent-over-row");
+        add("(FB) Dumbbell Bicep Curl", "Standing Curls", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://fitbod.me/exercises/dumbbell-bicep-curl");
+        add("(FB) Dumbbell Bulgarian Split Jumps", "Squats", Quads, Strength, List.of(Dumbbell, Bench), Compound, Advanced, List.of(Abs, Calves, Hamstrings, Glutes), "https://fitbod.me/exercises/dumbbell-bulgarian-split-jumps");
+        add("(FB) Dumbbell Bulgarian Split Squat", "Squats", Quads, Strength, List.of(Dumbbell, Bench), Compound, Beginner, Glutes, "https://fitbod.me/exercises/dumbbell-bulgarian-split-squat");
+        add("(FB) Dumbbell Calf Raise to High Pull", "Calves", Calves, Strength, Dumbbell, Compound, Beginner, List.of(UpperBack, Traps, Shoulders), "https://fitbod.me/exercises/dumbbell-calf-raise-to-high-pull");
+        add("(FB) Dumbbell Calf Raise to Shrug", "Calves", Calves, Strength, Dumbbell, Compound, Beginner, Traps, "https://fitbod.me/exercises/dumbbell-calf-raise-to-shrug");
+        add("(FB) Dumbbell Clean", "Olympic Squats", Hamstrings, OlympicWeightlifting, Dumbbell, Compound, Beginner, List.of(Traps, Shoulders, Quads, LowerBack, Glutes, Forearms, Calves), "https://fitbod.me/exercises/dumbbell-clean");
+        add("(FB) Dumbbell Cuban Shoulder Rotations", "Other Mixed Shoulders", Shoulders, Strength, Dumbbell, Isolation, Beginner, none, "https://fitbod.me/exercises/dumbbell-cuban-shoulder-rotations");
+        add("(FB) Dumbbell Curtsy Lunge", "Lunges", Quads, Strength, Dumbbell, Compound, Intermediate, List.of(Glutes, Hamstrings), "https://fitbod.me/exercises/dumbbell-curtsy-lunge");
+        add("(FB) Dumbbell Decline Bench Press", "Bench Presses", Chest, Strength, List.of(DeclineBench, Dumbbell), Compound, Intermediate, List.of(Triceps, Shoulders), "https://fitbod.me/exercises/dumbbell-decline-bench-press");
+        add("(FB) Dumbbell Decline Fly", "Flys", Chest, Strength, List.of(DeclineBench, Dumbbell), Isolation, Intermediate, none, "https://fitbod.me/exercises/dumbbell-decline-fly");
+        add("(FB) Dumbbell Deficit Reverse Lunge", "Lunges", Quads, Strength, List.of(Aerobic_Step, Dumbbell), Compound, Intermediate, List.of(Calves, Hamstrings, Glutes), "https://fitbod.me/exercises/dumbbell-deficit-reverse-lunge");
+        add("(FB) Dumbbell Drag Curl", "Standing Curls", Biceps, Strength, Dumbbell, Isolation, Beginner, none, "https://fitbod.me/exercises/dumbbell-drag-curl");
+
 
 
         /////////// BOOOKMARK
