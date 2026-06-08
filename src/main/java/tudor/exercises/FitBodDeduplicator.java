@@ -17,6 +17,8 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Cable External Rotation"); // (FB) Cable Shoulder External Rotation
         fitBodHadItAlready("Cable Internal Rotation"); // (FB) Cable Shoulder Internal Rotation
         fitBodHadItAlready("Incline Rear Delt Fly"); // (FB) Dumbbell Back Fly
+        fitBodHadItAlready("Standing Dumbbell Front Raise"); // (FB) Dumbbell Front Raise
+        fitBodHadItAlready("Dumbbell Lateral Raise"); // (FB) Dumbbell Lateral Raise
 
         // traps
         fitBodHadItAlready("Barbell Shrug"); // (FB) Barbell Shrug
@@ -36,6 +38,9 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Dumbbell Bench Press"); // (FB) Dumbbell Bench Press
         fitBodHadItAlready("Decline Dumbbell Bench Press"); // (FB) Dumbbell Decline Bench Press
         fitBodHadItAlready("Decline Dumbbell Flys"); // (FB) Dumbbell Decline Fly
+        fitBodHadItAlready("Dumbbell Flys"); // (FB) Dumbbell Fly
+        fitBodHadItAlready("Incline Dumbbell Bench Press"); // (FB) Dumbbell Incline Bench Press
+        fitBodHadItAlready("Incline Dumbbell Flys"); // (FB) Dumbbell Incline Fly
 
         // upper back
         inserted("One Arm Dumbbell Row");
@@ -116,6 +121,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Curtsy Lunge (AKA Drop Lunge)"); // (FB) Curtsy Lunge
         fitBodHadItAlready("Double Kettlebell Front Squat"); // (FB) Dual Kettlebell Front Squat
         fitBodHadItAlready("One Leg Dumbbell Squat (AKA Dumbbell Bulgarian Split Squat)"); // (FB) Dumbbell Bulgarian Split Squat
+        fitBodHadItAlready("Dumbbell Goblet Squat"); // (FB) Dumbbell Goblet Squat
 
         // hamstrings
         fitBodHadItAlready("Clean"); // (FB) Clean

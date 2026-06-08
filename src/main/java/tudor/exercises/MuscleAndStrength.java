@@ -656,6 +656,7 @@ public class MuscleAndStrength {
         add("Forearm Tiger Tail", Forearms, SMR, TigerTail, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/forearm-tiger-tail");
         add("Weight Plate Pinches", Forearms, Strength, Disk, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/weight-plate-pinches.html");
         add("Wrist Rollers", Forearms, Strength, List.of(WristRoller, Disk), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/wrist-rollers.html");
+        add("(T) Donut Squashes", Forearms, Strength, Donut, Isolation, Beginner, none, "N/A");
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //////////// Glutes

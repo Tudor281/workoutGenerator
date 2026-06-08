@@ -34,6 +34,7 @@ public enum Equipment {
     DeclineBenchPress,
     DipStation,
     Disk,
+    Donut,
     DoubleCable,
     Dumbbell,
     ExerciseBall,
