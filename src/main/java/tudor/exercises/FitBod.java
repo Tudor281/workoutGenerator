@@ -26,11 +26,11 @@ public class FitBod {
         add("(FB) 2-Box Depth Jump", "Other Quads", Quads, Plyometrics, Boxx2, Compound, Advanced, List.of(Abs, Calves, Hamstrings, Glutes), "https://fitbod.me/exercises/2-box-depth-jump");
         add("(FB) 21's", "Standing Curls", Biceps, Strength, ZBar, Isolation, Beginner, none, "https://fitbod.me/exercises/21-s");
 
-        add("(FB) A-Skips", "Calves", Calves, Strength, RunningSpace, Compound, Beginner, List.of(Abs, Hamstrings, Quads, Glutes), "https://fitbod.me/exercises/a-skips");
-        add("(FB) AB-Skips", "Calves", Calves, Strength, RunningSpace, Compound, Intermediate, List.of(Abs, Hamstrings, Quads, Glutes), "https://fitbod.me/exercises/ab-skips");
-        add("(FB) AC-Skips", "Calves", Calves, Strength, RunningSpace, Compound, Intermediate, List.of(Abs, Hamstrings, Quads, Glutes), "https://fitbod.me/exercises/ab-skips");
-        add("(FB) AC-Skips", "Calves", Calves, Strength, RunningSpace, Compound, Intermediate, List.of(Abs, Hamstrings, Quads, Glutes), "https://fitbod.me/exercises/ab-skips");
-        add("(FB) ACB-Skips", "Calves", Calves, Strength, RunningSpace, Compound, Advanced, List.of(Abs, Hamstrings, Quads, Glutes), "https://fitbod.me/exercises/ab-skips");
+        add("(FB) A-Skips", "Calves", Calves, Strength, WalkingSpace, Compound, Beginner, List.of(Abs, Hamstrings, Quads, Glutes), "https://fitbod.me/exercises/a-skips");
+        add("(FB) AB-Skips", "Calves", Calves, Strength, WalkingSpace, Compound, Intermediate, List.of(Abs, Hamstrings, Quads, Glutes), "https://fitbod.me/exercises/ab-skips");
+        add("(FB) AC-Skips", "Calves", Calves, Strength, WalkingSpace, Compound, Intermediate, List.of(Abs, Hamstrings, Quads, Glutes), "https://fitbod.me/exercises/ab-skips");
+        add("(FB) AC-Skips", "Calves", Calves, Strength, WalkingSpace, Compound, Intermediate, List.of(Abs, Hamstrings, Quads, Glutes), "https://fitbod.me/exercises/ab-skips");
+        add("(FB) ACB-Skips", "Calves", Calves, Strength, WalkingSpace, Compound, Advanced, List.of(Abs, Hamstrings, Quads, Glutes), "https://fitbod.me/exercises/ab-skips");
         add("(FB) Ab Rollout", "Rollouts", Abs, Strength, AbsWheel, Compound, Intermediate, List.of(Shoulders, LowerBack), "https://fitbod.me/exercises/ab-rollout");
         add("(FB) Air Squats", "Squats", Quads, Strength, Bodyweight, Compound, Beginner, List.of(Hamstrings, Glutes, Abductors), "https://fitbod.me/exercises/air-squats");
         add("(FB) Airplane", "Other Hamstrings", Hamstrings, Strength, Bodyweight, Compound, Intermediate, none, "https://fitbod.me/exercises/airplane");
@@ -48,7 +48,7 @@ public class FitBod {
         add("(FB) Australian Chin Up", "Chin ups", UpperBack, Strength, Rack, Compound, Beginner, Biceps, "https://fitbod.me/exercises/australian-chin-up");
         add("(FB) Australian Crawl", "Chin ups", LowerBack, Strength, GymMats, Compound, Beginner, List.of(Glutes, Shoulders, UpperBack), "https://fitbod.me/exercises/australian-crawl");
 
-        add("(FB) B-Skips", "Calves", Calves, Strength, RunningSpace, Compound, Beginner, List.of(Abs, Hamstrings, Quads, Glutes), "https://fitbod.me/exercises/b-skips");
+        add("(FB) B-Skips", "Calves", Calves, Strength, WalkingSpace, Compound, Beginner, List.of(Abs, Hamstrings, Quads, Glutes), "https://fitbod.me/exercises/b-skips");
         add("(FB) Back Extensions", "Back Extensions", LowerBack, Strength, LowerBackStand2, Compound, Beginner, List.of(Hamstrings, Glutes), "https://fitbod.me/exercises/back-extensions");
         add("(FB) Back Squat", "Squats", Quads, Strength, Rack, Compound, Intermediate, List.of(Hamstrings, Glutes, Abs, LowerBack, Calves), "https://fitbod.me/exercises/back-squat");
         add("(FB) Backward Arm Circle", "Other Mixed Shoulders", Shoulders, Warmup, Bodyweight, Compound, Beginner, none, "https://fitbod.me/exercises/backward-arm-circle");
@@ -150,7 +150,7 @@ public class FitBod {
         add("(FB) Battle Ropes Lateral Whip", "Battling Ropes", Shoulders, Strength, BattlingRopes, Compound, Intermediate,  UpperBack, "https://fitbod.me/exercises/battle-ropes-lateral-whip");
         add("(FB) Battle Ropes Outside Slam", "Battling Ropes", Shoulders, Strength, BattlingRopes, Compound, Intermediate,  Lats, "https://fitbod.me/exercises/battle-ropes-outside-slam");
         add("(FB) Battle Ropes Outside Spiral", "Battling Ropes", Shoulders, Strength, BattlingRopes, Compound, Intermediate,  List.of(Lats, UpperBack), "https://fitbod.me/exercises/battle-ropes-outside-spiral");
-        add("(FB) Bear Crawl", "Other Hamstrings", Hamstrings, Strength, RunningSpace, Compound, Beginner,  List.of(Calves, Abs, Glutes), "https://fitbod.me/exercises/bear-crawl");
+        add("(FB) Bear Crawl", "Other Hamstrings", Hamstrings, Strength, WalkingSpace, Compound, Beginner,  List.of(Calves, Abs, Glutes), "https://fitbod.me/exercises/bear-crawl");
         add("(FB) Behind the Back Cable Bicep Curl", "Standing Curls", Biceps, Strength, List.of(LowCable, CableAttachmentSingleArm), Isolation, Beginner,  none, "https://fitbod.me/exercises/behind-the-back-cable-bicep-curl");
         add("(FB) Behind the Back Cable Lateral Raise", "Lateral Raises", Shoulders, Strength, List.of(LowCable, CableAttachmentSingleArm), Isolation, Beginner,  none, "https://fitbod.me/exercises/behind-the-back-cable-lateral-raise");
         add("(FB) Behind the Neck Push Press", "Push Presses", Shoulders, OlympicWeightlifting, Barbell, Compound, Intermediate,  List.of(Traps, Triceps), "https://fitbod.me/exercises/behind-the-neck-push-press");
@@ -169,7 +169,7 @@ public class FitBod {
         add("(FB) Bodyweight Kneeling Banded Deadlift", "Deadlifts", Hamstrings, Strength, List.of(Bands, Pole), Compound, Beginner,  Glutes, "https://fitbod.me/exercises/bodyweight-kneeling-banded-deadlift");
         add("(FB) Bodyweight Squat Hold", "Squats", Quads, Strength, Bodyweight, Compound, Beginner,  List.of(Hamstrings, Glutes), "https://fitbod.me/exercises/bodyweight-squat-hold");
         add("(FB) Bodyweight Step Up to Deficit Reverse Lunge", "Lunges", Quads, Strength, Aerobic_Step, Compound, Beginner,  List.of(Hamstrings, Glutes), "https://fitbod.me/exercises/bodyweight-step-up-to-deficit-reverse-lunge");
-        add("(FB) Bounds", "Other Quads", Quads, Strength, RunningSpace, Compound, Beginner,  List.of(Abs, Calves, Hamstrings, Glutes), "https://fitbod.me/exercises/bounds");
+        add("(FB) Bounds", "Other Quads", Quads, Strength, WalkingSpace, Compound, Beginner,  List.of(Abs, Calves, Hamstrings, Glutes), "https://fitbod.me/exercises/bounds");
         add("(FB) Box Drops", "Other Glutes", Glutes, Strength, Box, Compound, Beginner,  List.of(Abs, Calves, Hamstrings, Quads), "https://fitbod.me/exercises/box-drops");
         add("(FB) Box Front Squat", "Squats", Quads, Strength, List.of(Rack, Barbell), Compound, Advanced,  List.of(Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/box-front-squat");
         add("(FB) Box Jump", "Other Quads", Hamstrings, Plyometrics, Box, Compound, Beginner,  List.of(Quads, Glutes, Calves, Adductors, Abductors), "https://fitbod.me/exercises/box-jump");
@@ -295,7 +295,7 @@ public class FitBod {
         add("(FB) Downward Dog", "Other Hamstrings", Hamstrings, Strength, Bodyweight, Compound, Beginner, List.of(Shoulders, Calves, Lats, UpperBack), "https://fitbod.me/exercises/downward-dog");
         add("(FB) Downward Dog Push Up", "Triceps Push ups", Triceps, Strength, Bodyweight, Compound, Intermediate, List.of(Shoulders, Abs), "https://fitbod.me/exercises/downward-dog-push-up");
         add("(FB) Dual Kettlebell Front Squat", "Squats", Quads, Strength, KettleBellsX2, Compound, Intermediate, List.of(Hamstrings, Glutes), "https://fitbod.me/exercises/dual-kettlebell-front-squat");
-        add("(FB) Duck Walk", "Other Quads", Quads, Plyometrics, RunningSpace, Compound, Beginner, Calves, "https://fitbod.me/exercises/duck-walk");
+        add("(FB) Duck Walk", "Other Quads", Quads, Plyometrics, WalkingSpace, Compound, Beginner, Calves, "https://fitbod.me/exercises/duck-walk");
         add("(FB) Dumbbell Back Fly", "Rear Delt Flys", Shoulders, Strength, List.of(InclineBench, Dumbbell), Compound, Beginner, UpperBack, "https://fitbod.me/exercises/dumbbell-back-fly");
         add("(FB) Dumbbell Bench Press", "Bench Presses", Chest, Strength, List.of(Bench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://fitbod.me/exercises/dumbbell-bench-press");
         add("(FB) Dumbbell Bent Over Reverse Fly", "Rear Delt Flys", UpperBack, Strength, Dumbbell, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/dumbbell-bent-over-reverse-fly");
@@ -364,6 +364,35 @@ public class FitBod {
         add("(FB) Dumbbell Stiff Legged Deadlift", "Deadlifts", Hamstrings, Strength, Dumbbell, Compound, Beginner, List.of(LowerBack, Glutes, UpperBack), "https://fitbod.me/exercises/dumbbell-stiff-legged-deadlift");
         domination("(FB) Dumbbell Romanian Deadlift", "(FB) Dumbbell Stiff Legged Deadlift");
         add("(FB) Dumbbell Sumo Squat", "Squats", Quads, Strength, Dumbbell, Compound, Intermediate, List.of(Hamstrings, Calves, Glutes, Abs), "https://fitbod.me/exercises/dumbbell-sumo-squat");
+        add("(FB) Dumbbell Superman", "Other lower back", LowerBack, Strength, List.of(Dumbbell, GymMats), Compound, Intermediate, List.of(Hamstrings, Glutes, UpperBack), "https://fitbod.me/exercises/dumbbell-superman");
+        add("(FB) Dumbbell Thruster", "Squats", Quads, Strength, Dumbbell, Compound, Beginner, List.of(Shoulders, Hamstrings, Glutes), "https://fitbod.me/exercises/dumbbell-thruster");
+        add("(FB) Dumbbell Toe Walks", "Calves", Calves, Strength, List.of(Dumbbell, WalkingSpace), Compound, Beginner, List.of(Forearms, Traps), "https://fitbod.me/exercises/dumbbell-toe-walks");
+        add("(FB) Dumbbell Tricep Extension", "Tricep Extensions", Triceps, Strength, List.of(Dumbbell, Bench), Isolation, Intermediate, none, "https://fitbod.me/exercises/dumbbell-tricep-extension");
+        add("(FB) Dumbbell Underhand Front Raise", "Front Raises", Shoulders, Strength, Dumbbell, Isolation, Beginner, none, "https://fitbod.me/exercises/dumbbell-underhand-front-raise");
+        add("(FB) Dumbbell Upright Row", "Upright Rows", Traps, Strength, Dumbbell, Compound, Beginner, List.of(Shoulders, Biceps), "https://fitbod.me/exercises/dumbbell-upright-row");
+        add("(FB) Dumbbell V-Sit Cross Jab", "Other Frontal Abs", Abs, Strength, List.of(Dumbbell, GymMats), Compound, Intermediate, Shoulders, "https://fitbod.me/exercises/dumbbell-v-sit-cross-jab");
+        add("(FB) Dumbbell Walking Lunge", "Lunges", Quads, Strength, List.of(Dumbbell, WalkingSpace), Compound, Beginner, List.of(Hamstrings, Glutes), "https://fitbod.me/exercises/dumbbell-walking-lunge");
+        add("(FB) Dumbbell Wide Curls", "Standing Curls", Biceps, Strength, Dumbbell, Isolation, Beginner, none, "https://fitbod.me/exercises/dumbbell-wide-curls");
+
+
+        add("(FB) EZ Bar PJR Pull Over", "Other Lats", Lats, Strength, List.of(ZBar, Bench), Compound, Beginner, List.of(Triceps, Shoulders), "https://fitbod.me/exercises/ez-bar-pjr-pull-over");
+        add("(FB) EZ-Bar Curl", "Standing Curls", Biceps, Strength, ZBar, Isolation, Beginner, none, "https://fitbod.me/exercises/ez-bar-curl");
+        add("(FB) EZ-Bar Overhead Tricep Extension", "Tricep Extensions", Triceps, Strength, ZBar, Isolation, Intermediate, Shoulders, "https://fitbod.me/exercises/ez-bar-overhead-tricep-extension");
+        add("(FB) EZ-Bar Pause Curl", "Standing Curls", Biceps, Strength, ZBar, Isolation, Beginner, none, "https://fitbod.me/exercises/ez-bar-pause-curl");
+        add("(FB) EZ-Bar Pull Over", "Other Lats", Lats, Strength, List.of(ZBar, Bench), Compound, Beginner, Shoulders, "https://fitbod.me/exercises/ez-bar-pull-over");
+        add("(FB) EZ-Bar Reverse Close Grip Curl", "Standing Curls", Biceps, Strength, ZBar, Compound, Beginner, Forearms, "https://fitbod.me/exercises/ez-bar-reverse-close-grip-curl");
+        add("(FB) EZ-Bar Reverse Grip Curl", "Standing Curls", Biceps, Strength, ZBar, Compound, Beginner, Forearms, "https://fitbod.me/exercises/ez-bar-reverse-grip-curl");
+        add("(FB) Elbow to Knee Crunch", "Crunches", Abs, Strength, GymMats, Isolation, Beginner, none, "https://fitbod.me/exercises/elbow-to-knee-crunch");
+        add("(FB) Elbows Out Bent Over Dumbbell Row", "Other Mixed Shoulders", Shoulders, Strength, Dumbbell, Compound, Beginner, List.of(LowerBack, Hamstrings, Biceps), "https://fitbod.me/exercises/elbows-out-bent-over-dumbbell-row");
+        add("(FB) Elevated Hip Bridge", "Glute Bridges", Glutes, Strength, List.of(GymMats, Bench), Compound, Beginner, Hamstrings, "https://fitbod.me/exercises/elevated-hip-bridge");
+        add("(FB) Elevated Plank", "Planks", Abs, Strength, Bench, Compound, Beginner, List.of(Chest, Shoulders), "https://fitbod.me/exercises/elevated-plank");
+        add("(FB) Elevated Plank (Pregnancy)", "Planks", Abs, Pregnancy, Bench, Compound, Beginner, List.of(Chest, Shoulders), "N/A");
+        add("(FB) Elevated Plank With Slow Mountain Climber", "Planks", Abs, Strength, Bench, Compound, Beginner, List.of(Chest, Shoulders, Quads), "https://fitbod.me/exercises/elevated-plank-with-slow-mountain-climber");
+        add("(FB) Elevated Plank With Slow Mountain Climber (Pregnancy)", "Planks", Abs, Pregnancy, Bench, Compound, Beginner, List.of(Chest, Shoulders, Quads), "https://fitbod.me/exercises/elevated-plank-with-slow-mountain-climber");
+        add("(FB) Elevated Platform Barbell Romanian Deadlift", "Deadlifts", Hamstrings, Strength, List.of(Aerobic_Step, Barbell), Compound, Advanced, List.of(LowerBack, UpperBack, Glutes), "https://fitbod.me/exercises/elevated-platform-barbell-romanian-deadlift");
+        add("(FB) Elevated Platform Deadlift", "Deadlifts", Hamstrings, Strength, List.of(Aerobic_Step, Barbell), Compound, Advanced, List.of(Calves, Traps, LowerBack, UpperBack, Quads, Glutes), "https://fitbod.me/exercises/elevated-platform-deadlift");
+        add("(FB) Elliptical", "Other Quads", Quads, Conditioning, Bodyweight, Compound, Beginner, List.of(Calves, Glutes, Hamstrings), "N/A");
+        add("(FB) Exercise Ball Crunch", "Crunches", Abs, Strength, ExerciseBall, Isolation, Beginner, none, "https://fitbod.me/exercises/exercise-ball-crunch");
 
         /////////// BOOOKMARK
     }

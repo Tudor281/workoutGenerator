@@ -29,6 +29,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Barbell Shrug"); // (FB) Barbell Shrug
         fitBodHadItAlready("Cable Shrug"); // (FB) Cable Shrugs
         fitBodHadItAlready("Dumbbell Shrug"); // (FB) Dumbbell Shrug
+        fitBodHadItAlready("Dumbbell Upright Row"); // (FB) Dumbbell Upright Row
 
         //chest
         fitBodHadItAlready("Alternate Dumbbell Bench Press (high start)");
@@ -77,6 +78,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Concentration Curl"); // (FB) Concentration Curl
         fitBodHadItAlready("Alternating Standing Dumbbell Curl"); // (FB) Dumbbell Bicep Curl
         fitBodHadItAlready("Dumbbell Preacher Curl"); // (FB) Dumbbell Preacher Curls
+        fitBodHadItAlready("EZ Bar Curl"); // (FB) EZ-Bar Curl
 
         // triceps
         fitBodHadItAlready("Lying Dumbbell Extension");
@@ -88,6 +90,8 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Close Grip Bench Press"); // (FB) Close-Grip Bench Press
         fitBodHadItAlready("Tricep Dip"); // (FB) Dip
         fitBodHadItAlready("Lying Dumbbell Extension"); // (FB) Dumbbell Skullcrusher
+        fitBodHadItAlready("Seated Dumbbell Tricep Extension"); // (FB) Dumbbell Tricep Extension
+        fitBodHadItAlready("Standing Overhead EZ Bar Tricep Extension"); // (FB) EZ-Bar Overhead Tricep Extension
 
         // forearms
         fitBodHadItAlready("Seated Cable Wrist Curl"); // (FB) Cable Wrist Curl
@@ -106,6 +110,8 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Decline Weighted Twist"); // "(FB) Decline Russian Twists"
         fitBodHadItAlready("Decline Bench Sit Up"); // (FB) Decline Sit Up
         fitBodHadItAlready("Dumbbell Side Bends"); // (FB) Dumbbell Side Bend
+        fitBodHadItAlready("Twisting Floor Crunch"); // (FB) Elbow to Knee Crunch
+        fitBodHadItAlready("Exercise Ball Crunch"); // (FB) Exercise Ball Crunch
 
         // lower back
         inserted("Dumbbell Deadlift");
@@ -135,6 +141,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Dumbbell Goblet Squat"); // (FB) Dumbbell Goblet Squat
         fitBodHadItAlready("Dumbbell Lunge"); // (FB) Dumbbell Lunge
         fitBodHadItAlready("Dumbbell Step Up"); // (FB) Dumbbell Step Up
+        fitBodHadItAlready("Dumbbell Walking Lunge"); // (FB) Dumbbell Walking Lunge
 
         // hamstrings
         fitBodHadItAlready("Clean"); // (FB) Clean

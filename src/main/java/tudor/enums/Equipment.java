@@ -71,7 +71,6 @@ public enum Equipment {
     RowCable,
     Rings, // ca la olimpiada
     RomanChair,
-    RunningSpace,
     SafetyBar,
     ShortBarbell, // aia de făcut biceps și triceps, nu piept sau squats
     ShoulderBenchPress, // TODO if you have a rack and incline bench, you got yourself a Shoulder Bench Press
@@ -86,6 +85,7 @@ public enum Equipment {
     TRX,
     ValSlide,
     VBar,
+    WalkingSpace,
     Wall, // a free wall. If there's mirrors everywhere or equipment, you can't do stuff against the wall. The wall must be dirtiable, throw balls at it.
     WaistStrap,
     WeightStrap,
