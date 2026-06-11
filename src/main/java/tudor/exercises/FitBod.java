@@ -332,7 +332,38 @@ public class FitBod {
         add("(FB) Dumbbell Kneel to Stand", "Other Quads", Quads, Strength, Dumbbell, Compound, Beginner, List.of(Forearms, Traps), "https://fitbod.me/exercises/dumbbell-kneel-to-stand");
         add("(FB) Dumbbell Larson Press", "Bench Presses", Chest, Strength, List.of(Dumbbell, Bench), Compound, Beginner, List.of(Quads, Abs, Triceps, Shoulders), "https://fitbod.me/exercises/dumbbell-larson-press");
         add("(FB) Dumbbell Lateral Raise", "Lateral Raises", Shoulders, Strength, Dumbbell, Isolation, Beginner, none, "https://fitbod.me/exercises/dumbbell-lateral-raise");
-
+        add("(FB) Dumbbell Lateral Raise To Front Raise", "Other Mixed Shoulders", Shoulders, Strength, Dumbbell, Isolation, Beginner, none, "https://fitbod.me/exercises/dumbbell-lateral-raise-to-front-raise");
+        add("(FB) Dumbbell Lunge", "Lunges", Quads, Strength, Dumbbell, Compound, Beginner, List.of(Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/dumbbell-lunge");
+        add("(FB) Dumbbell No Money Curls", "Standing Curls", Biceps, Strength, Dumbbell, Isolation, Beginner, Shoulders, "https://fitbod.me/exercises/dumbbell-no-money-curls");
+        add("(FB) Dumbbell Overhead Kneel to Stand", "Other Quads", Quads, Strength, Dumbbell, Compound, Intermediate, List.of(Traps, Shoulders, Hamstrings, Glutes), "https://fitbod.me/exercises/dumbbell-overhead-kneel-to-stand");
+        add("(FB) Dumbbell Pause Curl", "Standing Curls", Biceps, Strength, Dumbbell, Isolation, Beginner, none, "https://fitbod.me/exercises/dumbbell-pause-curl");
+        add("(FB) Dumbbell Preacher Curls", "Preacher Curls", Biceps, Strength, Dumbbell, Isolation, Beginner, none, "https://fitbod.me/exercises/dumbbell-preacher-curls");
+        add("(FB) Dumbbell Pull Over", "Pullovers", Chest, Strength, List.of(Dumbbell, Bench), Compound, Beginner, List.of(Shoulders, Triceps, Lats), "https://fitbod.me/exercises/dumbbell-pull-over");
+        add("(FB) Dumbbell Punches", "Other Front Delts", Shoulders, Strength, Dumbbell, Isolation, Beginner, none, "https://fitbod.me/exercises/dumbbell-punches");
+        add("(FB) Dumbbell Rear Delt Raise", "Rear Delt Flys", Shoulders, Strength, Dumbbell, Compound, Intermediate, UpperBack, "https://fitbod.me/exercises/dumbbell-rear-delt-raise");
+        add("(FB) Dumbbell Romanian Deadlift", "Deadlifts", Hamstrings, Strength, Dumbbell, Compound, Beginner, List.of(LowerBack, Glutes, UpperBack), "https://fitbod.me/exercises/dumbbell-romanian-deadlift");
+        add("(FB) Dumbbell Romanian Deadlift to Bent Over Row", "Deadlifts", Hamstrings, Strength, Dumbbell, Compound, Beginner, List.of(LowerBack, Shoulders, Biceps, Lats, Glutes, UpperBack), "https://fitbod.me/exercises/dumbbell-romanian-deadlift-to-bent-over-row");
+        add("(FB) Dumbbell Romanian Deadlift to Calf Raise", "Deadlifts", Hamstrings, Strength, Dumbbell, Compound, Beginner, List.of(Lats, UpperBack, LowerBack, Calves, Glutes), "https://fitbod.me/exercises/dumbbell-romanian-deadlift-to-calf-raise");
+        add("(FB) Dumbbell Romanian Deadlift to High Pull", "Olympic Squats", Hamstrings, OlympicWeightlifting, Dumbbell, Compound, Beginner, List.of(Calves, UpperBack, Traps, Shoulders, Glutes), "https://fitbod.me/exercises/dumbbell-romanian-deadlift-to-high-pull");
+        add("(FB) Dumbbell Romanian Deadlift to Shrug", "Deadlifts", Hamstrings, Strength, Dumbbell, Compound, Beginner, List.of(Traps, Glutes), "https://fitbod.me/exercises/dumbbell-romanian-deadlift-to-shrug");
+        add("(FB) Dumbbell Row", "Rows", Lats, Strength, List.of(Dumbbell, Bench), Compound, Beginner, List.of(UpperBack, Biceps, Shoulders), "https://fitbod.me/exercises/dumbbell-row");
+        add("(FB) Dumbbell Seated Hammer Curl To Front Press", "Seated Curls", Biceps, Strength, List.of(Dumbbell, InclineBench), Compound, Beginner, List.of(Triceps, Shoulders), "https://fitbod.me/exercises/dumbbell-seated-hammer-curl-to-front-press");
+        add("(FB) Dumbbell Seated Single Arm Shoulder Press", "Shoulder Presses", Shoulders, Strength, List.of(Dumbbell, InclineBench), Compound, Beginner, Triceps, "https://fitbod.me/exercises/dumbbell-seated-single-arm-shoulder-press");
+        add("(FB) Dumbbell Shoulder Press", "Shoulder Presses", Shoulders, Strength, List.of(Dumbbell, InclineBench), Compound, Beginner, Triceps, "https://fitbod.me/exercises/dumbbell-shoulder-press");
+        add("(FB) Dumbbell Shrug", "Shrugs", Traps, Strength, Dumbbell, Isolation, Beginner, none, "https://fitbod.me/exercises/dumbbell-shrug");
+        add("(FB) Dumbbell Side Bend", "Side Bends", Obliques, Strength, Dumbbell, Isolation, Beginner, none, "https://fitbod.me/exercises/dumbbell-side-bend");
+        add("(FB) Dumbbell Skullcrusher", "Tricep Extensions", Triceps, Strength, List.of(Dumbbell, Bench), Isolation, Beginner, none, "https://fitbod.me/exercises/dumbbell-skullcrusher");
+        add("(FB) Dumbbell Snatch", "Olympic Squats", Hamstrings, OlympicWeightlifting, Dumbbell, Compound, Intermediate, List.of(UpperBack, Quads, Glutes, Biceps, LowerBack, Shoulders), "https://fitbod.me/exercises/dumbbell-snatch");
+        add("(FB) Dumbbell Squat", "Squats", Quads, Strength, Dumbbell, Compound, Beginner, List.of(LowerBack, Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/dumbbell-squat"); // this is the fitbod variant with weights up, M&S is with weights down
+        add("(FB) Dumbbell Squat To Shoulder Press", "Squats", Quads, Strength, Dumbbell, Compound, Beginner, List.of(Shoulders, Traps, Hamstrings, Glutes, Triceps), "https://fitbod.me/exercises/dumbbell-squat-to-shoulder-press");
+        add("(FB) Dumbbell Squeeze Press", "Bench Presses", Chest, Strength, List.of(Dumbbell, Bench), Compound, Beginner, Triceps, "https://fitbod.me/exercises/dumbbell-squeeze-press");
+        add("(FB) Dumbbell Standing Front Press", "Other Front Delts", Shoulders, Strength, Dumbbell, Compound, Beginner, Triceps, "https://fitbod.me/exercises/dumbbell-standing-front-press");
+        add("(FB) Dumbbell Standing Hammer Curl To Front Press", "Standing Curls", Biceps, Strength, Dumbbell, Compound, Beginner, List.of(Triceps, Shoulders), "https://fitbod.me/exercises/dumbbell-standing-hammer-curl-to-front-press");
+        add("(FB) Dumbbell Standing Single Arm Front Press", "Shoulder Presses", Shoulders, Strength, Dumbbell, Compound, Beginner, Triceps, "https://fitbod.me/exercises/dumbbell-standing-single-arm-front-press");
+        add("(FB) Dumbbell Step Up", "Step ups", Quads, Strength, List.of(Dumbbell, Bench), Compound, Intermediate, List.of(Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/dumbbell-step-up");
+        add("(FB) Dumbbell Stiff Legged Deadlift", "Deadlifts", Hamstrings, Strength, Dumbbell, Compound, Beginner, List.of(LowerBack, Glutes, UpperBack), "https://fitbod.me/exercises/dumbbell-stiff-legged-deadlift");
+        domination("(FB) Dumbbell Romanian Deadlift", "(FB) Dumbbell Stiff Legged Deadlift");
+        add("(FB) Dumbbell Sumo Squat", "Squats", Quads, Strength, Dumbbell, Compound, Intermediate, List.of(Hamstrings, Calves, Glutes, Abs), "https://fitbod.me/exercises/dumbbell-sumo-squat");
 
         /////////// BOOOKMARK
     }
