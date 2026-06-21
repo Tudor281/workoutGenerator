@@ -393,6 +393,24 @@ public class FitBod {
         add("(FB) Elevated Platform Deadlift", "Deadlifts", Hamstrings, Strength, List.of(Aerobic_Step, Barbell), Compound, Advanced, List.of(Calves, Traps, LowerBack, UpperBack, Quads, Glutes), "https://fitbod.me/exercises/elevated-platform-deadlift");
         add("(FB) Elliptical", "Other Quads", Quads, Conditioning, Bodyweight, Compound, Beginner, List.of(Calves, Glutes, Hamstrings), "N/A");
         add("(FB) Exercise Ball Crunch", "Crunches", Abs, Strength, ExerciseBall, Isolation, Beginner, none, "https://fitbod.me/exercises/exercise-ball-crunch");
+        add("(FB) Exercise Ball Pull In", "Crunches", Abs, Strength, ExerciseBall, Isolation, Beginner, none, "https://fitbod.me/exercises/exercise-ball-pull-in");
+        add("(FB) Exercise Ball Push Up", "Push Ups", Chest, Strength, ExerciseBall, Compound, Beginner, List.of(Triceps, Shoulders), "https://fitbod.me/exercises/exercise-ball-push-up");
+        add("(FB) Extended Plank", "Planks", Abs, Strength, GymMats, Compound, Intermediate, Shoulders, "https://fitbod.me/exercises/extended-plank");
+        add("(FB) Face Down Plate Neck Resistance", "Neck", Neck, Strength, List.of(Bench, Disk), Compound, Beginner, UpperBack, "https://fitbod.me/exercises/face-down-plate-neck-resistance");
+        add("(FB) Fan Stretch", "Adductors", Adductors, Stretching, GymMats, Compound, Beginner, List.of(LowerBack, Calves, Hamstrings), "https://fitbod.me/exercises/fan-stretch");
+        add("(FB) Farmer's Walk", "Carries", Forearms, Strength, FarmersWalkHandleBars, Compound, Intermediate, List.of(Shoulders, Traps, Quads, LowerBack, Hamstrings, Glutes, Abs), "https://fitbod.me/exercises/farmer-s-walk");
+        add("(FB) Fire Hydrant Circle", "Abductors", Abductors, Strength, GymMats, Compound, Beginner, Glutes, "https://fitbod.me/exercises/fire-hydrant-circle");
+        add("(FB) Floor Press", "Bench Presses", Chest, Strength, List.of(GymMats, Barbell), Compound, Intermediate, Triceps, "https://fitbod.me/exercises/floor-press");
+        add("(FB) Flutter Kicks", "Leg Raise", Abs, Strength, Bench, Compound, Beginner, Hamstrings, "https://fitbod.me/exercises/flutter-kicks");
+        add("(FB) Foam Roll Calves", "Calves", Calves, SMR, FoamRoll, Isolation, Beginner, none, "https://fitbod.me/exercises/foam-roll-calves");
+        add("(FB) Foam Roll Chest", "Other Chest", Chest, SMR, FoamRoll, Isolation, Beginner, none, "https://fitbod.me/exercises/foam-roll-chest");
+        add("(FB) Foam Roll Chest - Alternative", "Other Chest", Chest, SMR, FoamRoll, Isolation, Beginner, none, "https://fitbod.me/exercises/foam-roll-chest-alternative");
+        add("(FB) Foam Roll Glute Bridge", "Glute Bridges", Glutes, Strength, FoamRoll, Compound, Beginner, Hamstrings, "https://fitbod.me/exercises/foam-roll-glute-bridge");
+        add("(FB) Foam Roll Glutes", "Other Glutes", Glutes, SMR, FoamRoll, Compound, Beginner, none, "https://fitbod.me/exercises/foam-roll-glutes");
+        add("(FB) Foam Roll Hamstrings", "Other Hamstrings", Hamstrings, SMR, FoamRoll, Compound, Beginner, none, "https://fitbod.me/exercises/foam-roll-hamstrings");
+        add("(FB) Foam Roll Hip Abductors", "Abductors", Abductors, SMR, FoamRoll, Compound, Beginner, none, "https://fitbod.me/exercises/foam-roll-hip-abductors");
+        add("(FB) Foam Roll Hip Adductors", "Adductors", Adductors, SMR, FoamRoll, Compound, Beginner, none, "https://fitbod.me/exercises/foam-roll-hip-adductors");
+        add("(FB) Foam Roll Hip Flexors", "Abductors", Adductors, SMR, FoamRoll, Compound, Beginner, none, "https://fitbod.me/exercises/foam-roll-hip-flexors");
 
         /////////// BOOOKMARK
     }

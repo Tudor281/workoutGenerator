@@ -40,6 +40,7 @@ public enum Equipment {
     ExerciseBall,
     FatBar,
     FatGripz,
+    FarmersWalkHandleBars,
     FeetWeight, // undeva sub care să-ți pui picioarele și de exemplu să faci abdomene
     FixedUpperBar,
     FoamRoll,

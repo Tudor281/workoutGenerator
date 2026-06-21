@@ -50,6 +50,9 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Incline Dumbbell Flys"); // (FB) Dumbbell Incline Fly
         fitBodHadItAlready("Dumbbell Pullover"); // (FB) Dumbbell Pull Over
         fitBodHadItAlready("Close Grip Dumbbell Press (AKA Crush Press)"); // (FB) Dumbbell Squeeze Press
+        fitBodHadItAlready("Exercise Ball Push Up"); // (FB) Exercise Ball Push Up
+        fitBodHadItAlready("Floor Press"); // (FB) Floor Press
+        fitBodHadItAlready("Pec Foam Rolling"); // (FB) Foam Roll Chest - Alternative
 
         // upper back
         inserted("One Arm Dumbbell Row");
@@ -122,10 +125,12 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Barbell Glute Bridge");
         inserted("(T:Bodyweight) Bodyweight Good Mornings");
         inserted("Single Leg Hip Thrust with Dumbbell");
+        fitBodHadItAlready("Glute Foam Rolling"); // (FB) Foam Roll Glutes
 
         // abductors adductors
         fitBodHadItAlready("Cable Hip Abduction"); // (FB) Cable Hip Abduction
         fitBodHadItAlready("Cable Hip Adduction"); // (FB) Cable Hip Adduction
+        fitBodHadItAlready("Adductor Foam Rolling"); // (FB) Foam Roll Hip Adductors
 
         // quads
         fitBodHadItAlready("Box Jump"); // 1-Step Box Jump, Box Jump
@@ -147,11 +152,13 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Clean"); // (FB) Clean
         fitBodHadItAlready("Conventional Deadlift"); // (FB) Clean Deadlift ; (FB) Deadlift
         fitBodHadItAlready("Dumbbell Stiff Leg Deadlift"); // (FB) Dumbbell Romanian Deadlift
+        fitBodHadItAlready("Hamstring Foam Rolling"); // (FB) Foam Roll Hamstrings
 
         // calves
         fitBodHadItAlready("Bodyweight Floor Calf Raise");
         fitBodHadItAlready("One-Leg Floor Calf Raise"); // Single Leg Standing Calf Raise
         fitBodHadItAlready("Seated Barbell Calf Raise"); // (FB) Barbell Seated Calf Raise
+        fitBodHadItAlready("Posterior Calf Foam Rolling"); // (FB) Foam Roll Calves
     }
 
     private static void inserted(String exerciseName) {
