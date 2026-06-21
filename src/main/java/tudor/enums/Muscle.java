@@ -1,7 +1,7 @@
 package tudor.enums;
 
 public enum Muscle {
-    Abs, // groups both FrontalAbs and Obliques
+    Abs, // groups both FrontalAbs and Obliques TODO this has to dissappear
     Abductors,
     FrontalAbs,
     Adductors,

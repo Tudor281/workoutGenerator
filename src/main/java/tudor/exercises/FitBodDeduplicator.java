@@ -24,6 +24,8 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Seated Dumbbell Press"); // (FB) Dumbbell Shoulder Press
         fitBodHadItAlready("Standing Neutral Grip Dumbbell Shoulder Press"); // (FB) Dumbbell Standing Front Press
         fitBodHadItAlready("One-Arm Neutral Grip Dumbbell Shoulder Press"); // (FB) Dumbbell Standing Single Arm Front Press
+        fitBodHadItAlready("Arm Circles"); // (FB) Forward Arm Circle
+        fitBodHadItAlready("Weight Plate Front Raise"); // (FB) Front Plate Raise
 
         // traps
         fitBodHadItAlready("Barbell Shrug"); // (FB) Barbell Shrug
@@ -67,6 +69,7 @@ public class FitBodDeduplicator {
         // lats
         fitBodHadItAlready("Archer Pull Up");
         fitBodHadItAlready("Chin Up"); // (FB) Chin Up
+        fitBodHadItAlready("Lat Foam Rolling"); // (FB) Foam Roll Lats
 
         // biceps
         inserted("Alternating Seated Hammer Curl");
@@ -115,6 +118,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Dumbbell Side Bends"); // (FB) Dumbbell Side Bend
         fitBodHadItAlready("Twisting Floor Crunch"); // (FB) Elbow to Knee Crunch
         fitBodHadItAlready("Exercise Ball Crunch"); // (FB) Exercise Ball Crunch
+        fitBodHadItAlready("Exercise Ball Plank"); // (FB) Forward Stability Ball Plank
 
         // lower back
         inserted("Dumbbell Deadlift");
@@ -147,6 +151,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Dumbbell Lunge"); // (FB) Dumbbell Lunge
         fitBodHadItAlready("Dumbbell Step Up"); // (FB) Dumbbell Step Up
         fitBodHadItAlready("Dumbbell Walking Lunge"); // (FB) Dumbbell Walking Lunge
+        fitBodHadItAlready("Quad Foam Rolling"); // (FB) Foam Roll Quadriceps
 
         // hamstrings
         fitBodHadItAlready("Clean"); // (FB) Clean

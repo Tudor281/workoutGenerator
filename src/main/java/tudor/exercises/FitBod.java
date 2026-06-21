@@ -411,6 +411,22 @@ public class FitBod {
         add("(FB) Foam Roll Hip Abductors", "Abductors", Abductors, SMR, FoamRoll, Compound, Beginner, none, "https://fitbod.me/exercises/foam-roll-hip-abductors");
         add("(FB) Foam Roll Hip Adductors", "Adductors", Adductors, SMR, FoamRoll, Compound, Beginner, none, "https://fitbod.me/exercises/foam-roll-hip-adductors");
         add("(FB) Foam Roll Hip Flexors", "Abductors", Adductors, SMR, FoamRoll, Compound, Beginner, none, "https://fitbod.me/exercises/foam-roll-hip-flexors");
+        add("(FB) Foam Roll Hip Thrust", "Hip Thrusts", Glutes, Strength, FoamRoll, Compound, Beginner, Hamstrings, "https://fitbod.me/exercises/foam-roll-hip-thrust");
+        add("(FB) Foam Roll Lats", "Other Lats", Lats, SMR, FoamRoll, Compound, Beginner, none, "https://fitbod.me/exercises/foam-roll-lats");
+        add("(FB) Foam Roll Lower Back", "Other lower back", LowerBack, SMR, FoamRoll, Compound, Beginner, none, "https://fitbod.me/exercises/foam-roll-lower-back");
+        add("(FB) Foam Roll Quadriceps", "Other Quads", Quads, SMR, FoamRoll, Compound, Beginner, none, "https://fitbod.me/exercises/foam-roll-quadriceps");
+        add("(FB) Foam Roll Upper Back", "Other Upper Back", UpperBack, SMR, FoamRoll, Compound, Beginner, none, "https://fitbod.me/exercises/foam-roll-upper-back");
+        add("(FB) Forward 1-Foot Line Hop", "Calves", Calves, Plyometrics, Bodyweight, Compound, Intermediate, List.of(Hamstrings, Quads, Glutes), "https://fitbod.me/exercises/forward-1-foot-line-hop");
+        add("(FB) Forward Arm Circle", "Other Mixed Shoulders", Shoulders, Warmup, Bodyweight, Compound, Beginner, none, "https://fitbod.me/exercises/forward-arm-circle");
+        add("(FB) Forward Line Hops", "Calves", Calves, Plyometrics, Bodyweight, Compound, Beginner, List.of(Quads, Hamstrings, Glutes), "https://fitbod.me/exercises/forward-line-hops");
+        add("(FB) Forward Lunge with Twist", "Lunges", Glutes, Strength, MedicineBall, Compound, Intermediate, List.of(Quads, Abs), "https://fitbod.me/exercises/forward-lunge-with-twist");
+        add("(FB:Exercise Ball) Forward Lunge with Twist", "Lunges", Glutes, Strength, ExerciseBall, Compound, Intermediate, List.of(Quads, Abs), "https://fitbod.me/exercises/forward-lunge-with-twist");
+        domination("(FB) Forward Lunge with Twist", "(FB:Exercise Ball) Forward Lunge with Twist"); // TODO o fi vreun lunge cu weight?
+        add("(FB) Forward Stability Ball Plank", "Planks", Abs, Strength, ExerciseBall, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/forward-stability-ball-plank");
+        add("(FB) Frog Pump", "Glute Bridges", Glutes, Strength, GymMats, Compound, Beginner, Adductors, "https://fitbod.me/exercises/frog-pump");
+        add("(FB) Frog Stretch", "Adductors", Adductors, Stretching, GymMats, Compound, Beginner, none, "https://fitbod.me/exercises/frog-stretch");
+        add("(FB) Front Plate Raise", "Front Raises", Shoulders, Strength, Disk, Compound, Intermediate, none, "https://fitbod.me/exercises/front-plate-raise");
+        add("(FB) ", "Front Raises", Shoulders, Strength, Disk, Compound, Intermediate, none, "https://fitbod.me/exercises/front-plate-raise");
 
         /////////// BOOOKMARK
     }
