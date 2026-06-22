@@ -85,6 +85,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Alternating Standing Dumbbell Curl"); // (FB) Dumbbell Bicep Curl
         fitBodHadItAlready("Dumbbell Preacher Curl"); // (FB) Dumbbell Preacher Curls
         fitBodHadItAlready("EZ Bar Curl"); // (FB) EZ-Bar Curl
+        fitBodHadItAlready("Alternating Standing Hammer Curl"); // (FB) Hammer Curls
 
         // triceps
         fitBodHadItAlready("Lying Dumbbell Extension");
@@ -152,12 +153,15 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Dumbbell Step Up"); // (FB) Dumbbell Step Up
         fitBodHadItAlready("Dumbbell Walking Lunge"); // (FB) Dumbbell Walking Lunge
         fitBodHadItAlready("Quad Foam Rolling"); // (FB) Foam Roll Quadriceps
+        fitBodHadItAlready("Front Squat"); // (FB) Front Squat
 
         // hamstrings
         fitBodHadItAlready("Clean"); // (FB) Clean
         fitBodHadItAlready("Conventional Deadlift"); // (FB) Clean Deadlift ; (FB) Deadlift
         fitBodHadItAlready("Dumbbell Stiff Leg Deadlift"); // (FB) Dumbbell Romanian Deadlift
         fitBodHadItAlready("Hamstring Foam Rolling"); // (FB) Foam Roll Hamstrings
+        fitBodHadItAlready("Glute Ham Raise (GHR)"); // (FB) Glute Ham Raise
+        fitBodHadItAlready("Good Mornings"); // (FB) Good Morning
 
         // calves
         fitBodHadItAlready("Bodyweight Floor Calf Raise");

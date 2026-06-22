@@ -426,7 +426,19 @@ public class FitBod {
         add("(FB) Frog Pump", "Glute Bridges", Glutes, Strength, GymMats, Compound, Beginner, Adductors, "https://fitbod.me/exercises/frog-pump");
         add("(FB) Frog Stretch", "Adductors", Adductors, Stretching, GymMats, Compound, Beginner, none, "https://fitbod.me/exercises/frog-stretch");
         add("(FB) Front Plate Raise", "Front Raises", Shoulders, Strength, Disk, Compound, Intermediate, none, "https://fitbod.me/exercises/front-plate-raise");
-        add("(FB) ", "Front Raises", Shoulders, Strength, Disk, Compound, Intermediate, none, "https://fitbod.me/exercises/front-plate-raise");
+        add("(FB) Front Rack Stretch", "Other Front Delts", Shoulders, Stretching, Barbell, Compound, Beginner, Forearms, "https://fitbod.me/exercises/front-rack-stretch");
+        add("(FB) Front Squat", "Squats", Quads, Strength, Rack, Compound, Intermediate, List.of(Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/front-squat");
+        add("(FB) Front Squat to Jerk", "Olympic Squats", Quads, OlympicWeightlifting, Barbell, Compound, Intermediate, List.of(Shoulders, Hamstrings, Glutes), "https://fitbod.me/exercises/front-squat-to-jerk");
+        add("(FB) Full Kneeling Pallof Press", "Pallof Press", Abs, Strength, List.of(Pole, Bands), Compound, Beginner, List.of(LowerBack, UpperBack, Chest, Shoulders), "https://fitbod.me/exercises/full-kneeling-pallof-press");
+
+        add("(FB) Glute Ham Raise", "Ham Raises", Hamstrings, Strength, LowerBackStand2, Compound, Advanced, List.of(Glutes, Calves), "https://fitbod.me/exercises/glute-ham-raise");
+        add("(FB) Glute Ham Raise Situp", "Sit Up", FrontalAbs, Strength, LowerBackStand2, Compound, Intermediate, Quads, "https://fitbod.me/exercises/glute-ham-raise-situp");
+        add("(FB) Good Morning", "Good Mornings", Hamstrings, Strength, Rack, Compound, Intermediate, List.of(LowerBack, Glutes, Abs), "https://fitbod.me/exercises/good-morning");
+        add("(FB) Gorilla Rows", "Rows", Lats, Strength, KettleBellsX2, Compound, Intermediate, List.of(Quads, Traps, LowerBack, Shoulders), "https://fitbod.me/exercises/gorilla-rows");
+        add("(FB) Grape Vine/Carioca", "Calves", Calves, Strength, WalkingSpace, Compound, Beginner, List.of(Abs, Adductors, Abductors, Glutes, Hamstrings, Quads), "https://fitbod.me/exercises/grape-vine-carioca");
+        add("(FB) Half Center Split", "Adductors", Adductors, Stretching, GymMats, Compound, Beginner, none, "https://fitbod.me/exercises/half-center-split");
+        add("(FB) Hammer Curls", "Standing Curls", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://fitbod.me/exercises/hammer-curls");
+        add("(FB) ", "Standing Curls", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://fitbod.me/exercises/hammer-curls");
 
         /////////// BOOOKMARK
     }
