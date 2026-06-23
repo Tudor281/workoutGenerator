@@ -48,6 +48,7 @@ public enum Equipment {
     GripBalls,
     GymMats,
     HammerBar,
+    HandleBands,
     HangingRope,
     HipThruster,
     Hurdle,

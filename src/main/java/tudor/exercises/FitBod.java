@@ -438,7 +438,17 @@ public class FitBod {
         add("(FB) Grape Vine/Carioca", "Calves", Calves, Strength, WalkingSpace, Compound, Beginner, List.of(Abs, Adductors, Abductors, Glutes, Hamstrings, Quads), "https://fitbod.me/exercises/grape-vine-carioca");
         add("(FB) Half Center Split", "Adductors", Adductors, Stretching, GymMats, Compound, Beginner, none, "https://fitbod.me/exercises/half-center-split");
         add("(FB) Hammer Curls", "Standing Curls", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://fitbod.me/exercises/hammer-curls");
-        add("(FB) ", "Standing Curls", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://fitbod.me/exercises/hammer-curls");
+        add("(FB) Hand Release Push Up", "Push Ups", Chest, Strength, GymMats, Compound, Beginner, List.of(Shoulders, Triceps), "https://fitbod.me/exercises/hand-release-push-up");
+        add("(FB) Handle Band Bent Over Row", "Rows", UpperBack, Strength, HandleBands, Compound, Beginner, List.of(Shoulders, Biceps), "https://fitbod.me/exercises/handle-band-bent-over-row");
+        add("(FB) Handle Band Bicep Curl", "Standing Curls", Biceps, Strength, HandleBands, Isolation, Beginner, Forearms, "https://fitbod.me/exercises/handle-band-bicep-curl");
+        add("(FB) Handle Band Crunch", "Crunches", FrontalAbs, Strength, List.of(HandleBands, FixedUpperBar), Compound, Beginner, LowerBack, "https://fitbod.me/exercises/handle-band-crunch");
+        add("(FB) Handle Band Forward Raise", "Front Raises", Shoulders, Strength, HandleBands, Isolation, Beginner, none, "https://fitbod.me/exercises/handle-band-forward-raise");
+        add("(FB) Handle Band Lat Pulldown", "Lat Pull Down", Lats, Strength, List.of(HandleBands, FixedUpperBar), Compound, Beginner, List.of(Shoulders, Biceps), "https://fitbod.me/exercises/handle-band-lat-pulldown");
+        add("(FB) Handle Band Lateral Raise", "Lateral Raises", Shoulders, Strength, HandleBands, Isolation, Beginner, Forearms, "https://fitbod.me/exercises/handle-band-lateral-raise");
+        add("(FB) Handle Band Pec Fly", "Flys", Chest, Strength, List.of(HandleBands, FixedUpperBar), Isolation, Beginner, Shoulders, "https://fitbod.me/exercises/handle-band-pec-fly");
+        add("(FB) Handle Band Rear Deltoid Fly", "Rear Delt Flys", UpperBack, Strength, HandleBands, Isolation, Beginner, Shoulders, "https://fitbod.me/exercises/handle-band-rear-deltoid-fly");
+        add("(FB) Handle Band Reverse Curl", "Standing Curls", Forearms, Strength, HandleBands, Isolation, Beginner, Biceps, "https://fitbod.me/exercises/handle-band-reverse-curl");
+        add("(FB) Handle Band Row", "Rows", UpperBack, Strength, HandleBands, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/handle-band-row");
 
         /////////// BOOOKMARK
     }
