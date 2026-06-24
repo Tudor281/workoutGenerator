@@ -449,6 +449,20 @@ public class FitBod {
         add("(FB) Handle Band Rear Deltoid Fly", "Rear Delt Flys", UpperBack, Strength, HandleBands, Isolation, Beginner, Shoulders, "https://fitbod.me/exercises/handle-band-rear-deltoid-fly");
         add("(FB) Handle Band Reverse Curl", "Standing Curls", Forearms, Strength, HandleBands, Isolation, Beginner, Biceps, "https://fitbod.me/exercises/handle-band-reverse-curl");
         add("(FB) Handle Band Row", "Rows", UpperBack, Strength, HandleBands, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/handle-band-row");
+        add("(FB) Handle Band Shoulder Press", "Shoulder Presses", Shoulders, Strength, HandleBands, Compound, Beginner, List.of(Biceps, Traps), "https://fitbod.me/exercises/handle-band-shoulder-press");
+        add("(FB) Handle Band Squat", "Squats", Quads, Strength, HandleBands, Compound, Beginner, List.of(Glutes, Abductors, Hamstrings), "https://fitbod.me/exercises/handle-band-squat");
+        add("(FB) Handle Band Squat to Press", "Squats", Quads, Strength, HandleBands, Compound, Beginner, List.of(Glutes, Shoulders, Hamstrings), "https://fitbod.me/exercises/handle-band-squat-to-press");
+        add("(FB) Handle Band Straight-Arm Pulldown", "Lat Pull Down", Lats, Strength, List.of(HandleBands, FixedUpperBar), Isolation, Beginner, Shoulders, "https://fitbod.me/exercises/handle-band-straight-arm-pulldown");
+        add("(FB) Handle Band Tricep Extension", "Tricep Extensions", Triceps, Strength, List.of(HandleBands, FixedUpperBar), Isolation, Beginner, Forearms, "https://fitbod.me/exercises/handle-band-tricep-extension");
+        add("(FB) Handle Band Upright Row", "Upright Rows", Shoulders, Strength, HandleBands, Compound, Beginner, Traps, "https://fitbod.me/exercises/handle-band-upright-row");
+        add("(FB) Handstand Hold", "Other Mixed Shoulders", Shoulders, Plyometrics, Wall, Compound, Intermediate, Triceps, "https://fitbod.me/exercises/handstand-hold");
+        add("(FB) Handstand Push Up", "Other Mixed Shoulders", Shoulders, Strength, Wall, Compound, Advanced, Triceps, "https://fitbod.me/exercises/handstand-push-up");
+        add("(FB) Handstand Walk", "Other Mixed Shoulders", Shoulders, Strength, WalkingSpace, Compound, Advanced, Triceps, "https://fitbod.me/exercises/handstand-walk");
+        add("(FB) Hang Clean", "Olympic Squats", Quads, OlympicWeightlifting, Barbell, Compound, Intermediate, List.of(Traps, Shoulders, LowerBack, Hamstrings, Glutes, Forearms, Calves), "https://fitbod.me/exercises/hang-clean");
+        add("(FB) Hang Power Clean", "Olympic Squats", Quads, OlympicWeightlifting, Barbell, Compound, Intermediate, List.of(Traps, Shoulders, LowerBack, Hamstrings, Glutes, Forearms, Calves), "https://fitbod.me/exercises/hang-clean");
+        add("(FB) Hang Power Snatch", "Olympic Squats", Hamstrings, OlympicWeightlifting, Barbell, Compound, Intermediate, List.of(Triceps, Traps, Shoulders, Quads, LowerBack, Glutes, Calves), "https://fitbod.me/exercises/hang-power-snatch");
+        add("(FB) Hang Snatch", "Olympic Squats", Hamstrings, OlympicWeightlifting, Barbell, Compound, Intermediate, List.of(Traps, Shoulders, Quads, LowerBack, Glutes, Forearms, Calves, Abs), "https://fitbod.me/exercises/hang-snatch");
+        add("(FB) Hanging Knee Raise", "Knee Raise", FrontalAbs, Strength, FixedUpperBar, Compound, Beginner, none, "https://fitbod.me/exercises/hanging-knee-raise");
 
         /////////// BOOOKMARK
     }

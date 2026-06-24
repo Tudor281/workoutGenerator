@@ -60,7 +60,7 @@ public class MuscleAndStrength {
         add("Decline Bench Alternating Knee Raise", FrontalAbs, Strength, DeclineBench, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/decline-bench-alternate-knee-raise.html");
         add("Decline Bench Cable Knee Raise", FrontalAbs, Strength, List.of(InclineBench, FlexiCable, CableAttachmentAnkleStrapsX2), Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/decline-cable-knee-raise.html");
         add("Decline Bench Knee Raise", FrontalAbs, Strength, DeclineBench, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/decline-bench-knee-raise.html");
-        add("Hanging Knee Raise", FrontalAbs, Strength, List.of(FixedUpperBar), Compound, Intermediate, Forearms, "https://www.muscleandstrength.com/exercises/hanging-knee-raise.html");
+        add("Hanging Knee Raise", FrontalAbs, Strength, FixedUpperBar, Compound, Intermediate, Forearms, "https://www.muscleandstrength.com/exercises/hanging-knee-raise.html");
         add("Hanging Knee Raise With Twist", FrontalAbs, Strength, List.of(FixedUpperBar), Compound, Intermediate, Forearms, "https://www.muscleandstrength.com/exercises/twisting-hanging-knee-raise.html");
         add("Lying Alternating Knee Raise", FrontalAbs, Strength, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-alternate-knee-raise.html");
         add("Lying Cable Knee Raise", FrontalAbs, Strength, List.of(Bench, FlexiCable, CableAttachmentAnkleStrapsX2), Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/lying-cable-knee-raise.html");

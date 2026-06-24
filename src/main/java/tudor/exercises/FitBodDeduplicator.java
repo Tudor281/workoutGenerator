@@ -154,6 +154,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Dumbbell Walking Lunge"); // (FB) Dumbbell Walking Lunge
         fitBodHadItAlready("Quad Foam Rolling"); // (FB) Foam Roll Quadriceps
         fitBodHadItAlready("Front Squat"); // (FB) Front Squat
+        fitBodHadItAlready("Hang Clean"); // (FB) Hang Clean
 
         // hamstrings
         fitBodHadItAlready("Clean"); // (FB) Clean
