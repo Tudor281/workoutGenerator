@@ -120,6 +120,9 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Twisting Floor Crunch"); // (FB) Elbow to Knee Crunch
         fitBodHadItAlready("Exercise Ball Crunch"); // (FB) Exercise Ball Crunch
         fitBodHadItAlready("Exercise Ball Plank"); // (FB) Forward Stability Ball Plank
+        fitBodHadItAlready("Hanging Knee Raise"); // (FB) Hanging Knee Raise
+        fitBodHadItAlready("Hanging Leg Raise"); // (FB) Hanging Leg Raise
+        fitBodHadItAlready("Hanging Knee Raise With Twist"); // (FB) Hanging Oblique Knee Raise
 
         // lower back
         inserted("Dumbbell Deadlift");
@@ -131,6 +134,7 @@ public class FitBodDeduplicator {
         inserted("(T:Bodyweight) Bodyweight Good Mornings");
         inserted("Single Leg Hip Thrust with Dumbbell");
         fitBodHadItAlready("Glute Foam Rolling"); // (FB) Foam Roll Glutes
+        fitBodHadItAlready("Bodyweight Glute Bridge"); // (FB) Hip Thrust
 
         // abductors adductors
         fitBodHadItAlready("Cable Hip Abduction"); // (FB) Cable Hip Abduction

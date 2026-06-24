@@ -176,9 +176,9 @@ public class FitBod {
         add("(FB) Box Shuffle", "Other Quads", Quads, Plyometrics, Box, Compound, Beginner,  List.of(Abs, Calves, Hamstrings, Glutes), "https://fitbod.me/exercises/box-shuffle");
         add("(FB) Box Squat", "Squats", Quads, Strength, List.of(Rack, Box), Compound, Advanced,  List.of(LowerBack, Hamstrings, Glutes, Calves, Adductors), "https://fitbod.me/exercises/box-squat");
         add("(FB) Box Step Down", "Squats", Quads, Strength, Box, Compound, Beginner,  List.of(Abductors, Adductors, Abs, Calves, Hamstrings, Glutes), "https://fitbod.me/exercises/box-step-down");
-        add("(FB) Bridge Side to Side", "Other lower back", LowerBack, Plyometrics, GymMats, Compound, Intermediate,  List.of(Abs, Glutes, Shoulders, Lats, UpperBack), "https://fitbod.me/exercises/bridge-side-to-side");
-        add("(FB) Bridge Up Up Down Down", "Other lower back", LowerBack, Plyometrics, GymMats, Compound, Intermediate,  List.of(Abs, Glutes, Shoulders, Lats, UpperBack), "https://fitbod.me/exercises/bridge-up-up-down-down");
-        add("(FB) Bridge Walk", "Other lower back", LowerBack, Plyometrics, GymMats, Compound, Intermediate,  List.of(Abs, Glutes, Shoulders, Lats, UpperBack), "https://fitbod.me/exercises/bridge-walk");
+        add("(FB) Bridge Side to Side", "Other lower back", LowerBack, Conditioning, GymMats, Compound, Intermediate,  List.of(Abs, Glutes, Shoulders, Lats, UpperBack), "https://fitbod.me/exercises/bridge-side-to-side");
+        add("(FB) Bridge Up Up Down Down", "Other lower back", LowerBack, Conditioning, GymMats, Compound, Intermediate,  List.of(Abs, Glutes, Shoulders, Lats, UpperBack), "https://fitbod.me/exercises/bridge-up-up-down-down");
+        add("(FB) Bridge Walk", "Other lower back", LowerBack, Conditioning, GymMats, Compound, Intermediate,  List.of(Abs, Glutes, Shoulders, Lats, UpperBack), "https://fitbod.me/exercises/bridge-walk");
         add("(FB) Broad Depth Jump", "Other Quads", Quads, Plyometrics, Box, Compound, Intermediate,  List.of(Abs, Calves, Hamstrings, Glutes), "https://fitbod.me/exercises/broad-depth-jump");
         add("(FB) Bulgarian Split Jumps", "Squats", Quads, Strength, Bench, Compound, Intermediate,  List.of(Abs, Calves, Hamstrings, Glutes), "https://fitbod.me/exercises/bulgarian-split-jumps");
         add("(FB) Bulgarian Split Squat", "Squats", Quads, Strength, List.of(Bench, Rack) , Compound, Intermediate,  List.of(Calves, Hamstrings, Glutes), "https://fitbod.me/exercises/bulgarian-split-squat");
@@ -237,7 +237,7 @@ public class FitBod {
         domination("(FB) Chest Doorway Stretch", "(T:Doorway) (FB) Chest Doorway Stretch");
         add("(FB) Chest Expansion", "Other Chest", Chest, Stretching, Bodyweight, Compound, Beginner, List.of(Shoulders, Biceps), "https://fitbod.me/exercises/chest-expansion");
         add("(FB) Child's Pose", "Other lower back", LowerBack, Stretching, Bodyweight, Compound, Beginner, List.of(Lats, Shoulders), "https://fitbod.me/exercises/child-s-pose");
-        add("(FB) Chin Drop", "Neck", Neck, SMR, Bodyweight, Compound, Beginner, Traps, "https://fitbod.me/exercises/chin-drop");
+        add("(FB) Chin Drop", "Neck", Neck, Conditioning, Bodyweight, Compound, Beginner, Traps, "https://fitbod.me/exercises/chin-drop");
         add("(FB) Chin Up", "Chin ups", Lats, Strength, FixedUpperBar, Compound, Intermediate, List.of(Forearms, Biceps), "https://fitbod.me/exercises/chin-up");
         add("(FB) Clam", "Abductors", Abductors, Strength, GymMats, Isolation, Beginner, none, "https://fitbod.me/exercises/clam");
         add("(FB) Clean", "Olympic Squats", Hamstrings, OlympicWeightlifting, Barbell, Compound, Intermediate, List.of(Traps, Shoulders, Quads, LowerBack, Glutes, Forearms, Calves), "https://fitbod.me/exercises/clean");
@@ -259,7 +259,7 @@ public class FitBod {
         add("(FB) Cross Body Hammer Curls", "Standing Curls", Biceps, Strength, Dumbbell, Isolation, Beginner, none, "https://fitbod.me/exercises/cross-body-hammer-curls");
         add("(FB) Cross Body Mountain Climber", "Other Frontal Abs", Abs, Strength, GymMats, Compound, Intermediate, Shoulders, "https://fitbod.me/exercises/cross-body-mountain-climber");
         add("(FB) Cross-body Arm Stretch", "Other Rear Delts", Shoulders, Strength, Bodyweight, Compound, Beginner, List.of(UpperBack, Triceps), "https://fitbod.me/exercises/cross-body-arm-stretch");
-        add("(FB) Crossover Standing Forward Bend", "Other Hamstrings", Hamstrings, SMR, Bodyweight, Isolation, Beginner, none, "https://fitbod.me/exercises/crossover-standing-forward-bend");
+        add("(FB) Crossover Standing Forward Bend", "Other Hamstrings", Hamstrings, Conditioning, Bodyweight, Isolation, Beginner, none, "https://fitbod.me/exercises/crossover-standing-forward-bend");
         add("(FB) Crunches", "Crunches", Abs, Strength, GymMats, Isolation, Beginner, none, "https://fitbod.me/exercises/crunches");
         add("(FB) Curtsy Lunge", "Lunges", Quads, Strength, Bodyweight, Compound, Intermediate, Glutes, "https://fitbod.me/exercises/curtsy-lunge");
         add("(FB) Cycling", "Other Quads", Quads, Conditioning, Bodyweight, Compound, Beginner, List.of(Abs, Calves, Glutes, Hamstrings, LowerBack), "N/A");
@@ -295,7 +295,7 @@ public class FitBod {
         add("(FB) Downward Dog", "Other Hamstrings", Hamstrings, Strength, Bodyweight, Compound, Beginner, List.of(Shoulders, Calves, Lats, UpperBack), "https://fitbod.me/exercises/downward-dog");
         add("(FB) Downward Dog Push Up", "Triceps Push ups", Triceps, Strength, Bodyweight, Compound, Intermediate, List.of(Shoulders, Abs), "https://fitbod.me/exercises/downward-dog-push-up");
         add("(FB) Dual Kettlebell Front Squat", "Squats", Quads, Strength, KettleBellsX2, Compound, Intermediate, List.of(Hamstrings, Glutes), "https://fitbod.me/exercises/dual-kettlebell-front-squat");
-        add("(FB) Duck Walk", "Other Quads", Quads, Plyometrics, WalkingSpace, Compound, Beginner, Calves, "https://fitbod.me/exercises/duck-walk");
+        add("(FB) Duck Walk", "Other Quads", Quads, Conditioning, WalkingSpace, Compound, Beginner, Calves, "https://fitbod.me/exercises/duck-walk");
         add("(FB) Dumbbell Back Fly", "Rear Delt Flys", Shoulders, Strength, List.of(InclineBench, Dumbbell), Compound, Beginner, UpperBack, "https://fitbod.me/exercises/dumbbell-back-fly");
         add("(FB) Dumbbell Bench Press", "Bench Presses", Chest, Strength, List.of(Bench, Dumbbell), Compound, Beginner, List.of(Shoulders, Triceps), "https://fitbod.me/exercises/dumbbell-bench-press");
         add("(FB) Dumbbell Bent Over Reverse Fly", "Rear Delt Flys", UpperBack, Strength, Dumbbell, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/dumbbell-bent-over-reverse-fly");
@@ -455,7 +455,7 @@ public class FitBod {
         add("(FB) Handle Band Straight-Arm Pulldown", "Lat Pull Down", Lats, Strength, List.of(HandleBands, FixedUpperBar), Isolation, Beginner, Shoulders, "https://fitbod.me/exercises/handle-band-straight-arm-pulldown");
         add("(FB) Handle Band Tricep Extension", "Tricep Extensions", Triceps, Strength, List.of(HandleBands, FixedUpperBar), Isolation, Beginner, Forearms, "https://fitbod.me/exercises/handle-band-tricep-extension");
         add("(FB) Handle Band Upright Row", "Upright Rows", Shoulders, Strength, HandleBands, Compound, Beginner, Traps, "https://fitbod.me/exercises/handle-band-upright-row");
-        add("(FB) Handstand Hold", "Other Mixed Shoulders", Shoulders, Plyometrics, Wall, Compound, Intermediate, Triceps, "https://fitbod.me/exercises/handstand-hold");
+        add("(FB) Handstand Hold", "Other Mixed Shoulders", Shoulders, Strength, Wall, Compound, Intermediate, Triceps, "https://fitbod.me/exercises/handstand-hold");
         add("(FB) Handstand Push Up", "Other Mixed Shoulders", Shoulders, Strength, Wall, Compound, Advanced, Triceps, "https://fitbod.me/exercises/handstand-push-up");
         add("(FB) Handstand Walk", "Other Mixed Shoulders", Shoulders, Strength, WalkingSpace, Compound, Advanced, Triceps, "https://fitbod.me/exercises/handstand-walk");
         add("(FB) Hang Clean", "Olympic Squats", Quads, OlympicWeightlifting, Barbell, Compound, Intermediate, List.of(Traps, Shoulders, LowerBack, Hamstrings, Glutes, Forearms, Calves), "https://fitbod.me/exercises/hang-clean");
@@ -463,6 +463,25 @@ public class FitBod {
         add("(FB) Hang Power Snatch", "Olympic Squats", Hamstrings, OlympicWeightlifting, Barbell, Compound, Intermediate, List.of(Triceps, Traps, Shoulders, Quads, LowerBack, Glutes, Calves), "https://fitbod.me/exercises/hang-power-snatch");
         add("(FB) Hang Snatch", "Olympic Squats", Hamstrings, OlympicWeightlifting, Barbell, Compound, Intermediate, List.of(Traps, Shoulders, Quads, LowerBack, Glutes, Forearms, Calves, Abs), "https://fitbod.me/exercises/hang-snatch");
         add("(FB) Hanging Knee Raise", "Knee Raise", FrontalAbs, Strength, FixedUpperBar, Compound, Beginner, none, "https://fitbod.me/exercises/hanging-knee-raise");
+        add("(FB) Hanging Leg Raise", "Leg Raise", FrontalAbs, Strength, FixedUpperBar, Compound, Advanced, none, "https://fitbod.me/exercises/hanging-leg-raise");
+        add("(FB) Hanging Oblique Knee Raise", "Knee Raise", Obliques, Strength, FixedUpperBar, Compound, Intermediate, none, "https://fitbod.me/exercises/hanging-oblique-knee-raise");
+        add("(FB) Hanging Windshield Wiper", "Leg Raise", Obliques, Strength, FixedUpperBar, Compound, Advanced, Lats, "https://fitbod.me/exercises/hanging-windshield-wiper");
+        add("(FB) Head Tilt", "Neck", Neck, Stretching, Bodyweight, Isolation, Beginner, none, "https://fitbod.me/exercises/head-tilt");
+        add("(FB) Heel Press", "Calves", Calves, Stretching, Wall, Isolation, Beginner, none, "https://fitbod.me/exercises/heel-press");
+        add("(FB) Heels Up Goblet Squat (Pregnancy)", "Squats", Quads, Pregnancy, List.of(Disk, Dumbbell), Compound, Beginner, List.of(Glutes, Hamstrings), "N/A");
+        add("(FB) High Butt Bear Crawl", "Other Frontal Abs", Abs, Conditioning, WalkingSpace, Compound, Beginner, List.of(Chest, Calves, Hamstrings, Glutes, Quads, Shoulders), "https://fitbod.me/exercises/high-butt-bear-crawl");
+        add("(FB) High Butt Bear Crawl (Pregnancy)", "Other Frontal Abs", Abs, Pregnancy, WalkingSpace, Compound, Beginner, List.of(Chest, Calves, Hamstrings, Glutes, Quads, Shoulders), "N/A");
+        add("(FB) High Depth Jump", "Other Quads", Quads, Plyometrics, Box, Compound, Intermediate, List.of(Abs, Calves, Hamstrings, Glutes), "https://fitbod.me/exercises/high-depth-jump");
+        add("(FB) High Knee", "Calves", Calves, Plyometrics, Bodyweight, Compound, Intermediate, List.of(Glutes, Hamstrings, Quads), "N/A");
+        add("(FB) High Knee Grape Vine/Carioca", "Calves", Calves, Plyometrics, WalkingSpace, Compound, Intermediate, List.of(Abs, Adductors, Abductors, Glutes, Hamstrings, Quads), "https://fitbod.me/exercises/high-knee-grape-vine-carioca");
+        add("(FB) High Plank Arm Reach", "Planks", Abs, Strength, GymMats, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/high-plank-arm-reach");
+        add("(FB) Hiking", "Other Quads", Quads, Conditioning, Bodyweight, Compound, Beginner, List.of(Abs, Calves, Glutes, Hamstrings), "N/A");
+        add("(FB) Hip Flow", "Other Quads", Quads, Warmup, GymMats, Compound, Beginner, none, "https://fitbod.me/exercises/hip-flow");
+        add("(FB) Hip Hinge", "Other Hamstrings", Hamstrings, Warmup, Bodyweight, Compound, Beginner, LowerBack, "https://fitbod.me/exercises/hip-hinge");
+        add("(FB) Hip Lift March", "Glute Bridges", Glutes, Strength, GymMats, Compound, Beginner, Hamstrings, "https://fitbod.me/exercises/hip-lift-march");
+        add("(FB) Hip Thrust", "Glute Bridges", Glutes, Strength, GymMats, Compound, Beginner, List.of(Hamstrings, Calves), "https://fitbod.me/exercises/hip-thrust-ac1b456c-4d43-4cbd-bcdc-a8a519852fdd");
+        add("(FB) Hug A Ball", "Other Chest", Chest, Warmup, List.of(GymMats, ExerciseBall), Compound, Beginner, List.of(Adductors, UpperBack), "https://fitbod.me/exercises/hug-a-ball");
+        add("(FB) Hurdle Step Over", "Abductors", Abductors, Strength, WalkingSpace, Compound, Beginner, Adductors, "https://fitbod.me/exercises/hurdle-step-over");
 
         /////////// BOOOKMARK
     }
