@@ -55,6 +55,9 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Exercise Ball Push Up"); // (FB) Exercise Ball Push Up
         fitBodHadItAlready("Floor Press"); // (FB) Floor Press
         fitBodHadItAlready("Pec Foam Rolling"); // (FB) Foam Roll Chest - Alternative
+        fitBodHadItAlready("Incline Cable Chest Press"); // (FB) Incline Cable Chest Press
+        fitBodHadItAlready("Incline Push Ups"); // (FB) Incline Push Up
+        fitBodHadItAlready("(T:Bed) Incline Push Ups"); // (FB:Bed) Incline Push Up
 
         // upper back
         inserted("One Arm Dumbbell Row");
@@ -70,6 +73,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Archer Pull Up");
         fitBodHadItAlready("Chin Up"); // (FB) Chin Up
         fitBodHadItAlready("Lat Foam Rolling"); // (FB) Foam Roll Lats
+        fitBodHadItAlready("Incline Bench Two Arm Dumbbell Row"); // (FB) Incline Dumbbell Row
 
         // biceps
         inserted("Alternating Seated Hammer Curl");
@@ -86,6 +90,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Dumbbell Preacher Curl"); // (FB) Dumbbell Preacher Curls
         fitBodHadItAlready("EZ Bar Curl"); // (FB) EZ-Bar Curl
         fitBodHadItAlready("Alternating Standing Hammer Curl"); // (FB) Hammer Curls
+        fitBodHadItAlready("Incline Bench Hammer Curl"); // (FB) Incline Hammer Curl
 
         // triceps
         fitBodHadItAlready("Lying Dumbbell Extension");
@@ -99,6 +104,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Lying Dumbbell Extension"); // (FB) Dumbbell Skullcrusher
         fitBodHadItAlready("Seated Dumbbell Tricep Extension"); // (FB) Dumbbell Tricep Extension
         fitBodHadItAlready("Standing Overhead EZ Bar Tricep Extension"); // (FB) EZ-Bar Overhead Tricep Extension
+        fitBodHadItAlready("Incline Skull Crusher"); // (FB) Incline Barbell Skull Crusher
 
         // forearms
         fitBodHadItAlready("Seated Cable Wrist Curl"); // (FB) Cable Wrist Curl
@@ -127,6 +133,7 @@ public class FitBodDeduplicator {
         // lower back
         inserted("Dumbbell Deadlift");
         fitBodHadItAlready("GHD Back Extension");
+        fitBodHadItAlready("Hyperextension"); // (FB) Incline Back Extension
 
         // glutes
         fitBodHadItAlready("Banded Good Morning");
@@ -167,12 +174,15 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Hamstring Foam Rolling"); // (FB) Foam Roll Hamstrings
         fitBodHadItAlready("Glute Ham Raise (GHR)"); // (FB) Glute Ham Raise
         fitBodHadItAlready("Good Mornings"); // (FB) Good Morning
+        fitBodHadItAlready("Inchworm"); // (FB) Inchworm
 
         // calves
         fitBodHadItAlready("Bodyweight Floor Calf Raise");
         fitBodHadItAlready("One-Leg Floor Calf Raise"); // Single Leg Standing Calf Raise
         fitBodHadItAlready("Seated Barbell Calf Raise"); // (FB) Barbell Seated Calf Raise
         fitBodHadItAlready("Posterior Calf Foam Rolling"); // (FB) Foam Roll Calves
+        fitBodHadItAlready("Jump Rope"); // (FB) Jump Rope
+        fitBodHadItAlready("Reverse Jump Rope"); // (FB) Jump Rope Reverse
     }
 
     private static void inserted(String exerciseName) {

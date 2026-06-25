@@ -482,6 +482,34 @@ public class FitBod {
         add("(FB) Hip Thrust", "Glute Bridges", Glutes, Strength, GymMats, Compound, Beginner, List.of(Hamstrings, Calves), "https://fitbod.me/exercises/hip-thrust-ac1b456c-4d43-4cbd-bcdc-a8a519852fdd");
         add("(FB) Hug A Ball", "Other Chest", Chest, Warmup, List.of(GymMats, ExerciseBall), Compound, Beginner, List.of(Adductors, UpperBack), "https://fitbod.me/exercises/hug-a-ball");
         add("(FB) Hurdle Step Over", "Abductors", Abductors, Strength, WalkingSpace, Compound, Beginner, Adductors, "https://fitbod.me/exercises/hurdle-step-over");
+        add("(FB) Inchworm", "Other Hamstrings", Hamstrings, Strength, Bodyweight, Compound, Beginner, List.of(Shoulders, Chest, Calves), "https://fitbod.me/exercises/inchworm");
+        add("(FB) Incline Back Extension", "Hyperextensions", LowerBack, Strength, LowerBackStand, Compound, Beginner, List.of(Hamstrings, Glutes), "https://fitbod.me/exercises/incline-back-extension");
+        add("(FB) Incline Barbell Skull Crusher", "Tricep Extensions", Triceps, Strength, List.of(InclineBench, Barbell), Isolation, Intermediate, Forearms, "https://fitbod.me/exercises/incline-barbell-skull-crusher");
+        add("(FB) Incline Cable Chest Press", "Bench Presses", Chest, Strength, List.of(InclineBench, DoubleCable), Compound, Beginner, List.of(Triceps, Shoulders), "https://fitbod.me/exercises/incline-cable-chest-press");
+        add("(FB) Incline Dumbbell Curl", "Seated Curls", Biceps, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, none, "https://fitbod.me/exercises/incline-dumbbell-curl");
+        add("(FB) Incline Dumbbell Row", "Rows", Lats, Strength, List.of(InclineBench, Dumbbell), Compound, Beginner, Biceps, "https://fitbod.me/exercises/incline-dumbbell-row");
+        add("(FB) Incline Dumbbell Squeeze Press", "Bench Presses", Chest, Strength, List.of(InclineBench, Dumbbell), Compound, Beginner, Triceps, "https://fitbod.me/exercises/incline-dumbbell-squeeze-press");
+        add("(FB) Incline EZ-Bar Curl", "Seated Curls", Biceps, Strength, List.of(InclineBench, ZBar), Isolation, Beginner, none, "https://fitbod.me/exercises/incline-ez-bar-curl");
+        add("(FB) Incline Hammer Curl", "Seated Curls", Biceps, Strength, List.of(InclineBench, Dumbbell), Isolation, Intermediate, none, "https://fitbod.me/exercises/incline-hammer-curl");
+        add("(FB) Incline Push Up", "Push Ups", Chest, Strength, InclineBench, Compound, Beginner, List.of(Triceps, Shoulders), "https://fitbod.me/exercises/incline-push-up");
+        add("(FB:Bed) Incline Push Up", "Push Ups", Chest, Strength, Bed, Compound, Beginner, List.of(Triceps, Shoulders), "https://fitbod.me/exercises/incline-push-up");
+        domination("(FB) Incline Push Up", "(FB:Bed) Incline Push Up");
+        add("(FB) Incline Svend Press", "Other Chest", Chest, Strength, List.of(InclineBench, Disk), Compound, Beginner, Triceps, "https://fitbod.me/exercises/incline-svend-press");
+        add("(FB) Incline Tricep Push Up", "Push Ups", Chest, Strength, InclineBench, Compound, Beginner, Triceps, "https://fitbod.me/exercises/incline-tricep-push-up");
+        add("(FB) Inverted Row", "Rows", Lats, Strength, Rack, Compound, Beginner, Biceps, "https://fitbod.me/exercises/inverted-row");
+        add("(FB) Iron Cross", "Other Mixed Shoulders", Shoulders, Strength, Dumbbell, Compound, Intermediate, List.of(Traps, Quads, LowerBack, Hamstrings, Glutes, Chest), "https://fitbod.me/exercises/iron-cross");
+        add("(FB) Isometric Biceps Hold", "Other Curls", Biceps, Warmup, Bodyweight, Isolation, Beginner, none, "https://fitbod.me/exercises/isometric-biceps-hold");
+        add("(FB) Jackknife Sit-Up", "Sit Up", FrontalAbs, Strength, GymMats, Isolation, Beginner, none, "https://fitbod.me/exercises/jackknife-sit-up");
+        add("(FB) Jog In Place", "Calves", Calves, Conditioning, Bodyweight, Compound, Beginner, List.of(FrontalAbs, Glutes, Hamstrings, Quads), "N/A");
+        add("(FB) Jump Rope", "Calves", Calves, Plyometrics, JumpRope, Compound, Beginner, List.of(FrontalAbs, Glutes, Hamstrings, Quads, Shoulders, LowerBack, Forearms), "N/A");
+        add("(FB) Jump Rope Crossover", "Calves", Calves, Plyometrics, JumpRope, Compound, Beginner, List.of(FrontalAbs, Glutes, Hamstrings, Quads, Shoulders, Forearms), "N/A");
+        add("(FB) Jump Rope Double Under", "Calves", Calves, Plyometrics, JumpRope, Compound, Beginner, List.of(FrontalAbs, Glutes, Hamstrings, Quads, Shoulders, LowerBack, Forearms), "N/A");
+        add("(FB) Jump Rope High Knees", "Calves", Calves, Plyometrics, JumpRope, Compound, Beginner, List.of(FrontalAbs, Glutes, Hamstrings, Quads, Shoulders, Forearms), "N/A");
+        add("(FB) Jump Rope Lateral Hops", "Calves", Calves, Plyometrics, JumpRope, Compound, Beginner, List.of(FrontalAbs, Glutes, Hamstrings, Quads, Shoulders, Abductors, Adductors, Forearms), "N/A");
+        add("(FB) Jump Rope Mommy Jumps", "Calves", Calves, Plyometrics, JumpRope, Compound, Beginner, List.of(FrontalAbs, Glutes, Hamstrings, Quads, Shoulders, Forearms), "N/A");
+        add("(FB) Jump Rope Reverse", "Calves", Calves, Plyometrics, JumpRope, Compound, Beginner, List.of(FrontalAbs, Glutes, Hamstrings, Quads, Shoulders, Forearms), "N/A");
+        add("(FB) Jump Rope Straddle Jumps", "Calves", Calves, Plyometrics, JumpRope, Compound, Beginner, List.of(FrontalAbs, Glutes, Hamstrings, Quads, Shoulders, Abductors, Adductors, Forearms), "N/A");
+        add("(FB) Jump Squat", "Squats", Quads, Plyometrics, Bodyweight, Compound, Intermediate, List.of(Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/jump-squat");
 
         /////////// BOOOKMARK
     }
