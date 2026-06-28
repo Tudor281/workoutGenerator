@@ -26,6 +26,8 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("One-Arm Neutral Grip Dumbbell Shoulder Press"); // (FB) Dumbbell Standing Single Arm Front Press
         fitBodHadItAlready("Arm Circles"); // (FB) Forward Arm Circle
         fitBodHadItAlready("Weight Plate Front Raise"); // (FB) Front Plate Raise
+        fitBodHadItAlready("Standing One Arm Kettlebell Press"); // (FB) Kettlebell Overhead Press
+        fitBodHadItAlready("1 KB Kettlebell Snatch"); // (FB) Kettlebell Snatch
 
         // traps
         fitBodHadItAlready("Barbell Shrug"); // (FB) Barbell Shrug
@@ -166,6 +168,10 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Quad Foam Rolling"); // (FB) Foam Roll Quadriceps
         fitBodHadItAlready("Front Squat"); // (FB) Front Squat
         fitBodHadItAlready("Hang Clean"); // (FB) Hang Clean
+        fitBodHadItAlready("Kettlebell Goblet Squat"); // (FB) Kettlebell Goblet Squat
+        fitBodHadItAlready("1 KB Kettlebell Jerk"); // (FB) Kettlebell Jerk
+        fitBodHadItAlready("1 KB Kettlebell Clean"); // (FB) Kettlebell Power Clean
+        fitBodHadItAlready("Kettlebell Reverse Lunge"); // (FB) Kettlebell Racked Reverse Lunge
 
         // hamstrings
         fitBodHadItAlready("Clean"); // (FB) Clean
@@ -175,6 +181,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Glute Ham Raise (GHR)"); // (FB) Glute Ham Raise
         fitBodHadItAlready("Good Mornings"); // (FB) Good Morning
         fitBodHadItAlready("Inchworm"); // (FB) Inchworm
+        fitBodHadItAlready("Double Kettlebell Suitcase Deadlift"); // (FB) Kettlebell Suitcase Deadlift
 
         // calves
         fitBodHadItAlready("Bodyweight Floor Calf Raise");

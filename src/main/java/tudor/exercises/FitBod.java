@@ -482,6 +482,7 @@ public class FitBod {
         add("(FB) Hip Thrust", "Glute Bridges", Glutes, Strength, GymMats, Compound, Beginner, List.of(Hamstrings, Calves), "https://fitbod.me/exercises/hip-thrust-ac1b456c-4d43-4cbd-bcdc-a8a519852fdd");
         add("(FB) Hug A Ball", "Other Chest", Chest, Warmup, List.of(GymMats, ExerciseBall), Compound, Beginner, List.of(Adductors, UpperBack), "https://fitbod.me/exercises/hug-a-ball");
         add("(FB) Hurdle Step Over", "Abductors", Abductors, Strength, WalkingSpace, Compound, Beginner, Adductors, "https://fitbod.me/exercises/hurdle-step-over");
+
         add("(FB) Inchworm", "Other Hamstrings", Hamstrings, Strength, Bodyweight, Compound, Beginner, List.of(Shoulders, Chest, Calves), "https://fitbod.me/exercises/inchworm");
         add("(FB) Incline Back Extension", "Hyperextensions", LowerBack, Strength, LowerBackStand, Compound, Beginner, List.of(Hamstrings, Glutes), "https://fitbod.me/exercises/incline-back-extension");
         add("(FB) Incline Barbell Skull Crusher", "Tricep Extensions", Triceps, Strength, List.of(InclineBench, Barbell), Isolation, Intermediate, Forearms, "https://fitbod.me/exercises/incline-barbell-skull-crusher");
@@ -499,6 +500,7 @@ public class FitBod {
         add("(FB) Inverted Row", "Rows", Lats, Strength, Rack, Compound, Beginner, Biceps, "https://fitbod.me/exercises/inverted-row");
         add("(FB) Iron Cross", "Other Mixed Shoulders", Shoulders, Strength, Dumbbell, Compound, Intermediate, List.of(Traps, Quads, LowerBack, Hamstrings, Glutes, Chest), "https://fitbod.me/exercises/iron-cross");
         add("(FB) Isometric Biceps Hold", "Other Curls", Biceps, Warmup, Bodyweight, Isolation, Beginner, none, "https://fitbod.me/exercises/isometric-biceps-hold");
+
         add("(FB) Jackknife Sit-Up", "Sit Up", FrontalAbs, Strength, GymMats, Isolation, Beginner, none, "https://fitbod.me/exercises/jackknife-sit-up");
         add("(FB) Jog In Place", "Calves", Calves, Conditioning, Bodyweight, Compound, Beginner, List.of(FrontalAbs, Glutes, Hamstrings, Quads), "N/A");
         add("(FB) Jump Rope", "Calves", Calves, Plyometrics, JumpRope, Compound, Beginner, List.of(FrontalAbs, Glutes, Hamstrings, Quads, Shoulders, LowerBack, Forearms), "N/A");
@@ -510,7 +512,29 @@ public class FitBod {
         add("(FB) Jump Rope Reverse", "Calves", Calves, Plyometrics, JumpRope, Compound, Beginner, List.of(FrontalAbs, Glutes, Hamstrings, Quads, Shoulders, Forearms), "N/A");
         add("(FB) Jump Rope Straddle Jumps", "Calves", Calves, Plyometrics, JumpRope, Compound, Beginner, List.of(FrontalAbs, Glutes, Hamstrings, Quads, Shoulders, Abductors, Adductors, Forearms), "N/A");
         add("(FB) Jump Squat", "Squats", Quads, Plyometrics, Bodyweight, Compound, Intermediate, List.of(Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/jump-squat");
+        add("(FB) Jumping Jack", "Abductors", Abductors, Warmup, Bodyweight, Compound, Beginner, List.of(Calves, Glutes, Hamstrings, Quads, Shoulders, Adductors), "N/A");
+
+        add("(FB) Kettlebell Alternating Row", "Rows", Lats, Strength, KettleBellsX2, Compound, Beginner, List.of(Shoulders, Biceps), "https://fitbod.me/exercises/kettlebell-alternating-row");
+        add("(FB) Kettlebell Clean and Jerk", "Olympic Squats", Quads, Strength, KettleBellsX1, Compound, Intermediate, List.of(Triceps, Traps, Shoulders, LowerBack, Hamstrings, Glutes, Abs), "https://fitbod.me/exercises/kettlebell-clean-and-jerk");
+        add("(FB) Kettlebell Goblet Squat", "Squats", Quads, Strength, KettleBellsX1, Compound, Intermediate, List.of(Shoulders, Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/goblet-squat");
+        add("(FB) Kettlebell Good Morning", "Good Mornings", Hamstrings, Strength, KettleBellsX1, Compound, Intermediate, List.of(Glutes, LowerBack, Abs), "https://fitbod.me/exercises/kettlebell-good-morning");
+        add("(FB) Kettlebell Halo", "Other Mixed Shoulders", Shoulders, Strength, KettleBellsX1, Compound, Beginner, none, "https://fitbod.me/exercises/kettlebell-halo");
+        add("(FB) Kettlebell Hang Clean", "Olympic Squats", Hamstrings, Strength, KettleBellsX1, Compound, Intermediate, List.of(Traps, Shoulders, LowerBack, Glutes, Calves), "https://fitbod.me/exercises/kettlebell-hang-clean");
+        add("(FB) Kettlebell Jerk", "Olympic Squats", Shoulders, Strength, KettleBellsX1, Compound, Intermediate, List.of(Triceps, Quads, Calves), "https://fitbod.me/exercises/kettlebell-jerk");
+        add("(FB) Kettlebell Lunge with Rotation", "Lunges", Quads, Strength, KettleBellsX1, Compound, Intermediate, List.of(Glutes, Hamstrings), "https://fitbod.me/exercises/kettlebell-lunge-with-rotation");
+        add("(FB) Kettlebell Overhead Press", "Shoulder Presses", Shoulders, Strength, KettleBellsX1, Compound, Intermediate, Triceps, "https://fitbod.me/exercises/kettlebell-overhead-press");
+        add("(FB) Kettlebell Pistol Squat", "Squats", Quads, Strength, KettleBellsX1, Compound, Advanced, List.of(Triceps, Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/kettlebell-pistol-squat");
+        add("(FB) Kettlebell Power Clean", "Olympic Squats", Hamstrings, Strength, KettleBellsX1, Compound, Intermediate, List.of(Traps, Quads, LowerBack, Glutes, Forearms, Calves, Biceps), "https://fitbod.me/exercises/kettlebell-power-clean");
+        add("(FB) Kettlebell Racked Reverse Lunge", "Lunges", Quads, Strength, KettleBellsX1, Compound, Intermediate, List.of(Hamstrings, Glutes), "https://fitbod.me/exercises/kettlebell-racked-reverse-lunge");
+        add("(FB) Kettlebell Row", "Rows", Lats, Strength, KettleBellsX1, Compound, Beginner, LowerBack, "https://fitbod.me/exercises/kettlebell-row");
+        add("(FB) Kettlebell Single Arm Farmer Walk", "Other Forearms", Forearms, Strength, KettleBellsX1, Compound, Beginner, List.of(Calves, Hamstrings, Quads, Glutes, LowerBack, Abs, Traps), "https://fitbod.me/exercises/kettlebell-single-arm-farmer-walk");
+        add("(FB) Kettlebell Single Arm Overhead Lunge", "Lunges", Quads, Strength, KettleBellsX1, Compound, Intermediate, List.of(Hamstrings, Abs, Glutes), "https://fitbod.me/exercises/kettlebell-single-arm-overhead-lunge");
+        add("(FB) Kettlebell Sit Up and Press", "Sit Up", FrontalAbs, Strength, KettleBellsX1, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/kettlebell-sit-up-and-press");
+        add("(FB) Kettlebell Snatch", "Olympic Squats", Shoulders, Strength, KettleBellsX1, Compound, Advanced, List.of(Triceps, Traps, LowerBack, Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/kettlebell-snatch");
+        add("(FB) Kettlebell Suitcase Carry (Pregnancy)", "Other Frontal Abs", FrontalAbs, Strength, KettleBellsX1, Compound, Beginner, List.of(Shoulders, Traps, LowerBack), "N/A");
+        add("(FB) Kettlebell Suitcase Deadlift", "Deadlifts", Quads, Strength, KettleBellsX2, Compound, Beginner, List.of(LowerBack, Forearms, Hamstrings, Glutes), "https://fitbod.me/exercises/kettlebell-suitcase-deadlift");
 
         /////////// BOOOKMARK
     }
 }
+
