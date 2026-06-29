@@ -182,6 +182,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Good Mornings"); // (FB) Good Morning
         fitBodHadItAlready("Inchworm"); // (FB) Inchworm
         fitBodHadItAlready("Double Kettlebell Suitcase Deadlift"); // (FB) Kettlebell Suitcase Deadlift
+        fitBodHadItAlready("Kettlebell Swing"); // (FB) Kettlebell Swing
 
         // calves
         fitBodHadItAlready("Bodyweight Floor Calf Raise");

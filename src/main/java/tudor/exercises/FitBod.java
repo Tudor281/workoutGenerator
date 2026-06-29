@@ -533,6 +533,11 @@ public class FitBod {
         add("(FB) Kettlebell Snatch", "Olympic Squats", Shoulders, Strength, KettleBellsX1, Compound, Advanced, List.of(Triceps, Traps, LowerBack, Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/kettlebell-snatch");
         add("(FB) Kettlebell Suitcase Carry (Pregnancy)", "Other Frontal Abs", FrontalAbs, Strength, KettleBellsX1, Compound, Beginner, List.of(Shoulders, Traps, LowerBack), "N/A");
         add("(FB) Kettlebell Suitcase Deadlift", "Deadlifts", Quads, Strength, KettleBellsX2, Compound, Beginner, List.of(LowerBack, Forearms, Hamstrings, Glutes), "https://fitbod.me/exercises/kettlebell-suitcase-deadlift");
+        add("(FB) Kettlebell Sumo High Pull", "Squats", Traps, Strength, KettleBellsX1, Compound, Intermediate, List.of(Shoulders, Quads, Hamstrings, Glutes, Adductors), "https://fitbod.me/exercises/kettlebell-sumo-high-pull");
+        add("(FB) Kettlebell Sumo Squat", "Squats", Hamstrings, Strength, KettleBellsX1, Compound, Intermediate, List.of(UpperBack, Glutes, Quads, Shoulders), "https://fitbod.me/exercises/kettlebell-sumo-squat");
+        add("(FB) Kettlebell Swing", "Kettlebell Swings", Hamstrings, Strength, KettleBellsX1, Compound, Intermediate, List.of(Shoulders, LowerBack, Glutes, Calves), "https://fitbod.me/exercises/kettlebell-swing");
+        add("(FB) Kettlebell Swing American", "Kettlebell Swings", Glutes, Strength, KettleBellsX1, Compound, Intermediate, List.of(Shoulders, LowerBack, UpperBack, Hamstrings), "https://fitbod.me/exercises/kettlebell-swing-american");
+        add("(FB) ", "Kettlebell Swings", Glutes, Strength, KettleBellsX1, Compound, Intermediate, List.of(Shoulders, LowerBack, UpperBack, Hamstrings), "https://fitbod.me/exercises/kettlebell-swing-american");
 
         /////////// BOOOKMARK
     }
