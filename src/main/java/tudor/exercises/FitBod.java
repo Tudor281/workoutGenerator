@@ -537,7 +537,42 @@ public class FitBod {
         add("(FB) Kettlebell Sumo Squat", "Squats", Hamstrings, Strength, KettleBellsX1, Compound, Intermediate, List.of(UpperBack, Glutes, Quads, Shoulders), "https://fitbod.me/exercises/kettlebell-sumo-squat");
         add("(FB) Kettlebell Swing", "Kettlebell Swings", Hamstrings, Strength, KettleBellsX1, Compound, Intermediate, List.of(Shoulders, LowerBack, Glutes, Calves), "https://fitbod.me/exercises/kettlebell-swing");
         add("(FB) Kettlebell Swing American", "Kettlebell Swings", Glutes, Strength, KettleBellsX1, Compound, Intermediate, List.of(Shoulders, LowerBack, UpperBack, Hamstrings), "https://fitbod.me/exercises/kettlebell-swing-american");
-        add("(FB) ", "Kettlebell Swings", Glutes, Strength, KettleBellsX1, Compound, Intermediate, List.of(Shoulders, LowerBack, UpperBack, Hamstrings), "https://fitbod.me/exercises/kettlebell-swing-american");
+        add("(FB) Kettlebell Thruster", "Shoulder Presses", Shoulders, Strength, KettleBellsX2, Compound, Intermediate, List.of(Triceps, Quads), "https://fitbod.me/exercises/kettlebell-thruster");
+        add("(FB) Kettlebell Toe Walks", "Calves", Calves, Strength, List.of(KettleBellsX2, WalkingSpace), Compound, Beginner, Traps, "https://fitbod.me/exercises/kettlebell-toe-walks");
+        add("(FB) Kettlebell Upright Row", "Upright Rows", Shoulders, Strength, KettleBellsX1, Compound, Beginner, List.of(Traps, Biceps), "https://fitbod.me/exercises/kettlebell-upright-row");
+        add("(FB) Kettlebell Windmill", "Other Obliques", Obliques, Strength, KettleBellsX1, Compound, Intermediate, List.of(Shoulders, LowerBack, Glutes, Traps), "https://fitbod.me/exercises/kettlebell-windmill");
+        add("(FB) Kipping Handstand Push Up", "Other Mixed Shoulders", Shoulders, Strength, Wall, Compound, Advanced, Triceps, "https://fitbod.me/exercises/kipping-handstand-push-up");
+        add("(FB) Knee to Chest Stretch", "Other Glutes", Glutes, Stretching, GymMats, Isolation, Beginner, none, "https://fitbod.me/exercises/knee-to-chest-stretch");
+        add("(FB) Kneel to Stand", "Other Quads", Quads, Strength, GymMats, Compound, Beginner, none, "https://fitbod.me/exercises/kneel-to-stand");
+        add("(FB) Kneeling Cable Wood Chop (Narrow Grip - Low to High) (Pregnancy)", "Chops", Obliques, Pregnancy, LowCable, Compound, Beginner, List.of(UpperBack, Chest, Shoulders, LowerBack), "N/A");
+        add("(FB) Kneeling Cable Wood Chop (Wide Grip - High to Low) (Pregnancy)", "Chops", Obliques, Pregnancy, LowCable, Compound, Beginner, List.of(UpperBack, Chest, Shoulders, LowerBack), "N/A");
+        add("(FB) Kneeling Hamstring Stretch", "Other Hamstrings", Hamstrings, Stretching, GymMats, Compound, Beginner, none, "https://fitbod.me/exercises/kneeling-hamstring-stretch");
+        add("(FB) Kneeling Hip Flexor Stretch", "Abductors", Abductors, Stretching, GymMats, Compound, Beginner, none, "https://fitbod.me/exercises/kneeling-hip-flexor-stretch");
+        add("(FB) Kneeling Pallof Press (Pregnancy)", "Pallof Press", FrontalAbs, Pregnancy, FlexiCable, Compound, Beginner, none, "N/A");
+        add("(FB) Kneeling Squat", "Squats", Glutes, Strength, Rack, Compound, Intermediate, List.of(LowerBack, Hamstrings, FrontalAbs), "https://fitbod.me/exercises/kneeling-squat");
+        add("(FB) L Sit", "Other Frontal Abs", FrontalAbs, Strength, ParalletteBars, Compound, Intermediate, none, "https://fitbod.me/exercises/l-sit");
+        add("(FB) Landmine Core Rotation", "Other Obliques", Obliques, Strength, LandMine, Compound, Beginner, List.of(Shoulders, LowerBack, Glutes), "https://fitbod.me/exercises/landmine-core-rotation");
+        add("(FB) Landmine Press", "Land Mine Presses", Shoulders, Strength, LandMine, Compound, Beginner, Triceps, "https://fitbod.me/exercises/landmine-press");
+        add("(FB) Landmine Press and Catch", "Land Mine Presses", Shoulders, Strength, LandMine, Compound, Beginner, List.of(Hamstrings, Glutes, Quads, Chest), "https://fitbod.me/exercises/landmine-press-and-catch");
+        add("(FB) Landmine Romanian Deadlift", "Deadlifts", Hamstrings, Strength, LandMine, Compound, Beginner, List.of(Glutes, Quads, UpperBack), "https://fitbod.me/exercises/landmine-romanian-deadlift");
+        add("(FB) Landmine Row", "Rows", Lats, Strength, List.of(LandMine, VBar), Compound, Beginner, List.of(Shoulders, Biceps), "https://fitbod.me/exercises/landmine-row");
+        add("(FB) Landmine Single Leg Romanian Deadlift", "Deadlifts", Hamstrings, Strength, LandMine, Compound, Intermediate, List.of(LowerBack, Glutes), "https://fitbod.me/exercises/landmine-single-leg-romanian-deadlift");
+        add("(FB) Landmine Squat", "Squats", Quads, Strength, LandMine, Compound, Beginner, List.of(Hamstrings, Glutes), "https://fitbod.me/exercises/landmine-squat");
+        add("(FB) Landmine Squat to Press", "Squats", Quads, Strength, LandMine, Compound, Intermediate, Shoulders, "https://fitbod.me/exercises/landmine-squat-to-press");
+        add("(FB) Landmine Sumo Squat", "Squats", Quads, Strength, LandMine, Compound, Intermediate, List.of(Hamstrings, Glutes), "https://fitbod.me/exercises/landmine-sumo-squat");
+        add("(FB) Lat Pulldown", "Lat Pull Down", Lats, Strength, LatCable, Compound, Beginner, List.of(Shoulders, Biceps), "https://fitbod.me/exercises/lat-pulldown");
+        add("(FB) Lateral 1-Foot Line Hop", "Calves", Calves, Plyometrics, Bodyweight, Compound, Intermediate, List.of(Adductors, Abductors, Hamstrings, Glutes, Quads), "https://fitbod.me/exercises/lateral-1-foot-line-hop");
+        add("(FB) Lateral Bound", "Adductors", Adductors, Plyometrics, Bodyweight, Compound, Beginner, List.of(Quads, Hamstrings, Glutes, Calves, Abductors), "https://fitbod.me/exercises/lateral-bound");
+        add("(FB) Lateral Box Jump", "Adductors", Adductors, Plyometrics, Box, Compound, Beginner, List.of(Quads, Hamstrings, Glutes, Calves, Abductors), "https://fitbod.me/exercises/lateral-box-jump");
+        add("(FB) Lateral Box Shuffle", "Other Quads", Quads, Plyometrics, Box, Compound, Beginner, List.of(Abductors, Adductors, Abs, Calves, Hamstrings, Glutes), "https://fitbod.me/exercises/lateral-box-shuffle");
+        add("(FB) Lateral Cable Tricep Extension", "Tricep Extensions", Triceps, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://fitbod.me/exercises/lateral-cable-tricep-extension");
+        add("(FB) Lateral Cone Hop", "Adductors", Adductors, Strength, Cone, Compound, Beginner, List.of(Quads, Hamstrings, Glutes, Calves, Abductors), "https://fitbod.me/exercises/lateral-cone-hop");
+        add("(FB) Lateral Isometric Neck", "Neck", Neck, Strength, Bodyweight, Isolation, Beginner, none, "https://fitbod.me/exercises/lateral-isometric-neck");
+        add("(FB) Lateral Leg Swing", "Abductors", Abductors, Warmup, Bodyweight, Compound, Beginner, Adductors, "https://fitbod.me/exercises/lateral-leg-swing");
+        add("(FB) Lateral Line Hops", "Calves", Calves, Plyometrics, Bodyweight, Compound, Beginner, List.of(Abductors, Adductors, Hamstrings, Glutes, Quads), "https://fitbod.me/exercises/lateral-line-hops");
+        add("(FB) Lateral Lunge Stretch", "Adductors", Adductors, Stretching, Bodyweight, Compound, Beginner, none, "https://fitbod.me/exercises/lateral-lunge-stretch");
+        add("(FB) Lateral Step Up", "Step ups", Quads, Strength, Box, Compound, Beginner, Glutes, "https://fitbod.me/exercises/lateral-step-up");
+        add("(FB) ", "Step ups", Quads, Strength, Box, Compound, Beginner, Glutes, "https://fitbod.me/exercises/lateral-step-up");
 
         /////////// BOOOKMARK
     }

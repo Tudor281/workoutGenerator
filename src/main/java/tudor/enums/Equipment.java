@@ -30,6 +30,7 @@ public enum Equipment {
     CableAttachmentParallel,
     Chains,
     Couch,
+    Cone,
     DeclineBench,
     DeclineBenchPress,
     DipStation,
@@ -46,7 +47,7 @@ public enum Equipment {
     FoamRoll,
     FootStand,
     GripBalls,
-    GymMats,
+    GymMats, // also used to signal that the gym has actual space for sitting bodyweight exercises
     HammerBar,
     HandleBands,
     HangingRope,
@@ -64,6 +65,7 @@ public enum Equipment {
     Machine, // machines will only be registered as gym environments
     MassageTable,
     MedicineBall,
+    ParalletteBars,
     Partner,
     Pole, // to hold bands
     PreacherStand,

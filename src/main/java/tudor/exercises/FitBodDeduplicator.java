@@ -76,6 +76,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Chin Up"); // (FB) Chin Up
         fitBodHadItAlready("Lat Foam Rolling"); // (FB) Foam Roll Lats
         fitBodHadItAlready("Incline Bench Two Arm Dumbbell Row"); // (FB) Incline Dumbbell Row
+        fitBodHadItAlready("Lat Pull Down"); // (FB) Lat Pulldown
 
         // biceps
         inserted("Alternating Seated Hammer Curl");
@@ -131,6 +132,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Hanging Knee Raise"); // (FB) Hanging Knee Raise
         fitBodHadItAlready("Hanging Leg Raise"); // (FB) Hanging Leg Raise
         fitBodHadItAlready("Hanging Knee Raise With Twist"); // (FB) Hanging Oblique Knee Raise
+        fitBodHadItAlready("Landmine Rotation"); // (FB) Landmine Core Rotation
 
         // lower back
         inserted("Dumbbell Deadlift");
@@ -172,6 +174,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("1 KB Kettlebell Jerk"); // (FB) Kettlebell Jerk
         fitBodHadItAlready("1 KB Kettlebell Clean"); // (FB) Kettlebell Power Clean
         fitBodHadItAlready("Kettlebell Reverse Lunge"); // (FB) Kettlebell Racked Reverse Lunge
+        fitBodHadItAlready("Landmine Goblet Squat"); // (FB) Landmine Squat
 
         // hamstrings
         fitBodHadItAlready("Clean"); // (FB) Clean
