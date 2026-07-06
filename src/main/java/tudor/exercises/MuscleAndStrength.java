@@ -1419,7 +1419,7 @@ public class MuscleAndStrength {
         add("Half Kneeling Banded External Rotation", Shoulders, Strength, List.of(Pole, Bands), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/half-kneeling-banded-external-rotation");
         add("Half Kneeling Cable External Rotation", Shoulders, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/half-kneeling-cable-external-rotation");
         add("Knee to Elbow Dumbbell External Rotation", Shoulders, Strength, Dumbbell, Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/knee-to-elbow-dumbbell-external-rotation");
-        add("Single Arm Banded External Rotation", Shoulders, Strength, List.of(Pole, Rack, Bands), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/single-arm-banded-external-rotation");
+        add("Single Arm Banded External Rotation", Shoulders, Strength, List.of(Pole, Bands), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/single-arm-banded-external-rotation");
         add("Standing External Rotation (No Money Drill)", Shoulders, Strength, Bands, Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/standing-external-rotation-no-money");
 
         Exercise.currentFolder = Folder.all.get("Other Shoulders");

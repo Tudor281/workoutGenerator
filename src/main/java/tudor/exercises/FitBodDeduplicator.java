@@ -28,6 +28,9 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Weight Plate Front Raise"); // (FB) Front Plate Raise
         fitBodHadItAlready("Standing One Arm Kettlebell Press"); // (FB) Kettlebell Overhead Press
         fitBodHadItAlready("1 KB Kettlebell Snatch"); // (FB) Kettlebell Snatch
+        fitBodHadItAlready("Standing Banded Face Pull"); // (FB) Loop Band Face Pull
+        fitBodHadItAlready("Single Arm Banded External Rotation"); // (FB) Loop Band Shoulder External Rotation
+        fitBodHadItAlready("Banded Internal Rotation"); // (FB) Loop Band Shoulder Internal Rotation
 
         // traps
         fitBodHadItAlready("Barbell Shrug"); // (FB) Barbell Shrug
@@ -77,6 +80,9 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Lat Foam Rolling"); // (FB) Foam Roll Lats
         fitBodHadItAlready("Incline Bench Two Arm Dumbbell Row"); // (FB) Incline Dumbbell Row
         fitBodHadItAlready("Lat Pull Down"); // (FB) Lat Pulldown
+        fitBodHadItAlready("Band Assisted Chin Up (From Foot)"); // (FB) Loop Band Chin Up
+        fitBodHadItAlready("Resistance Band Assisted Pull Up (From Foot)"); // (FB) Loop Band Pull Up
+        fitBodHadItAlready("Resistance Band Assisted Pull Up (From Foot)"); // (FB) Loop Band Wide Grip Pull Up
 
         // biceps
         inserted("Alternating Seated Hammer Curl");
@@ -133,6 +139,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Hanging Leg Raise"); // (FB) Hanging Leg Raise
         fitBodHadItAlready("Hanging Knee Raise With Twist"); // (FB) Hanging Oblique Knee Raise
         fitBodHadItAlready("Landmine Rotation"); // (FB) Landmine Core Rotation
+        fitBodHadItAlready("Lying Floor Leg Raise"); // (FB) Leg Raise
 
         // lower back
         inserted("Dumbbell Deadlift");
@@ -186,6 +193,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Inchworm"); // (FB) Inchworm
         fitBodHadItAlready("Double Kettlebell Suitcase Deadlift"); // (FB) Kettlebell Suitcase Deadlift
         fitBodHadItAlready("Kettlebell Swing"); // (FB) Kettlebell Swing
+        fitBodHadItAlready("Banded Good Morning"); // (FB) Loop Band Good Morning
 
         // calves
         fitBodHadItAlready("Bodyweight Floor Calf Raise");

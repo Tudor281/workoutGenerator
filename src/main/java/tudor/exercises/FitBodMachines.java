@@ -35,5 +35,7 @@ public class FitBodMachines {
         add("(FB) Hammerstrength Incline Chest Press", "Bench Presses", Chest, Strength, Machine, Compound, Beginner, List.of(Triceps, Shoulders), "https://fitbod.me/exercises/hammerstrength-incline-chest-press");
         add("(FB) Hammerstrength Iso Row", "Rows", Lats, Strength, Machine, Compound, Beginner, Biceps, "https://fitbod.me/exercises/hammerstrength-iso-row");
         add("(FB) Hammerstrength Shrug", "Shrugs", Traps, Strength, Machine, Isolation, Beginner, Forearms, "https://fitbod.me/exercises/hammerstrength-shrug");
+        add("(FB) Leg Extension", "Leg Extensions", Quads, Strength, Machine, Isolation, Beginner, none, "https://fitbod.me/exercises/leg-extension");
+        add("(FB) Leg Press", "Leg Press", Quads, Strength, Machine, Compound, Beginner, List.of(Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/leg-press");
     }
 }
