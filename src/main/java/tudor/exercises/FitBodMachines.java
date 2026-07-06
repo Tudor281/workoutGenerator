@@ -37,5 +37,21 @@ public class FitBodMachines {
         add("(FB) Hammerstrength Shrug", "Shrugs", Traps, Strength, Machine, Isolation, Beginner, Forearms, "https://fitbod.me/exercises/hammerstrength-shrug");
         add("(FB) Leg Extension", "Leg Extensions", Quads, Strength, Machine, Isolation, Beginner, none, "https://fitbod.me/exercises/leg-extension");
         add("(FB) Leg Press", "Leg Press", Quads, Strength, Machine, Compound, Beginner, List.of(Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/leg-press");
+        add("(FB) Lying Hamstrings Curl" , "Hamstring Curls", Hamstrings, Strength, Machine, Isolation, Beginner, List.of(LowerBack, Glutes), "https://fitbod.me/exercises/lying-hamstrings-curl");
+        add("(FB) Machine Bench Press", "Bench Presses", Chest, Strength, Machine, Compound, Beginner, List.of(Triceps, Shoulders), "https://fitbod.me/exercises/machine-bench-press");
+        add("(FB) Machine Bicep Curl", "Preacher Curls", Biceps, Strength, Machine, Isolation, Beginner, none, "https://fitbod.me/exercises/machine-bicep-curl");
+        add("(FB) Machine Fly", "Flys", Chest, Strength, Machine, Isolation, Beginner, none, "https://fitbod.me/exercises/machine-fly");
+        add("(FB) Machine Hip Abductor", "Abductors", Abductors, Strength, Machine, Isolation, Beginner, Glutes, "https://fitbod.me/exercises/machine-hip-abductor");
+        add("(FB) Machine Hip Adductor", "Adductors", Adductors, Strength, Machine, Isolation, Beginner, List.of(Hamstrings, Glutes), "https://fitbod.me/exercises/machine-hip-adductor");
+        add("(FB) Machine Lateral Raise", "Lateral Raises", Shoulders, Strength, Machine, Isolation, Beginner, none, "https://fitbod.me/exercises/machine-lateral-raise");
+        add("(FB) Machine Leg Press", "Leg Press", Quads, Strength, Machine, Compound, Beginner, List.of(Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/machine-leg-press");
+        add("(FB) Machine Preacher Curl", "Preacher Curls", Biceps, Strength, Machine, Isolation, Beginner, none, "https://fitbod.me/exercises/machine-preacher-curl");
+        add("(FB) Machine Rear Delt Fly", "Rear Delt Flys", Shoulders, Strength, Machine, Compound, Beginner, Traps, "N/A");
+        add("(FB) Machine Row", "Rows", Lats, Strength, Machine, Compound, Beginner, Biceps, "https://fitbod.me/exercises/machine-row");
+        add("(FB) Machine Shoulder Press", "Shoulder Presses", Shoulders, Strength, Machine, Compound, Beginner, Triceps, "https://fitbod.me/exercises/machine-shoulder-press");
+        add("(FB) Machine Shoulder Shrug", "Shrugs", Traps, Strength, Machine, Isolation, Beginner, Forearms, "https://fitbod.me/exercises/machine-shoulder-shrug");
+        add("(FB) Machine Squat", "Squats", Quads, Strength, Machine, Compound, Intermediate, List.of(Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/machine-squat");
+        add("(FB) Machine Tricep Dip", "Tricep Dips", Triceps, Strength, Machine, Compound, Beginner, none, "https://fitbod.me/exercises/machine-tricep-dip");
+        add("(FB) Machine Tricep Extension", "Tricep Extensions", Triceps, Strength, Machine, Isolation, Beginner, none, "https://fitbod.me/exercises/machine-tricep-extension");
     }
 }

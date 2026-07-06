@@ -63,6 +63,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Incline Cable Chest Press"); // (FB) Incline Cable Chest Press
         fitBodHadItAlready("Incline Push Ups"); // (FB) Incline Push Up
         fitBodHadItAlready("(T:Bed) Incline Push Ups"); // (FB:Bed) Incline Push Up
+        fitBodHadItAlready("Standing Low to High Cable Fly"); // (FB) Low Cable Chest Fly
 
         // upper back
         inserted("One Arm Dumbbell Row");
@@ -83,6 +84,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Band Assisted Chin Up (From Foot)"); // (FB) Loop Band Chin Up
         fitBodHadItAlready("Resistance Band Assisted Pull Up (From Foot)"); // (FB) Loop Band Pull Up
         fitBodHadItAlready("Resistance Band Assisted Pull Up (From Foot)"); // (FB) Loop Band Wide Grip Pull Up
+        fitBodHadItAlready("Meadows Row"); // (FB) Meadow Landmine Row
 
         // biceps
         inserted("Alternating Seated Hammer Curl");
@@ -117,6 +119,10 @@ public class FitBodDeduplicator {
 
         // forearms
         fitBodHadItAlready("Seated Cable Wrist Curl"); // (FB) Cable Wrist Curl
+        fitBodHadItAlready("Reverse Grip Barbell Wrist Curl"); // (FB) Palms-Down Barbell Wrist Curl
+        fitBodHadItAlready("Reverse Grip Dumbbell Wrist Curl (Over Bench)"); // (FB) Palms-Down Dumbbell Wrist Curl
+        fitBodHadItAlready("Barbell Wrist Curl (Over Bench)"); // (FB) Palms-Up Barbell Wrist Curl
+        fitBodHadItAlready("Dumbbell Wrist Curl (Over Bench)"); // (FB) Palms-Up Dumbbell Wrist Curl
 
         // abs
         fitBodHadItAlready("Abs Wheel");
@@ -140,6 +146,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Hanging Knee Raise With Twist"); // (FB) Hanging Oblique Knee Raise
         fitBodHadItAlready("Landmine Rotation"); // (FB) Landmine Core Rotation
         fitBodHadItAlready("Lying Floor Leg Raise"); // (FB) Leg Raise
+        fitBodHadItAlready("Pallof Press"); // (FB) Pallof Press
 
         // lower back
         inserted("Dumbbell Deadlift");
@@ -182,6 +189,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("1 KB Kettlebell Clean"); // (FB) Kettlebell Power Clean
         fitBodHadItAlready("Kettlebell Reverse Lunge"); // (FB) Kettlebell Racked Reverse Lunge
         fitBodHadItAlready("Landmine Goblet Squat"); // (FB) Landmine Squat
+        fitBodHadItAlready("Bodyweight Lunge"); // (FB) Lunge
 
         // hamstrings
         fitBodHadItAlready("Clean"); // (FB) Clean
@@ -194,6 +202,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Double Kettlebell Suitcase Deadlift"); // (FB) Kettlebell Suitcase Deadlift
         fitBodHadItAlready("Kettlebell Swing"); // (FB) Kettlebell Swing
         fitBodHadItAlready("Banded Good Morning"); // (FB) Loop Band Good Morning
+        fitBodHadItAlready("Partner Assisted Nordic Hamstring Curls"); // (FB) Partner Floor Glute-Ham Raise
 
         // calves
         fitBodHadItAlready("Bodyweight Floor Calf Raise");
