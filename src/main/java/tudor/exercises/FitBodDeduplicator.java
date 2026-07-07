@@ -64,6 +64,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Incline Push Ups"); // (FB) Incline Push Up
         fitBodHadItAlready("(T:Bed) Incline Push Ups"); // (FB:Bed) Incline Push Up
         fitBodHadItAlready("Standing Low to High Cable Fly"); // (FB) Low Cable Chest Fly
+        fitBodHadItAlready("Paused Barbell Bench Press"); // (FB) Pause Bench Press
 
         // upper back
         inserted("One Arm Dumbbell Row");
@@ -74,6 +75,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Seated Cable Row"); // (FB) Cable Row
         fitBodHadItAlready("Bent Over Dumbbell Reverse Fly"); // (FB) Dumbbell Bent Over Reverse Fly
         fitBodHadItAlready("Bent Over Dumbbell Row"); // (FB) Dumbbell Bent Over Row
+        fitBodHadItAlready("Pendlay Row"); // (FB) Pendlay Row
 
         // lats
         fitBodHadItAlready("Archer Pull Up");
@@ -147,6 +149,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Landmine Rotation"); // (FB) Landmine Core Rotation
         fitBodHadItAlready("Lying Floor Leg Raise"); // (FB) Leg Raise
         fitBodHadItAlready("Pallof Press"); // (FB) Pallof Press
+        fitBodHadItAlready("Plank"); // (FB) Plank
 
         // lower back
         inserted("Dumbbell Deadlift");
@@ -190,6 +193,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Kettlebell Reverse Lunge"); // (FB) Kettlebell Racked Reverse Lunge
         fitBodHadItAlready("Landmine Goblet Squat"); // (FB) Landmine Squat
         fitBodHadItAlready("Bodyweight Lunge"); // (FB) Lunge
+        fitBodHadItAlready("Bodyweight Pistol Squat"); // (FB) Pistol Squat
 
         // hamstrings
         fitBodHadItAlready("Clean"); // (FB) Clean

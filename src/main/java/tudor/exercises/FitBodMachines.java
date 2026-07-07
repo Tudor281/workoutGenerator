@@ -53,5 +53,6 @@ public class FitBodMachines {
         add("(FB) Machine Squat", "Squats", Quads, Strength, Machine, Compound, Intermediate, List.of(Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/machine-squat");
         add("(FB) Machine Tricep Dip", "Tricep Dips", Triceps, Strength, Machine, Compound, Beginner, none, "https://fitbod.me/exercises/machine-tricep-dip");
         add("(FB) Machine Tricep Extension", "Tricep Extensions", Triceps, Strength, Machine, Isolation, Beginner, none, "https://fitbod.me/exercises/machine-tricep-extension");
+        add("(FB) Pendulum Squat", "Squats", Quads, Strength, Machine, Compound, Beginner, List.of(Glutes, Hamstrings), "N/A");
     }
 }

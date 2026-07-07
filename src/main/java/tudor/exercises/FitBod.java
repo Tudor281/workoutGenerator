@@ -771,7 +771,23 @@ public class FitBod {
         add("(FB) Partner Wall Sit And Tricep Dip", "Tricep Dips", Quads, Strength, List.of(Partner, Wall), Compound, Beginner, List.of(Triceps, Glutes), "https://fitbod.me/exercises/partner-wall-sit-and-tricep-dip");
         add("(FB) Partner Wheelbarrow Push Up", "Push Ups", Chest, Strength, List.of(Partner, GymMats), Compound, Beginner, List.of(FrontalAbs, Triceps, Shoulders), "https://fitbod.me/exercises/partner-wheelbarrow-push-up");
         add("(FB) Partner Wheelbarrow Walk", "Push Ups", Shoulders, Strength, List.of(Partner, WalkingSpace), Compound, Beginner, List.of(FrontalAbs, Triceps, Chest), "https://fitbod.me/exercises/partner-wheelbarrow-walk");
-        add("(FB) ", "Push Ups", Shoulders, Strength, List.of(Partner, WalkingSpace), Compound, Beginner, List.of(FrontalAbs, Triceps, Chest), "https://fitbod.me/exercises/partner-wheelbarrow-walk");
+        add("(FB) Pause Back Squat", "Squats", Quads, Strength, Rack, Compound, Intermediate, List.of(Shoulders, Glutes, LowerBack, FrontalAbs), "https://fitbod.me/exercises/pause-back-squat");
+        add("(FB) Pause Barbell Decline Bench Press", "Bench Presses", Chest, Strength, DeclineBenchPress, Compound, Intermediate, List.of(Shoulders, Triceps), "https://fitbod.me/exercises/pause-barbell-decline-bench-press");
+        add("(FB) Pause Barbell Incline Bench Press", "Bench Presses", Chest, Strength, InclineBenchPress, Compound, Intermediate, List.of(Shoulders, Triceps), "https://fitbod.me/exercises/pause-barbell-incline-bench-press");
+        add("(FB) Pause Barbell Lunge", "Lunges", Quads, Strength, Barbell, Compound, Intermediate, List.of(Hamstrings, Glutes), "https://fitbod.me/exercises/pause-barbell-lunge");
+        add("(FB) Pause Bench Press", "Bench Presses", Chest, Strength, BenchPress, Compound, Intermediate, List.of(Shoulders, Triceps), "https://fitbod.me/exercises/pause-bench-press");
+        add("(FB) Pause Front Squat", "Squats", Quads, Strength, Rack, Compound, Intermediate, List.of(Glutes, Calves, Hamstrings), "https://fitbod.me/exercises/pause-front-squat");
+        add("(FB) Pause Squat", "Squats", Quads, Strength, Bodyweight, Compound, Beginner, List.of(Glutes, Calves, Hamstrings), "https://fitbod.me/exercises/pause-squat");
+        add("(FB) Pelvic Bridge With Leg Extension (Pregnancy)", "Glute Bridges", Glutes, Pregnancy, GymMats, Compound, Beginner, List.of(FrontalAbs, Hamstrings, Quads), "N/A");
+        add("(FB) Pelvic Circles Slide Back (Pregnancy)", "Other Glutes", Glutes, Pregnancy, GymMats, Compound, Beginner, List.of(Hamstrings, Quads, Abductors, Adductors), "N/A");
+        add("(FB) Pelvic Hip Thrust (Pregnancy)", "Hip Thrusts", Glutes, Pregnancy, GymMats, Compound, Beginner, List.of(FrontalAbs, Hamstrings, Quads), "N/A");
+        add("(FB) Pelvic Opener (Pregnancy)", "Adductors", Adductors, Pregnancy, GymMats, Compound, Beginner, none, "N/A");
+        add("(FB) Pendlay Row", "Rows", Lats, Strength, Barbell, Compound, Intermediate, LowerBack, "https://fitbod.me/exercises/pendlay-row");
+        add("(FB) Pigeon Pose", "Other Glutes", Glutes, Stretching, GymMats, Compound, Beginner, Abductors, "https://fitbod.me/exercises/pigeon-pose");
+        add("(FB) Pike Push Up", "Push Ups", Shoulders, Strength, GymMats, Compound, Intermediate, List.of(Triceps, Chest), "https://fitbod.me/exercises/pike-push-up");
+        add("(FB) Pistol Squat", "Squats", Quads, Strength, Bodyweight, Compound, Advanced, List.of(Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/pistol-squat");
+        add("(FB) Plank", "Planks", FrontalAbs, Strength, GymMats, Compound, Beginner, none, "https://fitbod.me/exercises/plank");
+        add("(FB) Plank Body Saw", "Planks", FrontalAbs, Strength, GymMats, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/plank-body-saw");
 
         /////////// BOOOKMARK
     }
