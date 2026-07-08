@@ -798,6 +798,15 @@ public class FitBod {
         add("(FB) Plate Pinch", "Other Forearms", Forearms, Strength, Disk, Compound, Intermediate, List.of(Traps, Shoulders), "https://fitbod.me/exercises/plate-pinch");
         add("(FB) Posterior Isometric Neck", "Neck", Neck, Strength, Bodyweight, Compound, Beginner, none, "https://fitbod.me/exercises/posterior-isometric-neck");
         add("(FB) Power Clean", "Olympic Squats", Hamstrings, OlympicWeightlifting, Barbell, Compound, Intermediate, List.of(Triceps, Traps, Shoulders, Quads, UpperBack, LowerBack, Glutes, Forearms, Calves), "https://fitbod.me/exercises/power-clean");
+        add("(FB) Power Clean Thruster", "Olympic Squats", Quads, OlympicWeightlifting, Barbell, Compound, Intermediate, List.of(Triceps, Traps, Shoulders, Hamstrings, UpperBack, LowerBack, Glutes, Forearms, Calves), "https://fitbod.me/exercises/power-clean-thruster");
+        add("(FB) Power Clean and Press", "Olympic Squats", Quads, OlympicWeightlifting, Barbell, Compound, Intermediate, List.of(Triceps, Traps, Shoulders, Hamstrings, UpperBack, LowerBack, Glutes, Forearms, Calves), "https://fitbod.me/exercises/power-clean-and-press");
+        add("(FB) Power Clean from Blocks", "Olympic Squats", Hamstrings, OlympicWeightlifting,  List.of(Boxx2, Barbell), Compound, Intermediate, List.of(Triceps, Traps, Shoulders, Quads, UpperBack, LowerBack, Glutes, Forearms, Calves), "https://fitbod.me/exercises/power-clean-from-blocks");
+        add("(FB) Power Clean to Front Squat", "Olympic Squats", Quads, OlympicWeightlifting, Barbell, Compound, Advanced, List.of(Triceps, Biceps, Traps, Shoulders, Quads, UpperBack, LowerBack, Glutes, Forearms, Calves), "https://fitbod.me/exercises/power-clean-to-front-squat");
+        add("(FB) Power Skips", "Other Quads", Quads, Plyometrics, WalkingSpace, Compound, Beginner, List.of(FrontalAbs, Calves, Hamstrings, Glutes), "https://fitbod.me/exercises/power-skips");
+        add("(FB) Power Snatch", "Olympic Squats", Hamstrings, OlympicWeightlifting, Barbell, Compound, Intermediate, List.of(Triceps, Traps, Shoulders, Quads, LowerBack, Glutes, Calves), "https://fitbod.me/exercises/power-snatch");
+        add("(FB) Power Snatch from Blocks", "Olympic Squats", Quads, OlympicWeightlifting, List.of(Boxx2, Barbell), Compound, Intermediate, List.of(Triceps, Traps, Shoulders, Quads, LowerBack, Glutes, Calves), "https://fitbod.me/exercises/power-snatch-from-blocks");
+        add("(FB) Power Snatch to Overhead Squat", "Olympic Squats", Quads, OlympicWeightlifting, Barbell, Compound, Advanced, List.of(Triceps, Traps, Shoulders, Quads, LowerBack, Glutes, Calves), "https://fitbod.me/exercises/power-snatch-to-overhead-squat");
+        add("(FB) Preacher Curl", "Preacher Curls", Biceps, Strength, List.of(ZBar, PreacherStand), Isolation, Beginner, Forearms, "https://fitbod.me/exercises/preacher-curl");
 
         /////////// BOOOKMARK
     }

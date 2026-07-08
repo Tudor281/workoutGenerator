@@ -104,6 +104,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("EZ Bar Curl"); // (FB) EZ-Bar Curl
         fitBodHadItAlready("Alternating Standing Hammer Curl"); // (FB) Hammer Curls
         fitBodHadItAlready("Incline Bench Hammer Curl"); // (FB) Incline Hammer Curl
+        fitBodHadItAlready("EZ Bar Preacher Curl"); // (FB) Preacher Curl
 
         // triceps
         fitBodHadItAlready("Lying Dumbbell Extension");
@@ -196,6 +197,8 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Bodyweight Lunge"); // (FB) Lunge
         fitBodHadItAlready("Bodyweight Pistol Squat"); // (FB) Pistol Squat
         fitBodHadItAlready("Power Clean"); // (FB) Power Clean
+        fitBodHadItAlready("Power Clean from Blocks"); // (FB) Power Clean from Blocks
+        fitBodHadItAlready("Power Snatch"); // (FB) Power Snatch
 
         // hamstrings
         fitBodHadItAlready("Clean"); // (FB) Clean
