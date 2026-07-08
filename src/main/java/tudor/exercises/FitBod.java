@@ -788,6 +788,16 @@ public class FitBod {
         add("(FB) Pistol Squat", "Squats", Quads, Strength, Bodyweight, Compound, Advanced, List.of(Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/pistol-squat");
         add("(FB) Plank", "Planks", FrontalAbs, Strength, GymMats, Compound, Beginner, none, "https://fitbod.me/exercises/plank");
         add("(FB) Plank Body Saw", "Planks", FrontalAbs, Strength, GymMats, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/plank-body-saw");
+        add("(FB) Plank Hip Dip", "Planks", Obliques, Strength, GymMats, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/plank-hip-dip");
+        add("(FB) Plank Jack", "Planks", FrontalAbs, Strength, GymMats, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/plank-jack");
+        add("(FB) Plank Jack on Elbows", "Planks", FrontalAbs, Strength, GymMats, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/plank-jack-on-elbows");
+        add("(FB) Plank Shoulder Taps", "Planks", FrontalAbs, Strength, GymMats, Compound, Intermediate, List.of(Chest, Shoulders), "https://fitbod.me/exercises/plank-shoulder-taps");
+        add("(FB) Plank Surrender", "Planks", FrontalAbs, Strength, GymMats, Compound, Intermediate, Shoulders, "https://fitbod.me/exercises/plank-surrender");
+        add("(FB) Plank With Dumbbell Pull Through", "Planks", FrontalAbs, Strength, List.of(GymMats, Dumbbell), Compound, Intermediate, List.of(Chest, Lats, Shoulders), "https://fitbod.me/exercises/plank-with-dumbbell-pull-through");
+        add("(FB) Plate Flips", "Other Forearms", Forearms, Strength, Disk, Compound, Intermediate, List.of(Traps, Shoulders), "https://fitbod.me/exercises/plate-flips");
+        add("(FB) Plate Pinch", "Other Forearms", Forearms, Strength, Disk, Compound, Intermediate, List.of(Traps, Shoulders), "https://fitbod.me/exercises/plate-pinch");
+        add("(FB) Posterior Isometric Neck", "Neck", Neck, Strength, Bodyweight, Compound, Beginner, none, "https://fitbod.me/exercises/posterior-isometric-neck");
+        add("(FB) Power Clean", "Olympic Squats", Hamstrings, OlympicWeightlifting, Barbell, Compound, Intermediate, List.of(Triceps, Traps, Shoulders, Quads, UpperBack, LowerBack, Glutes, Forearms, Calves), "https://fitbod.me/exercises/power-clean");
 
         /////////// BOOOKMARK
     }

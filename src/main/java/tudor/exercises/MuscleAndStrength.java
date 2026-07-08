@@ -144,6 +144,7 @@ public class MuscleAndStrength {
         domination("Feet Elevated Plank", "(T:Bed) Feet Elevated Plank");
         add("Plank", FrontalAbs, Strength, Bodyweight, Isolation, Beginner, LowerBack, "https://www.muscleandstrength.com/exercises/hover.html");
         add("Plank to Hip Raise", FrontalAbs, Strength, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/plank-to-hip-raise");
+        add("Shoulder Taps", FrontalAbs, Strength, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/shoulder-taps");
 
         Exercise.currentFolder = Folder.all.get("Rollouts");
         add("Barbell Abdominal Rollouts", FrontalAbs, Strength, Barbell, Compound, Intermediate, Shoulders, "https://www.muscleandstrength.com/exercises/abdominal-barbell-rollouts.html");
@@ -191,7 +192,6 @@ public class MuscleAndStrength {
         add("Seated Knee Tucks", FrontalAbs, Strength, Bench, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-leg-tucks.html");
         add("(T:Bed) Seated Knee Tucks", FrontalAbs, Strength, Bed, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/seated-leg-tucks.html");
         domination("Seated Knee Tucks", "(T:Bed) Seated Knee Tucks");
-        add("Shoulder Taps", FrontalAbs, Strength, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/shoulder-taps");
         add("Standing Push-Pull", FrontalAbs, Strength, DoubleCable, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/standing-push-pull");
         add("Standing Stomach Vacuum", FrontalAbs, Strength, Bodyweight, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/standing-stomach-vacuum");
         add("Stir the Pot on Exercise Ball", FrontalAbs, Strength, ExerciseBall, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/stir-the-pot-on-exercise-ball");

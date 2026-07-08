@@ -150,6 +150,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Lying Floor Leg Raise"); // (FB) Leg Raise
         fitBodHadItAlready("Pallof Press"); // (FB) Pallof Press
         fitBodHadItAlready("Plank"); // (FB) Plank
+        fitBodHadItAlready("Shoulder Taps"); // (FB) Plank Shoulder Taps
 
         // lower back
         inserted("Dumbbell Deadlift");
@@ -194,6 +195,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Landmine Goblet Squat"); // (FB) Landmine Squat
         fitBodHadItAlready("Bodyweight Lunge"); // (FB) Lunge
         fitBodHadItAlready("Bodyweight Pistol Squat"); // (FB) Pistol Squat
+        fitBodHadItAlready("Power Clean"); // (FB) Power Clean
 
         // hamstrings
         fitBodHadItAlready("Clean"); // (FB) Clean
