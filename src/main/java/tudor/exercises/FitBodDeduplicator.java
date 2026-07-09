@@ -65,6 +65,8 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("(T:Bed) Incline Push Ups"); // (FB:Bed) Incline Push Up
         fitBodHadItAlready("Standing Low to High Cable Fly"); // (FB) Low Cable Chest Fly
         fitBodHadItAlready("Paused Barbell Bench Press"); // (FB) Pause Bench Press
+        fitBodHadItAlready("Push Up"); // (FB) Push Up
+        fitBodHadItAlready("Knee Push-Up"); // (FB) Push Up on Knees
 
         // upper back
         inserted("One Arm Dumbbell Row");
@@ -87,6 +89,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Resistance Band Assisted Pull Up (From Foot)"); // (FB) Loop Band Pull Up
         fitBodHadItAlready("Resistance Band Assisted Pull Up (From Foot)"); // (FB) Loop Band Wide Grip Pull Up
         fitBodHadItAlready("Meadows Row"); // (FB) Meadow Landmine Row
+        fitBodHadItAlready("Pull Up"); // (FB) Pull Up
 
         // biceps
         inserted("Alternating Seated Hammer Curl");

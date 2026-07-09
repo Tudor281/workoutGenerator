@@ -807,6 +807,28 @@ public class FitBod {
         add("(FB) Power Snatch from Blocks", "Olympic Squats", Quads, OlympicWeightlifting, List.of(Boxx2, Barbell), Compound, Intermediate, List.of(Triceps, Traps, Shoulders, Quads, LowerBack, Glutes, Calves), "https://fitbod.me/exercises/power-snatch-from-blocks");
         add("(FB) Power Snatch to Overhead Squat", "Olympic Squats", Quads, OlympicWeightlifting, Barbell, Compound, Advanced, List.of(Triceps, Traps, Shoulders, Quads, LowerBack, Glutes, Calves), "https://fitbod.me/exercises/power-snatch-to-overhead-squat");
         add("(FB) Preacher Curl", "Preacher Curls", Biceps, Strength, List.of(ZBar, PreacherStand), Isolation, Beginner, Forearms, "https://fitbod.me/exercises/preacher-curl");
+        add("(FB) Prone Calf Stretch", "Calves", Calves, Stretching, GymMats, Compound, Beginner, none, "https://fitbod.me/exercises/prone-calf-stretch");
+        add("(FB) Prone Flutter Kicks", "Other Glutes", Glutes, Strength, Bench, Compound, Intermediate, List.of(LowerBack, Hamstrings), "https://fitbod.me/exercises/prone-flutter-kicks");
+        add("(FB) Prone Hip Circle", "Abductors", Abductors, Strength, GymMats, Compound, Beginner, Adductors, "https://fitbod.me/exercises/prone-hip-circle");
+        add("(FB) Prone Hip Circles Forward", "Abductors", Abductors, Strength, GymMats, Compound, Beginner, none, "https://fitbod.me/exercises/prone-hip-circles-forward");
+        add("(FB) Prone I's", "Other Upper Back", UpperBack, Strength, GymMats, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/prone-i-s");
+        add("(FB) Prone Loop Band Hamstring Curl", "Hamstring Curls", Hamstrings, Strength, List.of(GymMats, Pole, Bands), Isolation, Beginner, none, "https://fitbod.me/exercises/prone-loop-band-hamstring-curl");
+        add("(FB) Prone T's", "Other Upper Back", UpperBack, Strength, GymMats, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/prone-t-s");
+        add("(FB) Prone W's", "Other Upper Back", UpperBack, Strength, GymMats, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/prone-w-s");
+        add("(FB) Prone Y's", "Other Upper Back", UpperBack, Strength, GymMats, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/prone-y-s");
+        add("(FB) Pull Up", "Pull ups", Lats, Strength, FixedUpperBar, Compound, Intermediate, Biceps, "https://fitbod.me/exercises/pull-up");
+        add("(FB) Pulse Back Squat", "Squats", Quads, Strength, Rack, Compound, Intermediate, List.of(Calves, LowerBack, Hamstrings, Glutes), "https://fitbod.me/exercises/pulse-back-squat");
+        add("(FB) Pulse Lunge", "Lunges", Quads, Strength, Bodyweight, Compound, Intermediate, Glutes, "https://fitbod.me/exercises/pulse-lunge");
+        add("(FB) Push Jerk", "Olympic Squats", Quads, OlympicWeightlifting, Barbell, Compound, Advanced, List.of(Triceps, Shoulders, Hamstrings, Glutes, Calves, FrontalAbs), "https://fitbod.me/exercises/push-jerk");
+        add("(FB) Push Press", "Olympic Squats", Quads, OlympicWeightlifting, Barbell, Compound, Intermediate, List.of(Triceps, Quads, Calves), "https://fitbod.me/exercises/push-press");
+        add("(FB) Push Up", "Push Ups", Chest, Strength, GymMats, Compound, Intermediate, List.of(Triceps, Shoulders), "https://fitbod.me/exercises/push-up");
+        add("(FB) Push Up on Knees", "Push Ups", Chest, Strength, GymMats, Compound, Beginner, Triceps, "https://fitbod.me/exercises/push-up-on-knees");
+
+        add("(FB) Quadruped Plank Hold", "Planks", FrontalAbs, Strength, GymMats, Compound, Beginner, List.of(Chest, Shoulders), "https://fitbod.me/exercises/quadruped-plank-hold");
+        add("(FB) Quadruped Plank Hold (Pregnancy)", "Planks", FrontalAbs, Pregnancy, GymMats, Compound, Beginner, List.of(Chest, Shoulders), "N/A");
+        add("(FB) Quadruped Plank With Leg Extensions", "Planks", FrontalAbs, Strength, GymMats, Compound, Beginner, List.of(Chest, Shoulders, Hamstrings, Glutes), "https://fitbod.me/exercises/quadruped-plank-with-leg-extensions");
+        add("(FB) Quadruped Plank With Leg Extensions (Pregnancy)", "Planks", FrontalAbs, Pregnancy, GymMats, Compound, Beginner, List.of(Chest, Shoulders, Hamstrings, Glutes), "N/A");
+        add("(FB) ", "Planks", FrontalAbs, Strength, GymMats, Compound, Beginner, List.of(Chest, Shoulders, Hamstrings, Glutes), "https://fitbod.me/exercises/quadruped-plank-with-leg-extensions");
 
         /////////// BOOOKMARK
     }
