@@ -67,6 +67,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Paused Barbell Bench Press"); // (FB) Pause Bench Press
         fitBodHadItAlready("Push Up"); // (FB) Push Up
         fitBodHadItAlready("Knee Push-Up"); // (FB) Push Up on Knees
+        fitBodHadItAlready("Reverse Grip Bench Press"); // (FB) Reverse Grip Bench Press
 
         // upper back
         inserted("One Arm Dumbbell Row");
@@ -90,6 +91,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Resistance Band Assisted Pull Up (From Foot)"); // (FB) Loop Band Wide Grip Pull Up
         fitBodHadItAlready("Meadows Row"); // (FB) Meadow Landmine Row
         fitBodHadItAlready("Pull Up"); // (FB) Pull Up
+        fitBodHadItAlready("Reverse Grip Bent Over Row"); // (FB) Reverse Grip Barbell Bent Over Row
 
         // biceps
         inserted("Alternating Seated Hammer Curl");
@@ -108,6 +110,8 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Alternating Standing Hammer Curl"); // (FB) Hammer Curls
         fitBodHadItAlready("Incline Bench Hammer Curl"); // (FB) Incline Hammer Curl
         fitBodHadItAlready("EZ Bar Preacher Curl"); // (FB) Preacher Curl
+        fitBodHadItAlready("Reverse Grip Barbell Curl"); // (FB) Reverse Barbell Curl
+        fitBodHadItAlready("Standing Dumbbell Reverse Curl"); // (FB) Reverse Dumbbell Curl
 
         // triceps
         fitBodHadItAlready("Lying Dumbbell Extension");
@@ -122,6 +126,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Seated Dumbbell Tricep Extension"); // (FB) Dumbbell Tricep Extension
         fitBodHadItAlready("Standing Overhead EZ Bar Tricep Extension"); // (FB) EZ-Bar Overhead Tricep Extension
         fitBodHadItAlready("Incline Skull Crusher"); // (FB) Incline Barbell Skull Crusher
+        fitBodHadItAlready("Ring Dip"); // (FB) Ring Dip
 
         // forearms
         fitBodHadItAlready("Seated Cable Wrist Curl"); // (FB) Cable Wrist Curl
@@ -160,6 +165,7 @@ public class FitBodDeduplicator {
         inserted("Dumbbell Deadlift");
         fitBodHadItAlready("GHD Back Extension");
         fitBodHadItAlready("Hyperextension"); // (FB) Incline Back Extension
+        fitBodHadItAlready("Reverse Hyperextension"); // (FB) Reverse Hyperextension
 
         // glutes
         fitBodHadItAlready("Banded Good Morning");
@@ -215,6 +221,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Kettlebell Swing"); // (FB) Kettlebell Swing
         fitBodHadItAlready("Banded Good Morning"); // (FB) Loop Band Good Morning
         fitBodHadItAlready("Partner Assisted Nordic Hamstring Curls"); // (FB) Partner Floor Glute-Ham Raise
+        fitBodHadItAlready("Romanian Deadlift (AKA RDL)"); // (FB) Romanian Deadlift
 
         // calves
         fitBodHadItAlready("Bodyweight Floor Calf Raise");

@@ -3,6 +3,7 @@ package tudor.enums;
 public enum ExerciseType {
     Activation,
     Conditioning,
+    Endurance, // compound exercises, not 100% focused on strength
     OlympicWeightlifting,
     Plyometrics,
     PowerLifting,

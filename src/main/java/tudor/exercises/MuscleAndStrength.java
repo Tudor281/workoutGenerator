@@ -320,7 +320,6 @@ public class MuscleAndStrength {
         add("One-Arm Standing Hammer Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/one-arm-standing-hammer-curl.html");
         add("Standing Dumbbell Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/standing-dumbbell-curl.html");
         add("Standing Dumbbell Drag Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/standing-dumbbell-drag-curl");
-        add("Standing Dumbbell Reverse Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/standing-dumbbell-reverse-curl.html");
         add("Standing Hammer Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/standing-hammer-curl.html");
         add("Standing High Pulley Cable Curl", Biceps, Strength, DoubleCable, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/standing-high-pulley-cable-curl.html");
         add("Wide Grip Cable Curl", Biceps, Strength, List.of(LowCable, CableAttachmentStraightBar), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/wide-grip-cable-curl.html");
@@ -590,6 +589,7 @@ public class MuscleAndStrength {
         add("Reverse Grip Preacher Curl", Forearms, Strength, List.of(PreacherStand, ShortBarbell), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/reverse-preacher-curl.html");
         add("Reverse Grip Preacher Curl (EZ Bar)", Forearms, Strength, List.of(PreacherStand, ZBar), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/ez-bar-reverse-grip-preacher-curl.html");
         add("Reverse One Arm Cable Curl", Forearms, Strength, List.of(LowCable, CableAttachmentSingleArm), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/reverse-one-arm-cable-curl.html");
+        add("Standing Dumbbell Reverse Curl", Biceps, Strength, Dumbbell, Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/standing-dumbbell-reverse-curl.html");
         add("Standing Reverse Grip Cable Curl", Forearms, Strength, List.of(LowCable, CableAttachmentStraightBar), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/standing-cable-reverse-curl.html");
         add("One-Arm Reverse Grip Dumbbell Preacher Curl", Forearms, Strength, List.of(PreacherStand, Dumbbell), Isolation, Beginner, Biceps, "https://www.muscleandstrength.com/exercises/one-arm-reverse-dumbbell-preacher-curl.html");
 
