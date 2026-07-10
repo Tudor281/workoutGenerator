@@ -113,6 +113,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("EZ Bar Preacher Curl"); // (FB) Preacher Curl
         fitBodHadItAlready("Reverse Grip Barbell Curl"); // (FB) Reverse Barbell Curl
         fitBodHadItAlready("Standing Dumbbell Reverse Curl"); // (FB) Reverse Dumbbell Curl
+        fitBodHadItAlready("Alternating Seated Dumbbell Curl"); // (FB) Seated Dumbbell Curl
 
         // triceps
         fitBodHadItAlready("Lying Dumbbell Extension");
@@ -232,6 +233,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Posterior Calf Foam Rolling"); // (FB) Foam Roll Calves
         fitBodHadItAlready("Jump Rope"); // (FB) Jump Rope
         fitBodHadItAlready("Reverse Jump Rope"); // (FB) Jump Rope Reverse
+        fitBodHadItAlready("Seated Dumbbell Calf Raise"); // (FB) Seated Dumbbell Calf Raise
     }
 
     private static void inserted(String exerciseName) {

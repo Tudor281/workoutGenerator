@@ -260,8 +260,6 @@ public class MuscleAndStrength {
         add("Alternating Incline Dumbbell Curl", Biceps, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/alternate-incline-dumbbell-curl.html");
         add("Alternating Incline Hammer Curl", Biceps, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/alternate-incline-hammer-curl.html");
         add("Alternating Seated Dumbbell Curl", Biceps, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/alternate-seated-dumbbell-curl.html");
-        add("(T:Bed) Alternating Seated Dumbbell Curl", Biceps, Strength, List.of(Bed, Dumbbell), Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/alternate-seated-dumbbell-curl.html");
-        domination("Alternating Seated Dumbbell Curl", "(T:Bed) Alternating Seated Dumbbell Curl");
         add("Alternating Seated Hammer Curl", Biceps, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/alternate-seated-hammer-curl.html");
         add("(T:Bed) Alternating Seated Hammer Curl", Biceps, Strength, List.of(Bed, Dumbbell), Isolation, Beginner, Forearms, "https://www.muscleandstrength.com/exercises/alternate-seated-hammer-curl.html");
         domination("Alternating Seated Hammer Curl", "(T:Bed) Alternating Seated Hammer Curl");

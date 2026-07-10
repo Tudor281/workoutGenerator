@@ -57,5 +57,8 @@ public class FitBodMachines {
         add("(FB) Rowing", "Rows", Hamstrings, Endurance, Machine, Compound, Beginner, List.of(Lats, UpperBack, Biceps, Calves, Glutes, Quads, Shoulders, LowerBack), "N/A");
         add("(FB) Running - Treadmill", "Other Quads", Quads, Endurance, Machine, Compound, Intermediate, List.of(FrontalAbs, Calves, Glutes, Hamstrings), "N/A");
         add("(FB) Running - Trueform", "Other Quads", Quads, Endurance, Machine, Compound, Intermediate, List.of(FrontalAbs, Calves, Glutes, Hamstrings), "N/A");
+        add("(FB) Seated Back Extension", "Back Extensions", LowerBack, Strength, Machine, Isolation, Beginner, none, "https://fitbod.me/exercises/seated-back-extension");
+        add("(FB) Seated Leg Curl", "Hamstring Curls", Hamstrings, Strength, Machine, Isolation, Beginner, none, "https://fitbod.me/exercises/seated-leg-curl");
+        add("(FB) Seated Machine Calf Press", "Calves", Calves, Strength, Machine, Isolation, Beginner, none, "https://fitbod.me/exercises/seated-machine-calf-press");
     }
 }

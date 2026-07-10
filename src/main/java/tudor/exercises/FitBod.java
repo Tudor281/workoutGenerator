@@ -863,7 +863,20 @@ public class FitBod {
 
         add("(FB) Scapular Pull Up", "Other Traps", Traps, Strength, FixedUpperBar, Compound, Beginner, Lats, "https://fitbod.me/exercises/scapular-pull-up");
         add("(FB) Scissor Crossover Kick", "Other Frontal Abs", FrontalAbs, Strength, GymMats, Compound, Beginner, none, "https://fitbod.me/exercises/scissor-crossover-kick");
-        add("(FB) ", "Other Frontal Abs", FrontalAbs, Strength, GymMats, Compound, Beginner, none, "https://fitbod.me/exercises/scissor-crossover-kick");
+        add("(FB) Scissor Kick", "Other Frontal Abs", FrontalAbs, Strength, GymMats, Compound, Beginner, none, "https://fitbod.me/exercises/scissor-kick");
+        add("(FB) Seated Barbell Shoulder Press", "Shoulder Presses", Shoulders, Strength, List.of(Rack, InclineBench), Compound, Intermediate, Triceps, "https://fitbod.me/exercises/seated-barbell-shoulder-press");
+        add("(FB) Seated Dumbbell Calf Raise", "Calves", Calves, Strength, List.of(Bench, Dumbbell, Disk), Isolation, Beginner, none, "https://fitbod.me/exercises/seated-dumbbell-calf-raise");
+        add("(FB) Seated Dumbbell Curl", "Seated Curls", Biceps, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, none, "https://fitbod.me/exercises/seated-dumbbell-curl");
+        add("(FB) Seated Dumbbell Front Press", "Other Front Delts", Shoulders, Strength, List.of(InclineBench, Dumbbell), Compound, Beginner, Triceps, "https://fitbod.me/exercises/seated-dumbbell-front-press");
+        add("(FB) Seated Dumbbell One-Leg Calf Raise", "Calves", Calves, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "https://fitbod.me/exercises/seated-dumbbell-one-leg-calf-raise");
+        add("(FB) Seated Dumbbell Rear Delt Raise", "Other Rear Delts", Shoulders, Strength, List.of(Bench, Dumbbell), Compound, Intermediate, UpperBack, "https://fitbod.me/exercises/seated-dumbbell-rear-delt-raise");
+        add("(FB) Seated Figure Four", "Other Glutes", Glutes, Stretching, GymMats, Isolation, Beginner, none, "https://fitbod.me/exercises/seated-figure-four");
+        add("(FB) Seated Forward Bend", "Other Hamstrings", Hamstrings, Stretching, GymMats, Compound, Beginner, List.of(Calves, Glutes), "https://fitbod.me/exercises/seated-forward-bend");
+        add("(FB) Seated Neck Release Stretch", "Neck", Neck, Stretching, GymMats, Isolation, Beginner, none, "https://fitbod.me/exercises/seated-neck-release-stretch");
+        add("(FB) Seated Point And Flex", "Calves", Calves, Stretching, GymMats, Isolation, Beginner, none, "https://fitbod.me/exercises/seated-point-and-flex");
+        add("(FB) Seated Single Arm Dumbbell Front Press", "Other Front Delts", Shoulders, Strength, List.of(InclineBench, Dumbbell), Compound, Beginner, List.of(FrontalAbs, Triceps), "https://fitbod.me/exercises/seated-single-arm-dumbbell-front-press");
+        add("(FB) Seated Toe Tap", "Knee Raise", FrontalAbs, Strength, Bench, Isolation, Beginner, none, "https://fitbod.me/exercises/seated-toe-tap");
+        add("(FB) ", "Knee Raise", FrontalAbs, Strength, Bench, Isolation, Beginner, none, "https://fitbod.me/exercises/seated-toe-tap");
 
         /////////// BOOOKMARK
     }
