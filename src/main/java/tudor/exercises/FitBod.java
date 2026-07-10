@@ -876,7 +876,14 @@ public class FitBod {
         add("(FB) Seated Point And Flex", "Calves", Calves, Stretching, GymMats, Isolation, Beginner, none, "https://fitbod.me/exercises/seated-point-and-flex");
         add("(FB) Seated Single Arm Dumbbell Front Press", "Other Front Delts", Shoulders, Strength, List.of(InclineBench, Dumbbell), Compound, Beginner, List.of(FrontalAbs, Triceps), "https://fitbod.me/exercises/seated-single-arm-dumbbell-front-press");
         add("(FB) Seated Toe Tap", "Knee Raise", FrontalAbs, Strength, Bench, Isolation, Beginner, none, "https://fitbod.me/exercises/seated-toe-tap");
-        add("(FB) ", "Knee Raise", FrontalAbs, Strength, Bench, Isolation, Beginner, none, "https://fitbod.me/exercises/seated-toe-tap");
+        add("(FB) Seated Twist", "Other lower back", LowerBack, Stretching, GymMats, Isolation, Beginner, FrontalAbs, "https://fitbod.me/exercises/seated-twist");
+        add("(FB) Shin Box Hip Flexor", "Abductors", Abductors, Stretching, GymMats, Isolation, Beginner, List.of(Glutes, LowerBack), "https://fitbod.me/exercises/shin-box-hip-flexor");
+        add("(FB) Shin Box Quad", "Other Quads", Quads, Stretching, GymMats, Isolation, Beginner, Glutes, "https://fitbod.me/exercises/shin-box-quad");
+        add("(FB) Shotgun Row", "Lat Rows", UpperBack, Strength, List.of(LowCable, CableAttachmentSingleArm), Compound, Intermediate, Biceps, "https://fitbod.me/exercises/shotgun-row");
+        add("(FB) Shoulder Squeeze", "Other Mixed Shoulders", Shoulders, Warmup, Bodyweight, Compound, Beginner, none, "https://fitbod.me/exercises/shoulder-squeeze");
+        add("(FB) Side Bend Stretch", "Other Lats", Lats, Stretching, Bodyweight, Compound, Beginner, Obliques, "https://fitbod.me/exercises/side-bend-stretch");
+        add("(FB) Side Bridge", "Planks", Obliques, Strength, GymMats, Compound, Beginner, Shoulders, "https://fitbod.me/exercises/side-bridge");
+        add("(FB) Side Laterals to Front Raise", "Other Mixed Shoulders", Shoulders, Endurance, Dumbbell, Isolation, Beginner, Traps, "https://fitbod.me/exercises/side-laterals-to-front-raise");
 
         /////////// BOOOKMARK
     }

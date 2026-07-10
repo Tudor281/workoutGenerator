@@ -93,6 +93,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Pull Up"); // (FB) Pull Up
         fitBodHadItAlready("Reverse Grip Bent Over Row"); // (FB) Reverse Grip Barbell Bent Over Row
         fitBodHadItAlready("Rope Climb"); // (FB) Rope Climb
+        fitBodHadItAlready("Shotgun Row"); // (FB) Shotgun Row
 
         // biceps
         inserted("Alternating Seated Hammer Curl");
