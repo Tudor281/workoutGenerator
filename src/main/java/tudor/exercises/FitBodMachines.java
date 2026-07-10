@@ -5,7 +5,7 @@ import tudor.enums.Muscle;
 import java.util.List;
 
 import static tudor.enums.Equipment.*;
-import static tudor.enums.ExerciseType.Strength;
+import static tudor.enums.ExerciseType.*;
 import static tudor.enums.Level.Beginner;
 import static tudor.enums.Level.Intermediate;
 import static tudor.enums.Mechanics.Compound;
@@ -54,5 +54,8 @@ public class FitBodMachines {
         add("(FB) Machine Tricep Dip", "Tricep Dips", Triceps, Strength, Machine, Compound, Beginner, none, "https://fitbod.me/exercises/machine-tricep-dip");
         add("(FB) Machine Tricep Extension", "Tricep Extensions", Triceps, Strength, Machine, Isolation, Beginner, none, "https://fitbod.me/exercises/machine-tricep-extension");
         add("(FB) Pendulum Squat", "Squats", Quads, Strength, Machine, Compound, Beginner, List.of(Glutes, Hamstrings), "N/A");
+        add("(FB) Rowing", "Rows", Hamstrings, Endurance, Machine, Compound, Beginner, List.of(Lats, UpperBack, Biceps, Calves, Glutes, Quads, Shoulders, LowerBack), "N/A");
+        add("(FB) Running - Treadmill", "Other Quads", Quads, Endurance, Machine, Compound, Intermediate, List.of(FrontalAbs, Calves, Glutes, Hamstrings), "N/A");
+        add("(FB) Running - Trueform", "Other Quads", Quads, Endurance, Machine, Compound, Intermediate, List.of(FrontalAbs, Calves, Glutes, Hamstrings), "N/A");
     }
 }

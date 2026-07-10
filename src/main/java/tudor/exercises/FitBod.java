@@ -853,6 +853,17 @@ public class FitBod {
         add("(FB) Ring Row", "Rows", Lats, Strength, Rings, Compound, Intermediate, Biceps, "https://fitbod.me/exercises/ring-row");
         add("(FB) Romanian Deadlift", "Deadlifts", Hamstrings, Strength, Barbell, Compound, Intermediate, List.of(LowerBack, Glutes, Calves), "https://fitbod.me/exercises/romanian-deadlift");
         add("(FB) Romanian Deadlift to Bent-Over Row", "Deadlifts", Hamstrings, Endurance, Barbell, Compound, Beginner, List.of(Shoulders, LowerBack, Lats, Glutes), "https://fitbod.me/exercises/romanian-deadlift-to-bent-over-row");
+        add("(FB) Romanian Deadlift to High Pull", "Deadlifts", Hamstrings, Endurance, Barbell, Compound, Beginner, List.of(Calves, Traps, Shoulders, Glutes, LowerBack), "https://fitbod.me/exercises/romanian-deadlift-to-high-pull");
+        add("(FB) Romanian Deadlift to Shrug", "Deadlifts", Hamstrings, Endurance, Barbell, Compound, Beginner, List.of(Traps, Glutes, LowerBack), "https://fitbod.me/exercises/romanian-deadlift-to-shrug");
+        add("(FB) Rope Climb", "Rope Climbs", Lats, Conditioning, HangingRope, Compound, Advanced, List.of(Shoulders, Forearms, Biceps), "https://fitbod.me/exercises/rope-climb");
+        add("(FB) Rotation Push Up", "Push Ups", Chest, Strength, GymMats, Compound, Intermediate, Triceps, "https://fitbod.me/exercises/rotation-push-up");
+        add("(FB) Runners Butt Kick", "Other Quads", Quads, Plyometrics, WalkingSpace, Compound, Beginner, List.of(Calves, FrontalAbs, Hamstrings, Glutes), "https://fitbod.me/exercises/runners-butt-kick");
+        add("(FB) Running", "Other Quads", Quads, Endurance, Bodyweight, Compound, Intermediate, List.of(FrontalAbs, Calves, Glutes, Hamstrings), "N/A");
+        add("(FB) Russian Twist", "Twists", FrontalAbs, Strength, List.of(GymMats, Disk), Compound, Beginner, List.of(LowerBack, Shoulders), "https://fitbod.me/exercises/russian-twist");
+
+        add("(FB) Scapular Pull Up", "Other Traps", Traps, Strength, FixedUpperBar, Compound, Beginner, Lats, "https://fitbod.me/exercises/scapular-pull-up");
+        add("(FB) Scissor Crossover Kick", "Other Frontal Abs", FrontalAbs, Strength, GymMats, Compound, Beginner, none, "https://fitbod.me/exercises/scissor-crossover-kick");
+        add("(FB) ", "Other Frontal Abs", FrontalAbs, Strength, GymMats, Compound, Beginner, none, "https://fitbod.me/exercises/scissor-crossover-kick");
 
         /////////// BOOOKMARK
     }

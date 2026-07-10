@@ -92,6 +92,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Meadows Row"); // (FB) Meadow Landmine Row
         fitBodHadItAlready("Pull Up"); // (FB) Pull Up
         fitBodHadItAlready("Reverse Grip Bent Over Row"); // (FB) Reverse Grip Barbell Bent Over Row
+        fitBodHadItAlready("Rope Climb"); // (FB) Rope Climb
 
         // biceps
         inserted("Alternating Seated Hammer Curl");
@@ -160,6 +161,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Pallof Press"); // (FB) Pallof Press
         fitBodHadItAlready("Plank"); // (FB) Plank
         fitBodHadItAlready("Shoulder Taps"); // (FB) Plank Shoulder Taps
+        fitBodHadItAlready("Russian Twist"); // (FB) Russian Twist
 
         // lower back
         inserted("Dumbbell Deadlift");
