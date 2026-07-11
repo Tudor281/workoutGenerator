@@ -35,6 +35,8 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Single Arm Landmine Press"); // (FB) Single Arm Landmine Press
         fitBodHadItAlready("Smith Machine Shoulder Press"); // (FB) Smith Machine Overhead Shoulder Press
         fitBodHadItAlready("Smith Machine Upright Row"); // (FB) Smith Machine Upright Row
+        fitBodHadItAlready("Standing Arnold Press"); // (FB) Standing Arnold Press
+        fitBodHadItAlready("Standing Dumbbell Shoulder Press"); // (FB) Standing Dumbbell Shoulder Press
 
         // traps
         fitBodHadItAlready("Barbell Shrug"); // (FB) Barbell Shrug
@@ -234,6 +236,8 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Smith Machine Squat"); // (FB) Smith Machine Squat
         fitBodHadItAlready("Snatch"); // (FB) Snatch
         fitBodHadItAlready("Snatch Balance"); // (FB) Snatch Balance
+        fitBodHadItAlready("Split Clean"); // (FB) Split Clean
+        fitBodHadItAlready("Split Jerk"); // (FB) Split Jerk
 
         // hamstrings
         fitBodHadItAlready("Clean"); // (FB) Clean
@@ -253,6 +257,8 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Smith Machine Stiff Leg Deadlift"); // (FB) Smith Machine Stiff-Legged Deadlift
         fitBodHadItAlready("Snatch Grip Deadlift"); // (FB) Snatch Deadlift
         fitBodHadItAlready("Snatch Grip High Pull"); // (FB) Snatch High Pull
+        fitBodHadItAlready("Split Snatch"); // (FB) Split Snatch
+        fitBodHadItAlready("Exercise Ball Leg Curl (SHELC)"); // (FB) Stability Ball Leg Curl
 
         // calves
         fitBodHadItAlready("Bodyweight Floor Calf Raise");

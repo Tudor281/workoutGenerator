@@ -63,5 +63,6 @@ public class FitBodMachines {
         add("(FB) Single Leg Leg Extension", "Other Quads", Quads, Strength, Machine, Isolation, Beginner, none, "https://fitbod.me/exercises/single-leg-leg-extension");
         add("(FB) Skierg", "Other Lats", Lats, Endurance, Machine, Compound, Beginner, List.of(FrontalAbs, Biceps, Hamstrings, Quads, Triceps, LowerBack), "N/A");
         add("(FB) Skierg - Butterfly", "Other Lats", Lats, Endurance, Machine, Compound, Beginner, List.of(FrontalAbs, Biceps, Hamstrings, Quads, Triceps, LowerBack), "N/A");
+        add("(FB) Stair Stepper", "Other Glutes", Glutes, Endurance, Machine, Compound, Beginner, List.of(FrontalAbs, Calves, Hamstrings, Quads), "N/A");
     }
 }

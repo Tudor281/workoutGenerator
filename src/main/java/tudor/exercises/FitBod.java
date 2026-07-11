@@ -968,6 +968,34 @@ public class FitBod {
         add("(FB) Snatch from Blocks", "Olympic Squats", Quads, OlympicWeightlifting, Barbell, Compound, Advanced, List.of(Triceps, Traps, Shoulders, LowerBack, Hamstrings, Glutes, Forearms, Calves), "https://fitbod.me/exercises/snatch-from-blocks");
         add("(FB) Spider Curls", "Other Curls", Biceps, Strength, List.of(InclineBench, Dumbbell), Isolation, Intermediate, none, "https://fitbod.me/exercises/spider-curls");
         add("(FB) Spiderman Plank Crunch", "Planks", FrontalAbs, Strength, GymMats, Compound, Intermediate, Shoulders, "https://fitbod.me/exercises/spiderman-plank-crunch");
+        add("(FB) Split Clean", "Olympic Squats", Quads, OlympicWeightlifting, Barbell, Compound, Advanced, List.of(Traps, Shoulders, LowerBack, Hamstrings, Glutes, Forearms, Calves), "https://fitbod.me/exercises/split-clean");
+        add("(FB) Split Jerk", "Olympic Squats", Quads, OlympicWeightlifting, Barbell, Compound, Advanced, List.of(Traps, Shoulders, Hamstrings, Glutes), "https://fitbod.me/exercises/split-jerk");
+        add("(FB) Split Snatch", "Olympic Squats", Hamstrings, OlympicWeightlifting, Barbell, Compound, Advanced, List.of(Triceps, Traps, Shoulders, Quads, LowerBack, Glutes, Forearms, Calves), "https://fitbod.me/exercises/split-snatch");
+        add("(FB) Split Squat", "Squats", Quads, Strength, Rack, Compound, Intermediate, List.of(Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/split-squat");
+        add("(FB) Squat Side Kick", "Squats", Quads, Strength, Bodyweight, Compound, Beginner, List.of(Abductors, Hamstrings, Glutes), "https://fitbod.me/exercises/squat-side-kick");
+        add("(FB) Squat with Rotation -> bad video?", "Squats", Quads, Strength, Bodyweight, Compound, Beginner, none, "https://fitbod.me/exercises/squat-with-rotation");
+        add("(FB) Stability Ball Back Extension", "Back Extensions", LowerBack, Strength, ExerciseBall, Compound, Beginner, List.of(Hamstrings, Glutes), "https://fitbod.me/exercises/stability-ball-back-extension");
+        add("(FB) Stability Ball Bicycle Crunch", "Crunches", Obliques, Strength, ExerciseBall, Compound, Intermediate, FrontalAbs, "https://fitbod.me/exercises/stability-ball-bicycle-crunch");
+        add("(FB) Stability Ball Hip Bridge", "Glute Bridges", Glutes, Strength, ExerciseBall, Compound, Beginner, Hamstrings, "https://fitbod.me/exercises/stability-ball-hip-bridge");
+        add("(FB) Stability Ball Hip Thrust", "Hip Thrusts", Glutes, Strength, ExerciseBall, Compound, Intermediate, Hamstrings, "https://fitbod.me/exercises/stability-ball-hip-thrust");
+        add("(FB) Stability Ball Hyperextension", "Hyperextensions", LowerBack, Strength, ExerciseBall, Compound, Beginner, none, "https://fitbod.me/exercises/stability-ball-hyperextension");
+        add("(FB) Stability Ball Leg Curl", "Hamstring Curls", Hamstrings, Strength, List.of(GymMats, ExerciseBall), Compound, Intermediate, FrontalAbs, "https://fitbod.me/exercises/stability-ball-leg-curl");
+        add("(FB) Stability Ball Oblique Crunch", "Crunches", Obliques, Strength, ExerciseBall, Compound, Intermediate, FrontalAbs, "https://fitbod.me/exercises/stability-ball-oblique-crunch");
+        add("(FB) Stability Ball Pike", "Other Frontal Abs", FrontalAbs, Strength, ExerciseBall, Compound, Intermediate, List.of(Shoulders, Chest, Quads), "https://fitbod.me/exercises/stability-ball-pike");
+        add("(FB) Stability Ball Plank", "Planks", FrontalAbs, Strength, ExerciseBall, Compound, Advanced, Shoulders, "https://fitbod.me/exercises/stability-ball-plank");
+        add("(FB) Stability Ball Plank on Balance Trainer", "Planks", FrontalAbs, Strength, List.of(ExerciseBall, BosuBall), Compound, Advanced, Shoulders, "https://fitbod.me/exercises/stability-ball-plank-on-balance-trainer");
+        add("(FB) Stability Ball Roll Out", "Rollouts", FrontalAbs, Strength, ExerciseBall, Compound, Intermediate, List.of(Lats, Shoulders), "https://fitbod.me/exercises/stability-ball-roll-out");
+        add("(FB) Stability Ball Russian Twist", "Twists", Obliques, Strength, List.of(ExerciseBall, Disk), Compound, Intermediate, FrontalAbs, "https://fitbod.me/exercises/stability-ball-russian-twist");
+        add("(FB) Stability Ball Seated Twist", "Twists", Obliques, Strength, List.of(ExerciseBall, Disk), Compound, Intermediate, FrontalAbs, "https://fitbod.me/exercises/stability-ball-seated-twist");
+        add("(FB) Stability Ball V-pass", "Other Frontal Abs", FrontalAbs, Strength, List.of(ExerciseBall, GymMats), Compound, Intermediate, List.of(Shoulders, Quads), "https://fitbod.me/exercises/stability-ball-v-pass");
+        add("(FB) Stance Jack", "Squats", Quads, Strength, Bodyweight, Compound, Beginner, List.of(FrontalAbs, LowerBack, Hamstrings, Glutes), "https://fitbod.me/exercises/stance-jack");
+        add("(FB) Standing Arnold Press", "Arnold Presses", Shoulders, Strength, Dumbbell, Compound, Intermediate, List.of(Biceps, Triceps), "https://fitbod.me/exercises/standing-arnold-press");
+        add("(FB) Standing Barbell Calf Raise", "Calves", Shoulders, Strength, Rack, Compound, Beginner, none, "https://fitbod.me/exercises/standing-barbell-calf-raise");
+        add("(FB) Standing Broad Jump", "Other Quads", Quads, Strength, WalkingSpace, Compound, Beginner, List.of(FrontalAbs, Calves, Hamstrings, Glutes), "https://fitbod.me/exercises/standing-broad-jump");
+        add("(FB) Standing Cable Core Twist", "Twists", Obliques, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Compound, Beginner, LowerBack, "https://fitbod.me/exercises/standing-cable-core-twist");
+        add("(FB) Standing Dumbbell Calf Raise", "Calves", Calves, Strength, Dumbbell, Compound, Beginner, none, "https://fitbod.me/exercises/standing-dumbbell-calf-raise");
+        add("(FB) Standing Dumbbell Shoulder Press", "Shoulder Presses", Shoulders, Strength, Dumbbell, Compound, Intermediate, Triceps, "https://fitbod.me/exercises/standing-dumbbell-shoulder-press");
+        add("(FB) Standing Dumbbell Tricep Extension", "Tricep Extensions", Triceps, Strength, Dumbbell, Isolation, Beginner, List.of(Forearms, Shoulders), "https://fitbod.me/exercises/standing-dumbbell-tricep-extension");
 
         /////////// BOOOKMARK
     }
