@@ -60,5 +60,8 @@ public class FitBodMachines {
         add("(FB) Seated Back Extension", "Back Extensions", LowerBack, Strength, Machine, Isolation, Beginner, none, "https://fitbod.me/exercises/seated-back-extension");
         add("(FB) Seated Leg Curl", "Hamstring Curls", Hamstrings, Strength, Machine, Isolation, Beginner, none, "https://fitbod.me/exercises/seated-leg-curl");
         add("(FB) Seated Machine Calf Press", "Calves", Calves, Strength, Machine, Isolation, Beginner, none, "https://fitbod.me/exercises/seated-machine-calf-press");
+        add("(FB) Single Leg Leg Extension", "Other Quads", Quads, Strength, Machine, Isolation, Beginner, none, "https://fitbod.me/exercises/single-leg-leg-extension");
+        add("(FB) Skierg", "Other Lats", Lats, Endurance, Machine, Compound, Beginner, List.of(FrontalAbs, Biceps, Hamstrings, Quads, Triceps, LowerBack), "N/A");
+        add("(FB) Skierg - Butterfly", "Other Lats", Lats, Endurance, Machine, Compound, Beginner, List.of(FrontalAbs, Biceps, Hamstrings, Quads, Triceps, LowerBack), "N/A");
     }
 }

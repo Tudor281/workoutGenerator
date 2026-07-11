@@ -79,6 +79,7 @@ public enum Equipment {
     ShortBarbell, // aia de făcut biceps și triceps, nu piept sau squats
     ShoulderBenchPress, // TODO if you have a rack and incline bench, you got yourself a Shoulder Bench Press
     Sled,
+    SledMini,
     SmithMachine,
     Stairs,
     Table,

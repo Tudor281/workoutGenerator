@@ -31,12 +31,16 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Standing Banded Face Pull"); // (FB) Loop Band Face Pull
         fitBodHadItAlready("Single Arm Banded External Rotation"); // (FB) Loop Band Shoulder External Rotation
         fitBodHadItAlready("Banded Internal Rotation"); // (FB) Loop Band Shoulder Internal Rotation
+        fitBodHadItAlready("Standing One Arm Bottoms Up Kettlebell Press"); // (FB) Single Arm Bottoms-up Kettlebell Press
+        fitBodHadItAlready("Single Arm Landmine Press"); // (FB) Single Arm Landmine Press
+        fitBodHadItAlready("Smith Machine Shoulder Press"); // (FB) Smith Machine Overhead Shoulder Press
 
         // traps
         fitBodHadItAlready("Barbell Shrug"); // (FB) Barbell Shrug
         fitBodHadItAlready("Cable Shrug"); // (FB) Cable Shrugs
         fitBodHadItAlready("Dumbbell Shrug"); // (FB) Dumbbell Shrug
         fitBodHadItAlready("Dumbbell Upright Row"); // (FB) Dumbbell Upright Row
+        fitBodHadItAlready("Smith Machine Shrug"); // (FB) Smith Machine Behind the Back Shrug
 
         //chest
         fitBodHadItAlready("Alternate Dumbbell Bench Press (high start)");
@@ -68,6 +72,9 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Push Up"); // (FB) Push Up
         fitBodHadItAlready("Knee Push-Up"); // (FB) Push Up on Knees
         fitBodHadItAlready("Reverse Grip Bench Press"); // (FB) Reverse Grip Bench Press
+        fitBodHadItAlready("Smith Machine Bench Press"); // (FB) Smith Machine Bench Press
+        fitBodHadItAlready("Decline Smith Machine Bench Press"); // (FB) Smith Machine Decline Press
+        fitBodHadItAlready("Smith Machine Incline Bench Press"); // (FB) Smith Machine Incline Bench Press
 
         // upper back
         inserted("One Arm Dumbbell Row");
@@ -94,6 +101,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Reverse Grip Bent Over Row"); // (FB) Reverse Grip Barbell Bent Over Row
         fitBodHadItAlready("Rope Climb"); // (FB) Rope Climb
         fitBodHadItAlready("Shotgun Row"); // (FB) Shotgun Row
+        fitBodHadItAlready("Smith Machine Bent-Over Row"); // (FB) Smith Machine Bent Over Row
 
         // biceps
         inserted("Alternating Seated Hammer Curl");
@@ -115,6 +123,8 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Reverse Grip Barbell Curl"); // (FB) Reverse Barbell Curl
         fitBodHadItAlready("Standing Dumbbell Reverse Curl"); // (FB) Reverse Dumbbell Curl
         fitBodHadItAlready("Alternating Seated Dumbbell Curl"); // (FB) Seated Dumbbell Curl
+        fitBodHadItAlready("One-Arm Cable Curl"); // (FB) Single Arm Cable Bicep Curl
+        fitBodHadItAlready("One-Arm Dumbbell Preacher Curl"); // (FB) Single Arm Preacher Curl
 
         // triceps
         fitBodHadItAlready("Lying Dumbbell Extension");
@@ -130,6 +140,9 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Standing Overhead EZ Bar Tricep Extension"); // (FB) EZ-Bar Overhead Tricep Extension
         fitBodHadItAlready("Incline Skull Crusher"); // (FB) Incline Barbell Skull Crusher
         fitBodHadItAlready("Ring Dip"); // (FB) Ring Dip
+        fitBodHadItAlready("One-Arm Seated Dumbbell Extension"); // (FB) Single Arm Dumbbell Tricep Extension
+        fitBodHadItAlready("EZ Bar Skullcrusher"); // (FB) Skullcrusher
+        fitBodHadItAlready("Smith Machine Close Grip Bench Press"); // (FB) Smith Machine Close-Grip Bench Press
 
         // forearms
         fitBodHadItAlready("Seated Cable Wrist Curl"); // (FB) Cable Wrist Curl
@@ -137,6 +150,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Reverse Grip Dumbbell Wrist Curl (Over Bench)"); // (FB) Palms-Down Dumbbell Wrist Curl
         fitBodHadItAlready("Barbell Wrist Curl (Over Bench)"); // (FB) Palms-Up Barbell Wrist Curl
         fitBodHadItAlready("Dumbbell Wrist Curl (Over Bench)"); // (FB) Palms-Up Dumbbell Wrist Curl
+        fitBodHadItAlready("One-Arm Dumbbell Reverse Grip Curl"); // (FB) Single Arm Reverse Dumbbell Curl
 
         // abs
         fitBodHadItAlready("Abs Wheel");
@@ -164,6 +178,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Plank"); // (FB) Plank
         fitBodHadItAlready("Shoulder Taps"); // (FB) Plank Shoulder Taps
         fitBodHadItAlready("Russian Twist"); // (FB) Russian Twist
+        fitBodHadItAlready("Sit Up"); // (FB) Sit Up
 
         // lower back
         inserted("Dumbbell Deadlift");
@@ -212,6 +227,8 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Power Clean"); // (FB) Power Clean
         fitBodHadItAlready("Power Clean from Blocks"); // (FB) Power Clean from Blocks
         fitBodHadItAlready("Power Snatch"); // (FB) Power Snatch
+        fitBodHadItAlready("Bodyweight Lateral Lunge"); // (FB) Side Lunge
+        fitBodHadItAlready("1 Kettlebell Suitcase Deadlift"); // (FB) Single Kettlebell Suitcase Deadlift
 
         // hamstrings
         fitBodHadItAlready("Clean"); // (FB) Clean
@@ -226,6 +243,8 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Banded Good Morning"); // (FB) Loop Band Good Morning
         fitBodHadItAlready("Partner Assisted Nordic Hamstring Curls"); // (FB) Partner Floor Glute-Ham Raise
         fitBodHadItAlready("Romanian Deadlift (AKA RDL)"); // (FB) Romanian Deadlift
+        fitBodHadItAlready("One Arm Kettlebell Swing"); // (FB) Single Arm Kettlebell Swing
+        fitBodHadItAlready("1 Kettlebell Single Leg Deadlift"); // (FB) Single Leg Kettlebell Deadlift
 
         // calves
         fitBodHadItAlready("Bodyweight Floor Calf Raise");
