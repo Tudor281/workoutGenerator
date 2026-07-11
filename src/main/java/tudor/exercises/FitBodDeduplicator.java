@@ -34,6 +34,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Standing One Arm Bottoms Up Kettlebell Press"); // (FB) Single Arm Bottoms-up Kettlebell Press
         fitBodHadItAlready("Single Arm Landmine Press"); // (FB) Single Arm Landmine Press
         fitBodHadItAlready("Smith Machine Shoulder Press"); // (FB) Smith Machine Overhead Shoulder Press
+        fitBodHadItAlready("Smith Machine Upright Row"); // (FB) Smith Machine Upright Row
 
         // traps
         fitBodHadItAlready("Barbell Shrug"); // (FB) Barbell Shrug
@@ -41,6 +42,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Dumbbell Shrug"); // (FB) Dumbbell Shrug
         fitBodHadItAlready("Dumbbell Upright Row"); // (FB) Dumbbell Upright Row
         fitBodHadItAlready("Smith Machine Shrug"); // (FB) Smith Machine Behind the Back Shrug
+        fitBodHadItAlready("Smith Machine Shrug"); // (FB) Smith Machine Shrug
 
         //chest
         fitBodHadItAlready("Alternate Dumbbell Bench Press (high start)");
@@ -229,6 +231,9 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Power Snatch"); // (FB) Power Snatch
         fitBodHadItAlready("Bodyweight Lateral Lunge"); // (FB) Side Lunge
         fitBodHadItAlready("1 Kettlebell Suitcase Deadlift"); // (FB) Single Kettlebell Suitcase Deadlift
+        fitBodHadItAlready("Smith Machine Squat"); // (FB) Smith Machine Squat
+        fitBodHadItAlready("Snatch"); // (FB) Snatch
+        fitBodHadItAlready("Snatch Balance"); // (FB) Snatch Balance
 
         // hamstrings
         fitBodHadItAlready("Clean"); // (FB) Clean
@@ -245,6 +250,9 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Romanian Deadlift (AKA RDL)"); // (FB) Romanian Deadlift
         fitBodHadItAlready("One Arm Kettlebell Swing"); // (FB) Single Arm Kettlebell Swing
         fitBodHadItAlready("1 Kettlebell Single Leg Deadlift"); // (FB) Single Leg Kettlebell Deadlift
+        fitBodHadItAlready("Smith Machine Stiff Leg Deadlift"); // (FB) Smith Machine Stiff-Legged Deadlift
+        fitBodHadItAlready("Snatch Grip Deadlift"); // (FB) Snatch Deadlift
+        fitBodHadItAlready("Snatch Grip High Pull"); // (FB) Snatch High Pull
 
         // calves
         fitBodHadItAlready("Bodyweight Floor Calf Raise");

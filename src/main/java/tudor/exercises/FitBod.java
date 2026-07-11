@@ -954,7 +954,20 @@ public class FitBod {
         add("(FB) Smith Machine Overhead Shoulder Press", "Shoulder Presses", Shoulders, Strength, List.of(SmithMachine, InclineBench), Compound, Beginner, Triceps, "https://fitbod.me/exercises/smith-machine-overhead-shoulder-press");
         add("(FB) Smith Machine Pistol Squat", "Squats", Quads, Strength, SmithMachine, Compound, Intermediate, List.of(Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/smith-machine-pistol-squat");
         add("(FB) Smith Machine Reverse Calf Raises", "Calves", Calves, Strength, List.of(SmithMachine, Disk), Compound, Beginner, none, "https://fitbod.me/exercises/smith-machine-reverse-calf-raises");
-        add("(FB) ", "Calves", Calves, Strength, List.of(SmithMachine, Disk), Compound, Beginner, none, "https://fitbod.me/exercises/smith-machine-reverse-calf-raises");
+        add("(FB) Smith Machine Shrug", "Shrugs", Traps, Strength, SmithMachine, Compound, Beginner, List.of(Shoulders, UpperBack), "https://fitbod.me/exercises/smith-machine-shrug");
+        add("(FB) Smith Machine Single-Leg Split Squat", "Squats", Quads, Strength, SmithMachine, Compound, Intermediate, List.of(Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/smith-machine-single-leg-split-squat");
+        add("(FB) Smith Machine Squat", "Squats", Quads, Strength, SmithMachine, Compound, Beginner, List.of(LowerBack, Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/smith-machine-squat");
+        add("(FB) Smith Machine Stiff-Legged Deadlift", "Deadlifts", Hamstrings, Strength, SmithMachine, Compound, Beginner, List.of(LowerBack, Glutes), "https://fitbod.me/exercises/smith-machine-stiff-legged-deadlift");
+        add("(FB) Smith Machine Upright Row", "Trap Upright Rows", Traps, Strength, SmithMachine, Compound, Beginner, List.of(Shoulders, UpperBack, Biceps), "https://fitbod.me/exercises/smith-machine-upright-row");
+        add("(FB) Snatch", "Olympic Squats", Quads, OlympicWeightlifting, Barbell, Compound, Beginner, List.of(Triceps, Traps, Shoulders, LowerBack, Hamstrings, Glutes, Biceps), "https://fitbod.me/exercises/snatch");
+        add("(FB) Snatch Balance", "Olympic Squats", Quads, OlympicWeightlifting, Barbell, Compound, Advanced, List.of(Triceps, Shoulders, Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/snatch-balance");
+        add("(FB) Snatch Deadlift", "Deadlifts", Hamstrings, Strength, Barbell, Compound, Advanced, List.of(Traps, Quads, LowerBack, Glutes, Forearms), "https://fitbod.me/exercises/snatch-deadlift");
+        add("(FB) Snatch High Pull", "High Pulls", Hamstrings, OlympicWeightlifting, Barbell, Compound, Advanced, List.of(Traps, Quads, LowerBack, Glutes, Calves), "https://fitbod.me/exercises/snatch-high-pull");
+        add("(FB) Snatch Pull", "Olympic Squats", Hamstrings, OlympicWeightlifting, Barbell, Compound, Advanced, List.of(Traps, Quads, LowerBack, Glutes, Calves), "https://fitbod.me/exercises/snatch-pull");
+        add("(FB) Snatch Pull to Low Hang Snatch", "Olympic Squats", Quads, Endurance, Barbell, Compound, Advanced, List.of(Triceps, Biceps, UpperBack, Traps, Shoulders, Hamstrings, Glutes), "https://fitbod.me/exercises/snatch-pull-to-low-hang-snatch");
+        add("(FB) Snatch from Blocks", "Olympic Squats", Quads, OlympicWeightlifting, Barbell, Compound, Advanced, List.of(Triceps, Traps, Shoulders, LowerBack, Hamstrings, Glutes, Forearms, Calves), "https://fitbod.me/exercises/snatch-from-blocks");
+        add("(FB) Spider Curls", "Other Curls", Biceps, Strength, List.of(InclineBench, Dumbbell), Isolation, Intermediate, none, "https://fitbod.me/exercises/spider-curls");
+        add("(FB) Spiderman Plank Crunch", "Planks", FrontalAbs, Strength, GymMats, Compound, Intermediate, Shoulders, "https://fitbod.me/exercises/spiderman-plank-crunch");
 
         /////////// BOOOKMARK
     }
