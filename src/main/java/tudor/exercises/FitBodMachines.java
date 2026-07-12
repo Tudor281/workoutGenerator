@@ -66,5 +66,8 @@ public class FitBodMachines {
         add("(FB) Stair Stepper", "Other Glutes", Glutes, Endurance, Machine, Compound, Beginner, List.of(FrontalAbs, Calves, Hamstrings, Quads), "N/A");
         add("(FB) Standing Leg Curl", "Hamstring Curls", Hamstrings, Strength, Machine, Isolation, Beginner, none, "https://fitbod.me/exercises/standing-leg-curl");
         add("(FB) Standing Machine Calf Press", "Calves", Calves, Strength, Machine, Compound, Beginner, none, "https://fitbod.me/exercises/standing-machine-calf-press");
+        add("(FB) T-Bar Row", "Rows", Lats, Strength, Machine, Compound, Intermediate, Biceps, "https://fitbod.me/exercises/t-bar-row");
+        add("(FB) Vertical Climber", "Other Quads", Quads, Strength, Machine, Compound, Beginner, List.of(FrontalAbs, Lats, Glutes, Hamstrings), "N/A");
+        add("(FB) Walking - Treadmill", "Other Quads", Quads, Activation, Machine, Compound, Beginner, List.of(FrontalAbs, Calves, Glutes, Hamstrings), "N/A");
     }
 }

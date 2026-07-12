@@ -37,6 +37,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Smith Machine Upright Row"); // (FB) Smith Machine Upright Row
         fitBodHadItAlready("Standing Arnold Press"); // (FB) Standing Arnold Press
         fitBodHadItAlready("Standing Dumbbell Shoulder Press"); // (FB) Standing Dumbbell Shoulder Press
+        fitBodHadItAlready("One-Arm Standing Dumbbell Shoulder Press"); // (FB) Standing Single Arm Dumbbell Shoulder Press
 
         // traps
         fitBodHadItAlready("Barbell Shrug"); // (FB) Barbell Shrug
@@ -45,6 +46,8 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Dumbbell Upright Row"); // (FB) Dumbbell Upright Row
         fitBodHadItAlready("Smith Machine Shrug"); // (FB) Smith Machine Behind the Back Shrug
         fitBodHadItAlready("Smith Machine Shrug"); // (FB) Smith Machine Shrug
+        fitBodHadItAlready("Trap Bar Shrug"); // (FB) Trap Bar Shrugs
+        fitBodHadItAlready("Barbell Upright Row"); // (FB) Upright Row
 
         //chest
         fitBodHadItAlready("Alternate Dumbbell Bench Press (high start)");
@@ -106,6 +109,11 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Rope Climb"); // (FB) Rope Climb
         fitBodHadItAlready("Shotgun Row"); // (FB) Shotgun Row
         fitBodHadItAlready("Smith Machine Bent-Over Row"); // (FB) Smith Machine Bent Over Row
+        fitBodHadItAlready("Straight Arm Lat Pull Down"); // (FB) Straight-Arm Pulldown
+        fitBodHadItAlready("Trap Bar Row"); // (FB) Trap Bar Bent Over Row
+        fitBodHadItAlready("V-Bar Pull Up"); // (FB) V-Bar Pull Up
+        fitBodHadItAlready("V-Bar Pull Down"); // (FB) V-Bar Pulldown
+        fitBodHadItAlready("Wide Grip Lat Pull Down"); // (FB) Wide Grip Lat Pulldown
 
         // biceps
         inserted("Alternating Seated Hammer Curl");
@@ -129,6 +137,9 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Alternating Seated Dumbbell Curl"); // (FB) Seated Dumbbell Curl
         fitBodHadItAlready("One-Arm Cable Curl"); // (FB) Single Arm Cable Bicep Curl
         fitBodHadItAlready("One-Arm Dumbbell Preacher Curl"); // (FB) Single Arm Preacher Curl
+        fitBodHadItAlready("Wide Grip Standing Barbell Curl"); // (FB) Wide Grip Barbell Curl
+        fitBodHadItAlready("Zottman Curl"); // (FB) Zottman Curl
+        fitBodHadItAlready("Zottman Preacher Curl"); // (FB) Zottman Preacher Curl
 
         // triceps
         fitBodHadItAlready("Lying Dumbbell Extension");
@@ -147,6 +158,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("One-Arm Seated Dumbbell Extension"); // (FB) Single Arm Dumbbell Tricep Extension
         fitBodHadItAlready("EZ Bar Skullcrusher"); // (FB) Skullcrusher
         fitBodHadItAlready("Smith Machine Close Grip Bench Press"); // (FB) Smith Machine Close-Grip Bench Press
+        fitBodHadItAlready("Dumbbell Tate Press"); // (FB) Tate Press
 
         // forearms
         fitBodHadItAlready("Seated Cable Wrist Curl"); // (FB) Cable Wrist Curl
@@ -183,12 +195,20 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Shoulder Taps"); // (FB) Plank Shoulder Taps
         fitBodHadItAlready("Russian Twist"); // (FB) Russian Twist
         fitBodHadItAlready("Sit Up"); // (FB) Sit Up
+        fitBodHadItAlready("Stir the Pot on Exercise Ball"); // (FB) Stir the Pot
+        fitBodHadItAlready("Standing Stomach Vacuum"); // (FB) Stomach Vacuum
+        fitBodHadItAlready("Straight Leg Toe Touch (Floor Toe Reach)"); // (FB) Toe Touchers
+        fitBodHadItAlready("Turkish Get Up"); // (FB) Turkish Get Up
+        fitBodHadItAlready("Roman Chair Knee Raise"); // (FB) Vertical Knee Raise
+        fitBodHadItAlready("Roman Chair Leg Raise"); // (FB) Vertical Leg Raise
 
         // lower back
         inserted("Dumbbell Deadlift");
         fitBodHadItAlready("GHD Back Extension");
         fitBodHadItAlready("Hyperextension"); // (FB) Incline Back Extension
         fitBodHadItAlready("Reverse Hyperextension"); // (FB) Reverse Hyperextension
+        fitBodHadItAlready("Good Mornings"); // (FB) Stiff-Legged Barbell Good Morning
+        fitBodHadItAlready("Superman"); // (FB) Superman
 
         // glutes
         fitBodHadItAlready("Banded Good Morning");
@@ -238,6 +258,11 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Snatch Balance"); // (FB) Snatch Balance
         fitBodHadItAlready("Split Clean"); // (FB) Split Clean
         fitBodHadItAlready("Split Jerk"); // (FB) Split Jerk
+        fitBodHadItAlready("Tire Flip"); // (FB) Tire Flip
+        fitBodHadItAlready("Trap Bar Deadlift"); // (FB) Trap Bar Deadlift
+        fitBodHadItAlready("Bodyweight Walking Lunge"); // (FB) Walking Lunge
+        fitBodHadItAlready("Wall Ball"); // (FB) Wall Ball
+        fitBodHadItAlready("Zerchers Squat"); // (FB) Zercher Squat
 
         // hamstrings
         fitBodHadItAlready("Clean"); // (FB) Clean
@@ -259,6 +284,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Snatch Grip High Pull"); // (FB) Snatch High Pull
         fitBodHadItAlready("Split Snatch"); // (FB) Split Snatch
         fitBodHadItAlready("Exercise Ball Leg Curl (SHELC)"); // (FB) Stability Ball Leg Curl
+        fitBodHadItAlready("Sumo Deadlift"); // (FB) Sumo Deadlift
 
         // calves
         fitBodHadItAlready("Bodyweight Floor Calf Raise");
