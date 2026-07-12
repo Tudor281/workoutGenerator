@@ -996,6 +996,17 @@ public class FitBod {
         add("(FB) Standing Dumbbell Calf Raise", "Calves", Calves, Strength, Dumbbell, Compound, Beginner, none, "https://fitbod.me/exercises/standing-dumbbell-calf-raise");
         add("(FB) Standing Dumbbell Shoulder Press", "Shoulder Presses", Shoulders, Strength, Dumbbell, Compound, Intermediate, Triceps, "https://fitbod.me/exercises/standing-dumbbell-shoulder-press");
         add("(FB) Standing Dumbbell Tricep Extension", "Tricep Extensions", Triceps, Strength, Dumbbell, Isolation, Beginner, List.of(Forearms, Shoulders), "https://fitbod.me/exercises/standing-dumbbell-tricep-extension");
+        add("(FB) Standing Elbow to Knee Crunch", "Knee Raise", Obliques, Strength, Bodyweight, Compound, Beginner, FrontalAbs, "https://fitbod.me/exercises/standing-elbow-to-knee-crunch");
+        add("(FB) Standing Forward Bend", "Other Hamstrings", Hamstrings, Stretching, Bodyweight, Compound, Beginner, Calves, "https://fitbod.me/exercises/standing-forward-bend");
+        add("(FB) Standing Hip Abduction", "Abductors", Abductors, Strength, Bodyweight, Compound, Intermediate, Glutes, "https://fitbod.me/exercises/standing-hip-abduction");
+        add("(FB) Standing Hip Adduction", "Adductors", Adductors, Strength, Bodyweight, Compound, Intermediate, Glutes, "https://fitbod.me/exercises/standing-hip-adduction");
+        add("(FB) Standing Hip Circle", "Abductors", Abductors, Warmup, Bodyweight, Compound, Beginner, none, "https://fitbod.me/exercises/standing-hip-circle");
+        add("(FB) Standing Hip Flexor Stretch", "Abductors", Abductors, Stretching, Bodyweight, Compound, Beginner, none, "https://fitbod.me/exercises/standing-hip-flexor-stretch");
+        add("(FB) Standing Kettlebell Calf Raise", "Calves", Calves, Strength, KettleBellsX2, Compound, Beginner, none, "https://fitbod.me/exercises/standing-kettlebell-calf-raise");
+        add("(FB) Standing Leg Side Circle", "Other Glutes", Glutes, Strength, Bodyweight, Compound, Beginner, List.of(Obliques, Quads, Hamstrings, Abductors), "https://fitbod.me/exercises/standing-leg-side-circle");
+        add("(FB) Standing Leg Side Hold", "Other Glutes", Glutes, Strength, Bodyweight, Compound, Beginner, List.of(Obliques, Quads, Hamstrings, Abductors), "https://fitbod.me/exercises/standing-leg-side-hold");
+        add("(FB) Standing Loop Band Hamstring Curl", "Hamstring Curls", Hamstrings, Strength, List.of(Pole, Bands), Compound, Beginner, Glutes, "https://fitbod.me/exercises/standing-loop-band-hamstring-curl");
+        add("(FB) ", "Hamstring Curls", Hamstrings, Strength, List.of(Pole, Bands), Compound, Beginner, Glutes, "https://fitbod.me/exercises/standing-loop-band-hamstring-curl");
 
         /////////// BOOOKMARK
     }

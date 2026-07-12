@@ -691,8 +691,8 @@ public class MuscleAndStrength {
         add("Single Leg Glute Bridge", Glutes, Strength, Bodyweight, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/single-leg-glute-bridge");
 
         Exercise.currentFolder = Folder.all.get("Glute Rotations");
-        add("Seated External Rotation", Glutes, Strength, List.of(Bench, Bands), Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/seated-external-rotation");
-        add("(T:Bed) Seated External Rotation", Glutes, Strength, List.of(Bed, Bands), Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/seated-external-rotation");
+        add("Seated External Rotation", Glutes, Strength, List.of(Bench, BandsMini), Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/seated-external-rotation");
+        add("(T:Bed) Seated External Rotation", Glutes, Strength, List.of(Bed, BandsMini), Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/seated-external-rotation");
         domination("Seated External Rotation", "(T:Bed) Seated External Rotation");
         add("Standing External Rotation", Glutes, Strength, Bands, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/standing-external-rotation");
         add("Supine Hip Internal Rotation", Glutes, Warmup, Bodyweight, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/supine-hip-internal-rotation");

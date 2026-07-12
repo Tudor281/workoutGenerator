@@ -64,5 +64,7 @@ public class FitBodMachines {
         add("(FB) Skierg", "Other Lats", Lats, Endurance, Machine, Compound, Beginner, List.of(FrontalAbs, Biceps, Hamstrings, Quads, Triceps, LowerBack), "N/A");
         add("(FB) Skierg - Butterfly", "Other Lats", Lats, Endurance, Machine, Compound, Beginner, List.of(FrontalAbs, Biceps, Hamstrings, Quads, Triceps, LowerBack), "N/A");
         add("(FB) Stair Stepper", "Other Glutes", Glutes, Endurance, Machine, Compound, Beginner, List.of(FrontalAbs, Calves, Hamstrings, Quads), "N/A");
+        add("(FB) Standing Leg Curl", "Hamstring Curls", Hamstrings, Strength, Machine, Isolation, Beginner, none, "https://fitbod.me/exercises/standing-leg-curl");
+        add("(FB) Standing Machine Calf Press", "Calves", Calves, Strength, Machine, Compound, Beginner, none, "https://fitbod.me/exercises/standing-machine-calf-press");
     }
 }
