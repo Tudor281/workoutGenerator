@@ -498,7 +498,7 @@ public class FitBod {
         add("(FB) Incline Svend Press", "Other Chest", Chest, Strength, List.of(InclineBench, Disk), Compound, Beginner, Triceps, "https://fitbod.me/exercises/incline-svend-press");
         add("(FB) Incline Tricep Push Up", "Push Ups", Chest, Strength, InclineBench, Compound, Beginner, Triceps, "https://fitbod.me/exercises/incline-tricep-push-up");
         add("(FB) Inverted Row", "Rows", Lats, Strength, Rack, Compound, Beginner, Biceps, "https://fitbod.me/exercises/inverted-row");
-        add("(FB) Iron Cross", "Other Mixed Shoulders", Shoulders, Strength, Dumbbell, Compound, Intermediate, List.of(Traps, Quads, LowerBack, Hamstrings, Glutes, Chest), "https://fitbod.me/exercises/iron-cross");
+        add("(FB) Iron Cross", "Other Mixed Shoulders", Shoulders, Endurance, Dumbbell, Compound, Intermediate, List.of(Traps, Quads, LowerBack, Hamstrings, Glutes, Chest), "https://fitbod.me/exercises/iron-cross");
         add("(FB) Isometric Biceps Hold", "Other Curls", Biceps, Warmup, Bodyweight, Isolation, Beginner, none, "https://fitbod.me/exercises/isometric-biceps-hold");
 
         add("(FB) Jackknife Sit-Up", "Sit Up", FrontalAbs, Strength, GymMats, Isolation, Beginner, none, "https://fitbod.me/exercises/jackknife-sit-up");
