@@ -9,7 +9,7 @@ import java.util.*;
 
 public abstract class Environment {
     protected Map<Exercise, Flag> flaggedExercises = new HashMap<>();
-    protected Set<Equipment> availableEquipment = new HashSet<>();
+    public Set<Equipment> availableEquipment = new HashSet<>();
     protected List<Substitute> generalSubstitutes = new ArrayList<>();
     Map<Exercise, List<Substitute>> substitutes = new HashMap<>();
 

@@ -1411,7 +1411,7 @@ public class MuscleAndStrength {
         add("Banded Internal Rotation", Shoulders, Strength, List.of(Pole, Bands), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/banded-internal-rotation");
         add("Cable Internal Rotation", Shoulders, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/cable-internal-rotation");
 
-        Exercise.currentFolder = Folder.all.get("Shoulder External Rotations");
+        Exercise.currentFolder = Folder.all.get("External Rotations");
         add("Bench Supported Dumbbell External Rotation", Shoulders, Strength, List.of(InclineBench, Dumbbell), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/bench-supported-dumbbell-external-rotation");
         add("Cable External Rotation", Shoulders, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/cable-external-rotation");
         add("Half Kneeling Banded External Rotation", Shoulders, Strength, List.of(Pole, Bands), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/half-kneeling-banded-external-rotation");

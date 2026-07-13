@@ -59,6 +59,7 @@ public class Folder {
         }
         if (toBeDeleted != null) {
             exercises.remove(toBeDeleted);
+            Exercise.all.remove(toBeDeleted);
             return;
         }
         for (Folder folder : folders) {

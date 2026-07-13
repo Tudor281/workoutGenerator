@@ -216,8 +216,8 @@ public class FitBod {
         add("(FB) Cable Row", "Rows", UpperBack, Strength, List.of(RowCable, CableAttachmentParallel), Compound, Beginner, List.of(Lats, Shoulders, Biceps), "https://fitbod.me/exercises/cable-row");
         add("(FB) Cable Row with Squat", "Squats", Hamstrings, Strength, List.of(LowCable, CableAttachmentParallel), Compound, Intermediate, UpperBack, "https://fitbod.me/exercises/cable-row-with-squat");
         add("(FB) Cable Russian Twists", "Twists", Obliques, Strength, List.of(ExerciseBall, FlexiCable, CableAttachmentSingleArm), Compound, Intermediate, FrontalAbs, "https://fitbod.me/exercises/cable-russian-twists");
-        add("(FB) Cable Shoulder External Rotation", "Shoulder External Rotations", Shoulders, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://fitbod.me/exercises/cable-shoulder-external-rotation");
-        add("(FB) Cable Shoulder External Rotation at 90°", "Shoulder External Rotations", Shoulders, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://fitbod.me/exercises/cable-shoulder-external-rotation-at-90");
+        add("(FB) Cable Shoulder External Rotation", "External Rotations", Shoulders, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://fitbod.me/exercises/cable-shoulder-external-rotation");
+        add("(FB) Cable Shoulder External Rotation at 90°", "External Rotations", Shoulders, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://fitbod.me/exercises/cable-shoulder-external-rotation-at-90");
         add("(FB) Cable Shoulder Internal Rotation", "Internal Rotations", Shoulders, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://fitbod.me/exercises/cable-shoulder-internal-rotation");
         add("(FB) Cable Shoulder Internal Rotation at 90°", "Internal Rotations", Shoulders, Strength, List.of(FlexiCable, CableAttachmentSingleArm), Isolation, Beginner, none, "https://fitbod.me/exercises/cable-shoulder-internal-rotation-at-90");
         add("(FB) Cable Shoulder Press", "Shoulder Presses", Shoulders, Strength, List.of(DoubleCable, Bench), Compound, Beginner, Triceps, "https://fitbod.me/exercises/cable-shoulder-press");
@@ -610,8 +610,8 @@ public class FitBod {
         add("(FB) Loop Band Seated Row", "Rows", Lats, Strength, List.of(Pole, Bands), Compound, Beginner, Biceps, "https://fitbod.me/exercises/loop-band-seated-row");
         add("(FB) Loop Band Seated Shoulder Press", "Shoulder Presses", Shoulders, Strength, List.of(GymMats, Bands), Compound, Beginner, none, "https://fitbod.me/exercises/loop-band-seated-shoulder-press");
         add("(FB) Loop Band Seated Single Arm Row", "Rows", Lats, Strength, List.of(Pole, Bands), Compound, Beginner, List.of(Shoulders, Biceps), "https://fitbod.me/exercises/loop-band-seated-single-arm-row");
-        add("(FB) Loop Band Shoulder External Rotation", "Shoulder External Rotations", Shoulders, Strength, List.of(Pole, Bands), Isolation, Beginner, none, "https://fitbod.me/exercises/loop-band-shoulder-external-rotation");
-        add("(FB) Loop Band Shoulder External Rotation at 90°", "Shoulder External Rotations", Shoulders, Strength, List.of(Pole, Bands), Isolation, Beginner, none, "https://fitbod.me/exercises/loop-band-shoulder-external-rotation-at-90");
+        add("(FB) Loop Band Shoulder External Rotation", "External Rotations", Shoulders, Strength, List.of(Pole, Bands), Isolation, Beginner, none, "https://fitbod.me/exercises/loop-band-shoulder-external-rotation");
+        add("(FB) Loop Band Shoulder External Rotation at 90°", "External Rotations", Shoulders, Strength, List.of(Pole, Bands), Isolation, Beginner, none, "https://fitbod.me/exercises/loop-band-shoulder-external-rotation-at-90");
         add("(FB) Loop Band Shoulder Internal Rotation", "Internal Rotations", Shoulders, Strength, List.of(Pole, Bands), Isolation, Beginner, none, "https://fitbod.me/exercises/loop-band-shoulder-internal-rotation");
         add("(FB) Loop Band Shoulder Internal Rotation at 90°", "Internal Rotations", Shoulders, Strength, List.of(Pole, Bands), Isolation, Beginner, none, "https://fitbod.me/exercises/loop-band-shoulder-internal-rotation-at-90");
         add("(FB) Loop Band Shoulder Squeeze", "Other Rear Delts", UpperBack, Strength, Bands, Compound, Beginner, List.of(Traps, Triceps, Shoulders), "https://fitbod.me/exercises/loop-band-shoulder-squeeze");
@@ -728,7 +728,7 @@ public class FitBod {
         add("(FB) PVC Overhead Squat", "Squats", Quads, Strength, PvcPipe, Compound, Beginner, List.of(Traps, Shoulders), "https://fitbod.me/exercises/pvc-overhead-squat");
         add("(FB) PVC Overhead Squat Hold", "Squats", Quads, Strength, PvcPipe, Compound, Beginner, List.of(Shoulders, Hamstrings, Glutes), "https://fitbod.me/exercises/pvc-overhead-squat-hold");
         add("(FB) PVC Romanian Deadlift", "Deadlifts", Quads, Warmup, PvcPipe, Compound, Beginner, List.of(LowerBack, UpperBack, Hamstrings, Glutes), "https://fitbod.me/exercises/pvc-romanian-deadlift");
-        add("(FB) PVC Shoulder External Rotation", "Shoulder External Rotations", Shoulders, Stretching, PvcPipe, Isolation, Beginner, none, "https://fitbod.me/exercises/pvc-shoulder-external-rotation");
+        add("(FB) PVC Shoulder External Rotation", "External Rotations", Shoulders, Stretching, PvcPipe, Isolation, Beginner, none, "https://fitbod.me/exercises/pvc-shoulder-external-rotation");
         add("(FB) PVC Shoulder Flexion", "Other Front Delts", Shoulders, Stretching, PvcPipe, Isolation, Beginner, Chest, "https://fitbod.me/exercises/pvc-shoulder-flexion");
         add("(FB) PVC Snatch", "Olympic Squats", Quads, Warmup, PvcPipe, Compound, Beginner, List.of(Calves, Traps, Shoulders, Hamstrings, Glutes), "https://fitbod.me/exercises/pvc-snatch");
         add("(FB) PVC Tricep Stretch", "Other Triceps", Triceps, Stretching, PvcPipe, Isolation, Beginner, none, "https://fitbod.me/exercises/pvc-tricep-stretch");
@@ -1143,7 +1143,7 @@ public class FitBod {
 
         add("(FB) Yoke Walk", "Other Quads", Quads, Activation, WalkingSpace, Compound, Beginner, List.of(FrontalAbs, Calves, Glutes, Hamstrings, LowerBack, Abductors, Adductors), "N/A");
 
-        add("(FB) Zercher Squat", "Squads", Quads, Strength, Rack, Compound, Advanced, List.of(Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/zercher-squat");
+        add("(FB) Zercher Squat", "Squats", Quads, Strength, Rack, Compound, Advanced, List.of(Hamstrings, Glutes, Calves), "https://fitbod.me/exercises/zercher-squat");
         add("(FB) Zottman Curl", "Standing Curls", Biceps, Strength, Dumbbell, Isolation, Intermediate, Forearms, "https://fitbod.me/exercises/zottman-curl");
         add("(FB) Zottman Preacher Curl", "Preacher Curls", Biceps, Strength, List.of(Dumbbell, PreacherStand), Isolation, Intermediate, Forearms, "https://fitbod.me/exercises/zottman-preacher-curl");
     }

@@ -11,20 +11,20 @@ import static tudor.enums.Muscle.*;
 
 public class Exercise {
     public String name;
-    List<Muscle> mainMuscles;
-    List<Muscle> secondaryMuscles;
+    public List<Muscle> mainMuscles;
+    public List<Muscle> secondaryMuscles;
     public List<Equipment> equipment;
     Mechanics mechanics;
     public ExerciseType type;
     Level level;
-    String url;
+    public String url;
     public Exercise dominator; // if dominator is available or dominator's dominator and so on, than this exercise is not available
 
     public void toExcel() {
         System.out.println(name + "\t" + url);
     }
 
-    static List<Exercise> all = new ArrayList<>();
+    public static List<Exercise> all = new ArrayList<>();
 
     static Map<Muscle, Folder> muscleFolders = new HashMap<>();
 

@@ -18,6 +18,7 @@ public class HomeCurrent extends Environment {
         availableEquipment.add(GymMats);
         availableEquipment.add(Table);
         availableEquipment.add(Stairs);
+        availableEquipment.add(ZBar);
 
         flaggedExercises.put(Exercise.get("Muscle Up"), NoRoom);
         flaggedExercises.put(Exercise.get("Straight Bar Dip"), NoRoom);
