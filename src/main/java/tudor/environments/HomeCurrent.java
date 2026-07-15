@@ -13,6 +13,7 @@ public class HomeCurrent extends Environment {
         availableEquipment.add(Bodyweight);
         availableEquipment.add(Couch);
         availableEquipment.add(Disk);
+        availableEquipment.add(Donut);
         availableEquipment.add(Dumbbell);
         availableEquipment.add(ExerciseBall);
         availableEquipment.add(GymMats);

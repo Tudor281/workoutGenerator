@@ -201,6 +201,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Turkish Get Up"); // (FB) Turkish Get Up
         fitBodHadItAlready("Roman Chair Knee Raise"); // (FB) Vertical Knee Raise
         fitBodHadItAlready("Roman Chair Leg Raise"); // (FB) Vertical Leg Raise
+        fitBodHadItAlready("Exercise Ball Knee Tuck"); // (FB) Exercise Ball Pull In
 
         // lower back
         inserted("Dumbbell Deadlift");

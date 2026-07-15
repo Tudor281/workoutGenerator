@@ -104,11 +104,11 @@ public class MuscleAndStrength {
         add("Dead Bug with Plates", FrontalAbs, Strength, Disk, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/dead-bug-with-plates");
         add("Exercise Ball Dead Bug", FrontalAbs, Strength, ExerciseBall, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/exercise-ball-dead-bug");
         add("Kettlebell Dead Bug", FrontalAbs, Strength, KettleBellsX1, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/kettlebell-dead-bug");
-        add("Lower Body Band Resistance Dead Bug", FrontalAbs, Strength, Bands, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/lower-body-band-resistance-dead-bug");
+        add("Lower Body Band Resistance Dead Bug", FrontalAbs, Strength, List.of(Bands, Pole), Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/lower-body-band-resistance-dead-bug");
         add("Medicine Ball Dead Bug", FrontalAbs, Strength, MedicineBall, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/medicine-ball-dead-bug");
         add("Reverse Crunch to Dead Bug", FrontalAbs, Strength, KettleBellsX1, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/reverse-crunch-to-dead-bug");
         add("Straight Leg Dead Bug", FrontalAbs, Strength, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/straight-leg-dead-bug");
-        add("Upper Body Band Resistance Dead Bug", FrontalAbs, Strength, Bands, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/upper-body-band-resisted-dead-bug");
+        add("Upper Body Band Resistance Dead Bug", FrontalAbs, Strength, List.of(Bands, Pole), Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/upper-body-band-resisted-dead-bug");
 
         Exercise.currentFolder = Folder.all.get("Pallof Press");
         add("Glute Bridge Pallof Press", FrontalAbs, Strength, List.of(LowCable, CableAttachmentSingleArm), Compound, Beginner, List.of(Glutes), "https://www.muscleandstrength.com/exercises/glute-bridge-pallof-press");
@@ -168,7 +168,7 @@ public class MuscleAndStrength {
         add("Abdominal Hip Thrust", FrontalAbs, Strength, Bodyweight, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/hip-thrusts.html");
         add("Alternate Straight Leg Lower", FrontalAbs, Strength, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/alternate-straight-leg-lowering");
         add("Alternating Reach And Catch", FrontalAbs, Strength, Bodyweight, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/alternate-reach-and-catch.html");
-        add("Banded Alphabet", FrontalAbs, Strength, Bands, Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/band-alphabet");
+        add("Banded Alphabet", FrontalAbs, Strength, List.of(Bands, Pole), Compound, Intermediate, none, "https://www.muscleandstrength.com/exercises/band-alphabet");
         add("Barbell Climbs", FrontalAbs, Strength, Barbell, Compound, Advanced, none, "https://www.muscleandstrength.com/exercises/barbell-climbs");
         add("Decline Bench Abdominal Reach", FrontalAbs, Strength, DeclineBench, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/decline-abdominal-reach.html");
         add("Dragon Flag", FrontalAbs, Strength, Bench, Compound, Advanced, none, "https://www.muscleandstrength.com/exercises/dragon-flag");
@@ -683,7 +683,7 @@ public class MuscleAndStrength {
         domination("Single Leg Hip Thrust with Dumbbell", "(T:Couch) Single Leg Hip Thrust with Dumbbell");
 
         Exercise.currentFolder = Folder.all.get("Glute Bridges");
-        add("Banded Glute Bridge", Glutes, Strength, Bands, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/banded-glute-bridge");
+        add("Banded Glute Bridge", Glutes, Strength, BandsMini, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/banded-glute-bridge");
         add("Barbell Glute Bridge", Glutes, Strength, List.of(Barbell, BarbellFoam), Isolation, Intermediate, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/barbell-glute-bridge");
         add("Bodyweight Glute Bridge", Glutes, Strength, Bodyweight, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/bodyweight-glute-bridge");
         add("Knee to Chest Single Leg Glute Bridge", Glutes, Warmup, Bodyweight, Compound, Beginner, HipFlexors, "https://www.muscleandstrength.com/exercises/knee-to-chest-single-leg-glute-bridge");
@@ -694,7 +694,7 @@ public class MuscleAndStrength {
         add("Seated External Rotation", Glutes, Strength, List.of(Bench, BandsMini), Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/seated-external-rotation");
         add("(T:Bed) Seated External Rotation", Glutes, Strength, List.of(Bed, BandsMini), Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/seated-external-rotation");
         domination("Seated External Rotation", "(T:Bed) Seated External Rotation");
-        add("Standing External Rotation", Glutes, Strength, Bands, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/standing-external-rotation");
+        add("Standing External Rotation", Glutes, Strength, BandsMini, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/standing-external-rotation");
         add("Supine Hip Internal Rotation", Glutes, Warmup, Bodyweight, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/supine-hip-internal-rotation");
 
         Exercise.currentFolder = Folder.all.get("Clams");
@@ -703,15 +703,15 @@ public class MuscleAndStrength {
 
         Exercise.currentFolder = Folder.all.get("Other Glutes");
         add("90/90 Piriformis Stretch", Glutes, Warmup, Bodyweight, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/90-90-piriformis-stretch");
-        add("Banded Multi Directional Toe Touch", Glutes, Strength, Bands, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/banded-multi-directional-toe-touch");
+        add("Banded Multi Directional Toe Touch", Glutes, Strength, BandsMini, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/banded-multi-directional-toe-touch");
         add("Curtsy Lunge (AKA Drop Lunge)", Glutes, Warmup, Bodyweight, Compound, Beginner, List.of(Abductors, Hamstrings, HipFlexors, Quads), "https://www.muscleandstrength.com/exercises/curtsy-lunge");
-        add("Diagonal Band Walk", Glutes, Strength, Bands, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/diagonal-band-walk");
+        add("Diagonal Band Walk", Glutes, Strength, BandsMini, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/diagonal-band-walk");
         add("Dynamic Pigeon", Glutes, Warmup, Bodyweight, Compound, Beginner, HipFlexors, "https://www.muscleandstrength.com/exercises/dynamic-pigeon");
         add("Figure 4 Glute Stretch", Glutes, Warmup, Bodyweight, Compound, Beginner, HipFlexors, "https://www.muscleandstrength.com/exercises/figure-4-glute-stretch");
         add("Glute Foam Rolling", Glutes, SMR, FoamRoll, Isolation, Beginner, none, "https://www.muscleandstrength.com/exercises/foam-rolling-glutes");
         add("Glute Kick Back", Glutes, Strength, Bodyweight, Isolation, Beginner, Hamstrings, "https://www.muscleandstrength.com/exercises/glute-kick-back.html");
         add("Glute Lacrosse Ball", Glutes, SMR, LacrosseBall, Isolation, Intermediate, none, "https://www.muscleandstrength.com/exercises/glute-lacrosse-ball");
-        add("Lateral Band Walk", Glutes, Strength, Bands, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/lateral-band-walk");
+        add("Lateral Band Walk", Glutes, Strength, BandsMini, Isolation, Beginner, List.of(FrontalAbs, Hamstrings), "https://www.muscleandstrength.com/exercises/lateral-band-walk");
         add("Sled Pull Through", Glutes, Conditioning, Sled, Compound, Beginner, List.of(FrontalAbs, Adductors, Hamstrings, LowerBack, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/sled-pull-through");
         add("Wide Stance Smith Machine Squat", Glutes, Strength, SmithMachine, Compound, Intermediate, List.of(Calves, Hamstrings, LowerBack), "https://www.muscleandstrength.com/exercises/wide-smith-machine-squat.html");
         add("X-Band Walk", Glutes, Activation, Bands, Compound, Beginner, none, "https://www.muscleandstrength.com/exercises/x-band-walk");
@@ -1077,7 +1077,7 @@ public class MuscleAndStrength {
         add("Smith Machine Zercher Squat", Quads, Strength, SmithMachine, Compound, Intermediate, List.of(Calves, Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/smith-machine-zercher-squat.html");
         add("Split Squat", Quads, Strength, Bodyweight, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/split-squat");
         add("Split Squat Jump", Quads, Plyometrics, Bodyweight, Compound, Intermediate, List.of(Adductors, Calves, Glutes, Hamstrings, HipFlexors), "https://www.muscleandstrength.com/exercises/split-squat-jump");
-        add("Split Squat with Banded Adduction", Quads, Strength, Bands, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/split-squat-with-banded-adduction");
+        add("Split Squat with Banded Adduction", Quads, Strength, List.of(Bands, Pole), Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/split-squat-with-banded-adduction");
         add("Split Squat with Iso-Hold", Quads, Strength, Bodyweight, Compound, Beginner, List.of(FrontalAbs, Adductors, Calves,  Glutes, Hamstrings), "https://www.muscleandstrength.com/exercises/split-squat-iso-hold");
         add("Squat to Stand", Quads, Warmup, Bodyweight, Compound, Beginner, List.of(Glutes, Hamstrings, UpperBack), "https://www.muscleandstrength.com/exercises/squat-to-stand");
         add("Squat to Stand w/ T-Spine Rotation", Quads, Warmup, Bodyweight, Compound, Beginner, List.of(Chest, Glutes, Hamstrings, Shoulders, UpperBack), "https://www.muscleandstrength.com/exercises/squat-to-stand-w-t-spine-rotation");
@@ -1405,7 +1405,7 @@ public class MuscleAndStrength {
         domination("Modified Handstand Push Up (Off Box)", "(T:Bed) Modified Handstand Push Up (Off Box)");
         add("No Counter Movement Rotational Medicine Ball Throw", Shoulders, Plyometrics, List.of(Wall, MedicineBall), Compound, Beginner, List.of(FrontalAbs, Adductors, Calves, Glutes, Hamstrings, Quads, Triceps, UpperBack), "https://www.muscleandstrength.com/exercises/no-counter-movement-rotational-med-ball-throw");
         add("Seated Cuban Press", Shoulders, Strength, List.of(InclineBench, Dumbbell), Compound, Intermediate, List.of(Traps, Triceps), "https://www.muscleandstrength.com/exercises/seated-cuban-press");
-        add("Spider Crawls", Shoulders, Strength, Bands, Isolation, Intermediate, List.of(FrontalAbs, UpperBack), "https://www.muscleandstrength.com/exercises/spider-crawls");
+        add("Spider Crawls", Shoulders, Strength, List.of(BandsMini, Wall), Isolation, Intermediate, List.of(FrontalAbs, UpperBack), "https://www.muscleandstrength.com/exercises/spider-crawls");
 
         Exercise.currentFolder = Folder.all.get("Internal Rotations");
         add("Banded Internal Rotation", Shoulders, Strength, List.of(Pole, Bands), Isolation, Beginner, UpperBack, "https://www.muscleandstrength.com/exercises/banded-internal-rotation");
