@@ -8,6 +8,8 @@ import static tudor.enums.Equipment.*;
 public class HomeCurrent extends Environment {
     public HomeCurrent() {
         availableEquipment.add(Bands);
+        availableEquipment.add(Barbell);
+        availableEquipment.add(ShortBarbell);
         availableEquipment.add(Bed);
         availableEquipment.add(Bench);
         availableEquipment.add(Bodyweight);
