@@ -38,6 +38,8 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Standing Arnold Press"); // (FB) Standing Arnold Press
         fitBodHadItAlready("Standing Dumbbell Shoulder Press"); // (FB) Standing Dumbbell Shoulder Press
         fitBodHadItAlready("One-Arm Standing Dumbbell Shoulder Press"); // (FB) Standing Single Arm Dumbbell Shoulder Press
+        fitBodHadItAlready("Barbell Front Raise"); // (FB) Barbell Front Raise
+        inserted("Seated Barbell Overhead Front Raise");
 
         // traps
         fitBodHadItAlready("Barbell Shrug"); // (FB) Barbell Shrug
@@ -140,6 +142,8 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Wide Grip Standing Barbell Curl"); // (FB) Wide Grip Barbell Curl
         fitBodHadItAlready("Zottman Curl"); // (FB) Zottman Curl
         fitBodHadItAlready("Zottman Preacher Curl"); // (FB) Zottman Preacher Curl
+        fitBodHadItAlready("Cross Body Hammer Curl (Pinwheel Curls)"); // (FB) Cross Body Hammer Curls
+        inserted("Lying Dumbbell Curl");
 
         // triceps
         fitBodHadItAlready("Lying Dumbbell Extension");
@@ -286,6 +290,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Split Snatch"); // (FB) Split Snatch
         fitBodHadItAlready("Exercise Ball Leg Curl (SHELC)"); // (FB) Stability Ball Leg Curl
         fitBodHadItAlready("Sumo Deadlift"); // (FB) Sumo Deadlift
+        fitBodHadItAlready("Single Leg One Dumbbell Deadlift"); // (FB) Single Leg Romanian Deadlift
 
         // calves
         fitBodHadItAlready("Bodyweight Floor Calf Raise");

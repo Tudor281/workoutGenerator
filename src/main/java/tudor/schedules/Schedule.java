@@ -62,7 +62,7 @@ public abstract class Schedule {
         return environment.hasEquipment(exercise);
     }
 
-    boolean isDominated(Exercise exercise) {
+    public boolean isDominated(Exercise exercise) {
         if (exercise.dominator == null) return false;
         if (isDominated(exercise.dominator)) return true;
         return isDoable(exercise.dominator);

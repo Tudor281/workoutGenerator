@@ -337,7 +337,7 @@ public class FitBod {
         add("(FB) Dumbbell No Money Curls", "Standing Curls", Biceps, Strength, Dumbbell, Isolation, Beginner, Shoulders, "https://fitbod.me/exercises/dumbbell-no-money-curls");
         add("(FB) Dumbbell Overhead Kneel to Stand", "Other Quads", Quads, Strength, Dumbbell, Compound, Intermediate, List.of(Traps, Shoulders, Hamstrings, Glutes), "https://fitbod.me/exercises/dumbbell-overhead-kneel-to-stand");
         add("(FB) Dumbbell Pause Curl", "Standing Curls", Biceps, Strength, Dumbbell, Isolation, Beginner, none, "https://fitbod.me/exercises/dumbbell-pause-curl");
-        add("(FB) Dumbbell Preacher Curls", "Preacher Curls", Biceps, Strength, Dumbbell, Isolation, Beginner, none, "https://fitbod.me/exercises/dumbbell-preacher-curls");
+        add("(FB) Dumbbell Preacher Curls", "Preacher Curls", Biceps, Strength, List.of(Dumbbell, PreacherStand), Isolation, Beginner, none, "https://fitbod.me/exercises/dumbbell-preacher-curls");
         add("(FB) Dumbbell Pull Over", "Pullovers", Chest, Strength, List.of(Dumbbell, Bench), Compound, Beginner, List.of(Shoulders, Triceps, Lats), "https://fitbod.me/exercises/dumbbell-pull-over");
         add("(FB) Dumbbell Punches", "Other Front Delts", Shoulders, Strength, Dumbbell, Isolation, Beginner, none, "https://fitbod.me/exercises/dumbbell-punches");
         add("(FB) Dumbbell Rear Delt Raise", "Rear Delt Flys", Shoulders, Strength, Dumbbell, Compound, Intermediate, UpperBack, "https://fitbod.me/exercises/dumbbell-rear-delt-raise");
@@ -645,7 +645,6 @@ public class FitBod {
         add("(FB) Lunge to Hamstring Stretch", "Lunges", Hamstrings, Strength, WalkingSpace, Compound, Beginner, List.of(Glutes, Quads), "https://fitbod.me/exercises/lunge-to-hamstring-stretch");
         add("(FB) Lunge to Lateral Reach", "Lunges", Hamstrings, Strength, Bodyweight, Compound, Beginner, List.of(Glutes, Quads, Obliques), "https://fitbod.me/exercises/lunge-to-lateral-reach");
         add("(FB) Lunge with Ankle Grab", "Lunges", Quads, Stretching, GymMats, Isolation, Beginner, none, "https://fitbod.me/exercises/lunge-with-ankle-grab");
-        add("(FB) Lying Dumbbell Curl", "Lying Curls", Biceps, Strength, List.of(Bench, Dumbbell), Isolation, Beginner, none, "N/A");
         add("(FB) Lying Figure Four", "Other Glutes", Glutes, Stretching, GymMats, Isolation, Beginner, Abductors, "https://fitbod.me/exercises/lying-figure-four");
 
         add("(FB) Meadow Landmine Row", "Rows", Lats, Strength, LandMine, Compound, Beginner, List.of(Biceps, Shoulders), "https://fitbod.me/exercises/meadow-landmine-row");

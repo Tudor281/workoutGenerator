@@ -4,6 +4,8 @@ import tudor.enums.Equipment;
 import tudor.enums.Muscle;
 import tudor.environments.HomeCurrent;
 import tudor.exercises.*;
+import tudor.schedules.All;
+import tudor.schedules.Schedule;
 
 public class Export {
     public static void main(String[] args) {
@@ -15,8 +17,9 @@ public class Export {
         FitBodDeduplicator.merge();
 
         HomeCurrent homeCurrent = new HomeCurrent();
+        Schedule schedule = new All(homeCurrent); // for domination only, reusing logic
 
-        System.out.println("Name\tLink\tFolder\tType\tHome\t" +
+        System.out.println("Name\tLink\tFolder\tType\tHome\tDominated\t" +
                 "Abs\tAbductors\tFrontal Abs\tAdductors\tBiceps\tCalves\tChest\tForearms\tGlutes\tHamstrings\tHipFlexors\tITBand\tLats\tLowerBack\tMiddleBack\tNeck\tObliques\tPalmarFascia\tPlantarFascia\tQuads\tTraps\tTriceps\tShoulders\tUpperBack\t" +
                 "AbsWheel\tAerobic_Step\tBands\tBandsMini\tBarbell\tBarbellFoam\tBattlingRopes\tBed\tBench\tBenchPress\tBoard\tBodyweight\tBosuBall\tBox\tBoxx2\tTopCable\tLowCable\tFlexiCable\tLatCable\tAnkleStrapsX1\tAnkleStrapsX2\tBentBar\tLongRope\tRope\tSingleArm\tStraightBar\tParallel\tChains\tCouch\tCone\tDeclineBench\tDeclineBenchPress\tDipStation\tDisk\tDonut\tDoubleCable\tDumbbell\tExerciseBall\tFatBar\tFatGripz\tFarmersWalkHandleBars\tFeetWeight\tFixedUpperBar\tFoamRoll\tFootStand\tGripBalls\tGymMats\tHammerBar\tHandleBands\tHangingRope\tHipThruster\tHurdle\tInclineBench\tInclineBenchPress\tJumpRope\tKettleBellsX1\tKettleBellsX2\tLacrosseBall\tLandMine\tLowerBackStand\tLowerBackStand2\tMachine\tMassageTable\tMedicineBall\tParalletteBars\tPartner\tPole\tPreacherStand\tPvcPipe\tRack\tRope\tRowCable\tRings\tRomanChair\tSafetyBar\tShortBarbell\tShoulderBenchPress\tSled\tSledMini\tSmithMachine\tStairs\tTable\tTBar\tTigerTail\tTire\tTrapBar\tTRX\tValSlide\tVBar\tWalkingSpace\tWall\tWaistStrap\tWeightStrap\tWeightVest\tWristRoller\tZBar");
         for (Exercise exercise : Exercise.all) {
@@ -25,6 +28,7 @@ public class Export {
             System.out.print(getFolderPath(exercise)+"\t");
             System.out.print(exercise.type+"\t");
             System.out.print((homeCurrent.hasEquipment(exercise) ? "Y" : "")+"\t");
+            System.out.print((schedule.isDominated(exercise) ? "Y" : "")+"\t");
             System.out.print(printMuscles(exercise));
             System.out.print(printEquipment(exercise));
             System.out.println();
