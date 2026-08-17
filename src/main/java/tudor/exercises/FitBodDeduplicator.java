@@ -40,6 +40,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("One-Arm Standing Dumbbell Shoulder Press"); // (FB) Standing Single Arm Dumbbell Shoulder Press
         fitBodHadItAlready("Barbell Front Raise"); // (FB) Barbell Front Raise
         inserted("Seated Barbell Overhead Front Raise");
+        inserted("Barbell Rear Delt Row To Neck");
 
         // traps
         fitBodHadItAlready("Barbell Shrug"); // (FB) Barbell Shrug
@@ -268,6 +269,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Bodyweight Walking Lunge"); // (FB) Walking Lunge
         fitBodHadItAlready("Wall Ball"); // (FB) Wall Ball
         fitBodHadItAlready("Zerchers Squat"); // (FB) Zercher Squat
+        inserted("Power Jerk");
 
         // hamstrings
         fitBodHadItAlready("Clean"); // (FB) Clean
