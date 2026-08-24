@@ -172,6 +172,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Barbell Wrist Curl (Over Bench)"); // (FB) Palms-Up Barbell Wrist Curl
         fitBodHadItAlready("Dumbbell Wrist Curl (Over Bench)"); // (FB) Palms-Up Dumbbell Wrist Curl
         fitBodHadItAlready("One-Arm Dumbbell Reverse Grip Curl"); // (FB) Single Arm Reverse Dumbbell Curl
+        inserted("Behind-The-Back Barbell Wrist Curl");
 
         // abs
         fitBodHadItAlready("Abs Wheel");
