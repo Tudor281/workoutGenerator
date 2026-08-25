@@ -145,6 +145,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Zottman Preacher Curl"); // (FB) Zottman Preacher Curl
         fitBodHadItAlready("Cross Body Hammer Curl (Pinwheel Curls)"); // (FB) Cross Body Hammer Curls
         inserted("Lying Dumbbell Curl");
+        inserted("Seated Barbell Curl");
 
         // triceps
         fitBodHadItAlready("Lying Dumbbell Extension");
