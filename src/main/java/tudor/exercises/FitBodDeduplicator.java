@@ -41,6 +41,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Barbell Front Raise"); // (FB) Barbell Front Raise
         inserted("Seated Barbell Overhead Front Raise");
         inserted("Barbell Rear Delt Row To Neck");
+        inserted("Barbell Overhead Front Raise");
 
         // traps
         fitBodHadItAlready("Barbell Shrug"); // (FB) Barbell Shrug
