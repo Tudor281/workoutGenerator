@@ -52,6 +52,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Smith Machine Shrug"); // (FB) Smith Machine Shrug
         fitBodHadItAlready("Trap Bar Shrug"); // (FB) Trap Bar Shrugs
         fitBodHadItAlready("Barbell Upright Row"); // (FB) Upright Row
+        inserted("Exercise Ball Dumbbell Bench Press");
 
         //chest
         fitBodHadItAlready("Alternate Dumbbell Bench Press (high start)");
