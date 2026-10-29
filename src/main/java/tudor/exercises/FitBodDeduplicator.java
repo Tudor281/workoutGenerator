@@ -297,6 +297,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Exercise Ball Leg Curl (SHELC)"); // (FB) Stability Ball Leg Curl
         fitBodHadItAlready("Sumo Deadlift"); // (FB) Sumo Deadlift
         fitBodHadItAlready("Single Leg One Dumbbell Deadlift"); // (FB) Single Leg Romanian Deadlift
+        inserted("Single Leg Exercise Ball Leg Curl");
 
         // calves
         fitBodHadItAlready("Bodyweight Floor Calf Raise");
