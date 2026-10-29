@@ -1272,6 +1272,7 @@ public class MuscleAndStrength {
         add("Cable Upright Row", Shoulders, Strength, List.of(LowCable, CableAttachmentStraightBar), Compound, Beginner, List.of(Biceps, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/cable-upright-row.html");
         add("Dumbbell Upright Row", Shoulders, Strength, Dumbbell, Compound, Beginner, List.of(Biceps, Traps, UpperBack), "https://www.muscleandstrength.com/exercises/dumbbell-upright-row.html");
         add("Smith Machine Upright Row", Shoulders, Strength, SmithMachine, Compound, Beginner, Traps, "https://www.muscleandstrength.com/exercises/smith-machine-upright-row.html");
+        add("(T) EZ Upright Row", Shoulders, Strength, ZBar, Compound, Beginner, List.of(Biceps, Traps), "N/A");
 
         Exercise.currentFolder = Folder.all.get("Rear Delt Flys");
         add("Bent Over Low Pulley Rear Delt Fly", Shoulders, Strength, DoubleCable, Isolation, Beginner, Traps, "https://www.muscleandstrength.com/exercises/bent-over-cable-rear-delt-fly");
