@@ -7,12 +7,15 @@ import static tudor.enums.Equipment.*;
 
 public class HomeCurrent extends Environment {
     public HomeCurrent() {
+        availableEquipment.add(AbsWheel);
         availableEquipment.add(Bands);
+        availableEquipment.add(BandsMini);
         availableEquipment.add(Barbell);
         availableEquipment.add(ShortBarbell);
         availableEquipment.add(Bed);
         availableEquipment.add(Bench);
         availableEquipment.add(Bodyweight);
+        availableEquipment.add(BosuBall);
         availableEquipment.add(Couch);
         availableEquipment.add(Disk);
         availableEquipment.add(Donut);

@@ -88,6 +88,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Smith Machine Bench Press"); // (FB) Smith Machine Bench Press
         fitBodHadItAlready("Decline Smith Machine Bench Press"); // (FB) Smith Machine Decline Press
         fitBodHadItAlready("Smith Machine Incline Bench Press"); // (FB) Smith Machine Incline Bench Press
+        fitBodHadItAlready("Close Grip Chest Press"); // (FB) Close-Grip Bench Press
 
         // upper back
         inserted("One Arm Dumbbell Row");
