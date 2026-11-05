@@ -43,6 +43,7 @@ public class FitBodDeduplicator {
         inserted("Barbell Rear Delt Row To Neck");
         inserted("Barbell Overhead Front Raise");
         inserted("(T) EZ Upright Row");
+        fitBodHadItAlready("Single Arm Landmine Push Press"); // (FB) Single Arm Landmine Press
 
         // traps
         fitBodHadItAlready("Barbell Shrug"); // (FB) Barbell Shrug
@@ -100,6 +101,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Bent Over Dumbbell Reverse Fly"); // (FB) Dumbbell Bent Over Reverse Fly
         fitBodHadItAlready("Bent Over Dumbbell Row"); // (FB) Dumbbell Bent Over Row
         fitBodHadItAlready("Pendlay Row"); // (FB) Pendlay Row
+        fitBodHadItAlready("T-Bar Row"); // (FB) Landmine Row
 
         // lats
         fitBodHadItAlready("Archer Pull Up");
@@ -300,6 +302,7 @@ public class FitBodDeduplicator {
         fitBodHadItAlready("Sumo Deadlift"); // (FB) Sumo Deadlift
         fitBodHadItAlready("Single Leg One Dumbbell Deadlift"); // (FB) Single Leg Romanian Deadlift
         inserted("Single Leg Exercise Ball Leg Curl");
+        fitBodHadItAlready("Single Leg Landmine Romanian Deadlift"); // (FB) Landmine Single Leg Romanian Deadlift
 
         // calves
         fitBodHadItAlready("Bodyweight Floor Calf Raise");
